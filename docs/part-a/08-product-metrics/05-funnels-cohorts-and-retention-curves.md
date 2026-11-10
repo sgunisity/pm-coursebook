@@ -14,6 +14,19 @@ A **funnel** shows where users drop off on the way to a goal. A **cohort** group
 
 Averages lie. "Monthly active users are up" can hide the fact that every new group of users leaves faster than the last. Funnels, cohorts and retention curves are the three tools that show you what's *really* happening. They're also the first thing an investor or senior PM will ask to see.
 
+## Key terms
+
+| Term | Plain-English meaning |
+|---|---|
+| **Funnel** | A set of steps toward a goal, showing how many users reach each step. |
+| **Conversion rate** | % of users who move from one step to the next. |
+| **Cohort** | A group of users who share a starting point (e.g. signed up in March). |
+| **N-day retention** | % of a cohort active *on* day N (or in week/month N). |
+| **Unbounded retention** | % of a cohort active on day N *or any time after*. |
+| **Churn** | % of users or customers who stop using or paying in a period. |
+| **Net revenue retention (NRR)** | Revenue this year from last year's customers ÷ their revenue last year; above 100% means existing customers grew. |
+| **Mix effect** | An average changing because the *types* of users changed, not their behaviour. |
+
 ## The idea, simply
 
 !!! tip "Analogy: a school's batches"
@@ -92,6 +105,54 @@ You're PM for a fitness app. Overall monthly active users are up 20% in 6 months
 
 **Action:** shorten the quiz, start a 5-minute "first workout" right after it, and measure month-1 retention of the next cohorts. Guardrail: workout injuries reported (don't push too hard too soon).
 
+## Going deeper: nuances and trade-offs
+
+### 1. Three ways to count retention, and why the number changes
+
+Imagine 100 users who signed up on 1 March:
+
+- **N-day (or N-week/month) retention:** how many were active *in* week 4? Say 30. This is the strictest and most common measure.
+- **Unbounded (rolling) retention:** how many were active in week 4 *or any later week*? Say 40. It's higher because it counts people who skipped week 4 but came back later.
+- **Bracket retention:** how many were active at least once *between* weeks 3 and 5? Useful for products used irregularly.
+
+None is "right". Pick one, write it on your [definition card](../../appendix/templates.md), and never compare numbers measured different ways.
+
+### 2. Which starting point should define a cohort?
+
+- **Sign-up date:** the default. Good for judging onboarding.
+- **First value action** (first order, first lesson): removes people who signed up but never really started. Good for judging the core product.
+- **Acquisition channel or campaign:** reveals which channels bring users who stay. Often the most useful view for marketing spend.
+- **Behavioural cohorts** ("users who used feature X in week 1"): good for finding activation moments. Remember that correlation isn't cause ([A8.3](03-aarrr-and-google-s-heart-framework.md)).
+
+### 3. User retention vs revenue retention
+
+In subscription and B2B products, track two kinds of retention:
+
+- **User or logo retention:** are customers still here?
+- **Revenue retention:**
+    - **GRR** (gross revenue retention) counts only losses: cancellations and downgrades.
+    - **NRR** (net revenue retention) also counts upgrades and expansion. **NRR above 100%** means your existing customers spend more over time, even after some leave. That's one of the strongest signals a SaaS business can have.
+
+Lenny Rachitsky's [benchmarks](https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29) include NRR ranges by business type too.
+
+### 4. Funnel traps
+
+- **Ordered vs any-order funnels:** must users do steps in sequence? Real users jump around.
+- **Time window:** a 1-hour window and a 7-day window give very different conversion rates for the same funnel.
+- **Multiple sessions:** many Indian users browse on one day and buy on payday. A same-session funnel will under-count them.
+- **Denominator choice:** is step 1 "opened the app" or "opened the product page"? Always state it.
+
+### 5. Survivorship bias in feedback
+
+If you survey only active users, you hear from the people who stayed. Churned users, the ones with the most important feedback, are gone. Run short exit surveys or churned-user interviews regularly. Make sure the cohorts you analyse include everyone who started, not just the survivors.
+
+### 6. Reading curves without fooling yourself
+
+- **Small cohorts are noisy.** Don't conclude anything from a cohort of 80 users.
+- **Festival and campaign cohorts behave differently.** A Diwali-sale cohort will look worse than an organic cohort. Compare like with like.
+- **"Flattening" needs several periods.** One flat month isn't a plateau.
+- **Look at curves by segment:** city, platform, channel. A good overall curve can hide one segment sliding to zero.
+
 ## Real-world examples (2023 onwards)
 
 !!! example "AI products and the 'AI tourist' problem (a16z, September 2025)"
@@ -112,6 +173,24 @@ You're PM for a fitness app. Overall monthly active users are up 20% in 6 months
     - **Reading cohort tables across rows only.** The real insight is in comparing columns.
     - **Mixing new and old users in one average.** This hides both problems and wins.
     - **Treating correlation as cause.** "Users who add 3 friends retain better" might be because engaged people add friends, not the other way round. Test it.
+    - **Mixing retention definitions** (N-day vs unbounded) between reports.
+    - **Learning only from survivors.** Talk to churned users too.
+
+## In the interview
+
+!!! question "In the interview"
+    **How it's tested:** "How would you improve retention for *[product]*?" or "New-user retention fell last month. What do you do?" Interviewers want to see cohort thinking, a funnel breakdown and a clear activation hypothesis.
+
+    **Sample question:** *"How would you improve retention for a language-learning app?"*
+
+    **Outline of a strong answer:**
+
+    1. **Define retention:** completed at least one lesson in week N (a value action, not app opens), measured weekly.
+    2. **Show the current shape:** cohort curves by sign-up week and by channel. Where's the biggest drop? Usually between day 1 and day 7.
+    3. **Find the activation moment:** for example, users who finish 3 lessons in their first week retain much better. Treat it as a hypothesis.
+    4. **Propose 2–3 ideas aimed at that moment:** a shorter first lesson, a goal set at sign-up, a well-timed reminder, a streak.
+    5. **Explain how you'll measure:** A/B tests on new cohorts, a primary metric of week-4 retention, and a guardrail of notification opt-outs.
+    6. **Mention segments:** check that the gains hold across platforms and channels.
 
 ## Research happening now
 
@@ -132,6 +211,27 @@ Use this toy data (users still active by month):
 3. Where is the curve flattening, and at roughly what %?
 4. Write one sentence you'd say to your manager.
 
+??? success "Check your answer"
+    The % cohort table:
+
+    | Cohort | M1 | M2 | M3 | M4 |
+    |---|---|---|---|---|
+    | Jan | 100% | 40% | 30% | 28% |
+    | Feb | 100% | 45% | 35% | — |
+    | Mar | 100% | 40% | — | — |
+
+    - **Trend:** February improved on January (45% vs 40% in M2), but March fell back to 40%. **No clear improvement yet.** Find out what was different about February: a campaign, a feature, a festival?
+    - **Flattening:** January drops from 30% to 28% between M3 and M4, so it's levelling off at roughly **28–30%**.
+    - **One-liner to your manager:** "Retention is flattening at about 28–30%, which is healthy for a transactional product. February's better month-2 hasn't repeated in March, so we're checking what drove it before calling it a trend."
+
+## How this connects
+
+- [A8.3 AARRR and HEART](03-aarrr-and-google-s-heart-framework.md): activation and retention as stages of the customer journey.
+- [A8.4 Lean Analytics](04-lean-analytics-one-metric-that-matters-and-stage.md): a flattening retention curve is the Stickiness gate.
+- [A8.6 Diagnosing a metric drop](06-diagnosing-a-metric-drop.md): segment and mix-shift thinking applied to sudden changes.
+- [A9.1 A/B testing basics](../09-experimentation/01-a-b-testing-basics.md): proving that a retention idea works.
+- [A10.4 Retention and engagement](../10-growth-and-go-to-market/04-retention-and-engagement.md): tactics for improving the curves you measure here.
+
 ## Go deeper
 
 - **Article:** [Lenny Rachitsky: What is good retention?](https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29). The benchmark table above, with examples.
@@ -146,6 +246,8 @@ Use this toy data (users still active by month):
 - A **flattening retention curve** is the clearest sign of product-market fit.
 - Pick a **value action** and the **right interval** for your product.
 - Fast growth lowers averages (the mix effect). Compare cohorts at the same age.
+- Choose **one retention definition** (N-day, unbounded or bracket) and stick to it.
+- For subscriptions and B2B, track **revenue retention (NRR)** as well as user retention.
 
 ## Updates
 

@@ -14,6 +14,19 @@ A North Star metric is the one number that best shows customers getting value fr
 
 Without a shared top number, every team optimises its own corner, and the product feels disjointed. With a North Star but no tree, teams know the destination but not which road is theirs. Together, they align a whole company on what "winning" means.
 
+## Key terms
+
+| Term | Plain-English meaning |
+|---|---|
+| **North Star metric (NSM)** | The one number that best shows customers getting value, and predicts long-term success. |
+| **North Star Framework** | The NSM plus the 3–5 input metrics that drive it (popularised by Amplitude). |
+| **Input metric** | A driver of the NSM that a team can move directly. |
+| **Metric tree** | A diagram that breaks a top metric into parts that multiply or add up to it. |
+| **Multiplicative split** | Top = A × B × C (e.g. users × frequency × order value). |
+| **Additive split** | Top = A + B + C (e.g. new + retained + reactivated users). |
+| **Guardrail** | A metric that stops you from "winning" the NSM in a harmful way. |
+| **Owner** | The team accountable for moving one branch of the tree. |
+
 ## The idea, simply
 
 !!! tip "Analogy: the chai stall"
@@ -92,6 +105,52 @@ You are PM at a quick-commerce startup in Bengaluru. The founder asks, "What sho
 
 The founder now has one number for the board deck. Every team also knows which branch is theirs.
 
+## Going deeper: nuances and trade-offs
+
+### 1. North Star vs OKRs vs One Metric That Matters
+
+These three are often confused:
+
+| | North Star metric | OKRs | One Metric That Matters |
+|---|---|---|---|
+| **Time span** | Years | A quarter | Weeks to months |
+| **Who** | Whole company or product line | Each team | A team or a young product |
+| **Purpose** | Shared definition of "winning" | Goals for this period | The single biggest problem right now |
+
+A healthy setup uses all three. The NSM stays fixed. Each team's OKRs target an input on the tree. A team may also have a temporary OMTM while it fixes a specific problem ([A8.4](04-lean-analytics-one-metric-that-matters-and-stage.md)).
+
+### 2. Marketplaces need a North Star that serves both sides
+
+Food delivery, ride-hailing and e-commerce marketplaces have buyers *and* sellers (and often delivery partners). A North Star like "weekly successful orders" works because each successful order means value for every side. Add **supply-side guardrails** such as partner earnings per hour, restaurant cancellation rates or seller retention. A North Star that only looks at buyers can quietly burn out the supply that makes the marketplace work.
+
+### 3. B2B North Stars count accounts, not people
+
+In B2B SaaS the customer is a company, and value usually shows up as a *team* doing the core job regularly. Good B2B North Stars look like "weekly active teams that completed the core workflow" or "accounts with 3+ active seats". Revenue expansion (more seats, higher plans) follows from that.
+
+### 4. Doing the maths on a tree
+
+Trees make prioritisation a calculation instead of an opinion.
+
+- **Multiplicative parts:** a 10% lift in *any* factor lifts the top by about 10%. So pick the factor that's easiest to move.
+- **Additive parts:** weight by size. A 10% lift in a bucket that is 80% of users matters far more than the same lift in a bucket that is 5%.
+- **Compounding parts:** some branches feed themselves. Retained users stay retained, so small gains build up over time. This is exactly why Duolingo's simulations favoured CURR (see the example below).
+
+A simple way to estimate the upside of a branch: **size of the branch × realistic lift × how directly it flows to the top**. Do this for each branch before roadmap planning. It's the logic behind Duolingo's sensitivity analysis.
+
+### 5. When the North Star stops moving
+
+Every metric saturates eventually. Signs of trouble:
+
+- big projects stop moving the North Star
+- one user segment now dominates the number
+- the North Star rises while revenue or retention falls (you may be gaming it)
+
+The fix is usually to **change the granularity** (split it into segments) rather than replace the North Star. Replacing a North Star is a big decision. It changes every team's goals, so communicate it as carefully as a strategy change.
+
+### 6. Gaming risk is highest at the top
+
+Because everyone is rewarded for it, the North Star is the metric most exposed to Goodhart's law ([A8.1](01-metric-basics-leading-lagging-input-output-vanit.md)). Notification spam inflates "daily active users". Discounts inflate "orders". Low-quality content inflates "time spent". Build a quality condition into the definition itself where you can ("orders *with no complaint*", "sessions *with at least one completed lesson*").
+
 ## Real-world examples (2023 onwards)
 
 !!! example "Duolingo, 2023: the growth model that picked the right input"
@@ -112,6 +171,24 @@ The founder now has one number for the board deck. Every team also knows which b
     - **A tree with no owners.** Boxes no team owns are just decoration.
     - **Never revisiting it.** As Duolingo found, the best lever changes as the business grows.
     - **Ignoring quality.** A pure count can be inflated with spam, discounts or dark patterns. Add a quality filter or a guardrail.
+    - **Copying another company's North Star.** "Airbnb uses nights booked" doesn't mean you should; the value moment is product-specific.
+    - **Ignoring the supply side** in a marketplace North Star.
+
+## In the interview
+
+!!! question "In the interview"
+    **How it's tested:** "What would be the North Star metric for *[product]*?" is asked on its own and inside metrics or strategy questions. Interviewers want reasoning, not one magic number.
+
+    **Sample question:** *"What should Zepto's North Star metric be?"*
+
+    **Outline of a strong answer:**
+
+    1. **State the value:** the customer gets everyday items fast, and correctly.
+    2. **Pick the game:** a transaction game.
+    3. **Propose 2–3 candidates and reject the weak ones:** GMV (inflated by price and discounts), app opens (vanity), and **weekly orders delivered on time without complaint** (chosen).
+    4. **Draw the tree:** ordering users × orders per user × share without complaint, with users split into new, retained and reactivated.
+    5. **Add guardrails:** contribution margin per order, delivery-partner safety and earnings, and stock-out rate.
+    6. **Explain how to validate it:** cities or cohorts with a higher North Star should show better long-term revenue and retention.
 
 ## Research happening now
 
@@ -126,6 +203,25 @@ Pick an Indian consumer app you know well (CRED, Zerodha, Meesho, Rapido, etc.).
 1. Write its likely North Star in one sentence and test it against the 5 rules.
 2. Draw a tree with 3 branches and 2 sub-branches each.
 3. For each leaf, name which team would own it and one counter metric.
+
+??? success "Check your answer"
+    Take Zerodha (a stock-broking app) as an example.
+
+    - **A possible North Star:** "monthly active investing accounts", meaning accounts that placed at least one trade or SIP in the month. It reflects real use, not just sign-ups.
+    - **Tree:** active accounts = new funded accounts + retained active accounts + reactivated accounts; each can be split again by product (equity, mutual funds).
+    - **Owners and counter metrics:**
+        - onboarding team: funded-account rate (counter: KYC rejection rate)
+        - retention team: monthly active rate (counter: complaint rate)
+        - product team: SIP adoption (counter: SIP cancellations)
+    - **Self-check:** would your North Star fall if users were unhappy? Could a notification blast fake it? If yes, add a quality condition.
+
+## How this connects
+
+- [A8.1 Metric basics](01-metric-basics-leading-lagging-input-output-vanit.md): the input/output split that metric trees are built on.
+- [A8.4 Lean Analytics](04-lean-analytics-one-metric-that-matters-and-stage.md): when a young product should use an OMTM instead of a fixed North Star.
+- [A8.6 Diagnosing a metric drop](06-diagnosing-a-metric-drop.md): walking down the tree to find what broke.
+- [A4.1 Vision and mission](../04-strategy-and-vision/01-vision-and-mission.md): the North Star should be the measurable shadow of your vision.
+- [A5.2 Prioritisation frameworks](../05-roadmaps-and-prioritisation/02-prioritisation-frameworks-rice-ice-moscow-kano.md): using tree maths to size the impact of roadmap ideas.
 
 ## Go deeper
 
@@ -142,6 +238,8 @@ Pick an Indian consumer app you know well (CRED, Zerodha, Meesho, Rapido, etc.).
 - Test your North Star: would spam or discounts fake it? If yes, fix it.
 - Trees are for **ownership, diagnosis and prioritisation**.
 - Revisit the tree as the business matures. Today's best lever may not be tomorrow's.
+- North Star (years) → OKRs on its inputs (a quarter) → an OMTM for the current biggest problem (weeks).
+- In marketplaces, guard the **supply side**; in B2B, count **teams and accounts**.
 
 ## Updates
 

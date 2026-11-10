@@ -14,6 +14,19 @@ last_reviewed: 2026-11-10
 
 When someone says "let's track metrics for this feature", the blank page is scary. These two frameworks are checklists that make sure you don't forget a whole stage of the customer's life. In PM interviews they're also the most common way to structure a "what metrics would you track?" answer (see [A12.3](../12-career-and-interviews/03-metrics-estimation-and-execution-interviews.md)).
 
+## Key terms
+
+| Term | Plain-English meaning |
+|---|---|
+| **Activation / "aha moment"** | The first time a new user gets the product's real value. |
+| **Retention** | The share of users who come back over time. |
+| **Viral coefficient (K)** | New users each existing user brings in = invites sent per user × % of invites that convert. |
+| **ARPU** | Average revenue per user over a period. |
+| **CAC** | Customer acquisition cost: what you spend to win one new customer. |
+| **LTV** | Lifetime value: total profit you expect from one customer. |
+| **NPS / CSAT / CES** | Survey scores for loyalty (NPS), satisfaction (CSAT) and effort (CES). |
+| **GSM** | Goals → Signals → Metrics: HEART's method for turning a goal into a number. |
+
 ## The idea, simply
 
 !!! tip "Analogy: a new restaurant on your street"
@@ -90,6 +103,59 @@ Your UPI payments app is launching **"Split the bill"** for groups of friends.
 - **Referral:** each split invites friends who may not use your app. Track new users who joined through a split request.
 - **Retention:** do users who split have higher 90-day retention than similar users who don't?
 
+## Going deeper: nuances and trade-offs
+
+### 1. Finding your real activation moment
+
+"Activation" isn't something you declare. You discover it from data.
+
+1. **List candidate early actions:** for a food app, first order delivered, saving an address, ordering twice in a week.
+2. **Compare users who did each action early** with users who didn't, and look at their retention 30–90 days later.
+3. **Pick the action (and threshold) that best separates retained from churned users,** for example "2 orders in the first 14 days".
+4. **Test it.** Run an experiment that pushes more users to that action, and check that retention really rises. Correlation alone isn't enough, because naturally engaged users do everything more.
+
+Amplitude's 2025 benchmark analysis found a strong link between week-one activation and three-month retention ([source](https://amplitude.com/blog/7-percent-retention-rule)), which is why activation deserves so much attention.
+
+### 2. The maths of referral
+
+The **viral coefficient** is K = (invites sent per user) × (% of invites that become users).
+
+- If each user sends 5 invites and 10% convert, K = 0.5. Every 100 users bring 50 more, who bring 25 more, and so on. That's helpful, but not self-sustaining.
+- K above 1 means growth feeds itself, which is very rare and usually short-lived.
+- **Cycle time** matters as much as K. A loop that completes in 1 day compounds far faster than one that takes a month.
+
+Most products should treat referral as a *boost* to acquisition, not the engine.
+
+### 3. Revenue: ARPU, LTV and CAC
+
+At the Revenue stage, three numbers decide whether growth is healthy:
+
+- **ARPU:** revenue per user per period.
+- **LTV:** the profit a customer brings over their whole life. A rough version is monthly contribution per user ÷ monthly churn rate.
+- **CAC:** marketing and sales cost ÷ new customers won.
+
+The basic rule: **LTV must be comfortably higher than CAC, and the time to earn back CAC (the payback period) must be something your cash can survive.** Discount-heavy acquisition often makes CAC look low while quietly lowering LTV, because discount-hunters churn fast.
+
+### 4. Measuring happiness well
+
+- **NPS** ("How likely are you to recommend us?", 0–10) measures loyalty.
+- **CSAT** ("How satisfied were you?") measures satisfaction with one interaction.
+- **CES** ("How easy was it?") measures effort, and suits support and checkout flows.
+
+All surveys have **response bias**: very happy and very angry users answer more. Ask at the right moment (right after the task, not days later), keep it to 1–2 questions, and always read the comments, since that's where the "why" lives. Never use survey scores alone. Pair them with behaviour.
+
+### 5. Common variations of AARRR
+
+- **AAARRR** adds *Awareness* before Acquisition, useful for brand-led products.
+- Some growth teams reorder the stages to put **Retention first**: fix the leaky bucket before paying for more users.
+- **B2B** teams often map AARRR onto the sales funnel: lead → trial → activated account → expansion → renewal.
+
+The labels matter less than covering the whole customer life and finding the weakest stage.
+
+### 6. HEART at feature level vs product level
+
+At **product level**, HEART categories become company KPIs (overall retention, satisfaction). At **feature level**, they become short-term launch metrics (adoption of the feature, task success). A common trap is reading *feature adoption* as success. Lots of people may *try* a feature without it improving retention or task success for anyone. Always ask: adoption *and then what?*
+
 ## Real-world examples (2023 onwards)
 
 !!! example "ChatGPT, January 2023: record acquisition, then the real test"
@@ -110,6 +176,23 @@ Your UPI payments app is launching **"Split the bill"** for groups of friends.
     - **Skipping Happiness because "surveys are soft".** Behaviour tells you *what* happened. Surveys tell you *why*.
     - **Defining Activation vaguely.** "Opened the app" isn't activation. Activation is the first moment of real value (first order delivered, first song saved, first payment done).
     - **Celebrating Revenue while Retention falls.** That's a business renting its customers.
+    - **Declaring an activation moment without testing it.** Correlation isn't cause; prove it with an experiment.
+    - **Buying cheap acquisition with discounts** and ignoring that those users have low LTV.
+
+## In the interview
+
+!!! question "In the interview"
+    **How it's tested:** "What metrics would you track for *[feature]*?" and "How would you grow *[product]*?" are the classic hooks. AARRR helps structure growth answers. HEART + GSM helps structure feature-metrics answers.
+
+    **Sample question:** *"Instagram just launched a 'Close Friends' feature for Reels. How would you measure success?"*
+
+    **Outline of a strong answer:**
+
+    1. **Goal:** help users share more personal content with a trusted circle, which should raise posting among less-confident users.
+    2. **HEART categories that fit:** Adoption (% of posters who set up a Close Friends list), Engagement (Close Friends Reels posted per poster per week), Retention (repeat posting after 30 days), Happiness (a short survey on feeling comfortable sharing).
+    3. **GSM for one category:** Goal "users feel safe sharing" → Signal "they post to Close Friends again" → Metric "% of first-time Close Friends posters who post again within 14 days".
+    4. **Business view (AARRR):** does it lift overall posting and retention for users who adopt it, compared with a holdout group?
+    5. **Guardrails:** public posting shouldn't fall (cannibalisation), and reports and blocks shouldn't rise.
 
 ## Research happening now
 
@@ -125,6 +208,22 @@ Pick a feature you shipped or use often (e.g. "Reorder" on a food app).
 2. For each, fill in Goal → Signal → Metric.
 3. Then name the single AARRR stage this feature should move most.
 
+??? success "Check your answer"
+    For "Reorder" on a food app:
+
+    - **HEART categories that fit:** Adoption (% of repeat customers who use Reorder), Task success (time from opening the app to placing the order; completion rate), Retention (orders per month among Reorder users vs similar non-users).
+    - **GSM for Task success:** Goal "repeat orders take seconds" → Signal "users finish without searching" → Metric "median seconds from app open to order placed, for Reorder vs search".
+    - **AARRR stage:** mainly **Retention** (it makes repeat ordering easier), with some lift to **Revenue** from higher frequency.
+    - **Self-check:** did you skip categories that don't fit? Did you add a guardrail, such as "Reorder doesn't reduce discovery of new restaurants"?
+
+## How this connects
+
+- [A8.4 Lean Analytics](04-lean-analytics-one-metric-that-matters-and-stage.md): which AARRR stage to focus on depends on your stage.
+- [A8.5 Funnels, cohorts and retention](05-funnels-cohorts-and-retention-curves.md): how to measure the Activation and Retention stages properly.
+- [A10.2 Product-led growth and growth loops](../10-growth-and-go-to-market/02-product-led-growth-and-growth-loops.md): Referral and Acquisition as loops instead of a funnel.
+- [A10.3 Pricing and monetisation](../10-growth-and-go-to-market/03-pricing-and-monetisation.md): the Revenue stage in depth.
+- [A1.2 User research methods](../01-understanding-users-user-sense/02-user-research-methods-and-interviews.md): the qualitative side of HEART's Happiness.
+
 ## Go deeper
 
 - **Paper:** [Measuring the User Experience on a Large Scale (Google, CHI 2010)](https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/). Short, readable, the original HEART source.
@@ -139,6 +238,8 @@ Pick a feature you shipped or use often (e.g. "Reorder" on a food app).
 - Use **Goals → Signals → Metrics** to turn a fuzzy goal into a number.
 - Pick only the stages or categories that matter for your goal.
 - A huge top of funnel means little without activation and retention.
+- Find activation from data, then **prove it with an experiment**.
+- Healthy growth needs **LTV well above CAC** and a payback period your cash can survive.
 
 ## Updates
 

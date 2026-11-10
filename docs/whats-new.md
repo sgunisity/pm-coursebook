@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 10 Nov 2026 — Deeper chapters
+
+- Every Product Metrics chapter (A8.1–A8.6) now has **Key terms**, a **Going deeper: nuances and trade-offs** section, an **In the interview** walkthrough, worked answers to the exercises, and **How this connects** links.
+- New ideas covered: Goodhart's law, proxy metrics, retention types (N-day, unbounded, bracket), net revenue retention, unit economics with real numbers, viral coefficient, Simpson's paradox and mix shift.
+- 10 new glossary terms.
+
 ## 10 Nov 2026 — The book launches
 
 - Site, outline and navigation for all 73 chapters are live.

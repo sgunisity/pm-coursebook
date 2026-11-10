@@ -44,19 +44,36 @@ Then these sections, in this order (drop a section only if it would be empty fil
 
 1. **In one line** — the whole chapter in one sentence.
 2. **Why this matters** — 2–3 sentences tying it to a PM's real job.
-3. **The idea, simply** — concept explained with an analogy (300–600 words).
-4. **Framework(s)** — name, who created it (with link to the original source), the steps, when to use and when not to.
-5. **Diagram** — at least one visual per chapter (see Section 4).
-6. **Worked example** — apply the framework step by step to one realistic scenario.
-7. **Real-world examples (2023 onwards)** — 1–2 cases: company, month/year, what happened, the PM lesson, source link.
-8. **Common mistakes** — 3–5 bullets.
-9. **Research happening now** — box with 1–3 current items (see Section 5).
-10. **Try it yourself** — one short exercise (15–30 minutes).
-11. **Go deeper** — books (official publisher/author page), articles, videos and podcasts, each with one line on why it's worth it.
-12. **Key takeaways** — 3–5 bullets.
-13. **Updates** — empty at first; weekly runs append dated entries here.
+3. **Key terms** — a table of 5–8 terms used in the chapter, each with a one-line plain-English meaning.
+4. **The idea, simply** — concept explained with an analogy (400–800 words). Cover what it is, why it works, and where it comes from.
+5. **Framework(s)** — name, who created it (with link to the original source), the steps, when to use and when not to.
+6. **Diagram** — at least one visual per chapter (see Section 4).
+7. **Worked example** — apply the framework step by step to one realistic scenario, with actual numbers wherever the topic allows.
+8. **Going deeper: nuances and trade-offs** — 4–6 short sub-sections on what the simple version leaves out: edge cases, trade-offs, how it changes by company stage or business type (B2C vs B2B, marketplace, subscription, India vs global), related laws or effects, and how experienced PMs actually use it. This is where depth comes from; don't skip it.
+9. **Real-world examples (2023 onwards)** — 2 cases (at least one Indian where a verified one exists): company, month/year, what happened, the PM lesson, source link.
+10. **Common mistakes** — 5–7 bullets.
+11. **In the interview** — how this topic shows up in PM interviews, one sample question, and a short outline of a strong answer.
+12. **Research happening now** — box with 1–3 current items (see Section 5).
+13. **Try it yourself** — one short exercise (15–30 minutes), with the answer or a self-check list in a collapsible `??? success "Check your answer"` block.
+14. **How this connects** — 3–5 links to related chapters in this book, each with one line on the connection.
+15. **Go deeper** — books (official publisher/author page), articles, videos and podcasts, each with one line on why it's worth it.
+16. **Key takeaways** — 5–7 bullets.
+17. **Updates** — empty at first; weekly runs append dated entries here.
 
-Use admonition boxes: `!!! tip` for analogies, `!!! example` for case studies, `!!! info "Research happening now"`, `!!! warning` for common mistakes. Length: roughly 1,500–2,500 words. Don't pad to hit a number.
+Use admonition boxes: `!!! tip` for analogies, `!!! example` for case studies, `!!! info "Research happening now"`, `!!! warning` for common mistakes, `!!! question "In the interview"`. Length: roughly 2,200–3,300 words. Never pad; depth should come from more explanation, nuance and worked numbers, not repetition.
+
+**Depth check before saving a chapter.** A chapter is complete only if a reader could answer all of these from it alone:
+- What is it, in plain words?
+- Why does it work?
+- How do I apply it, step by step?
+- When does it fail, or when should I not use it?
+- What trade-offs or edge cases matter?
+- What does it look like with real numbers?
+- How did a real company use it recently?
+- How will I be tested on it in an interview?
+- What should I read next?
+
+If any answer is missing, add it. Also check that nothing the topic's core books or best sources treat as essential has been left out.
 
 ---
 

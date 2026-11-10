@@ -14,6 +14,19 @@ When a key number suddenly falls, don't panic and don't guess. Check whether the
 
 "Our daily orders dropped 12% yesterday. What happened?" is one of the most common messages a PM gets. It's also one of the most common PM interview questions. A calm, structured investigation builds trust fast. A panicked guess ("it must be the new competitor!") destroys it.
 
+## Key terms
+
+| Term | Plain-English meaning |
+|---|---|
+| **Anomaly** | A movement outside the metric's normal range. |
+| **WoW / YoY** | Week-over-week / year-over-year comparison. |
+| **Seasonality** | Regular, predictable ups and downs (weekends, festivals, school holidays). |
+| **Segment** | A slice of users: by platform, city, version, channel, new vs returning. |
+| **Mix shift** | The overall number changes because the *share* of each segment changed. |
+| **Simpson's paradox** | Every segment moves one way while the total moves the other way. |
+| **Root cause** | The underlying reason, not just the first symptom you see. |
+| **Runbook** | A written checklist the team follows when an alert fires. |
+
 ## The idea, simply
 
 !!! tip "Analogy: a doctor with a patient who has a fever"
@@ -105,6 +118,73 @@ flowchart TD
 
 **Your message to the CEO:** "Orders are down 12%. Nearly all of the drop is on the new Android release, at the payment step. We've reproduced a bug with one payment method. A hotfix goes out in 3 hours, and we'll confirm recovery tomorrow morning."
 
+## Going deeper: nuances and trade-offs
+
+### 1. Is the drop even unusual?
+
+Before investigating, check whether this is just normal wobble:
+
+- **Compare the same weekday** over the last 4–8 weeks to see the usual range.
+- **For seasonal businesses, compare the same period last year** (Diwali week vs last Diwali week), adjusted for growth.
+- **Use a simple control band.** Many teams flag a move only when it falls outside the usual range for 2 days in a row.
+
+This saves hours of chasing noise, and saves your credibility.
+
+### 2. Simpson's paradox: when every segment improves but the total falls
+
+This surprising effect is well documented in statistics ([Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/paradox-simpson/)). Here's a product version:
+
+| | Last week | This week |
+|---|---|---|
+| Returning users: conversion | 30% (9,000 users) | **32%** (9,000 users) |
+| New users: conversion | 5% (1,000 users) | **6%** (6,000 users) |
+| **Overall conversion** | **27.5%** | **≈ 21.6%** |
+
+Both segments *improved*, yet overall conversion *fell*, because a big campaign brought in thousands of new users, who naturally convert less. If you only looked at the total, you'd hunt for a bug that doesn't exist. **Always split by segment before blaming the product.**
+
+### 3. Rate effect vs mix effect
+
+A change in any total can be split into two parts:
+
+- **Rate effect:** did users in each segment *behave* differently?
+- **Mix effect:** did the *share* of segments change?
+
+In the table above, the rate effect is positive (both segments got better) and the mix effect is strongly negative. Saying this out loud ("the drop is almost all mix, from the campaign") is exactly the kind of clarity leaders value.
+
+### 4. A culprit checklist by category
+
+| Category | Usual suspects |
+|---|---|
+| **Data / tracking** | SDK or analytics update, event renamed, consent banner change, bot filtering, time-zone bug, late data |
+| **Product** | New release, feature flag, experiment ramped up, bug in one OS version, performance slowdown |
+| **Supply / operations** | Stock-outs, fewer delivery partners, payment gateway or UPI bank downtime, a partner outage |
+| **Demand / calendar** | Festivals, exam season, school holidays, salary cycle, long weekends, IPL finals, monsoon |
+| **Market** | A competitor's big sale, app-store ranking change, OS policy change, regulation, news event |
+
+Go through it quickly but completely. The cause is usually in the category you assumed it *wasn't*.
+
+### 5. Communicating while you investigate
+
+The first update should go out within about an hour, even if you don't know the answer yet. A useful structure:
+
+- **What we know:** "Orders −12% since Wednesday, concentrated on Android v5.2."
+- **What we don't know yet:** "Whether all payment methods are affected."
+- **Next steps and owner:** "QA is reproducing it; the engineering lead owns the hotfix."
+- **Next update time:** "4 pm today."
+
+Avoid blaming people or teams in early updates. You may be wrong, and blame slows everyone down.
+
+### 6. Make the next investigation faster
+
+After each incident, spend 30 minutes making the next one easier:
+
+- **Annotate dashboards** with releases, experiments and campaigns.
+- **Add alerts** on key metrics, broken down by platform and version.
+- **Keep a metric tree** ([A8.2](02-north-star-metric-and-metric-trees.md)) next to the main dashboard.
+- **Write a short runbook** that lists who to call and which checks to run.
+
+Mature teams treat metric drops like engineering incidents, with a short blameless review afterwards.
+
 ## Real-world examples (2023 onwards)
 
 !!! example "ChatGPT's first traffic dip, June–July 2023: external, and a measurement trap"
@@ -125,6 +205,28 @@ flowchart TD
     - **Only looking at the total.** The answer almost always hides in a segment.
     - **Ignoring good surprises.** A sudden jump is often a tracking bug too.
     - **Ending with "we're looking into it".** Always share the next step and when you'll update.
+    - **Skipping the segment split** and falling for Simpson's paradox.
+    - **No annotations on dashboards**, so every investigation starts from scratch.
+
+## In the interview
+
+!!! question "In the interview"
+    **How it's tested:** "Metric X dropped by Y%. What do you do?" is a staple of PM interviews at most large tech companies. It's often called an "execution" or "root cause analysis" question.
+
+    **Sample question:** *"Daily active users on Swiggy Instamart fell 10% yesterday. Walk me through how you'd investigate."*
+
+    **Outline of a strong answer:**
+
+    1. **Clarify:** how is DAU defined, compared with what (same day last week?), sudden or gradual, all cities or some?
+    2. **Check the data:** tracking changes, pipeline delays, a new app version's analytics.
+    3. **Internal vs external:**
+        - internal: release, experiment, pricing, an outage, stock-outs, delivery-partner availability
+        - external: a holiday, weather, a competitor's sale, payment or UPI downtime
+    4. **Segment:** platform and app version, city, new vs returning users, acquisition channel.
+    5. **Walk the funnel:** open → browse → add to cart → checkout → payment. Find the step that moved.
+    6. **Hypothesis, test, act, communicate:** state the most likely cause, how you'd confirm it in under an hour, the fix, the owner, and when you'll update.
+
+    **Bonus points:** mention Simpson's paradox or mix shift, and say what you'd add to prevent a repeat.
 
 ## Research happening now
 
@@ -146,6 +248,25 @@ Answer out loud in 5 minutes using the 6 steps. Then write down:
 2. Two external causes specific to India (e.g. exam season, monsoon, a fuel-price change)
 3. The one-line update you'd send your manager after the first hour
 
+??? success "Check your answer"
+    For "ride-hailing weekly active users −8%":
+
+    - **Three segments to check first:**
+        - **city:** a local event or regulation hits specific cities
+        - **platform and app version:** catches release bugs
+        - **rider type:** new vs returning, to catch campaign or mix effects
+    - **Two India-specific external causes:** the end of exam season or a school-holiday shift in commuting patterns; heavy monsoon flooding in a few metros; a fuel-price change affecting fares; a local auto or cab strike.
+    - **First-hour update:** "Weekly active riders are down 8%. The data looks healthy. 70% of the drop is in Mumbai and Pune, which matches last week's heavy rain. We're checking whether supply (driver availability) or demand fell, and will update by 3 pm."
+    - **Self-check:** did you check the data *first*, segment *before* hypothesising, and end with an owner and a time?
+
+## How this connects
+
+- [A8.2 North Star metric and metric trees](02-north-star-metric-and-metric-trees.md): the tree is your map for walking down to the cause.
+- [A8.5 Funnels, cohorts and retention](05-funnels-cohorts-and-retention-curves.md): funnels and segments are the main investigation tools.
+- [A9.3 Experiment pitfalls and culture](../09-experimentation/03-experiment-pitfalls-and-culture.md): experiments are a frequent hidden cause of metric moves.
+- [A11.3 Writing and presenting for leaders](../11-stakeholder-management-and-com/03-writing-and-presenting-for-leaders.md): how to write the update.
+- [A12.3 Metrics and execution interviews](../12-career-and-interviews/03-metrics-estimation-and-execution-interviews.md): practising this as an interview question.
+
 ## Go deeper
 
 - **Template:** [Metric drop investigation checklist](../../appendix/templates.md) in this book's appendix.
@@ -160,6 +281,8 @@ Answer out loud in 5 minutes using the 6 steps. Then write down:
 - Then: **segment** to find where it's concentrated, and **walk the funnel** to find which step broke.
 - End with a **hypothesis, a test, a fix, an owner and a check-in time**.
 - Treat sudden good news with the same suspicion as bad news.
+- **Split by segment** before blaming anything; watch for **Simpson's paradox** and mix shifts.
+- Send a **first update within an hour**: what we know, what we don't, next steps, next update time.
 
 ## Updates
 

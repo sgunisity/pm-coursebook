@@ -14,6 +14,20 @@ A good metric is a number that helps you make a better decision. If it can't cha
 
 Every product team says it's "data-driven". But many teams stare at numbers that only make them feel good. As a PM, your job is to pick the few numbers that tell you the truth early enough for you to act. This chapter gives you the vocabulary to do that.
 
+## Key terms
+
+| Term | Plain-English meaning |
+|---|---|
+| **Metric** | Any number you track over time (orders per day, % of users who return). |
+| **KPI** | Key performance indicator: a metric leadership has agreed matters most. |
+| **Leading metric** | An early signal that predicts a later result. |
+| **Lagging metric** | A result you only see after the fact (revenue, churn). |
+| **Input metric** | Something a team can move directly, which drives a bigger result. |
+| **Output metric** | A result of many things working together; no single team controls it. |
+| **Vanity metric** | Looks impressive but doesn't change any decision. |
+| **Counter (guardrail) metric** | A number you watch to make sure you're not breaking something while pushing your main number. |
+| **Proxy metric** | A number you track because the thing you really care about (like "happiness") is hard to measure directly. |
+
 ## The idea, simply
 
 !!! tip "Analogy: the cricket scoreboard"
@@ -77,6 +91,64 @@ You are the PM for the "Groceries" tab of a food delivery app in Pune. Your mana
 
 Now your weekly team review has one steering number, one guardrail, and one scoreboard number for leadership.
 
+## Going deeper: nuances and trade-offs
+
+### 1. Goodhart's law: every target gets gamed
+
+Economist Charles Goodhart made the original point in 1975 about monetary policy. Anthropologist Marilyn Strathern later turned it into the popular saying "when a measure becomes a target, it ceases to be a good measure" ([background](https://en.wikipedia.org/wiki/Goodhart%27s_law)). In product terms: the moment you reward a team for a number, people find the easiest way to move *the number*, which isn't always the thing the number was meant to show.
+
+- Reward support agents for "tickets closed per hour", and tickets get closed before problems are solved.
+- Reward a growth team for "sign-ups", and sign-up forms get shorter while user quality drops.
+
+**How experienced PMs defend against it:**
+
+- Always pair the target with a counter metric.
+- Prefer metrics close to real customer value.
+- Read a sample of real user sessions or tickets every week.
+- Treat a sudden, too-easy win as a warning sign.
+
+### 2. Proxy metrics: check that the proxy actually tracks the real thing
+
+Most product metrics are proxies. "Week-1 orders" stands in for "this customer will be valuable for years". A proxy is only useful while it really moves with the outcome you care about. Check it in two ways:
+
+- **Historically:** do users with a high proxy value later show a high outcome?
+- **Experimentally:** when an A/B test moves the proxy, does the outcome follow weeks later? See [A9.1](../09-experimentation/01-a-b-testing-basics.md).
+
+Amazon is famous for this discipline. *Working Backwards* by Colin Bryar and Bill Carr describes how Amazon focuses its weekly business reviews on **controllable input metrics** and refines them by trial and error until moving them reliably moves the outputs ([summary by Holistics](https://www.holistics.io/blog/how-amazon-measures); [book site](https://www.workingbackwards.com/)).
+
+### 3. Definitions and time windows change the answer
+
+"Active user" sounds simple until you ask:
+
+- Active doing *what*? Opening the app, or completing a value action?
+- Over *what window*?
+    - **DAU:** active on a given day
+    - **WAU:** active in the last 7 days
+    - **MAU:** active in the last 28 or 30 days
+
+Pick the window that matches how often the product is *naturally* used. A bill-payment app used once a month will look "dead" on a daily metric. When you change a definition, keep the old one running for a while and label the switch on every chart. Otherwise trend lines break silently.
+
+### 4. Ratios have two moving parts
+
+**DAU/MAU** (often called *stickiness*) is popular because it shows how often monthly users come back. But a ratio can rise for the wrong reason. If a marketing campaign ends and casual users stop arriving, MAU falls faster than DAU, and stickiness "improves" while the business shrinks. Whenever you report a ratio, show its top and bottom numbers next to it.
+
+### 5. Signal vs noise
+
+Daily numbers bounce around. Before reacting:
+
+- **Compare like with like:** this Tuesday vs the last 4–6 Tuesdays.
+- **Know your normal range.** If orders usually swing ±4% week to week, a 3% dip is noise.
+- **Remember that small numbers are jumpy.** 20 orders vs 25 orders is a 25% change, but tells you almost nothing.
+- **Use the median when outliers distort the average.** Delivery time is a classic example: a few 3-hour deliveries can drag up the mean while most customers had a great experience.
+
+### 6. How metrics differ by business type
+
+- **B2C transactional** (food, travel, payments): orders, frequency, order value, repeat rate.
+- **B2C attention** (social, media, OTT): time spent, sessions, content consumed, creator activity.
+- **Subscription / SaaS:** paid conversion, churn, revenue retention, seats used.
+- **B2B:** measure **accounts and teams**, not just individual users. Signals arrive slowly because there are fewer customers, so lean more on qualitative feedback.
+- **India-specific rhythms:** festival seasons (Diwali, Durga Puja), salary-day spikes at the start of the month, exam seasons, monsoon and IPL evenings all shift behaviour. Build them into your "normal range".
+
 ## Real-world examples (2023 onwards)
 
 !!! example "Threads (Meta), July 2023: a record sign-up number vs. the real signal"
@@ -97,6 +169,26 @@ Now your weekly team review has one steering number, one guardrail, and one scor
     - **No written definition.** Two dashboards, two numbers, one wasted meeting.
     - **No counter metric.** You will eventually "win" the number and hurt the business.
     - **Too many metrics.** If everything is important, nothing is. Aim for 1 steering metric and 2–3 guardrails per team.
+    - **Silently changing a definition.** The chart now compares apples with oranges.
+    - **Reporting only averages.** Show medians or percentiles (p50, p90) when a few outliers distort the picture.
+
+## In the interview
+
+!!! question "In the interview"
+    **How it's tested:** "How would you measure the success of *[feature/product]*?" is one of the most common PM interview questions, and it often comes up inside product design questions too.
+
+    **Sample question:** *"How would you measure the success of WhatsApp's 'Status' feature?"*
+
+    **Outline of a strong answer:**
+
+    1. **Clarify the goal:** Is Status meant to raise daily engagement, help people share updates without group-chat noise, or drive ad revenue?
+    2. **Name the users and their value:** posters (self-expression) and viewers (staying in touch).
+    3. **Pick one primary metric that reflects value:** for example, the % of daily users who view or post at least one Status.
+    4. **Add 2–3 input metrics:** posting rate among weekly users, views per Status, replies sent from Status.
+    5. **Add guardrails:** the effect on chat messages sent (is Status cannibalising chats?), reported or blocked Statuses, and app performance.
+    6. **Say how you'd know it's working:** an A/B test or a before/after comparison with a holdout, and the time frame you'd judge it over.
+
+    Interviewers listen for a clear goal, one main metric, a short list of inputs, and at least one guardrail.
 
 ## Research happening now
 
@@ -115,6 +207,25 @@ Open any app you use daily (UPI, food delivery, a news app). Write down:
 
 Then write a one-line definition card for the input metric.
 
+??? success "Check your answer"
+    For a UPI payments app, a good answer might look like this:
+
+    - **Vanity:** total app downloads, or "10 crore registered users".
+    - **Lagging output:** monthly transaction value, or revenue from merchant services.
+    - **Leading input:** the % of new users who complete their *second* payment within 7 days, owned by the onboarding team.
+    - **Counter metric:** failed-payment rate, or fraud complaints per 10,000 transactions.
+    - **Definition card:** *Second-payment rate = new users in week W who complete a 2nd successful payment within 7 days of their first ÷ all new users who made a first payment in week W.*
+
+    Check that your input is something one team can move *this month*, and that your counter metric would warn you if the team cut corners.
+
+## How this connects
+
+- [A8.2 North Star metric and metric trees](02-north-star-metric-and-metric-trees.md): organises input and output metrics into one tree.
+- [A8.5 Funnels, cohorts and retention](05-funnels-cohorts-and-retention-curves.md): the most important leading metric for most products.
+- [A8.6 Diagnosing a metric drop](06-diagnosing-a-metric-drop.md): what to do when a metric moves unexpectedly.
+- [A4.3 OKRs and goal setting](../04-strategy-and-vision/03-okrs-and-goal-setting.md): good key results are usually leading input metrics.
+- [A9.1 A/B testing basics](../09-experimentation/01-a-b-testing-basics.md): how to prove an input actually moves an output.
+
 ## Go deeper
 
 - **Book:** [*Lean Analytics*](https://www.oreilly.com/library/view/lean-analytics/9781098168179/) by Alistair Croll and Benjamin Yoskovitz. The classic on vanity vs actionable metrics. (Teresa Torres has a short [review on Product Talk](https://www.producttalk.org/read-lean-analytics/).)
@@ -129,6 +240,8 @@ Then write a one-line definition card for the input metric.
 - Set team goals on **inputs** they control; report **outputs** to leadership.
 - Prefer **rates** over **counts** when you make decisions.
 - Always pair a target metric with a **counter metric**.
+- **Goodhart's law:** any number you reward will be gamed. Pair targets with guardrails and read real user behaviour.
+- Write down **definitions and time windows**, and match the window to how often the product is naturally used.
 
 ## Updates
 

@@ -14,6 +14,19 @@ The right metric depends on your **stage**. Early on you measure whether people 
 
 Teams often copy the metrics of big companies. A three-month-old product obsessing over revenue per user is like a nursery school tracking board-exam marks. *Lean Analytics* gives you a simple map: figure out which stage you're in, then focus on **One Metric That Matters (OMTM)** for that stage.
 
+## Key terms
+
+| Term | Plain-English meaning |
+|---|---|
+| **OMTM** | One Metric That Matters: the single number a team focuses on right now. |
+| **Stage** | Where the product is in its life: Empathy, Stickiness, Virality, Revenue or Scale. |
+| **Gate** | The test you must pass before moving to the next stage. |
+| **Line in the sand** | The target value that counts as "good enough" for your OMTM. |
+| **Unit economics** | Profit or loss on one unit (one order, one customer). |
+| **Contribution margin** | Revenue from an order minus its direct variable costs (delivery, payment fees, discounts). |
+| **Payback period** | How long it takes for a customer's profit to repay the cost of acquiring them. |
+| **Premature scaling** | Spending heavily on growth before the product keeps users. |
+
 ## The idea, simply
 
 !!! tip "Analogy: learning to drive"
@@ -79,6 +92,61 @@ You're launching a **pet-care subscription box** in Hyderabad. It's 3 months old
 
 Two quarters later, renewal is stable at 45%. Now you move to Virality or Revenue and choose a new OMTM, such as contribution margin per box.
 
+## Going deeper: nuances and trade-offs
+
+### 1. How to tell your stage honestly
+
+Teams almost always think they're one stage further along than they are. Use evidence:
+
+- **Still in Empathy?** You can't yet describe a painful problem in customers' own words, or interviews give mixed signals.
+- **Still in Stickiness?** Retention curves don't flatten, or keep sliding with each new cohort ([A8.5](05-funnels-cohorts-and-retention-curves.md)).
+- **Ready for Virality?** Retention is stable, and some new users already arrive by word of mouth without paid spend.
+- **In Revenue?** You know what a customer is worth and what they cost, and you're working to make that gap positive.
+- **In Scale?** Unit economics work in your core market, and the questions are now about new cities, new segments and efficiency.
+
+### 2. Your business model changes the OMTM
+
+*Lean Analytics* also groups metrics by **business model**: e-commerce, SaaS, free mobile apps, media, user-generated content and two-sided marketplaces. The same stage needs different numbers in each:
+
+- **E-commerce in Stickiness:** repeat purchase rate.
+- **SaaS in Stickiness:** weekly active accounts using the core feature.
+- **Marketplace in Stickiness:** repeat buyers *and* repeat sellers. A marketplace has two Stickiness problems.
+- **Media in Revenue:** ad revenue per thousand visits, and content cost.
+
+### 3. Setting a line in the sand
+
+An OMTM without a target is just a number to stare at. Set the "line in the sand" from three sources:
+
+1. **External benchmarks:** for retention, use the ranges in [A8.5](05-funnels-cohorts-and-retention-curves.md).
+2. **Your own economics:** what retention or margin makes the business work on paper?
+3. **Investor or leadership expectations.**
+
+Then commit to it for a fixed period (for example, one quarter) before changing it. Moving the target every week defeats the purpose.
+
+### 4. Unit economics with real numbers
+
+Take a delivery app with these per-order numbers:
+
+| Item | ₹ per order |
+|---|---|
+| Average order value | 450 |
+| Commission earned (20%) | +90 |
+| Delivery fee charged | +25 |
+| Delivery partner cost | −60 |
+| Payment gateway (2%) | −9 |
+| Discount funded by the platform | −30 |
+| **Contribution per order** | **+16** |
+
+If acquiring a customer costs ₹400, and a retained customer places 4 orders a month, each customer contributes ₹64 a month. **Payback is roughly 6–7 months, if the customer stays.** Now you can see why retention and discounts dominate the Revenue stage. Cut the discount to ₹15 and contribution nearly doubles to ₹31, but will customers still order as often? That's the experiment to run.
+
+### 5. OMTM in a big company
+
+Large companies don't have *one* OMTM. They have a **portfolio of stages**. The core business may be at Scale (OMTM: margin), a new city at Stickiness (OMTM: repeat rate), and a new product line at Empathy (OMTM: problem interviews). Leaders who apply one stage's metric to everything usually kill new initiatives too early.
+
+### 6. The cost of skipping stages
+
+**Premature scaling** means spending on acquisition, new cities or big teams before retention is solid. It's one of the most common ways startups burn cash. In India, the 2022–23 funding slowdown pushed many startups to shift focus from growth to profitability. That's the same Revenue-stage move the Zomato example above shows. The lesson isn't "never grow fast". It's **grow fast only once the bucket holds water**.
+
 ## Real-world examples (2023 onwards)
 
 !!! example "Zomato and Blinkit, mid-2023: moving into the Revenue stage"
@@ -99,6 +167,23 @@ Two quarters later, renewal is stable at 45%. Now you move to Virality or Revenu
     - **Picking the OMTM by committee** and ending up with three. One means one.
     - **Applying one stage to the whole company.** A new city or a new feature may still be at Empathy while the core business is at Scale.
     - **Trusting headline profit without reading the definition** (adjusted, contribution, or net).
+    - **Changing the line in the sand every week.** Commit for a fixed period.
+    - **Using the wrong business-model metric.** A marketplace has two sides to keep sticky.
+
+## In the interview
+
+!!! question "In the interview"
+    **How it's tested:** stage questions show up as "You're the PM of a 6-month-old product. What would you focus on?" or inside strategy cases ("Should we expand to 10 new cities?").
+
+    **Sample question:** *"You're the first PM at a 6-month-old fitness app with 50,000 users. The CEO wants to spend heavily on ads. What do you say?"*
+
+    **Outline of a strong answer:**
+
+    1. **Diagnose the stage with data:** ask for retention curves by cohort, how many users come from word of mouth, and current churn.
+    2. **If curves don't flatten:** you're in Stickiness. Recommend fixing activation and retention first, because paid users will leak out.
+    3. **Propose an OMTM and a line in the sand:** for example, week-4 retention of 25% held for 3 consecutive cohorts.
+    4. **Offer a compromise:** a small, controlled ad budget to keep learning, with a cost-per-retained-user limit.
+    5. **Explain the gate:** once retention holds, scale ad spend in steps and watch payback.
 
 ## Research happening now
 
@@ -114,6 +199,23 @@ Think of a product you work on (or a side project).
 2. Write one OMTM and one "line in the sand".
 3. Write down one thing your team is doing that belongs to a *later* stage, and whether you should pause it.
 
+??? success "Check your answer"
+    For a 3-month-old B2B invoicing tool with 40 paying small businesses:
+
+    - **Stage:** most likely **Stickiness**. There's revenue, but you don't yet know whether customers keep using it.
+    - **OMTM:** % of accounts that send at least 5 invoices a month, 3 months after sign-up.
+    - **Line in the sand:** 60% of accounts by month 3, held for two quarterly cohorts.
+    - **Later-stage work to pause:** a referral programme and a second-city sales team.
+    - **Self-check:** does your OMTM measure *repeated real use*, not sign-ups or logins?
+
+## How this connects
+
+- [A8.2 North Star metric](02-north-star-metric-and-metric-trees.md): the long-term metric that sits above your stage-specific OMTMs.
+- [A8.5 Funnels, cohorts and retention](05-funnels-cohorts-and-retention-curves.md): how to prove you've passed the Stickiness gate.
+- [A4.4 Product-market fit](../04-strategy-and-vision/04-product-market-fit.md): what passing Empathy and Stickiness really means.
+- [A10.3 Pricing and monetisation](../10-growth-and-go-to-market/03-pricing-and-monetisation.md): the Revenue stage in depth.
+- [A2.1 Continuous discovery](../02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md): the work of the Empathy stage.
+
 ## Go deeper
 
 - **Book:** [*Lean Analytics*](https://www.oreilly.com/library/view/lean-analytics/9781098168179/) by Alistair Croll and Benjamin Yoskovitz. Also see the authors' site, [leananalyticsbook.com](https://leananalyticsbook.com/).
@@ -127,6 +229,8 @@ Think of a product you work on (or a side project).
 - The OMTM is **temporary**; the North Star is **long-term**.
 - Don't skip Stickiness. Retention is the foundation for everything after it.
 - Different parts of the same company can be at different stages.
+- Work out your **unit economics** per order or per customer; retention and discounts usually dominate.
+- Big companies run a **portfolio of stages**; don't judge a new bet by the core business's metrics.
 
 ## Updates
 
