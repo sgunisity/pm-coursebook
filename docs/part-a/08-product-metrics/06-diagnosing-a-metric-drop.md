@@ -14,6 +14,13 @@ When a key number suddenly falls, don't panic and don't guess. Check whether the
 
 "Our daily orders dropped 12% yesterday. What happened?" is one of the most common messages a PM gets. It's also one of the most common PM interview questions. A calm, structured investigation builds trust fast. A panicked guess ("it must be the new competitor!") destroys it.
 
+When a key number falls, the whole company feels it: leaders ask questions, teams start guessing, and people are tempted to blame someone. The PM is often the person expected to bring order. The skill here isn't knowing the answer instantly. It's running a calm, structured search that finds the real cause quickly and keeps everyone informed. You'll use it:
+
+- **After releases and experiments,** to catch problems early.
+- **During festivals, outages and competitor moves,** to separate noise from real damage.
+- **In weekly reviews,** to explain why numbers moved.
+- **In interviews,** where "metric X dropped, what do you do?" is a classic question.
+
 ## Key terms
 
 | Term | Plain-English meaning |
@@ -60,6 +67,80 @@ Most metric drops come from one of four buckets:
 
 - **What it looks like:** the total moves, but each segment's rate is stable or even improving; the *share* of a lower-performing segment grew (often after a campaign or a new channel).
 - **First checks:** the segment mix this week vs last week, then each segment's own rate (see Simpson's paradox under "Going deeper").
+
+### Why a structured approach beats instinct
+
+Under pressure, people grab the first plausible story: "it's the competitor's sale", "it's the new design". Sometimes they're right. Often they aren't, and the team loses days fixing the wrong thing. A structured approach helps in three ways:
+
+1. **It checks the cheap explanations first.** Tracking problems and calendar effects take minutes to rule out.
+2. **It narrows the search with every step.** Each segment split cuts the possibilities roughly in half.
+3. **It produces evidence you can share.** Leaders trust "it's concentrated in Android v5.2 at the payment step" far more than "we think it's the release".
+
+### Sudden drops vs gradual declines
+
+| | Sudden drop | Gradual decline |
+|---|---|---|
+| **Shape** | A step change over hours or days | A slow slide over weeks or months |
+| **Usual causes** | Releases, outages, tracking breaks, one-off events | Cohort quality, competition, product decay, market shifts |
+| **Main tools** | Segment splits by version, platform, city; release logs | Cohort analysis, user research, competitor benchmarking |
+| **Urgency** | High: often hours | Medium: weeks, but don't ignore it |
+
+Diagnose which kind you have first. The playbooks are different (see "Going deeper", point 7).
+
+### Building a hypothesis tree
+
+Write down every possible cause as a tree. Then rule branches out one by one, starting with the cheapest checks.
+
+```mermaid
+flowchart TD
+    D["Orders −12%"] --> R{"Real?"}
+    R -->|"No"| T["Tracking / data issue"]
+    R -->|"Yes"| I["Internal"]
+    R -->|"Yes"| X["External"]
+    R -->|"Yes"| M["Mix shift"]
+    I --> I1["Release / flag"]
+    I --> I2["Experiment"]
+    I --> I3["Supply / outage"]
+    X --> X1["Calendar / weather"]
+    X --> X2["Competitor / regulation"]
+```
+<p class="caption">Rule out branches in order of how cheap they are to check. Tracking first, then releases and the calendar, then deeper analysis.</p>
+
+### Who does what during an investigation
+
+| Role | Main job |
+|---|---|
+| **PM** | Coordinates, decides, communicates, owns the timeline and the update to leaders |
+| **Data analyst** | Checks data quality, runs segment and funnel splits |
+| **Engineering lead** | Checks releases, flags, errors and performance; reproduces bugs; ships fixes or rollbacks |
+| **Ops / supply lead** | Checks stock, partners, sellers and on-ground issues |
+| **Marketing** | Checks campaigns that started or stopped, and channel changes |
+
+For small teams one person may play several roles. What matters is that someone clearly owns *communication*, so leaders aren't left guessing.
+
+### Comparing against the right baseline
+
+The size of a "drop" depends entirely on what you compare it with:
+
+| Compare with… | Good for | Trap |
+|---|---|---|
+| **Yesterday** | Spotting sudden breaks within hours | Weekday effects: Monday ≠ Sunday |
+| **Same day last week** | Most day-to-day checks | A holiday last week distorts it |
+| **Average of the same weekday over 4–8 weeks** | A stable "normal range" | Slow to reflect real trend changes |
+| **Same period last year** | Festivals and seasonal businesses | Business growth since then; adjust for it |
+| **Forecast or plan** | Judging against what you expected | A bad forecast makes good results look bad |
+
+State your comparison in every update: "−12% vs the same day last week, and below the 6-week range for Wednesdays."
+
+### Five questions to ask before opening any dashboard
+
+1. **What exactly is the metric, and how is it defined?** (Has anything about the definition changed?)
+2. **When exactly did it start?** (To the hour if you can.)
+3. **What changed around that time?** (Releases, experiments, campaigns, pricing, partners, news.)
+4. **Is the drop in the metric alone, or in related metrics too?** (Orders and revenue together, or just one?)
+5. **Who else might already know?** (Support tickets, ops teams and social media often spot problems before dashboards do.)
+
+These five questions often point to the answer before any heavy analysis starts.
 
 ## Framework: the 6-step metric drop investigation
 
@@ -306,6 +387,15 @@ Send the first update fast, keep it factual, give a next-update time, and keep t
     6. **Hypothesis, test, act, communicate:** state the most likely cause, how you'd confirm it in under an hour, the fix, the owner, and when you'll update.
 
     **Bonus points:** mention Simpson's paradox or mix shift, and say what you'd add to prevent a repeat.
+
+    **A second common form:** *"Sign-ups jumped 40% overnight with no campaign running. What do you do?"*
+
+    A strong answer treats good surprises with the same care:
+
+    1. **Checks data first:** a duplicate event, bot or fake sign-ups, a tracking change.
+    2. **Segments:** by source, country or city, platform and referral link. Is it concentrated? (For example, one referral code shared on a coupon site, or a bot attack from one region.)
+    3. **Checks quality:** do these new users verify, activate and transact like normal users?
+    4. **Acts:** if it's fraud or bots, block it and clean the data. If it's genuine (say, a viral social post), find out why and try to repeat it.
 
 ## Research happening now
 

@@ -14,6 +14,12 @@ The right metric depends on your **stage**. Early on you measure whether people 
 
 Teams often copy the metrics of big companies. A three-month-old product obsessing over revenue per user is like a nursery school tracking board-exam marks. *Lean Analytics* gives you a simple map: figure out which stage you're in, then focus on **One Metric That Matters (OMTM)** for that stage.
 
+Young products die more often from **focusing on the wrong problem** than from building badly. A team obsessing over virality before people stick around, or over revenue before anyone loves the product, spends its time and money in the wrong place. Lean Analytics gives you a simple diagnosis: *what stage are we really in, and what single number tells us if we're getting past it?* As a PM, you'll use it to:
+
+- **Say no to the wrong work at the wrong time.** "Referral programme? Not until retention flattens."
+- **Set honest goals for new products and new markets.**
+- **Explain to leadership why** a new initiative shouldn't be judged by the core business's metrics yet.
+
 ## Key terms
 
 | Term | Plain-English meaning |
@@ -91,6 +97,63 @@ The authors argue the stages are **gated**. Don't push hard on virality or reven
 - **What you do:** new cities and segments, channel expansion, efficiency, building moats.
 - **Typical metrics:** profit, market share, growth in new markets, efficiency ratios.
 - **Classic mistake:** assuming what worked in one city or segment works everywhere. Each new market can restart at an earlier stage.
+
+### Where Lean Analytics comes from
+
+*Lean Analytics* belongs to the "Lean Startup" family of ideas, popularised by Eric Ries's 2011 book *The Lean Startup*. The core loop there is **build → measure → learn**: build something small, measure what users really do, learn, and repeat. Croll and Yoskovitz focused on the *measure* step. Their question was: which number should you measure, at which moment, to learn fastest? The stages and the OMTM are their answer.
+
+### Why focusing on one metric works
+
+It feels risky to focus on just one number. Here's why it works:
+
+1. **It forces a decision about your biggest problem.** Picking one number means admitting what matters most right now. That conversation alone often clears up months of confusion.
+2. **It makes experiments easy to judge.** Every idea is scored against the same number, so "did it work?" has a clear answer.
+3. **It aligns a small team.** Everyone knows what to do on Monday morning.
+4. **It's temporary, so it's safe.** You're not ignoring other metrics forever. You're deciding what comes *first*.
+
+You still watch other numbers, especially guardrails. The OMTM simply decides what wins when priorities clash.
+
+### Choosing a good OMTM: four questions
+
+1. **Does it answer the biggest question of our current stage?** (Empathy: is the pain real? Stickiness: do they come back?)
+2. **Can we move it within weeks** through things we control?
+3. **Is it a rate or ratio** that shows quality, not just a growing count?
+4. **Would hitting the target change what we do next?** If hitting it wouldn't unlock a decision (like "start spending on growth"), it's the wrong metric.
+
+### OMTM, KPI, North Star and OKR: how they fit together
+
+| Concept | Time span | Scope | Purpose |
+|---|---|---|---|
+| **KPI** | Ongoing | Any level | Standing numbers you always monitor |
+| **North Star** | Years | Company or product | Shared definition of customer value |
+| **OKR** | A quarter | Team or company | A goal and the results that show it's achieved |
+| **OMTM** | Weeks to months | Team, or a young product | The one number that matters most *right now* |
+
+In practice: a young product's OMTM is often its main key result for the quarter. Once the product matures, the OMTM usually becomes one of the inputs under the North Star.
+
+### A quick stage diagnosis worksheet
+
+Answer honestly. The first "No" usually marks your current stage.
+
+| Question | Yes / No | If "No", you're in… |
+|---|---|---|
+| Can we describe a painful problem in customers' own words, backed by 15+ interviews? | | **Empathy** |
+| Do our cohort retention curves flatten at a healthy level for our category? | | **Stickiness** |
+| Do a meaningful share of new users arrive without paid spend, and stay as well as others? | | **Virality** |
+| Is each order or customer profitable after direct costs, with an acceptable payback period? | | **Revenue** |
+| Do the economics hold in new markets or segments, not just the first one? | | **Scale** |
+
+### Example OMTMs by stage and business model
+
+Illustrative choices, not rules:
+
+| Stage | E-commerce / delivery | SaaS | Free mobile app | Two-sided marketplace |
+|---|---|---|---|---|
+| **Empathy** | % of interviewees who already order this category online | % of interviewees with a budget for the problem | % who describe the habit or need unprompted | Both sides confirm the pain |
+| **Stickiness** | Repeat purchase rate in 30 days | Weekly active accounts using the core feature | Day-30 retention | Repeat buyers *and* repeat sellers |
+| **Virality** | Orders from referrals | Invited teammates per account | Invites per new user | New sellers brought by buyers, and vice versa |
+| **Revenue** | Contribution margin per order | Net revenue retention | Revenue per daily active user | Take rate × order value − cost to serve |
+| **Scale** | Contribution margin in new cities | Customer acquisition payback by segment | Retention in new countries | Liquidity (% of searches that end in a transaction) in new markets |
 
 ## Framework: the OMTM check-in
 
@@ -278,6 +341,15 @@ Check whether you're solving a real, painful problem (go back to Empathy), wheth
     3. **Propose an OMTM and a line in the sand:** for example, week-4 retention of 25% held for 3 consecutive cohorts.
     4. **Offer a compromise:** a small, controlled ad budget to keep learning, with a cost-per-retained-user limit.
     5. **Explain the gate:** once retention holds, scale ad spend in steps and watch payback.
+
+    **A second common form:** *"Your company just launched in a new city where the brand is unknown. Which metrics would you track in the first 3 months?"*
+
+    A strong answer:
+
+    1. **Treats the city as its own early-stage product,** even if the company overall is at Scale.
+    2. **Starts with Stickiness metrics:** repeat order rate of first-time customers, and month-1 retention compared with older cities at the same age.
+    3. **Watches supply readiness:** restaurant or seller coverage, delivery times, stock-outs. Poor supply causes poor retention.
+    4. **Delays heavy spending** until the repeat rate approaches older cities' benchmarks, and uses contribution margin as a guardrail.
 
 ## Research happening now
 

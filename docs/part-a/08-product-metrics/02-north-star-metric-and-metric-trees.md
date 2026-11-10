@@ -14,6 +14,13 @@ A North Star metric is the one number that best shows customers getting value fr
 
 Without a shared top number, every team optimises its own corner, and the product feels disjointed. With a North Star but no tree, teams know the destination but not which road is theirs. Together, they align a whole company on what "winning" means.
 
+Picture a food delivery company where the growth team pushes sign-ups, the ops team pushes delivery speed, the marketing team pushes app opens and the finance team pushes order value. Each team hits its goal, and the company still struggles, because nobody agreed on what "winning" looks like *for the customer*. A North Star fixes that. It gives every team the same scoreboard, and a metric tree shows each team which part of that scoreboard is theirs. As a PM, you'll use both to:
+
+- **Pick roadmap items:** which branch does this project move, and by how much?
+- **Settle debates:** two good ideas, one sprint, so do the tree maths.
+- **Explain your work to leaders:** "this project moved input X, which drives the North Star".
+- **Find problems fast:** when the top number moves, walk down the tree.
+
 ## Key terms
 
 | Term | Plain-English meaning |
@@ -108,6 +115,49 @@ These are **illustrative patterns** to help you think, not official metrics of a
 
 Notice the pattern: **a value action + who + how often.** Each one counts *real value* over a *time window* that matches the product's natural rhythm.
 
+### Why a single North Star works
+
+It can feel risky to boil a whole company down to one number. Three things make it work:
+
+1. **Alignment beats local optimisation.** When every team pulls toward the same number, their work adds up instead of cancelling out. If marketing brings low-quality users and the product team gets measured on retention, the two teams fight. A shared North Star stops that.
+2. **Customer value leads business value.** If customers keep getting value, revenue usually follows, and earlier signs of value give you more time to act. That's why a good North Star is a *leading* indicator of revenue.
+3. **One number is easy to remember and repeat.** Everyone from an intern to the CEO can say it. That makes it useful in everyday decisions, not just in planning meetings.
+
+A North Star doesn't replace other metrics. Teams still watch their inputs, guardrails and health metrics. It's the single number they all point toward.
+
+### The anatomy of a metric tree: three levels
+
+Most useful trees have three levels:
+
+| Level | What it holds | Who looks at it | Example (food delivery) |
+|---|---|---|---|
+| **Top: North Star** | The value outcome | Leadership, whole company | Weekly happy orders |
+| **Middle: drivers** | The 3–5 parts that multiply or add up to it | Product leaders, group PMs | Ordering users, orders per user, % without complaint |
+| **Bottom: levers** | Things a single team can change this quarter | Individual teams | Activation rate of new users, reminder click-through, on-time rate, in-stock rate |
+
+A tree that stops at the middle level is a nice diagram that nobody acts on. A tree that jumps straight to levers loses the logic of *why* a lever matters. You need all three levels.
+
+### North Star, inputs, guardrails and health metrics: four different jobs
+
+| Type | Job | Example |
+|---|---|---|
+| **North Star** | Defines winning for the customer | Weekly happy orders |
+| **Input metrics** | Drive the North Star; teams own them | New-user activation rate, orders per user |
+| **Guardrails** | Stop you from winning the wrong way | Contribution margin per order, partner earnings, complaint rate |
+| **Health metrics** | Basic "is everything working?" checks | App crash rate, payment success rate, page load time |
+
+Health metrics rarely appear on the tree, but if one breaks, everything above it breaks too. Keep them on an operational dashboard with alerts.
+
+### Signs your company needs a North Star (or a better one)
+
+- Teams celebrate goals while overall growth stalls.
+- Roadmap debates keep coming back to "whose metric matters more?"
+- Leaders ask for a different number in every review.
+- Different dashboards show different definitions of "active user".
+- The current North Star can be pushed up by notifications or discounts alone.
+
+If three or more of these sound familiar, running a North Star workshop (the Amplitude playbook has a ready-made format) is usually worth a day of everyone's time.
+
 ## Framework: Find your North Star in 5 steps
 
 Adapted from the [Amplitude North Star Playbook](https://amplitude.com/books/north-star):
@@ -120,6 +170,29 @@ Adapted from the [Amplitude North Star Playbook](https://amplitude.com/books/nor
 
 **When to use:** company or product-line alignment, annual or quarterly planning, and building a growth team.
 **When not to:** a very early product still searching for product-market fit. There you need learning metrics, not a fixed North Star (see [A8.4](04-lean-analytics-one-metric-that-matters-and-stage.md)).
+
+### A North Star one-pager
+
+When you agree on a North Star, write it on one page that anyone can read in two minutes:
+
+```text
+NORTH STAR: Weekly orders delivered on time with no complaint
+Why this metric: captures speed, accuracy and frequency, the three things
+  customers value most; it predicts 6-month revenue (checked on 2024–25 data)
+Exact definition: delivered orders, ETA met (±5 min), no complaint or refund
+  within 48h; Mon–Sun IST; all cities
+Inputs and owners:
+  1. Weekly ordering users ............ Growth (new) + Retention (returning)
+  2. Orders per user per week ......... Retention / Personalisation
+  3. % on time ......................... Ops
+  4. % no complaint .................... Quality / Catalogue
+Guardrails: contribution margin per order, partner earnings per hour,
+  notification opt-out rate
+What it is NOT: a revenue target; a reason to over-discount
+Review: weekly (inputs), monthly (North Star + guardrails), yearly (definition)
+```
+
+Share it at the start of every planning cycle and link it from every team dashboard.
 
 ## Diagram
 
@@ -301,6 +374,15 @@ Treat it as a warning. Either the North Star is being gamed, or it no longer pre
     4. **Draw the tree:** ordering users × orders per user × share without complaint, with users split into new, retained and reactivated.
     5. **Add guardrails:** contribution margin per order, delivery-partner safety and earnings, and stock-out rate.
     6. **Explain how to validate it:** cities or cohorts with a higher North Star should show better long-term revenue and retention.
+
+    **A second common form:** *"Your company's North Star is daily active users. The new CFO wants to replace it with revenue. How do you respond?"*
+
+    A strong answer:
+
+    1. **Agrees that revenue matters,** and that it belongs as a company *output* the North Star should predict.
+    2. **Explains the risk:** revenue lags, and it can be pushed by price rises that hurt retention.
+    3. **Checks the evidence:** does DAU (as defined) actually predict revenue? If not, the North Star needs fixing, perhaps "DAU completing a value action" or "paying-eligible active users".
+    4. **Proposes a path:** keep a value-based North Star, add revenue per active user as a key input or guardrail, and review together in 2 quarters.
 
 ## Research happening now
 

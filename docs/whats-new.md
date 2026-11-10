@@ -4,6 +4,10 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 10 Nov 2026 — A8.2–A8.6 brought to full depth
+
+- Each chapter now matches A8.1's depth: a fuller "Why this matters", 4–5 new building-block sections in "The idea, simply", practical templates (North Star one-pager, AARRR dashboard, stage worksheet, cohort patterns, baseline guide) and a second interview question.
+
 ## 10 Nov 2026 — Full-depth Product Metrics section
 
 - **A8.1** rewritten at full depth (about 5,300 words): what a metric is made of, metric shapes, how to find leading indicators, tracking basics, a review rhythm and a Common questions section.

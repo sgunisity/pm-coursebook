@@ -14,6 +14,13 @@ A **funnel** shows where users drop off on the way to a goal. A **cohort** group
 
 Averages lie. "Monthly active users are up" can hide the fact that every new group of users leaves faster than the last. Funnels, cohorts and retention curves are the three tools that show you what's *really* happening. They're also the first thing an investor or senior PM will ask to see.
 
+Most growth problems are retention problems in disguise, and most retention problems are invisible in a simple dashboard. A rising MAU chart can hide a business where every new group of users leaves faster than the last. As a PM, you'll use funnels, cohorts and retention curves to:
+
+- **Find where users get stuck** (funnels).
+- **Check whether the product is actually getting better over time** (cohorts).
+- **Know whether you have product-market fit** before spending on growth (retention curves).
+- **Answer investors' and leaders' first question** about any product: "show me the retention".
+
 ## Key terms
 
 | Term | Plain-English meaning |
@@ -119,6 +126,89 @@ Payment conversion (80%) looks best, and add-to-cart (40%) looks worst. But ask 
 - Lifting payment from 80% to 84% adds **+784 orders**.
 
 Both are worth doing. The add-to-cart fix is worth twice as much, *if* it's equally easy. Always convert step improvements into **final outcomes** before choosing what to work on.
+
+### Why averages lie: a short story
+
+A meditation app shows these numbers to its board:
+
+| Month | New users | Monthly active users |
+|---|---|---|
+| January | 20,000 | 50,000 |
+| February | 30,000 | 58,000 |
+| March | 45,000 | 66,000 |
+
+MAU is up 32% in two months, and everyone is happy. Then the PM builds a cohort table:
+
+| Cohort | Month-2 retention |
+|---|---|
+| January | 35% |
+| February | 28% |
+| March | 22% |
+
+Each new cohort leaves faster than the one before. MAU is rising only because new users are arriving faster than old ones leave. The moment acquisition slows, MAU will fall, and fast. This is the single most common way dashboards mislead, and cohorts are the cure.
+
+### Three kinds of funnel
+
+| Funnel type | Question | Example steps |
+|---|---|---|
+| **Acquisition funnel** | How do strangers become users? | Ad seen → store page → install → sign-up |
+| **Conversion funnel** | How do users complete a key goal? | Browse → add to cart → checkout → pay |
+| **Feature funnel** | Does a specific feature work? | See feature → try it → complete it → use it again |
+
+Different teams own different funnels. Marketing usually owns acquisition, while product teams own conversion and feature funnels. Make sure the end of one funnel matches the start of the next, so users don't disappear in the gaps.
+
+### What "flattening" looks like for different products
+
+| Product type | When the curve usually settles | Retention window to use |
+|---|---|---|
+| Social / messaging | Within the first few weeks | Daily or weekly |
+| Food / grocery delivery | Around month 2–3 | Weekly or monthly |
+| Subscriptions (OTT, music) | After the first 1–3 billing cycles | Monthly |
+| B2B SaaS | After the first quarter or the first renewal | Monthly or by contract |
+| Infrequent use (travel, insurance) | Over a year or more | Quarterly or yearly |
+
+Judging a travel app on 30-day retention, or a messaging app on yearly retention, gives meaningless answers. Match the window to the product's rhythm, just as with "active users" in [A8.1](01-metric-basics-leading-lagging-input-output-vanit.md).
+
+### Retention vs engagement: not the same thing
+
+- **Retention** asks: *are they still here?*
+- **Engagement** asks: *how much do they use it while they're here?*
+
+A product can have high retention but shallow engagement: people keep it but rarely open it, like a bank's app. Another can have high engagement but poor retention: people binge for a week, then vanish, like some games. Track both. Users who engage deeply usually retain better, so a drop in engagement is often an early warning of falling retention.
+
+### Three patterns to spot in a cohort table
+
+**1. Improving product: each new cohort does better**
+
+| Cohort | M1 | M2 | M3 |
+|---|---|---|---|
+| Jan | 100% | 40% | 30% |
+| Feb | 100% | 44% | 33% |
+| Mar | 100% | 47% | — |
+
+Read down the M2 column: 40% → 44% → 47%. Something you changed is working. Find out what, and do more of it.
+
+**2. Worsening acquisition: new cohorts get weaker**
+
+| Cohort | M1 | M2 | M3 |
+|---|---|---|---|
+| Jan | 100% | 45% | 35% |
+| Feb | 100% | 38% | 29% |
+| Mar | 100% | 31% | — |
+
+Often caused by new, lower-quality channels or heavy discounts. Split by channel to confirm.
+
+**3. One odd cohort: a seasonal or campaign blip**
+
+| Cohort | M1 | M2 | M3 |
+|---|---|---|---|
+| Sep | 100% | 42% | 32% |
+| Oct (festival sale) | 100% | 28% | 20% |
+| Nov | 100% | 43% | — |
+
+October's cohort was full of deal-hunters. Don't panic, and don't count it as a trend. Do ask whether the sale was worth it, given those users' low retention.
+
+Most analytics tools show cohort tables as a **heatmap**: darker cells mean higher retention. A healthy heatmap gets darker as you go *down* (newer cohorts better) and fades slowly as you go *right* (older periods).
 
 ## Framework: the weekly retention review
 
@@ -263,6 +353,15 @@ Maybe, but test it. Removing sign-up often lifts early steps while lowering late
     4. **Propose 2–3 ideas aimed at that moment:** a shorter first lesson, a goal set at sign-up, a well-timed reminder, a streak.
     5. **Explain how you'll measure:** A/B tests on new cohorts, a primary metric of week-4 retention, and a guardrail of notification opt-outs.
     6. **Mention segments:** check that the gains hold across platforms and channels.
+
+    **A second common form:** *"Our MAU is growing 10% a month. Is the product healthy?"*
+
+    A strong answer:
+
+    1. **Says MAU alone can't tell you.** Growth may come from acquisition while retention falls.
+    2. **Asks for cohort retention curves** by sign-up month. Are they flattening? Are newer cohorts better or worse?
+    3. **Asks for the MAU breakdown:** new, retained and resurrected users. What share of MAU is new each month?
+    4. **Concludes:** the product is healthy if retained users make up a growing share of MAU and curves flatten at a reasonable level for the category.
 
 ## Research happening now
 

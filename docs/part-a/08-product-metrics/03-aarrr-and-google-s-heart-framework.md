@@ -14,6 +14,13 @@ last_reviewed: 2026-11-10
 
 When someone says "let's track metrics for this feature", the blank page is scary. These two frameworks are checklists that make sure you don't forget a whole stage of the customer's life. In PM interviews they're also the most common way to structure a "what metrics would you track?" answer (see [A12.3](../12-career-and-interviews/03-metrics-estimation-and-execution-interviews.md)).
 
+Without a framework, "what metrics should we track?" usually ends with a long, random list: downloads, clicks, time spent, NPS, revenue. Some stages of the customer's life get measured five times over, and others not at all. AARRR and HEART fix this by giving you a short, complete checklist. As a PM you'll use them to:
+
+- **Find the leakiest stage of your funnel** and decide where to invest.
+- **Write the success section of a PRD** for a new feature.
+- **Structure growth and metrics answers** in interviews.
+- **Talk with designers** about the quality of an experience, not just its business impact.
+
 ## Key terms
 
 | Term | Plain-English meaning |
@@ -83,6 +90,70 @@ HEART comes with a simple process called **Goals → Signals → Metrics (GSM)**
 3. **Metric:** how do we turn that signal into a number we can track?
 
 The paper's advice: **don't fill all five boxes for every project.** Pick only the categories that match your goal.
+
+### Why thinking in a lifecycle works
+
+AARRR works because every customer goes through the same broad journey, and **each stage depends on the one before it**. A user who never activates can't be retained. A user who isn't retained rarely refers friends or pays. That means:
+
+- **The stages multiply.** If 40% of new users activate, 40% of those are retained, and 20% of those pay, then only 0.4 × 0.4 × 0.2 = **3.2%** of new users become payers. Improving any one stage lifts the final number in proportion.
+- **Fixing early stages often pays more.** An improvement at Activation flows through every later stage.
+- **The leakiest stage is usually the best place to start**, but always check the absolute numbers (see the funnel maths in [A8.5](05-funnels-cohorts-and-retention-curves.md)).
+
+This is also why acquisition-heavy strategies often disappoint. If retention is weak, extra users flow straight out of the bottom of the funnel. That's the "leaky bucket" from [A8.1](01-metric-basics-leading-lagging-input-output-vanit.md).
+
+### HEART categories in more depth
+
+| Category | Good signals to look for | Typical metrics | Pitfalls |
+|---|---|---|---|
+| **Happiness** | Users say it's easy, useful, trustworthy | CSAT after a task, NPS, rating prompts | Survey bias; asking at the wrong moment |
+| **Engagement** | Users do more of the valuable action | Actions per user per week, active days per month | Rewarding busy-work; in utility products, less time can mean better |
+| **Adoption** | New users of a product or feature | % of weekly users trying the feature; new feature users per week | Mistaking curiosity for value |
+| **Retention** | Users keep using it | % of adopters still using after 30 days | Measuring too early, before habits form |
+| **Task success** | Users complete what they came for, quickly, without errors | Completion rate, time on task, error rate | Ignoring users who never start the task |
+
+**Engagement is the trickiest one.** For an entertainment app, more time is usually good. For a payments or tax app, the best experience is the one that takes the *least* time. Always ask whether "more" means better for *this* product before choosing an engagement metric.
+
+### Goals → Signals → Metrics, done well and done badly
+
+The GSM process sounds easy, but most mistakes happen at the "goal" step:
+
+| | Weak version | Strong version |
+|---|---|---|
+| **Goal** | "Users love the new search" | "Users find the item they want quickly and confidently" |
+| **Signal** | "They use search a lot" | "They tap a result from the first screen of results, and don't search again straight away" |
+| **Metric** | "Number of searches" | "% of searches where a result on screen 1 is tapped and no re-search follows within 30 seconds" |
+
+The weak version would *reward* a worse search. If people can't find things, they search more! The strong version measures success from the user's point of view. Always check your metric by asking: *"Could this number go up while the experience gets worse?"*
+
+### What "activation" might look like in different products
+
+These are **illustrative** "aha moments" to help you think. Find your own from data (see "Going deeper", point 1):
+
+| Product | Possible activation moment |
+|---|---|
+| Food delivery | First order delivered on time, within 7 days of install |
+| UPI payments | First successful payment *and* a second within 7 days |
+| Language learning | 3 lessons completed in the first week |
+| Social / community | Followed 5+ people and received a reply or reaction |
+| B2B project tool | A team of 3+ people created and completed a task together |
+| Video streaming | Watched one title past the halfway point |
+| Stock-broking app | Account funded and first trade or SIP placed |
+
+Notice that each one is a **completed value action**, often with a *number* and a *time limit*. "Signed up" or "opened the app" never qualifies.
+
+### An AARRR dashboard on one screen
+
+A simple weekly growth dashboard has one row per stage:
+
+| Stage | Main metric | This week | Last week | 4-week trend | Guardrail |
+|---|---|---|---|---|---|
+| Acquisition | New installs, by channel | | | | Cost per retained user |
+| Activation | % of new users activated in 7 days | | | | Time to first value |
+| Retention | Week-4 retention of the cohort from 4 weeks ago | | | | Notification opt-outs |
+| Referral | New users from invites | | | | Referral fraud rate |
+| Revenue | Revenue per active user | | | | Refunds / chargebacks |
+
+Reading top to bottom shows where users leak. Reading left to right shows whether things are improving.
 
 ## Framework: choosing between them
 
@@ -263,6 +334,15 @@ Activation and Retention. Until users who arrive actually stay, spending on acqu
     3. **GSM for one category:** Goal "users feel safe sharing" → Signal "they post to Close Friends again" → Metric "% of first-time Close Friends posters who post again within 14 days".
     4. **Business view (AARRR):** does it lift overall posting and retention for users who adopt it, compared with a holdout group?
     5. **Guardrails:** public posting shouldn't fall (cannibalisation), and reports and blocks shouldn't rise.
+
+    **A second common form:** *"You're the PM of a food delivery app that's growing installs fast but revenue is flat. Which AARRR stage would you look at first?"*
+
+    A strong answer:
+
+    1. **Lays out the funnel** with rough numbers: installs → first order → second order → monthly active orderers → revenue per orderer.
+    2. **Points out** that flat revenue with rising installs suggests a leak at Activation or Retention, or new users who are lower-value (a mix shift).
+    3. **Proposes the first analysis:** cohort retention by acquisition channel, and first-to-second-order conversion.
+    4. **Names likely fixes** depending on the leak (onboarding, first-order experience, reorder reminders), and a guardrail on discount cost.
 
 ## Research happening now
 
