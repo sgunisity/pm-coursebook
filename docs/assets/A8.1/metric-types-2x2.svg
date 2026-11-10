@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="460" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Where does your metric sit?</text>
+  <!-- axes labels -->
+  <text x="190" y="62" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5">LEADING (predicts the future)</text>
+  <text x="470" y="62" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5">LAGGING (reports the past)</text>
+  <text x="22" y="160" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5" transform="rotate(-90 22 160)">INPUT</text><text x="38" y="160" text-anchor="middle" font-size="10" fill="#6B7280" transform="rotate(-90 38 160)">team can move it</text>
+  <text x="22" y="340" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5" transform="rotate(-90 22 340)">OUTPUT</text><text x="38" y="340" text-anchor="middle" font-size="10" fill="#6B7280" transform="rotate(-90 38 340)">result of many things</text>
+  <!-- quadrants -->
+  <rect x="50" y="75" width="280" height="170" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <rect x="330" y="75" width="280" height="170" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="50" y="255" width="280" height="170" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="330" y="255" width="280" height="170" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="190" y="105" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Your daily steering wheel</text>
+  <text x="190" y="135" text-anchor="middle" font-size="13" fill="#374151">% of new users who finish</text>
+  <text x="190" y="153" text-anchor="middle" font-size="13" fill="#374151">onboarding in 24 hours</text>
+  <text x="190" y="181" text-anchor="middle" font-size="13" fill="#374151">Restaurants added per city</text>
+  <text x="190" y="215" text-anchor="middle" font-size="12" font-style="italic" fill="#4F46E5">Best for weekly team goals</text>
+  <text x="470" y="105" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Health check on your work</text>
+  <text x="470" y="135" text-anchor="middle" font-size="13" fill="#374151">Bugs reported per release</text>
+  <text x="470" y="153" text-anchor="middle" font-size="13" fill="#374151">Delivery time last month</text>
+  <text x="470" y="215" text-anchor="middle" font-size="12" font-style="italic" fill="#6B7280">Good for reviews, slow to react</text>
+  <text x="190" y="285" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Early warning signals</text>
+  <text x="190" y="315" text-anchor="middle" font-size="13" fill="#374151">Week-1 retention</text>
+  <text x="190" y="333" text-anchor="middle" font-size="13" fill="#374151">Orders per user this month</text>
+  <text x="190" y="395" text-anchor="middle" font-size="12" font-style="italic" fill="#6B7280">Watch closely; hard to move directly</text>
+  <text x="470" y="285" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">The scoreboard</text>
+  <text x="470" y="315" text-anchor="middle" font-size="13" fill="#374151">Revenue, profit</text>
+  <text x="470" y="333" text-anchor="middle" font-size="13" fill="#374151">Yearly churn</text>
+  <text x="470" y="395" text-anchor="middle" font-size="12" font-style="italic" fill="#6B7280">What leadership and investors see</text>
+</svg>

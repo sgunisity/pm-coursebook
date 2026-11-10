@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="420" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">AARRR: the customer journey as a funnel</text>
+  <!-- funnel bars -->
+  <rect x="60"  y="50"  width="400" height="54" rx="6" fill="#4F46E5"/>
+  <rect x="100" y="114" width="320" height="54" rx="6" fill="#6366F1"/>
+  <rect x="140" y="178" width="240" height="54" rx="6" fill="#818CF8"/>
+  <rect x="175" y="242" width="170" height="54" rx="6" fill="#A5B4FC"/>
+  <rect x="205" y="306" width="110" height="54" rx="6" fill="#C7D2FE"/>
+  <g font-size="15" font-weight="700" text-anchor="middle">
+    <text x="260" y="76" fill="#ffffff">Acquisition</text>
+    <text x="260" y="140" fill="#ffffff">Activation</text>
+    <text x="260" y="204" fill="#ffffff">Retention</text>
+    <text x="260" y="268" fill="#111827">Referral</text>
+    <text x="260" y="332" fill="#111827">Revenue</text>
+  </g>
+  <g font-size="11" text-anchor="middle">
+    <text x="260" y="94" fill="#E0E7FF">How do people find us?</text>
+    <text x="260" y="158" fill="#E0E7FF">Do they get value on day one?</text>
+    <text x="260" y="222" fill="#1E1B4B">Do they come back?</text>
+    <text x="260" y="286" fill="#1E1B4B">Do they tell others?</text>
+    <text x="260" y="350" fill="#1E1B4B">Do they pay?</text>
+  </g>
+  <!-- example metrics -->
+  <g font-size="12" fill="#374151">
+    <text x="480" y="72">Installs, sign-ups,</text><text x="480" y="88">cost per install</text>
+    <text x="480" y="136">% who finish first</text><text x="480" y="152">key action in 24h</text>
+    <text x="480" y="200">Week-4 retention,</text><text x="480" y="216">DAU/MAU</text>
+    <text x="480" y="264">Invites sent,</text><text x="480" y="280">referral sign-ups</text>
+    <text x="480" y="328">Paying users,</text><text x="480" y="344">revenue per user</text>
+  </g>
+  <text x="320" y="395" text-anchor="middle" font-size="12" font-style="italic" fill="#6B7280">The bars shrink because some users drop off at every stage. Fix the biggest leak first.</text>
+</svg>

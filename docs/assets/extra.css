@@ -1,0 +1,6 @@
+/* Readable on phones: slightly larger body text, roomier lines */
+.md-typeset { font-size: 0.82rem; line-height: 1.7; }
+.md-typeset img[src$=".svg"] { display: block; margin: 1rem auto; max-width: 100%; height: auto; }
+.md-typeset .caption { text-align: center; font-size: 0.75rem; opacity: 0.8; margin-top: -0.5rem; }
+.progress-bar { background: var(--md-default-fg-color--lightest); border-radius: 8px; height: 14px; overflow: hidden; }
+.progress-bar > span { display: block; height: 100%; background: #4F46E5; }

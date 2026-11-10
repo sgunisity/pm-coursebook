@@ -1,0 +1,46 @@
+name: Link check
+
+# Runs Friday 18:30 UTC (Saturday 00:00 IST), before the weekly Claude update,
+# and Tuesday 18:30 UTC so daily build runs also get a fresh report.
+on:
+  schedule:
+    - cron: "30 18 * * 2,5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress --exclude-mail --max-retries 2 --timeout 20
+            --accept 200,206,403,429,999
+            'docs/**/*.md'
+          output: lychee-out.md
+          format: markdown
+          fail: false
+      - name: Write report
+        run: |
+          {
+            echo "# Link report"
+            echo
+            echo "Generated: $(date -u +%Y-%m-%dT%H:%MZ)"
+            echo
+            if grep -q "Errors per input" lychee-out.md; then
+              sed -n '/Errors per input/,$p' lychee-out.md
+            else
+              echo "No broken links found."
+            fi
+          } > state/link-report.md
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/link-report.md
+          git diff --cached --quiet || (git commit -m "Link report $(date -u +%F)" && git push)

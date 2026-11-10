@@ -1,0 +1,743 @@
+{
+ "status": "building",
+ "next_track": "B",
+ "chapters": [
+  {
+   "id": "A0.1",
+   "part": "A",
+   "section": "A0 The PM Role",
+   "title": "What a PM actually does",
+   "path": "docs/part-a/00-the-pm-role/01-what-a-pm-actually-does.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A0.2",
+   "part": "A",
+   "section": "A0 The PM Role",
+   "title": "Product teams: the trio, empowered vs feature teams",
+   "path": "docs/part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A0.3",
+   "part": "A",
+   "section": "A0 The PM Role",
+   "title": "Product vs project vs program management; types of PM",
+   "path": "docs/part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A1.1",
+   "part": "A",
+   "section": "A1 Understanding Users (User Sense)",
+   "title": "Building user sense and empathy",
+   "path": "docs/part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A1.2",
+   "part": "A",
+   "section": "A1 Understanding Users (User Sense)",
+   "title": "User research methods and interviews",
+   "path": "docs/part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A1.3",
+   "part": "A",
+   "section": "A1 Understanding Users (User Sense)",
+   "title": "Personas and Jobs-to-be-Done",
+   "path": "docs/part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A1.4",
+   "part": "A",
+   "section": "A1 Understanding Users (User Sense)",
+   "title": "Journey maps and empathy maps",
+   "path": "docs/part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A2.1",
+   "part": "A",
+   "section": "A2 Problem Discovery",
+   "title": "Continuous discovery and opportunity solution trees",
+   "path": "docs/part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A2.2",
+   "part": "A",
+   "section": "A2 Problem Discovery",
+   "title": "Framing the problem: problem statements",
+   "path": "docs/part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A2.3",
+   "part": "A",
+   "section": "A2 Problem Discovery",
+   "title": "Assumption testing, prototypes and MVPs",
+   "path": "docs/part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A2.4",
+   "part": "A",
+   "section": "A2 Problem Discovery",
+   "title": "Outcomes over outputs: escaping the build trap",
+   "path": "docs/part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A3.1",
+   "part": "A",
+   "section": "A3 Market Research",
+   "title": "Market sizing: TAM, SAM, SOM",
+   "path": "docs/part-a/03-market-research/01-market-sizing-tam-sam-som.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A3.2",
+   "part": "A",
+   "section": "A3 Market Research",
+   "title": "Competitive analysis",
+   "path": "docs/part-a/03-market-research/02-competitive-analysis.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A3.3",
+   "part": "A",
+   "section": "A3 Market Research",
+   "title": "Positioning",
+   "path": "docs/part-a/03-market-research/03-positioning.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A3.4",
+   "part": "A",
+   "section": "A3 Market Research",
+   "title": "Industry analysis: Porter's Five Forces and SWOT",
+   "path": "docs/part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A4.1",
+   "part": "A",
+   "section": "A4 Strategy and Vision",
+   "title": "Vision and mission",
+   "path": "docs/part-a/04-strategy-and-vision/01-vision-and-mission.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A4.2",
+   "part": "A",
+   "section": "A4 Strategy and Vision",
+   "title": "Good strategy vs bad strategy: the kernel",
+   "path": "docs/part-a/04-strategy-and-vision/02-good-strategy-vs-bad-strategy-the-kernel.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A4.3",
+   "part": "A",
+   "section": "A4 Strategy and Vision",
+   "title": "OKRs and goal setting",
+   "path": "docs/part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A4.4",
+   "part": "A",
+   "section": "A4 Strategy and Vision",
+   "title": "Product-market fit",
+   "path": "docs/part-a/04-strategy-and-vision/04-product-market-fit.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A5.1",
+   "part": "A",
+   "section": "A5 Roadmaps and Prioritisation",
+   "title": "Outcome-based roadmaps: Now/Next/Later",
+   "path": "docs/part-a/05-roadmaps-and-prioritisation/01-outcome-based-roadmaps-now-next-later.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A5.2",
+   "part": "A",
+   "section": "A5 Roadmaps and Prioritisation",
+   "title": "Prioritisation frameworks: RICE, ICE, MoSCoW, Kano",
+   "path": "docs/part-a/05-roadmaps-and-prioritisation/02-prioritisation-frameworks-rice-ice-moscow-kano.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A5.3",
+   "part": "A",
+   "section": "A5 Roadmaps and Prioritisation",
+   "title": "Managing the backlog and saying no",
+   "path": "docs/part-a/05-roadmaps-and-prioritisation/03-managing-the-backlog-and-saying-no.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A6.1",
+   "part": "A",
+   "section": "A6 Product Design and UX",
+   "title": "Design thinking and the Double Diamond",
+   "path": "docs/part-a/06-product-design-and-ux/01-design-thinking-and-the-double-diamond.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A6.2",
+   "part": "A",
+   "section": "A6 Product Design and UX",
+   "title": "User story mapping",
+   "path": "docs/part-a/06-product-design-and-ux/02-user-story-mapping.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A6.3",
+   "part": "A",
+   "section": "A6 Product Design and UX",
+   "title": "Wireframes and prototypes",
+   "path": "docs/part-a/06-product-design-and-ux/03-wireframes-and-prototypes.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A6.4",
+   "part": "A",
+   "section": "A6 Product Design and UX",
+   "title": "Usability heuristics and accessibility",
+   "path": "docs/part-a/06-product-design-and-ux/04-usability-heuristics-and-accessibility.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A6.5",
+   "part": "A",
+   "section": "A6 Product Design and UX",
+   "title": "Working with designers and design systems",
+   "path": "docs/part-a/06-product-design-and-ux/05-working-with-designers-and-design-systems.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A7.1",
+   "part": "A",
+   "section": "A7 Execution and Delivery",
+   "title": "PRDs and specs",
+   "path": "docs/part-a/07-execution-and-delivery/01-prds-and-specs.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A7.2",
+   "part": "A",
+   "section": "A7 Execution and Delivery",
+   "title": "User stories and acceptance criteria",
+   "path": "docs/part-a/07-execution-and-delivery/02-user-stories-and-acceptance-criteria.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A7.3",
+   "part": "A",
+   "section": "A7 Execution and Delivery",
+   "title": "Agile, Scrum and Kanban",
+   "path": "docs/part-a/07-execution-and-delivery/03-agile-scrum-and-kanban.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A7.4",
+   "part": "A",
+   "section": "A7 Execution and Delivery",
+   "title": "Working with engineers: estimates and tech debt",
+   "path": "docs/part-a/07-execution-and-delivery/04-working-with-engineers-estimates-and-tech-debt.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A7.5",
+   "part": "A",
+   "section": "A7 Execution and Delivery",
+   "title": "Launches and release management",
+   "path": "docs/part-a/07-execution-and-delivery/05-launches-and-release-management.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A8.1",
+   "part": "A",
+   "section": "A8 Product Metrics",
+   "title": "Metric basics: leading/lagging, input/output, vanity vs actionable",
+   "path": "docs/part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md",
+   "status": "done",
+   "done_on": "2026-11-10",
+   "summary": "Leading vs lagging, input vs output, vanity vs actionable metrics; metric definition card and counter metrics."
+  },
+  {
+   "id": "A8.2",
+   "part": "A",
+   "section": "A8 Product Metrics",
+   "title": "North Star metric and metric trees",
+   "path": "docs/part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md",
+   "status": "done",
+   "done_on": "2026-11-10",
+   "summary": "North Star metric (customer value, one number) and metric trees that split it into owned inputs; Duolingo CURR case."
+  },
+  {
+   "id": "A8.3",
+   "part": "A",
+   "section": "A8 Product Metrics",
+   "title": "AARRR and Google's HEART framework",
+   "path": "docs/part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md",
+   "status": "done",
+   "done_on": "2026-11-10",
+   "summary": "AARRR pirate metrics for the business journey and Google's HEART + Goals-Signals-Metrics for experience quality."
+  },
+  {
+   "id": "A8.4",
+   "part": "A",
+   "section": "A8 Product Metrics",
+   "title": "Lean Analytics: One Metric That Matters and stages",
+   "path": "docs/part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md",
+   "status": "done",
+   "done_on": "2026-11-10",
+   "summary": "Lean Analytics five stages (Empathy to Scale) and choosing One Metric That Matters per stage."
+  },
+  {
+   "id": "A8.5",
+   "part": "A",
+   "section": "A8 Product Metrics",
+   "title": "Funnels, cohorts and retention curves",
+   "path": "docs/part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md",
+   "status": "done",
+   "done_on": "2026-11-10",
+   "summary": "Funnels, cohort tables, retention curve shapes, retention benchmarks, mix effect and AI-tourist retention."
+  },
+  {
+   "id": "A8.6",
+   "part": "A",
+   "section": "A8 Product Metrics",
+   "title": "Diagnosing a metric drop",
+   "path": "docs/part-a/08-product-metrics/06-diagnosing-a-metric-drop.md",
+   "status": "done",
+   "done_on": "2026-11-10",
+   "summary": "Six-step metric drop investigation: is it real, internal vs external, segment, walk the funnel, hypothesis and fix."
+  },
+  {
+   "id": "A9.1",
+   "part": "A",
+   "section": "A9 Experimentation",
+   "title": "A/B testing basics",
+   "path": "docs/part-a/09-experimentation/01-a-b-testing-basics.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A9.2",
+   "part": "A",
+   "section": "A9 Experimentation",
+   "title": "Statistics in plain English",
+   "path": "docs/part-a/09-experimentation/02-statistics-in-plain-english.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A9.3",
+   "part": "A",
+   "section": "A9 Experimentation",
+   "title": "Experiment pitfalls and culture",
+   "path": "docs/part-a/09-experimentation/03-experiment-pitfalls-and-culture.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A10.1",
+   "part": "A",
+   "section": "A10 Growth and Go-to-Market",
+   "title": "Go-to-market strategy",
+   "path": "docs/part-a/10-growth-and-go-to-market/01-go-to-market-strategy.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A10.2",
+   "part": "A",
+   "section": "A10 Growth and Go-to-Market",
+   "title": "Product-led growth and growth loops",
+   "path": "docs/part-a/10-growth-and-go-to-market/02-product-led-growth-and-growth-loops.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A10.3",
+   "part": "A",
+   "section": "A10 Growth and Go-to-Market",
+   "title": "Pricing and monetisation",
+   "path": "docs/part-a/10-growth-and-go-to-market/03-pricing-and-monetisation.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A10.4",
+   "part": "A",
+   "section": "A10 Growth and Go-to-Market",
+   "title": "Retention and engagement",
+   "path": "docs/part-a/10-growth-and-go-to-market/04-retention-and-engagement.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A11.1",
+   "part": "A",
+   "section": "A11 Stakeholder Management and Communication",
+   "title": "Stakeholder mapping and RACI",
+   "path": "docs/part-a/11-stakeholder-management-and-com/01-stakeholder-mapping-and-raci.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A11.2",
+   "part": "A",
+   "section": "A11 Stakeholder Management and Communication",
+   "title": "Influence without authority",
+   "path": "docs/part-a/11-stakeholder-management-and-com/02-influence-without-authority.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A11.3",
+   "part": "A",
+   "section": "A11 Stakeholder Management and Communication",
+   "title": "Writing and presenting for leaders",
+   "path": "docs/part-a/11-stakeholder-management-and-com/03-writing-and-presenting-for-leaders.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A11.4",
+   "part": "A",
+   "section": "A11 Stakeholder Management and Communication",
+   "title": "Handling conflict and saying no",
+   "path": "docs/part-a/11-stakeholder-management-and-com/04-handling-conflict-and-saying-no.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A12.1",
+   "part": "A",
+   "section": "A12 Career and Interviews",
+   "title": "The PM career ladder and skills",
+   "path": "docs/part-a/12-career-and-interviews/01-the-pm-career-ladder-and-skills.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A12.2",
+   "part": "A",
+   "section": "A12 Career and Interviews",
+   "title": "Product sense and design interviews (CIRCLES)",
+   "path": "docs/part-a/12-career-and-interviews/02-product-sense-and-design-interviews-circles.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A12.3",
+   "part": "A",
+   "section": "A12 Career and Interviews",
+   "title": "Metrics, estimation and execution interviews",
+   "path": "docs/part-a/12-career-and-interviews/03-metrics-estimation-and-execution-interviews.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "A12.4",
+   "part": "A",
+   "section": "A12 Career and Interviews",
+   "title": "Behavioural interviews and building a PM portfolio",
+   "path": "docs/part-a/12-career-and-interviews/04-behavioural-interviews-and-building-a-pm-portfol.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B0.1",
+   "part": "B",
+   "section": "B0 Foundations",
+   "title": "What makes AI products different",
+   "path": "docs/part-b/00-foundations/01-what-makes-ai-products-different.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B0.2",
+   "part": "B",
+   "section": "B0 Foundations",
+   "title": "How LLMs work, for PMs",
+   "path": "docs/part-b/00-foundations/02-how-llms-work-for-pms.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B0.3",
+   "part": "B",
+   "section": "B0 Foundations",
+   "title": "Choosing models: capability, cost, latency, open vs closed",
+   "path": "docs/part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B1.1",
+   "part": "B",
+   "section": "B1 Building Blocks",
+   "title": "Prompt engineering for PMs",
+   "path": "docs/part-b/01-building-blocks/01-prompt-engineering-for-pms.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B1.2",
+   "part": "B",
+   "section": "B1 Building Blocks",
+   "title": "RAG: giving AI your knowledge",
+   "path": "docs/part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B1.3",
+   "part": "B",
+   "section": "B1 Building Blocks",
+   "title": "Agents, tool use and MCP",
+   "path": "docs/part-b/01-building-blocks/03-agents-tool-use-and-mcp.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B1.4",
+   "part": "B",
+   "section": "B1 Building Blocks",
+   "title": "Prompting vs RAG vs fine-tuning: how to decide",
+   "path": "docs/part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B2.1",
+   "part": "B",
+   "section": "B2 Discovery and Design",
+   "title": "Finding AI opportunities, and when not to use AI",
+   "path": "docs/part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B2.2",
+   "part": "B",
+   "section": "B2 Discovery and Design",
+   "title": "AI UX patterns: chat, copilot, agent, ambient",
+   "path": "docs/part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B2.3",
+   "part": "B",
+   "section": "B2 Discovery and Design",
+   "title": "Designing for trust, failure and human-in-the-loop",
+   "path": "docs/part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B3.1",
+   "part": "B",
+   "section": "B3 Quality",
+   "title": "Evals: the AI PM's most important skill",
+   "path": "docs/part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B3.2",
+   "part": "B",
+   "section": "B3 Quality",
+   "title": "AI product metrics and production monitoring",
+   "path": "docs/part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B4.1",
+   "part": "B",
+   "section": "B4 Data, Safety and Law",
+   "title": "Data strategy and feedback loops",
+   "path": "docs/part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B4.2",
+   "part": "B",
+   "section": "B4 Data, Safety and Law",
+   "title": "Responsible AI, safety and guardrails",
+   "path": "docs/part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B4.3",
+   "part": "B",
+   "section": "B4 Data, Safety and Law",
+   "title": "AI regulation: EU AI Act, India's DPDP Act and AI governance",
+   "path": "docs/part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B5.1",
+   "part": "B",
+   "section": "B5 Strategy and Business",
+   "title": "AI pricing and unit economics",
+   "path": "docs/part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B5.2",
+   "part": "B",
+   "section": "B5 Strategy and Business",
+   "title": "AI-native strategy and moats",
+   "path": "docs/part-b/05-strategy-and-business/02-ai-native-strategy-and-moats.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B6.1",
+   "part": "B",
+   "section": "B6 The AI PM Role",
+   "title": "AI PM careers, teams and using AI in your own PM work",
+   "path": "docs/part-b/06-the-ai-pm-role/01-ai-pm-careers-teams-and-using-ai-in-your-own-pm.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B6.2",
+   "part": "B",
+   "section": "B6 The AI PM Role",
+   "title": "AI PM interviews",
+   "path": "docs/part-b/06-the-ai-pm-role/02-ai-pm-interviews.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  },
+  {
+   "id": "B7.1",
+   "part": "B",
+   "section": "B7 Living Research Tracker",
+   "title": "Living research tracker",
+   "path": "docs/part-b/07-living-research-tracker/01-living-research-tracker.md",
+   "status": "todo",
+   "done_on": null,
+   "summary": ""
+  }
+ ],
+ "runs": [
+  {
+   "date": "2026-11-10",
+   "mode": "SETUP",
+   "did": "Scaffold, workflows, nav for 73 chapters, wrote A8.1-A8.6"
+  }
+ ]
+}

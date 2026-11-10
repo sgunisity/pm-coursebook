@@ -1,0 +1,31 @@
+# Reading and Watch List
+
+The books, newsletters, podcasts and talks this coursebook draws on. Links go to official publisher, author or creator pages.
+
+## Core books
+
+| Book | Author(s) | Best for |
+|---|---|---|
+| [Inspired](https://svpg.com/books/product-is-hard-svpg-box-set) (2nd ed. 2017) | Marty Cagan | How strong product teams discover and deliver products |
+| [Empowered](https://www.oreilly.com/library/view/empowered/9781119691297/) (2020) | Marty Cagan & Chris Jones | Building and leading empowered product teams |
+| [Transformed](https://www.oreilly.com/library/view/transformed/9781119697336/) (2024) | Marty Cagan & SVPG partners | Moving a company to the product operating model |
+| [Escaping the Build Trap](https://www.oreilly.com/library/view/escaping-the-build/9781491973783/) (2018) | Melissa Perri | Moving from shipping features to delivering outcomes |
+| [Product Roadmaps Relaunched](https://www.oreilly.com/library/view/product-roadmaps-relaunched/9781491971710/) (2017) | C. Todd Lombardo, Bruce McCarthy, Evan Ryan & Michael Connors | Outcome-based roadmaps and prioritisation |
+| [Lean Analytics](https://www.oreilly.com/library/view/lean-analytics/9781098168179/) (2013; O'Reilly lists a 2024 release) | Alistair Croll & Benjamin Yoskovitz | Choosing the right metric for your stage |
+| [Good Strategy Bad Strategy](https://penguinrandomhouse.com/books/208668/good-strategy-bad-strategy-by-richard-rumelt/) (2011) | Richard Rumelt | Telling real strategy from fluff |
+| [User Story Mapping](https://www.oreilly.com/library/view/user-story-mapping/9781491904893/) (2014) | Jeff Patton | Planning work around the user's journey |
+| [Decode and Conquer](https://www.goodreads.com/work/editions/40168005-decode-and-conquer-answers-to-product-management-interviews) (5th ed. 2025) | Lewis C. Lin | PM interview frameworks (CIRCLES and more) |
+| [Cracking the PM Interview](https://www.crackingthepmcareer.com/authors) (2013) | Gayle Laakmann McDowell & Jackie Bavaro | PM careers and interviews; the same authors also wrote *Cracking the PM Career* |
+
+More books, newsletters, podcasts and talks are added here as each chapter is written.
+
+## Added with section A8 Product Metrics
+
+- [Amplitude: The North Star Playbook](https://amplitude.com/books/north-star): a free guide to choosing a North Star metric and its inputs.
+- [Google Research: Measuring the User Experience on a Large Scale (HEART)](https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/): the original 2010 paper behind the HEART framework.
+- [Dave McClure: Startup Metrics for Pirates (AARRR)](https://www.slideshare.net/slideshow/startup-metrics-for-pirates-presentation/629833): the 2007 talk that introduced pirate metrics.
+- [Lenny Rachitsky: What is good retention?](https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29): good and great retention benchmarks by product type.
+- [Jorge Mazal: How Duolingo reignited user growth](https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth): a real growth model and North Star story.
+- [a16z: Retention Is All You Need](https://a16z.com/ai-retention-benchmarks/): retention for AI products (2025).
+- [RevenueCat: State of Subscription Apps 2026](https://www.revenuecat.com/state-of-subscription-apps/): subscription and AI app benchmarks.
+- [Lenny's Podcast (YouTube)](https://www.youtube.com/@lennyspodcast): long-form interviews with product leaders.

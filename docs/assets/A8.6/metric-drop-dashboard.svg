@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="440" fill="#ffffff"/>
+  <!-- window -->
+  <rect x="20" y="20" width="600" height="400" rx="12" fill="#F9FAFB" stroke="#D1D5DB"/>
+  <rect x="20" y="20" width="600" height="40" rx="12" fill="#E5E7EB"/>
+  <text x="40" y="46" font-size="14" font-weight="700" fill="#111827">Orders dashboard · Metric drop triage view</text>
+  <!-- headline card -->
+  <rect x="40" y="76" width="180" height="100" rx="8" fill="#ffffff" stroke="#D1D5DB"/>
+  <text x="56" y="100" font-size="12" fill="#6B7280">Daily orders</text>
+  <text x="56" y="132" font-size="26" font-weight="700" fill="#111827">-12%</text>
+  <text x="56" y="154" font-size="11" fill="#6B7280">vs same day last week</text>
+  <!-- data health -->
+  <rect x="236" y="76" width="180" height="100" rx="8" fill="#ffffff" stroke="#D1D5DB"/>
+  <text x="252" y="100" font-size="12" fill="#6B7280">Data health</text>
+  <text x="252" y="126" font-size="12" fill="#111827">✓ Events arriving</text>
+  <text x="252" y="144" font-size="12" fill="#111827">✓ No schema change</text>
+  <text x="252" y="162" font-size="12" fill="#4F46E5" font-weight="600">! App v5.2 shipped Tue</text>
+  <!-- calendar -->
+  <rect x="432" y="76" width="168" height="100" rx="8" fill="#ffffff" stroke="#D1D5DB"/>
+  <text x="448" y="100" font-size="12" fill="#6B7280">External context</text>
+  <text x="448" y="126" font-size="12" fill="#111827">Heavy rain: Mumbai</text>
+  <text x="448" y="144" font-size="12" fill="#111827">No holiday</text>
+  <text x="448" y="162" font-size="12" fill="#111827">No outage reported</text>
+  <g transform="translate(0,10)">
+<!-- segment breakdown -->
+  <rect x="40" y="182" width="270" height="220" rx="8" fill="#ffffff" stroke="#D1D5DB"/>
+  <text x="56" y="206" font-size="13" font-weight="700" fill="#111827">Change by segment</text>
+  <g font-size="12" fill="#374151">
+    <text x="56" y="236">Android v5.2</text><rect x="160" y="226" width="130" height="12" rx="3" fill="#4F46E5"/><text x="56" y="252" font-size="10" fill="#4F46E5">-31%</text>
+    <text x="56" y="280">Android older</text><rect x="160" y="270" width="14" height="12" rx="3" fill="#9CA3AF"/><text x="56" y="296" font-size="10" fill="#6B7280">-2%</text>
+    <text x="56" y="324">iOS</text><rect x="160" y="314" width="10" height="12" rx="3" fill="#9CA3AF"/><text x="56" y="340" font-size="10" fill="#6B7280">-1%</text>
+    <text x="56" y="368">Mumbai (all)</text><rect x="160" y="358" width="40" height="12" rx="3" fill="#9CA3AF"/><text x="56" y="384" font-size="10" fill="#6B7280">-8%</text>
+  </g>
+  <!-- funnel step -->
+  <rect x="326" y="182" width="274" height="220" rx="8" fill="#ffffff" stroke="#D1D5DB"/>
+  <text x="342" y="206" font-size="13" font-weight="700" fill="#111827">Funnel step change (Android v5.2)</text>
+  <g font-size="12" fill="#374151">
+    <text x="342" y="238">Open app</text><text x="560" y="238" text-anchor="end">0%</text>
+    <text x="342" y="266">Search</text><text x="560" y="266" text-anchor="end">-1%</text>
+    <text x="342" y="294">Add to cart</text><text x="560" y="294" text-anchor="end">-2%</text>
+    <rect x="336" y="306" width="250" height="26" rx="5" fill="#EEF2FF"/>
+    <text x="342" y="324" font-weight="700" fill="#4F46E5">Payment page</text><text x="560" y="324" text-anchor="end" font-weight="700" fill="#4F46E5">-38%</text>
+    <text x="342" y="354">Order placed</text><text x="560" y="354" text-anchor="end">-30%</text>
+  </g>
+  <text x="342" y="388" font-size="11" font-style="italic" fill="#6B7280">→ Hypothesis: payment bug in v5.2</text>
+</g>
+</svg>

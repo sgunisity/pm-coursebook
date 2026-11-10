@@ -1,0 +1,157 @@
+site_name: PM & AI PM Coursebook
+site_description: A plain-language, always-updated course book on Product Management and AI Product Management.
+site_url: https://sgunisity.github.io/pm-coursebook/
+repo_url: https://github.com/sgunisity/pm-coursebook
+repo_name: pm-coursebook
+edit_uri: ""
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle: {icon: material/weather-sunny, name: Light mode}
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+    - toc.follow
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - toc: {permalink: true}
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tasklist: {custom_checkbox: true}
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra_css:
+  - assets/extra.css
+
+nav:
+- Home: index.md
+- What's New: whats-new.md
+- 'Part A: Product Management':
+  - A0 The PM Role:
+    - A0.1 What a PM actually does: part-a/00-the-pm-role/01-what-a-pm-actually-does.md
+    - 'A0.2 Product teams: the trio, empowered vs feature teams': part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md
+    - A0.3 Product vs project vs program management; types of PM: part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md
+  - A1 Understanding Users (User Sense):
+    - A1.1 Building user sense and empathy: part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md
+    - A1.2 User research methods and interviews: part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md
+    - A1.3 Personas and Jobs-to-be-Done: part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md
+    - A1.4 Journey maps and empathy maps: part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md
+  - A2 Problem Discovery:
+    - A2.1 Continuous discovery and opportunity solution trees: part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md
+    - 'A2.2 Framing the problem: problem statements': part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md
+    - A2.3 Assumption testing, prototypes and MVPs: part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md
+    - 'A2.4 Outcomes over outputs: escaping the build trap': part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md
+  - A3 Market Research:
+    - 'A3.1 Market sizing: TAM, SAM, SOM': part-a/03-market-research/01-market-sizing-tam-sam-som.md
+    - A3.2 Competitive analysis: part-a/03-market-research/02-competitive-analysis.md
+    - A3.3 Positioning: part-a/03-market-research/03-positioning.md
+    - 'A3.4 Industry analysis: Porter''s Five Forces and SWOT': part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md
+  - A4 Strategy and Vision:
+    - A4.1 Vision and mission: part-a/04-strategy-and-vision/01-vision-and-mission.md
+    - 'A4.2 Good strategy vs bad strategy: the kernel': part-a/04-strategy-and-vision/02-good-strategy-vs-bad-strategy-the-kernel.md
+    - A4.3 OKRs and goal setting: part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md
+    - A4.4 Product-market fit: part-a/04-strategy-and-vision/04-product-market-fit.md
+  - A5 Roadmaps and Prioritisation:
+    - 'A5.1 Outcome-based roadmaps: Now/Next/Later': part-a/05-roadmaps-and-prioritisation/01-outcome-based-roadmaps-now-next-later.md
+    - 'A5.2 Prioritisation frameworks: RICE, ICE, MoSCoW, Kano': part-a/05-roadmaps-and-prioritisation/02-prioritisation-frameworks-rice-ice-moscow-kano.md
+    - A5.3 Managing the backlog and saying no: part-a/05-roadmaps-and-prioritisation/03-managing-the-backlog-and-saying-no.md
+  - A6 Product Design and UX:
+    - A6.1 Design thinking and the Double Diamond: part-a/06-product-design-and-ux/01-design-thinking-and-the-double-diamond.md
+    - A6.2 User story mapping: part-a/06-product-design-and-ux/02-user-story-mapping.md
+    - A6.3 Wireframes and prototypes: part-a/06-product-design-and-ux/03-wireframes-and-prototypes.md
+    - A6.4 Usability heuristics and accessibility: part-a/06-product-design-and-ux/04-usability-heuristics-and-accessibility.md
+    - A6.5 Working with designers and design systems: part-a/06-product-design-and-ux/05-working-with-designers-and-design-systems.md
+  - A7 Execution and Delivery:
+    - A7.1 PRDs and specs: part-a/07-execution-and-delivery/01-prds-and-specs.md
+    - A7.2 User stories and acceptance criteria: part-a/07-execution-and-delivery/02-user-stories-and-acceptance-criteria.md
+    - A7.3 Agile, Scrum and Kanban: part-a/07-execution-and-delivery/03-agile-scrum-and-kanban.md
+    - 'A7.4 Working with engineers: estimates and tech debt': part-a/07-execution-and-delivery/04-working-with-engineers-estimates-and-tech-debt.md
+    - A7.5 Launches and release management: part-a/07-execution-and-delivery/05-launches-and-release-management.md
+  - A8 Product Metrics:
+    - 'A8.1 Metric basics: leading/lagging, input/output, vanity vs actionable': part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md
+    - A8.2 North Star metric and metric trees: part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md
+    - A8.3 AARRR and Google's HEART framework: part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md
+    - 'A8.4 Lean Analytics: One Metric That Matters and stages': part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md
+    - A8.5 Funnels, cohorts and retention curves: part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md
+    - A8.6 Diagnosing a metric drop: part-a/08-product-metrics/06-diagnosing-a-metric-drop.md
+  - A9 Experimentation:
+    - A9.1 A/B testing basics: part-a/09-experimentation/01-a-b-testing-basics.md
+    - A9.2 Statistics in plain English: part-a/09-experimentation/02-statistics-in-plain-english.md
+    - A9.3 Experiment pitfalls and culture: part-a/09-experimentation/03-experiment-pitfalls-and-culture.md
+  - A10 Growth and Go-to-Market:
+    - A10.1 Go-to-market strategy: part-a/10-growth-and-go-to-market/01-go-to-market-strategy.md
+    - A10.2 Product-led growth and growth loops: part-a/10-growth-and-go-to-market/02-product-led-growth-and-growth-loops.md
+    - A10.3 Pricing and monetisation: part-a/10-growth-and-go-to-market/03-pricing-and-monetisation.md
+    - A10.4 Retention and engagement: part-a/10-growth-and-go-to-market/04-retention-and-engagement.md
+  - A11 Stakeholder Management and Communication:
+    - A11.1 Stakeholder mapping and RACI: part-a/11-stakeholder-management-and-com/01-stakeholder-mapping-and-raci.md
+    - A11.2 Influence without authority: part-a/11-stakeholder-management-and-com/02-influence-without-authority.md
+    - A11.3 Writing and presenting for leaders: part-a/11-stakeholder-management-and-com/03-writing-and-presenting-for-leaders.md
+    - A11.4 Handling conflict and saying no: part-a/11-stakeholder-management-and-com/04-handling-conflict-and-saying-no.md
+  - A12 Career and Interviews:
+    - A12.1 The PM career ladder and skills: part-a/12-career-and-interviews/01-the-pm-career-ladder-and-skills.md
+    - A12.2 Product sense and design interviews (CIRCLES): part-a/12-career-and-interviews/02-product-sense-and-design-interviews-circles.md
+    - A12.3 Metrics, estimation and execution interviews: part-a/12-career-and-interviews/03-metrics-estimation-and-execution-interviews.md
+    - A12.4 Behavioural interviews and building a PM portfolio: part-a/12-career-and-interviews/04-behavioural-interviews-and-building-a-pm-portfol.md
+- 'Part B: AI Product Management':
+  - B0 Foundations:
+    - B0.1 What makes AI products different: part-b/00-foundations/01-what-makes-ai-products-different.md
+    - B0.2 How LLMs work, for PMs: part-b/00-foundations/02-how-llms-work-for-pms.md
+    - 'B0.3 Choosing models: capability, cost, latency, open vs closed': part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md
+  - B1 Building Blocks:
+    - B1.1 Prompt engineering for PMs: part-b/01-building-blocks/01-prompt-engineering-for-pms.md
+    - 'B1.2 RAG: giving AI your knowledge': part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md
+    - B1.3 Agents, tool use and MCP: part-b/01-building-blocks/03-agents-tool-use-and-mcp.md
+    - 'B1.4 Prompting vs RAG vs fine-tuning: how to decide': part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md
+  - B2 Discovery and Design:
+    - B2.1 Finding AI opportunities, and when not to use AI: part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md
+    - 'B2.2 AI UX patterns: chat, copilot, agent, ambient': part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md
+    - B2.3 Designing for trust, failure and human-in-the-loop: part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md
+  - B3 Quality:
+    - 'B3.1 Evals: the AI PM''s most important skill': part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md
+    - B3.2 AI product metrics and production monitoring: part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md
+  - B4 Data, Safety and Law:
+    - B4.1 Data strategy and feedback loops: part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md
+    - B4.2 Responsible AI, safety and guardrails: part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md
+    - 'B4.3 AI regulation: EU AI Act, India''s DPDP Act and AI governance': part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md
+  - B5 Strategy and Business:
+    - B5.1 AI pricing and unit economics: part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md
+    - B5.2 AI-native strategy and moats: part-b/05-strategy-and-business/02-ai-native-strategy-and-moats.md
+  - B6 The AI PM Role:
+    - B6.1 AI PM careers, teams and using AI in your own PM work: part-b/06-the-ai-pm-role/01-ai-pm-careers-teams-and-using-ai-in-your-own-pm.md
+    - B6.2 AI PM interviews: part-b/06-the-ai-pm-role/02-ai-pm-interviews.md
+  - B7 Living Research Tracker:
+    - B7.1 Living research tracker: part-b/07-living-research-tracker/01-living-research-tracker.md
+- Appendix:
+  - Glossary: appendix/glossary.md
+  - Templates: appendix/templates.md
+  - Reading and watch list: appendix/reading-list.md
