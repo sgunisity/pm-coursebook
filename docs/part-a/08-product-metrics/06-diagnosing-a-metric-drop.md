@@ -39,6 +39,28 @@ Most metric drops come from one of four buckets:
 3. **Something *outside* happened.** Seasonality (festivals, exams, school holidays, month-end salary days), weather, a competitor's offer, a regulation, or news.
 4. **A mix shift.** The user base changed. For example, lots of new users who behave differently pull the average down ([A8.5](05-funnels-cohorts-and-retention-curves.md)).
 
+### The four buckets in more depth
+
+**1. It isn't real (data and tracking issues)**
+
+- **What it looks like:** a sharp step change, often to near zero, on one platform or version; other related metrics don't move; the timing matches a release or a data-pipeline change.
+- **First checks:** event volumes by platform and version; data freshness (did yesterday's data fully arrive?); recent analytics or definition changes; bot filtering changes.
+
+**2. Something we did (internal causes)**
+
+- **What it looks like:** it starts on a specific date matching a release, experiment, pricing change or campaign end; it's concentrated in the affected segment (one app version, one experiment group, one city).
+- **First checks:** the release log, experiment ramp-ups, feature flags, pricing or offer changes, marketing calendar, incident and outage reports, supply metrics (stock, delivery partners, sellers).
+
+**3. Something outside happened (external causes)**
+
+- **What it looks like:** broad across segments, or concentrated by geography or time; it matches a calendar event, weather, a competitor move or news.
+- **First checks:** holiday and festival calendar, weather in affected cities, competitor offers, app-store or OS changes, regulatory news, and payment-network status (UPI and bank downtime).
+
+**4. Mix shift**
+
+- **What it looks like:** the total moves, but each segment's rate is stable or even improving; the *share* of a lower-performing segment grew (often after a campaign or a new channel).
+- **First checks:** the segment mix this week vs last week, then each segment's own rate (see Simpson's paradox under "Going deeper").
+
 ## Framework: the 6-step metric drop investigation
 
 Use the [checklist template in the appendix](../../appendix/templates.md).
@@ -118,6 +140,24 @@ flowchart TD
 
 **Your message to the CEO:** "Orders are down 12%. Nearly all of the drop is on the new Android release, at the payment step. We've reproduced a bug with one payment method. A hotfix goes out in 3 hours, and we'll confirm recovery tomorrow morning."
 
+### The numbers: the first three hours, minute by minute
+
+Here's what the worked example might look like in real time:
+
+| Time | What happens | What the PM does |
+|---|---|---|
+| 10:05 | Alert: orders −12% vs the same time last Wednesday | Acknowledges in the incident channel; pulls in the analyst |
+| 10:15 | Data checks pass: events flowing, no schema change | Rules out tracking as the cause; notes the Android v5.2 release |
+| 10:25 | Segment split: Android v5.2 −31%, everything else ≈ flat | Forms a hypothesis: a release bug |
+| 10:35 | Funnel on v5.2: payment step −38% | Narrows it down: the payment flow in v5.2 |
+| 10:45 | First update sent to leadership (what we know, what we don't, next update at 12:00) | Keeps leadership calm, with no blame |
+| 11:05 | QA reproduces it: one payment method fails to load | Root cause confirmed |
+| 11:10 | Decision: hotfix within 3 hours vs rollback now. Rollback chosen, because the fix isn't certain | Weighs speed against what v5.2 also fixed |
+| 12:00 | Second update: rollback live, recovery starting | Sets the next check for the following morning |
+| Next day | Orders back to normal range | Writes a short blameless review: add a payment-method test to release QA, and add an alert on payment step conversion by version |
+
+Notice the order: **data → segment → funnel → reproduce → decide → communicate → prevent.**
+
 ## Going deeper: nuances and trade-offs
 
 ### 1. Is the drop even unusual?
@@ -185,6 +225,28 @@ After each incident, spend 30 minutes making the next one easier:
 
 Mature teams treat metric drops like engineering incidents, with a short blameless review afterwards.
 
+### 7. Gradual declines need a different playbook
+
+Sudden drops usually have one clear cause. **Slow declines** over months are harder. They often come from several small causes building up:
+
+- **Cohort quality slipping:** newer cohorts retain worse, perhaps because of new channels or a market getting saturated.
+- **Competition:** a rival steadily getting better or cheaper.
+- **Product rot:** slower app performance, more bugs, a cluttered interface.
+- **Market change:** user needs shifting (e.g. from desktop to mobile, or from search to AI assistants).
+
+For slow declines, start with **cohort analysis** ([A8.5](05-funnels-cohorts-and-retention-curves.md)) rather than daily segments. Pair it with **user research** and churned-user interviews, and benchmark against competitors.
+
+### 8. Confirming the cause before declaring victory
+
+A plausible story isn't proof. Ways to confirm:
+
+- **Reverse it:** roll back the release or switch off the feature flag in one segment and see if the metric recovers there.
+- **Compare with a control:** if an experiment caused it, the control group shouldn't show the drop.
+- **Check the timing precisely:** the cause must come *before* the effect, to the hour if possible.
+- **Look for a "dose response":** segments more exposed to the cause should show a bigger drop.
+
+Only after confirming should you write the incident summary and close the investigation.
+
 ## Real-world examples (2023 onwards)
 
 !!! example "ChatGPT's first traffic dip, June–July 2023: external, and a measurement trap"
@@ -207,6 +269,23 @@ Mature teams treat metric drops like engineering incidents, with a short blamele
     - **Ending with "we're looking into it".** Always share the next step and when you'll update.
     - **Skipping the segment split** and falling for Simpson's paradox.
     - **No annotations on dashboards**, so every investigation starts from scratch.
+
+## Common questions
+
+**How big a drop should trigger an investigation?**
+Agree on it in advance for each key metric. A common rule is a move outside the normal weekly range (e.g. more than 2× the usual week-to-week swing) for 2 days in a row, or any sudden step change on one platform.
+
+**Who should lead the investigation: the PM or the data analyst?**
+Usually the PM coordinates (communication, decisions, owners) and the analyst leads the data work. Engineering joins for releases and tracking. The PM is accountable for the update reaching leadership.
+
+**What if we never find the cause?**
+It happens. Document what you ruled out, keep monitoring, and set a date to look again. Often the cause becomes clear later, or the metric recovers by itself (which also tells you something).
+
+**Should we always roll back the suspected release?**
+If the drop is large and the release is the strongest suspect, a quick rollback is often the fastest way to both fix *and* confirm. Weigh it against what the release fixed or added.
+
+**How do I avoid panic in leadership?**
+Send the first update fast, keep it factual, give a next-update time, and keep to it. Calm, regular updates build more trust than a perfect answer that arrives late.
 
 ## In the interview
 

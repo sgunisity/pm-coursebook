@@ -54,6 +54,60 @@ Trees help in three ways:
 - **Diagnosis:** when the top number moves, you walk down the branches to find which part moved (see [A8.6](06-diagnosing-a-metric-drop.md)).
 - **Prioritisation:** you can estimate which branch has the biggest upside before you invest.
 
+### The three "games" a product can play
+
+Amplitude's playbook groups products into three "games". Knowing yours narrows down your North Star quickly.
+
+| Game | What users want | Typical North Star shape | Examples (illustrative) |
+|---|---|---|---|
+| **Attention** | To spend time they enjoy | Time spent on valuable content, by engaged users | OTT apps, short video, news, music |
+| **Transaction** | To get something done or bought | Successful transactions (orders, rides, payments) | Food and grocery delivery, ride-hailing, UPI apps, e-commerce |
+| **Productivity** | To finish work faster or better | Tasks or workflows completed, by active teams | Notion, Slack, Zoho, design tools |
+
+Some products play two games, for example a social app with a marketplace inside. Pick the game that matches how the product makes money and keeps users, and treat the other as an input or a guardrail.
+
+### Telling a good North Star from a bad one
+
+Try your candidate against the five rules. Here's how a few common candidates score for a food delivery app:
+
+| Candidate | Reflects value? | Predicts success? | Can teams move it? | Easy to explain? | Can grow? | Verdict |
+|---|---|---|---|---|---|---|
+| Revenue | Partly | Yes, but late | Weakly | Yes | Yes | ❌ An output, not a North Star |
+| App opens | No | Weakly | Yes, too easily | Yes | Yes | ❌ Vanity; notifications inflate it |
+| Order conversion rate | Partly | Partly | Yes | Yes | No (it's a ratio) | ❌ Better as an input |
+| **Weekly orders delivered on time with no complaint** | Yes | Yes | Yes | Yes | Yes | ✅ |
+
+### How to choose good input metrics under the North Star
+
+A North Star needs 3–5 input metrics. Each one should pass three tests:
+
+1. **Controllable:** one team can move it within a quarter.
+2. **Leading:** it moves *before* the North Star does.
+3. **Measurable weekly:** you can see it change fast enough to learn.
+
+Inputs often fall into the same few families. Use them as a checklist so you don't miss a branch:
+
+- **Breadth:** how many users get value (e.g. weekly ordering users).
+- **Depth:** how much value each user gets (e.g. items per order).
+- **Frequency:** how often they come back (e.g. orders per user per week).
+- **Efficiency:** how quickly or easily they get value (e.g. time to checkout, on-time rate).
+
+### North Star patterns by product type
+
+These are **illustrative patterns** to help you think, not official metrics of any company:
+
+| Product type | A North Star pattern | Why it fits |
+|---|---|---|
+| UPI / payments app | Monthly users making 2+ successful payments | Repeat use shows trust and habit, not just a one-off try |
+| Quick commerce | Weekly orders delivered on time with no complaint | Captures speed, accuracy and frequency together |
+| OTT / video streaming | Weekly hours watched by active viewers | Attention game; value is time spent on content people chose |
+| Edtech (self-learning) | Weekly learners completing at least one lesson | Completion, not app opens, shows learning value |
+| Marketplace (seller side) | Sellers with at least one order this week | Value for sellers is sales, not listings |
+| B2B SaaS | Weekly active teams completing the core workflow | Value shows up at team level, repeatedly |
+| Social / community app | Daily users who post, reply or react meaningfully | Separates participation from passive scrolling |
+
+Notice the pattern: **a value action + who + how often.** Each one counts *real value* over a *time window* that matches the product's natural rhythm.
+
 ## Framework: Find your North Star in 5 steps
 
 Adapted from the [Amplitude North Star Playbook](https://amplitude.com/books/north-star):
@@ -105,6 +159,34 @@ You are PM at a quick-commerce startup in Bengaluru. The founder asks, "What sho
 
 The founder now has one number for the board deck. Every team also knows which branch is theirs.
 
+### The numbers: which branch is worth it?
+
+Take the tree from the worked example, with today's values:
+
+| Part | Today |
+|---|---|
+| Weekly ordering users | 200,000 |
+| Orders per user per week | 1.5 |
+| % of orders with no complaint | 92% |
+| **Weekly happy orders (North Star)** | **200,000 × 1.5 × 0.92 = 276,000** |
+
+Three teams propose projects. Each estimates a realistic lift for one quarter:
+
+| Project | Branch | Realistic lift | New North Star | Gain |
+|---|---|---|---|---|
+| Better first-week onboarding (growth team) | Users +5% → 210,000 | +5% | 289,800 | **+13,800** |
+| Smarter reorder reminders (retention team) | Frequency 1.5 → 1.6 | +6.7% | 294,400 | **+18,400** |
+| Packing checklist for riders (ops team) | No-complaint 92% → 94% | +2.2% | 282,000 | **+6,000** |
+
+On impact alone, reorder reminders win. But a PM also weighs:
+
+- **Effort:** reminders may take 2 weeks; onboarding may take 8.
+- **Confidence:** how sure are we of each lift? Has something similar worked before?
+- **Guardrails:** reminders can annoy users. Watch notification opt-outs.
+- **Long-term value:** the packing checklist improves quality, which supports retention later even though its immediate gain is smallest.
+
+This is how a metric tree turns a debate ("my project matters more!") into a calculation. Prioritisation frameworks like RICE ([A5.2](../05-roadmaps-and-prioritisation/02-prioritisation-frameworks-rice-ice-moscow-kano.md)) formalise exactly this.
+
 ## Going deeper: nuances and trade-offs
 
 ### 1. North Star vs OKRs vs One Metric That Matters
@@ -151,6 +233,19 @@ The fix is usually to **change the granularity** (split it into segments) rather
 
 Because everyone is rewarded for it, the North Star is the metric most exposed to Goodhart's law ([A8.1](01-metric-basics-leading-lagging-input-output-vanit.md)). Notification spam inflates "daily active users". Discounts inflate "orders". Low-quality content inflates "time spent". Build a quality condition into the definition itself where you can ("orders *with no complaint*", "sessions *with at least one completed lesson*").
 
+### 7. Communicating the North Star so it actually guides work
+
+A North Star only works if people use it in daily decisions. Teams that do this well:
+
+- **Put it everywhere:** at the top of every dashboard, in every quarterly plan, and in PRD success sections.
+- **Tie roadmap items to a branch:** every project names which input it expects to move, and by roughly how much.
+- **Review it in a weekly ritual:** North Star trend first, then each input with its owner.
+- **Write a one-page explainer:** the definition, why it was chosen, the tree, the guardrails, and what it is *not*.
+
+### 8. When you have more than one product
+
+Companies with several products (Swiggy's food delivery and Instamart, Google's Search and YouTube) usually give **each product its own North Star**. A company-level output, such as total users or revenue, then sits above them. Forcing one North Star across very different products tends to favour whichever product is biggest. Make sure cross-product effects, like one app sending users to another, are visible as inputs.
+
 ## Real-world examples (2023 onwards)
 
 !!! example "Duolingo, 2023: the growth model that picked the right input"
@@ -173,6 +268,23 @@ Because everyone is rewarded for it, the North Star is the metric most exposed t
     - **Ignoring quality.** A pure count can be inflated with spam, discounts or dark patterns. Add a quality filter or a guardrail.
     - **Copying another company's North Star.** "Airbnb uses nights booked" doesn't mean you should; the value moment is product-specific.
     - **Ignoring the supply side** in a marketplace North Star.
+
+## Common questions
+
+**Can the North Star be revenue?**
+Usually not. Revenue is the result of value, so it lags, and it can be inflated by price increases or aggressive monetisation. Some B2B or monetisation-focused teams use a value-based revenue measure (like "revenue from retained customers") as an input, but the company North Star is normally a customer-value measure.
+
+**How often should we change our North Star?**
+Rarely: think in years, not quarters. Change it only when the strategy changes (new business model, new core customer) or the current one clearly stops predicting success. Announce a change like a strategy change.
+
+**Who owns the North Star?**
+Leadership owns it: typically the CPO or CEO, with the data team owning the definition. No single team "owns" moving it. Teams own the inputs.
+
+**How many inputs should a North Star have?**
+3–5. Fewer and you miss important drivers. More and focus disappears.
+
+**What if our North Star goes up but revenue goes down?**
+Treat it as a warning. Either the North Star is being gamed, or it no longer predicts business success. Check the quality filter and the guardrails, then revisit the definition if needed.
 
 ## In the interview
 

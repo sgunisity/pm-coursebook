@@ -78,6 +78,48 @@ Plot one cohort's retention over time and you'll see one of three shapes (see di
 
 Treat these as rough guides. Your own trend over time matters more.
 
+### Building a cohort table, step by step
+
+You don't need advanced tools to do this. A spreadsheet works.
+
+1. **List users with their start date** (sign-up or first order) and assign each a cohort: the week or month they started.
+2. **List every value action** (e.g. each delivered order) with its date.
+3. **For each user, work out which periods after their start they were active:** week 0, week 1, week 2…
+4. **Count active users per cohort per period,** then divide by the cohort size to get percentages.
+5. **Lay it out** with cohorts as rows and periods as columns. Highlight with colour: darker means higher retention.
+
+Most product analytics tools (Amplitude, Mixpanel, Google Analytics, CleverTap, MoEngage) build this automatically. Knowing the steps helps you check that the tool's settings match your definition.
+
+### Four numbers to pull from every retention curve
+
+| Number | What it tells you | What usually moves it |
+|---|---|---|
+| **Early drop** (period 0 → 1) | How many people never really got value | Activation and onboarding |
+| **Slope** (how fast it falls after that) | Whether value lasts | The core experience and habit formation |
+| **Plateau level** | Your loyal core as a % of each cohort | Product-market fit for that segment |
+| **Plateau start** (when it flattens) | How long it takes users to "settle" | Learning curve, payday or usage cycles |
+
+When you report retention, report these four numbers, not just one. "Our early drop improved from 55% to 48%, plateau unchanged at 22%" is far more useful than "retention went up".
+
+### Funnel maths: where to fix first
+
+Percentages can mislead you about where the biggest win is. Look at **users lost at each step**:
+
+| Step | Users reaching it | Step conversion | Users lost here |
+|---|---|---|---|
+| Opened app | 100,000 | — | — |
+| Searched | 70,000 | 70% | 30,000 |
+| Opened a restaurant | 49,000 | 70% | 21,000 |
+| Added to cart | 19,600 | 40% | 29,400 |
+| Paid | 15,680 | 80% | 3,920 |
+
+Payment conversion (80%) looks best, and add-to-cart (40%) looks worst. But ask what a **realistic improvement** at each step would add at the end:
+
+- Lifting add-to-cart from 40% to 44% adds 1,960 carts. At 80% payment, that's **+1,568 orders**.
+- Lifting payment from 80% to 84% adds **+784 orders**.
+
+Both are worth doing. The add-to-cart fix is worth twice as much, *if* it's equally easy. Always convert step improvements into **final outcomes** before choosing what to work on.
+
 ## Framework: the weekly retention review
 
 1. **Pick the action that means "retained".** This is a value action, not just "opened the app". Example: placed an order, or completed a lesson.
@@ -153,6 +195,19 @@ If you survey only active users, you hear from the people who stayed. Churned us
 - **"Flattening" needs several periods.** One flat month isn't a plateau.
 - **Look at curves by segment:** city, platform, channel. A good overall curve can hide one segment sliding to zero.
 
+### 7. Resurrected users
+
+Some users leave and come back weeks or months later, often thanks to a festival sale, a new feature, or a friend's referral. Track them as their own group:
+
+- **Reactivated:** returned after a short break (e.g. 1–4 weeks).
+- **Resurrected:** returned after a long break (e.g. 30+ days).
+
+Duolingo's growth model counts these groups separately ([A8.2](02-north-star-metric-and-metric-trees.md)). They behave differently from both new and current users, so campaigns aimed at them should be measured on their own retention.
+
+### 8. When averages hide the distribution
+
+"Average orders per user = 4" can mean every user orders 4 times, or 10% of users order 30 times while most order once. Look at the **distribution** (how many users ordered 1, 2, 3 … times) before designing for "the average user", who may not exist. Power users often deserve their own features. Light users often need activation help.
+
 ## Real-world examples (2023 onwards)
 
 !!! example "AI products and the 'AI tourist' problem (a16z, September 2025)"
@@ -175,6 +230,23 @@ If you survey only active users, you hear from the people who stayed. Churned us
     - **Treating correlation as cause.** "Users who add 3 friends retain better" might be because engaged people add friends, not the other way round. Test it.
     - **Mixing retention definitions** (N-day vs unbounded) between reports.
     - **Learning only from survivors.** Talk to churned users too.
+
+## Common questions
+
+**Weekly or monthly cohorts?**
+Use the product's natural frequency. Weekly suits food delivery and social apps. Monthly suits bill payments and subscriptions. When volumes are small, monthly cohorts are less noisy.
+
+**What retention is "good enough" to start spending on growth?**
+When curves flatten at a healthy level for your product type (see the benchmark table) across several cohorts, and the plateau holds for new cohorts too.
+
+**Should I count retention by users or by revenue?**
+Both, for subscription and B2B. Users tell you about engagement; revenue retention tells you about business health and expansion.
+
+**How do I handle users who use the product on multiple devices?**
+Count people, not devices: make sure analytics ties sessions to a logged-in user ID. Otherwise one person can show up as several "churned" users.
+
+**My funnel shows a huge drop at sign-up. Should I remove sign-up?**
+Maybe, but test it. Removing sign-up often lifts early steps while lowering later activation or retention (users who don't commit leave anyway). Measure the whole funnel through to retention, not just the next step.
 
 ## In the interview
 

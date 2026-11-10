@@ -56,6 +56,42 @@ The OMTM is **temporary**. It changes as you solve one problem and move to the n
 
 The authors argue the stages are **gated**. Don't push hard on virality or revenue before people stick around. Otherwise you're pouring water into a leaky bucket.
 
+### Each stage in more depth
+
+**1. Empathy: "Is this a real, painful problem?"**
+
+- **What you do:** customer interviews, observation, testing problem statements, sometimes a landing page or a "concierge" service done by hand.
+- **Typical metrics:** number of interviews where people describe the pain unprompted; % of interviewees who already pay for or hack together a workaround; landing-page sign-up rate.
+- **You've passed when:** you can describe the problem in the customer's own words, and a clear group is actively looking for a solution.
+- **Classic mistake:** asking "would you use this?" (everyone says yes) instead of asking about past behaviour. See *The Mom Test* in [A1.2](../01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
+
+**2. Stickiness: "Do they keep coming back?"**
+
+- **What you do:** improve the core experience, onboarding and activation for a small group of users.
+- **Typical metrics:** cohort retention, active days per week, repeat purchase rate, churn.
+- **You've passed when:** retention curves flatten at a level that works for your business type, across several cohorts.
+- **Classic mistake:** adding features for every request instead of making the core loop excellent.
+
+**3. Virality: "Do they bring others?"**
+
+- **What you do:** build sharing into the product, test referral incentives, make the product more valuable with more users.
+- **Typical metrics:** invites per user, invite conversion, viral coefficient, share of new users from word of mouth.
+- **You've passed when:** a meaningful share of growth comes without paid spend, and those users retain as well as others.
+- **Classic mistake:** paying for referrals that bring low-quality users.
+
+**4. Revenue: "Do the unit economics work?"**
+
+- **What you do:** pricing tests, packaging, reducing discounts, lowering cost to serve.
+- **Typical metrics:** contribution margin, ARPU, LTV, CAC, payback period.
+- **You've passed when:** each customer or order is profitable after direct costs, and payback fits your cash.
+- **Classic mistake:** raising prices or cutting discounts without watching retention.
+
+**5. Scale: "Can we grow the whole business efficiently?"**
+
+- **What you do:** new cities and segments, channel expansion, efficiency, building moats.
+- **Typical metrics:** profit, market share, growth in new markets, efficiency ratios.
+- **Classic mistake:** assuming what worked in one city or segment works everywhere. Each new market can restart at an earlier stage.
+
 ## Framework: the OMTM check-in
 
 Run this every quarter (or every month for young products):
@@ -91,6 +127,31 @@ You're launching a **pet-care subscription box** in Hyderabad. It's 3 months old
 5. **What you *don't* chase yet:** referral codes, ad spend and new cities. Those belong to later stages.
 
 Two quarters later, renewal is stable at 45%. Now you move to Virality or Revenue and choose a new OMTM, such as contribution margin per box.
+
+### The numbers: watching the pet-care box pass the Stickiness gate
+
+| Cohort (month joined) | Subscribers | Renewed for month 2 | Renewed for month 3 |
+|---|---|---|---|
+| January | 60 | 63% | 35% |
+| February | 75 | 68% | 38% |
+| March | 90 | 71% | 42% |
+| April | 110 | 74% | 46% |
+| May | 120 | 75% | 45% |
+| June | 140 | 76% | 47% |
+
+The line in the sand was **40% month-3 renewal for six cohorts in a row.** January and February fell short, March through June cleared it, and the cohorts keep improving. That isn't six in a row yet. **The team doesn't pass the gate until two more cohorts clear 40%**, though the trend is encouraging.
+
+Meanwhile the team works out early unit economics for the **Revenue** stage:
+
+| Per box | ₹ |
+|---|---|
+| Price | 1,499 |
+| Product cost | −780 |
+| Packing and delivery | −180 |
+| Payment fees (2%) | −30 |
+| **Contribution per box** | **+509** |
+
+With a customer acquisition cost of about ₹1,200 and an average subscriber staying about 4 months, a customer brings roughly ₹2,000 of contribution: about 1.7× their acquisition cost. That's positive but thin. So the first Revenue-stage OMTM might be **contribution per subscriber over their lifetime**, improved by lifting retention further or lowering packing cost, before scaling ad spend.
 
 ## Going deeper: nuances and trade-offs
 
@@ -147,6 +208,22 @@ Large companies don't have *one* OMTM. They have a **portfolio of stages**. The 
 
 **Premature scaling** means spending on acquisition, new cities or big teams before retention is solid. It's one of the most common ways startups burn cash. In India, the 2022–23 funding slowdown pushed many startups to shift focus from growth to profitability. That's the same Revenue-stage move the Zomato example above shows. The lesson isn't "never grow fast". It's **grow fast only once the bucket holds water**.
 
+### 7. Stages can go backwards
+
+Passing a gate isn't permanent. A strong competitor, a regulation change, a pricing change or a shift in user behaviour can push a product back a stage. For example, retention that held at Stickiness can weaken when a cheaper rival appears. Keep watching the gate metric of every stage you've passed. It becomes a guardrail.
+
+### 8. Leading indicators for each stage
+
+Each stage's gate takes time to confirm, so watch earlier signals:
+
+| Stage | Gate metric (slow) | Leading indicator (fast) |
+|---|---|---|
+| Empathy | Customers willing to pay | % of interviewees describing the pain unprompted |
+| Stickiness | Month-3 retention | Week-1 activation rate |
+| Virality | Share of organic new users | Invites sent per new user in week 1 |
+| Revenue | Payback period | Contribution margin per order this week |
+| Scale | Profit in new markets | Week-4 retention in a new city vs older cities |
+
 ## Real-world examples (2023 onwards)
 
 !!! example "Zomato and Blinkit, mid-2023: moving into the Revenue stage"
@@ -169,6 +246,23 @@ Large companies don't have *one* OMTM. They have a **portfolio of stages**. The 
     - **Trusting headline profit without reading the definition** (adjusted, contribution, or net).
     - **Changing the line in the sand every week.** Commit for a fixed period.
     - **Using the wrong business-model metric.** A marketplace has two sides to keep sticky.
+
+## Common questions
+
+**What's the difference between an OMTM and a North Star?**
+The North Star is long-term and company-wide, and changes rarely. The OMTM is the single number a team focuses on *now* to fix its biggest problem, and changes as problems get solved. An OMTM is often one of the North Star's inputs.
+
+**Can a team have an OMTM and OKRs?**
+Yes. The OMTM is usually the main key result of the team's main objective.
+
+**Are the five stages strictly in order?**
+Mostly, but not rigidly. Some products are viral from day one (social apps), and some must earn revenue early (B2B with paying pilots). The core advice holds: don't scale what doesn't retain.
+
+**Is this only for startups?**
+No. Every new product, city or segment inside a big company goes through the same stages. Big companies just run several stages at once.
+
+**What if we're stuck in a stage for a long time?**
+Check whether you're solving a real, painful problem (go back to Empathy), whether you're serving the right segment, and whether the core experience delivers value fast enough. Being stuck for months is a signal to rethink, not just to try more tactics.
 
 ## In the interview
 

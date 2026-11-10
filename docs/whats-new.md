@@ -4,6 +4,11 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 10 Nov 2026 — Full-depth Product Metrics section
+
+- **A8.1** rewritten at full depth (about 5,300 words): what a metric is made of, metric shapes, how to find leading indicators, tracking basics, a review rhythm and a Common questions section.
+- **A8.2–A8.6** deepened with new building-block sections, worked number tables (tree sensitivity, AARRR funnel maths, unit economics, funnel prioritisation, an incident timeline), extra nuances and Common questions.
+
 ## 10 Nov 2026 — Deeper chapters
 
 - Every Product Metrics chapter (A8.1–A8.6) now has **Key terms**, a **Going deeper: nuances and trade-offs** section, an **In the interview** walkthrough, worked answers to the exercises, and **How this connects** links.

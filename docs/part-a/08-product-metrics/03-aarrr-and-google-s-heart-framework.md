@@ -52,6 +52,18 @@ Investor Dave McClure introduced AARRR in a [2007 talk called "Startup Metrics f
 
 Many teams now put **Retention before Acquisition** in priority. Pouring new users into a leaky product wastes money. Some modern versions also add **Awareness** at the start ("AAARRR").
 
+### Each AARRR stage in more depth
+
+| Stage | What to measure | Common levers | Typical traps |
+|---|---|---|---|
+| **Acquisition** | New users by channel; cost per acquired user (CAC) by channel; share of new users coming organically | SEO and app-store optimisation, referrals, partnerships, paid ads, content | Celebrating volume while channel quality differs hugely |
+| **Activation** | % of new users reaching the "aha moment" within N days; time to first value | Shorter sign-up, smart defaults, guided first task, removing early friction | Defining activation as "signed up" or "opened the app" |
+| **Retention** | Week-N or month-N retention by cohort; DAU/MAU; repeat purchase rate | Habit loops, reminders that add value, better core experience, new use cases | Using reminders and notifications that annoy users |
+| **Referral** | Invites sent per user; invite conversion; viral coefficient (K) | Built-in sharing moments, two-sided rewards, social proof | Paying for referrals that bring low-quality users |
+| **Revenue** | Conversion to paid; ARPU; LTV; payback period | Pricing and packaging, upsells, ads, reducing churn | Raising prices without watching retention |
+
+Every stage has a **conversion** from the stage before it. Write them as a chain (for example: 10,000 installs → 4,000 activated → 1,600 retained at week 4 → 300 referrers → 240 payers) and the weakest link becomes obvious.
+
 ### HEART (Google)
 
 Google researchers Kerry Rodden, Hilary Hutchinson and Xin Fu published HEART at the ACM CHI conference in 2010, in a paper titled [*Measuring the User Experience on a Large Scale*](https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/).
@@ -102,6 +114,26 @@ Your UPI payments app is launching **"Split the bill"** for groups of friends.
 
 - **Referral:** each split invites friends who may not use your app. Track new users who joined through a split request.
 - **Retention:** do users who split have higher 90-day retention than similar users who don't?
+
+### The numbers: following "Split the bill" through AARRR
+
+Here's how the worked example might look after one month, for an app with 1,000,000 weekly active users:
+
+| Step | Count | Conversion |
+|---|---|---|
+| Weekly active users who saw the split entry point | 1,000,000 | — |
+| Started a split | 80,000 | 8% (Adoption) |
+| Completed a split | 60,000 | 75% of starters (Task success) |
+| Friends who received a split request | 150,000 | 2.5 per completed split |
+| …of whom were *not* app users | 30,000 | 20% of recipients |
+| …who installed and paid their share | 6,000 | 20% of non-users (Referral) |
+| First-time splitters who split again within 30 days | 27,000 | 45% of the 60,000 completers (Retention) |
+
+What a PM reads from this:
+
+- **Task success (75%) is decent but leaky.** A quarter of people who start a split abandon it. Session recordings and a quick usability test are the next step.
+- **Referral is real but small:** 6,000 new users a month. The viral coefficient for this feature is 6,000 ÷ 60,000 = 0.1 new users per completed split. That's a useful bonus, not a growth engine.
+- **Retention of 45%** among first-time splitters is promising. Compare it with similar users who never split before claiming the feature *causes* higher retention, ideally with a holdout group.
 
 ## Going deeper: nuances and trade-offs
 
@@ -156,6 +188,27 @@ The labels matter less than covering the whole customer life and finding the wea
 
 At **product level**, HEART categories become company KPIs (overall retention, satisfaction). At **feature level**, they become short-term launch metrics (adoption of the feature, task success). A common trap is reading *feature adoption* as success. Lots of people may *try* a feature without it improving retention or task success for anyone. Always ask: adoption *and then what?*
 
+### 7. Acquisition quality differs by channel
+
+Two channels can bring the same number of users at very different value:
+
+| Channel | New users | CAC | Week-4 retention | Cost per *retained* user |
+|---|---|---|---|---|
+| Paid social ads | 10,000 | ₹120 | 12% | ₹1,000 |
+| Referrals | 3,000 | ₹150 | 30% | ₹500 |
+| Organic search | 2,000 | ₹0 (content cost aside) | 35% | — |
+
+Judged on CAC alone, paid social looks cheapest. Judged on **cost per retained user**, referrals are twice as efficient. Always tie acquisition back to retention.
+
+### 8. Breadth vs depth of engagement
+
+"Engagement" hides two different things:
+
+- **Breadth:** *how many* users are active.
+- **Depth:** *how much* each active user does: days active per month, actions per session, features used.
+
+A useful view is to chart how many users were active on 1, 2, 3 … 30 days of the month. Healthy habit products show a bump of users active on most days. Weak ones show nearly everyone active on just 1–2 days. Two products with the same MAU can have completely different depth, and depth usually predicts retention and revenue better.
+
 ## Real-world examples (2023 onwards)
 
 !!! example "ChatGPT, January 2023: record acquisition, then the real test"
@@ -178,6 +231,23 @@ At **product level**, HEART categories become company KPIs (overall retention, s
     - **Celebrating Revenue while Retention falls.** That's a business renting its customers.
     - **Declaring an activation moment without testing it.** Correlation isn't cause; prove it with an experiment.
     - **Buying cheap acquisition with discounts** and ignoring that those users have low LTV.
+
+## Common questions
+
+**Should every product track all five AARRR stages?**
+Track all five lightly so nothing surprises you, but *focus* on one or two: usually the leakiest stage, or whatever your current stage demands ([A8.4](04-lean-analytics-one-metric-that-matters-and-stage.md)).
+
+**Is NPS a good North Star?**
+No. NPS is a survey score, collected from a sample, and it moves slowly and noisily. It's a useful Happiness signal in HEART, but pair it with behaviour.
+
+**What's the difference between activation and onboarding?**
+Onboarding is the *experience* you design (screens, tips, setup steps). Activation is the *outcome* you measure: did the user reach real value? A beautiful onboarding that doesn't lead to activation has failed.
+
+**Can HEART be used for B2B products?**
+Yes. Measure it at account or team level (e.g. "% of accounts where 3+ people adopted the feature"), and lean on Task success, which matters a lot in work tools.
+
+**Which stage should a new product focus on first?**
+Activation and Retention. Until users who arrive actually stay, spending on acquisition or referral is mostly wasted.
 
 ## In the interview
 
