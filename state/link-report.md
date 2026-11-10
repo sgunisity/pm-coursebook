@@ -1,3 +1,5 @@
 # Link report
 
-Not generated yet. The Link check GitHub Action writes this file.
+Generated: 2026-11-10T23:37Z
+
+No broken links found.
