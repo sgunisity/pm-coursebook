@@ -45,13 +45,14 @@ Then these sections, in this order (drop a section only if it would be empty fil
 1. **In one line** — the whole chapter in one sentence.
 2. **Why this matters** — 2–3 sentences tying it to a PM's real job.
 3. **Key terms** — a table of 5–8 terms used in the chapter, each with a one-line plain-English meaning.
-4. **The idea, simply** — concept explained with an analogy (400–800 words). Cover what it is, why it works, and where it comes from.
+4. **The idea, simply** — the heart of the chapter (1,000–1,800 words). Open with an analogy, then build the concept up in numbered sub-sections (### 1., ### 2., …), one idea each. Each sub-section explains the idea, why it works, and gives 2–3 concrete examples, often as a small table (e.g. "vanity version → actionable alternative", "if you push X → also watch Y"). Cover what it is, why it works, how to recognise it, and where it comes from. Use extra Mermaid diagrams inside sub-sections when they help.
 5. **Framework(s)** — name, who created it (with link to the original source), the steps, when to use and when not to.
 6. **Diagram** — at least one visual per chapter (see Section 4).
 7. **Worked example** — apply the framework step by step to one realistic scenario, with actual numbers wherever the topic allows.
-8. **Going deeper: nuances and trade-offs** — 4–6 short sub-sections on what the simple version leaves out: edge cases, trade-offs, how it changes by company stage or business type (B2C vs B2B, marketplace, subscription, India vs global), related laws or effects, and how experienced PMs actually use it. This is where depth comes from; don't skip it.
+8. **Going deeper: nuances and trade-offs** — 6–8 sub-sections on what the simple version leaves out: edge cases, trade-offs, how it changes by company stage or business type (B2C vs B2B, marketplace, subscription, India vs global), related laws or effects, and how experienced PMs actually use it. This is where depth comes from; don't skip it.
 9. **Real-world examples (2023 onwards)** — 2 cases (at least one Indian where a verified one exists): company, month/year, what happened, the PM lesson, source link.
-10. **Common mistakes** — 5–7 bullets.
+10. **Common mistakes** — 6–8 bullets.
+10b. **Common questions** — 4–6 short Q&As answering the doubts a learner typically has after reading (e.g. "Is DAU a vanity metric?", "How many metrics should a team have?").
 11. **In the interview** — how this topic shows up in PM interviews, one sample question, and a short outline of a strong answer.
 12. **Research happening now** — box with 1–3 current items (see Section 5).
 13. **Try it yourself** — one short exercise (15–30 minutes), with the answer or a self-check list in a collapsible `??? success "Check your answer"` block.
@@ -60,7 +61,7 @@ Then these sections, in this order (drop a section only if it would be empty fil
 16. **Key takeaways** — 5–7 bullets.
 17. **Updates** — empty at first; weekly runs append dated entries here.
 
-Use admonition boxes: `!!! tip` for analogies, `!!! example` for case studies, `!!! info "Research happening now"`, `!!! warning` for common mistakes, `!!! question "In the interview"`. Length: roughly 2,200–3,300 words. Never pad; depth should come from more explanation, nuance and worked numbers, not repetition.
+Use admonition boxes: `!!! tip` for analogies, `!!! example` for case studies, `!!! info "Research happening now"`, `!!! warning` for common mistakes, `!!! question "In the interview"`. Length: roughly 4,000–5,500 words; the owner wants depth and fuller explanation. The worked example should run step by step with a numbers table and a "what is it worth" estimate. "Going deeper" should have 6–8 sub-sections. Never pad; depth should come from more explanation, more examples, nuance and worked numbers, not repetition. Use chapter A8.1 as the reference for the expected depth and style. Because chapters are longer, write each chapter in two or three file writes (first half, then append the rest) rather than one huge write.
 
 **Depth check before saving a chapter.** A chapter is complete only if a reader could answer all of these from it alone:
 - What is it, in plain words?
