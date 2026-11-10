@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Inter, Arial, sans-serif">
+  <rect width="680" height="420" fill="#ffffff"/>
+  <text x="340" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Same question, asked 100 times</text>
+  <!-- Left panel -->
+  <rect x="20" y="50" width="310" height="350" rx="10" fill="#F9FAFB" stroke="#9CA3AF"/>
+  <text x="175" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#374151">Traditional software</text>
+  <rect x="45" y="100" width="90" height="44" rx="6" fill="#E5E7EB" stroke="#9CA3AF"/>
+  <text x="90" y="127" text-anchor="middle" font-size="12" fill="#111827">Input</text>
+  <line x1="135" y1="122" x2="170" y2="122" stroke="#6B7280" stroke-width="2"/>
+  <rect x="170" y="100" width="130" height="44" rx="6" fill="#E5E7EB" stroke="#9CA3AF"/>
+  <text x="235" y="120" text-anchor="middle" font-size="12" fill="#111827">Rules written</text>
+  <text x="235" y="135" text-anchor="middle" font-size="12" fill="#111827">by engineers</text>
+  <line x1="235" y1="144" x2="235" y2="175" stroke="#6B7280" stroke-width="2"/>
+  <rect x="85" y="190" width="180" height="150" rx="6" fill="#ffffff" stroke="#9CA3AF"/>
+  <rect x="110" y="205" width="130" height="120" fill="#9CA3AF"/>
+  <text x="175" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">100 × same</text>
+  <text x="175" y="287" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">output</text>
+  <text x="175" y="370" text-anchor="middle" font-size="12" fill="#374151">Wrong? It's a bug you can trace.</text>
+  <!-- Right panel -->
+  <rect x="350" y="50" width="310" height="350" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="505" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">AI software</text>
+  <rect x="375" y="100" width="90" height="44" rx="6" fill="#E5E7EB" stroke="#9CA3AF"/>
+  <text x="420" y="127" text-anchor="middle" font-size="12" fill="#111827">Input</text>
+  <line x1="465" y1="122" x2="500" y2="122" stroke="#6B7280" stroke-width="2"/>
+  <rect x="500" y="100" width="130" height="44" rx="6" fill="#E5E7EB" stroke="#9CA3AF"/>
+  <text x="565" y="120" text-anchor="middle" font-size="12" fill="#111827">Model: patterns</text>
+  <text x="565" y="135" text-anchor="middle" font-size="12" fill="#111827">learned from data</text>
+  <line x1="565" y1="144" x2="565" y2="175" stroke="#6B7280" stroke-width="2"/>
+  <!-- bars -->
+  <line x1="390" y1="325" x2="640" y2="325" stroke="#6B7280"/>
+  <rect x="400" y="215" width="60" height="110" fill="#4F46E5"/>
+  <rect x="475" y="270" width="60" height="55" fill="#A5B4FC"/>
+  <rect x="550" y="305" width="60" height="20" fill="#9CA3AF"/>
+  <text x="430" y="207" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">~75</text>
+  <text x="505" y="262" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">~20</text>
+  <text x="580" y="297" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">~5</text>
+  <text x="430" y="342" text-anchor="middle" font-size="11" fill="#374151">Good</text>
+  <text x="505" y="342" text-anchor="middle" font-size="11" fill="#374151">Okay</text>
+  <text x="580" y="342" text-anchor="middle" font-size="11" fill="#374151">Wrong</text>
+  <text x="505" y="370" text-anchor="middle" font-size="12" fill="#374151">Wrong? Measure how often, and</text>
+  <text x="505" y="386" text-anchor="middle" font-size="12" fill="#374151">design for the bad tail.</text>
+</svg>

@@ -16,13 +16,29 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **DAU / MAU**: daily active users / monthly active users. DAU ÷ MAU shows how often people come back ("stickiness"). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
+**Delivery**: the work of building and shipping a product well: planning, building, testing and launching. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
+
+**Discovery**: the work of figuring out what to build by understanding problems and testing ideas cheaply before full building. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
+
+**Eval (evaluation)**: a repeatable test that scores an AI's outputs across many real examples. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Four risks**: value, usability, feasibility and viability, the four ways a product idea can fail (Marty Cagan). See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
+
 **Funnel**: the series of steps a user takes toward a goal, showing how many drop off at each step. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
 **Goodhart's law**: when a measure becomes a target, people game it and it stops being a good measure. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
+**Hallucination**: when an AI states something false as if it were true. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
 **HEART**: Google's user-experience metric framework: Happiness, Engagement, Adoption, Retention, Task success. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**Human-in-the-loop**: a design where a person checks, approves or corrects the AI's work before it matters. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Inference**: one run of an AI model to produce an answer; each run has a cost. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
 **Input metric**: a number your team can move directly that drives a bigger result. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
+
+**Jagged frontier**: AI being excellent at some tasks and surprisingly weak at others that look similar or easier. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Lagging metric**: a number that shows results after the fact (e.g. revenue, churn). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
@@ -40,13 +56,23 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **OMTM (One Metric That Matters)**: the single number a team focuses on for the current stage of the business (from *Lean Analytics*). See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
 
+**Outcome vs output**: an outcome is a change in customer behaviour or business results; an output is something the team produced, like a feature. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
+
 **Payback period**: how long a customer's profit takes to repay the cost of acquiring them. See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
+
+**Probabilistic**: producing a likely guess that can vary and can be wrong, as most AI does (the opposite of deterministic). See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Product manager (PM)**: the person responsible for deciding what a team builds and why, and for whether it creates value. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
+
+**Product trio**: the PM, designer and tech lead working together as one decision-making team. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
 **Proxy metric**: a number tracked because the real thing (like happiness) is hard to measure directly. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Retention**: the share of users who keep coming back over time. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
 **Simpson's paradox**: every segment moves one way while the total moves the other way, usually because of a mix shift. See [A8.6](../part-a/08-product-metrics/06-diagnosing-a-metric-drop.md).
+
+**Token**: a small chunk of text that AI models read and write; providers usually charge per token. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Vanity metric**: a number that looks good but doesn't help you make a decision (e.g. total downloads ever). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 

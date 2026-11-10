@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 10 Nov 2026 — Two new chapters: the PM role and AI foundations
+
+- **[A0.1 What a PM actually does](part-a/00-the-pm-role/01-what-a-pm-actually-does.md):** owning problems and outcomes, Cagan's four risks, discovery and delivery, leading without authority, with a grocery-checkout worked example and the Swiggy Bolt case.
+- **[B0.1 What makes AI products different](part-b/00-foundations/01-what-makes-ai-products-different.md):** probabilistic outputs, quality as a percentage, hallucinations, the jagged frontier, cost per use and designing for trust, with a support-bot cost model and the Klarna and Meesho cases.
+- 13 new glossary terms and new reading-list entries.
+
 ## 10 Nov 2026 — A8.2–A8.6 brought to full depth
 
 - Each chapter now matches A8.1's depth: a fuller "Why this matters", 4–5 new building-block sections in "The idea, simply", practical templates (North Star one-pager, AARRR dashboard, stage worksheet, cohort patterns, baseline guide) and a second interview question.

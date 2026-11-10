@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="440" fill="#ffffff"/>
+  <text x="320" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Four ways a product idea can fail</text>
+  <!-- centre -->
+  <rect x="235" y="190" width="170" height="64" rx="32" fill="#4F46E5"/>
+  <text x="320" y="218" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Product idea</text>
+  <text x="320" y="237" text-anchor="middle" font-size="11" fill="#E0E7FF">PM accountable overall</text>
+  <!-- connectors -->
+  <line x1="260" y1="195" x2="200" y2="150" stroke="#9CA3AF" stroke-width="2"/>
+  <line x1="380" y1="195" x2="440" y2="150" stroke="#9CA3AF" stroke-width="2"/>
+  <line x1="260" y1="250" x2="200" y2="290" stroke="#9CA3AF" stroke-width="2"/>
+  <line x1="380" y1="250" x2="440" y2="290" stroke="#9CA3AF" stroke-width="2"/>
+  <!-- value (PM) -->
+  <rect x="30" y="55" width="250" height="100" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="155" y="83" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">VALUE</text>
+  <text x="155" y="105" text-anchor="middle" font-size="12" fill="#111827">Will people want it?</text>
+  <text x="155" y="135" text-anchor="middle" font-size="11" font-weight="600" fill="#4F46E5">Leads: PM</text>
+  <!-- usability -->
+  <rect x="360" y="55" width="250" height="100" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="485" y="83" text-anchor="middle" font-size="15" font-weight="700" fill="#374151">USABILITY</text>
+  <text x="485" y="105" text-anchor="middle" font-size="12" fill="#111827">Can they figure out how to use it?</text>
+  <text x="485" y="135" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Leads: Designer</text>
+  <!-- viability (PM) -->
+  <rect x="30" y="285" width="250" height="110" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="155" y="313" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">VIABILITY</text>
+  <text x="155" y="335" text-anchor="middle" font-size="12" fill="#111827">Does it work for the business?</text>
+  <text x="155" y="352" text-anchor="middle" font-size="11" fill="#6B7280">cost, legal, sales, brand, ethics</text>
+  <text x="155" y="380" text-anchor="middle" font-size="11" font-weight="600" fill="#4F46E5">Leads: PM</text>
+  <!-- feasibility -->
+  <rect x="360" y="285" width="250" height="110" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="485" y="313" text-anchor="middle" font-size="15" font-weight="700" fill="#374151">FEASIBILITY</text>
+  <text x="485" y="335" text-anchor="middle" font-size="12" fill="#111827">Can we build it?</text>
+  <text x="485" y="352" text-anchor="middle" font-size="11" fill="#6B7280">time, skills, technology</text>
+  <text x="485" y="380" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Leads: Tech lead</text>
+  <text x="320" y="425" text-anchor="middle" font-size="11" fill="#6B7280">Framework: Marty Cagan, Inspired (SVPG)</text>
+</svg>

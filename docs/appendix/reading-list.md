@@ -29,3 +29,18 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [a16z: Retention Is All You Need](https://a16z.com/ai-retention-benchmarks/): retention for AI products (2025).
 - [RevenueCat: State of Subscription Apps 2026](https://www.revenuecat.com/state-of-subscription-apps/): subscription and AI app benchmarks.
 - [Lenny's Podcast (YouTube)](https://www.youtube.com/@lennyspodcast): long-form interviews with product leaders.
+
+## Added with A0.1 What a PM actually does
+
+- [Martin Eriksson: What, exactly, is a Product Manager?](https://www.mindtheproduct.com/what-exactly-is-a-product-manager/): the 2011 post behind the business–UX–technology picture of the role.
+- [Ben Horowitz: Good Product Manager/Bad Product Manager](https://a16z.com/good-product-manager-bad-product-manager/): a classic short essay on the habits of strong PMs.
+- [SVPG: Product risk taxonomies](https://svpg.com/product-risk-taxonomies): Marty Cagan on the four big risks.
+- [Lenny's Podcast: Tomer Cohen on LinkedIn's full stack builders](https://www.lennysnewsletter.com/p/why-linkedin-is-replacing-pms) (Dec 2025): how AI is reshaping PM roles.
+
+## Added with B0.1 What makes AI products different
+
+- [Microsoft: Guidelines for Human-AI Interaction](https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/) (CHI 2019) and the [HAX Toolkit](https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/): 18 design guidelines for AI products.
+- [Google People + AI Guidebook](https://pair.withgoogle.com/guidebook-v2/chapters): free chapters on designing human-centred AI.
+- [Co-Intelligence](https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/9780593716717/) (2024), Ethan Mollick: a non-technical guide to working with AI.
+- [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) (2025), Chip Huyen: building products on foundation models, including evaluation and cost.
+- [Stanford HAI AI Index](https://hai.stanford.edu/ai-index/2026-ai-index-report): the yearly reference on AI capabilities, cost and adoption.
