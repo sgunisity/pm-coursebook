@@ -44,3 +44,18 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Co-Intelligence](https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/9780593716717/) (2024), Ethan Mollick: a non-technical guide to working with AI.
 - [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) (2025), Chip Huyen: building products on foundation models, including evaluation and cost.
 - [Stanford HAI AI Index](https://hai.stanford.edu/ai-index/2026-ai-index-report): the yearly reference on AI capabilities, cost and adoption.
+
+## Added with A0.2 Product teams
+
+- [SVPG: Product vs. Feature Teams](https://svpg.com/product-vs-feature-teams) (2019): Marty Cagan's short essay on delivery, feature and empowered teams.
+- [Teresa Torres: Product Trios](https://www.producttalk.org/product-trios/): what a trio is and how to start one.
+- [Lenny's Newsletter: In defense of feature team product](https://www.lennysnewsletter.com/p/in-defense-of-feature-team-product): a counterpoint to the empowered-team ideal.
+- [AWS: Amazon's two-pizza teams](https://aws.amazon.com/executive-insights/content/amazon-two-pizza-team/): small teams with single-threaded ownership.
+
+## Added with B0.2 How LLMs work, for PMs
+
+- [Andrej Karpathy: Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI) (2025): a general-audience video on how LLMs are built.
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (2017): the transformer paper.
+- [Training language models to follow instructions with human feedback](https://huggingface.co/papers/2203.02155) (2022): the InstructGPT/RLHF paper.
+- [OpenAI: Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/) (2025).
+- [Anthropic: Tracing the thoughts of a large language model](https://www.anthropic.com/research/tracing-thoughts-language-model) (2025).

@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 11 Nov 2026 — Two new chapters: product teams and how LLMs work
+
+- **[A0.2 Product teams: the trio, empowered vs feature teams](part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md):** delivery, feature and empowered teams, output vs outcome, the product trio, team charters and Conway's law, with a bill-payments worked example and the Airbnb and Zerodha cases.
+- **[B0.2 How LLMs work, for PMs](part-b/00-foundations/02-how-llms-work-for-pms.md):** tokens (and why Indian languages can cost more), next-token prediction, pretraining, RLHF, context windows, temperature, hallucination and reasoning models, with a token-cost worked example and the Air Canada and Sarvam-1 cases.
+- 12 new glossary terms and new reading-list entries.
+
 ## 10 Nov 2026 — Two new chapters: the PM role and AI foundations
 
 - **[A0.1 What a PM actually does](part-a/00-the-pm-role/01-what-a-pm-actually-does.md):** owning problems and outcomes, Cagan's four risks, discovery and delivery, leading without authority, with a grocery-checkout worked example and the Swiggy Bolt case.

@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "A",
+  "next_track": "B",
   "chapters": [
     {
       "id": "A0.1",
@@ -18,9 +18,9 @@
       "section": "A0 The PM Role",
       "title": "Product teams: the trio, empowered vs feature teams",
       "path": "docs/part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-11",
+      "summary": "Delivery vs feature vs empowered product teams (Cagan); output vs outcome; the product trio (Torres) and shared decisions; team charters; Airbnb and Zerodha cases."
     },
     {
       "id": "A0.3",
@@ -548,9 +548,9 @@
       "section": "B0 Foundations",
       "title": "How LLMs work, for PMs",
       "path": "docs/part-b/00-foundations/02-how-llms-work-for-pms.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-11",
+      "summary": "How LLMs work: tokens (and the Indic token tax), next-token prediction, pretraining, transformers, RLHF, context window, temperature, hallucination, reasoning models; cost/latency worked example; Air Canada and Sarvam-1 cases."
     },
     {
       "id": "B0.3",
@@ -743,6 +743,11 @@
       "date": "2026-11-10",
       "mode": "DAILY",
       "did": "Added B0.1 and A0.1"
+    },
+    {
+      "date": "2026-11-11",
+      "mode": "DAILY",
+      "did": "Added A0.2 and B0.2"
     }
   ]
 }

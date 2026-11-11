@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" font-family="Inter, Arial, sans-serif">
+  <rect width="660" height="400" fill="#ffffff"/>
+  <text x="330" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">One step of an LLM: predict the next token</text>
+  <text x="330" y="52" text-anchor="middle" font-size="12" fill="#6B7280">Illustrative probabilities, not from a real model</text>
+  <!-- input tokens -->
+  <text x="30" y="92" font-size="11" font-weight="600" fill="#6B7280">INPUT, SPLIT INTO TOKENS</text>
+  <rect x="30" y="102" width="62" height="34" rx="6" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="61" y="124" text-anchor="middle" font-size="13" fill="#111827">The</text>
+  <rect x="98" y="102" width="82" height="34" rx="6" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="139" y="124" text-anchor="middle" font-size="13" fill="#111827">capital</text>
+  <rect x="186" y="102" width="48" height="34" rx="6" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="210" y="124" text-anchor="middle" font-size="13" fill="#111827">of</text>
+  <rect x="240" y="102" width="70" height="34" rx="6" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="275" y="124" text-anchor="middle" font-size="13" fill="#111827">Karn</text>
+  <rect x="316" y="102" width="70" height="34" rx="6" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="351" y="124" text-anchor="middle" font-size="13" fill="#111827">ataka</text>
+  <rect x="392" y="102" width="48" height="34" rx="6" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="416" y="124" text-anchor="middle" font-size="13" fill="#111827">is</text>
+  <text x="456" y="124" font-size="12" fill="#6B7280">(6 tokens)</text>
+  <!-- model box -->
+  <line x1="235" y1="140" x2="235" y2="170" stroke="#9CA3AF" stroke-width="2"/>
+  <polygon points="235,178 229,168 241,168" fill="#9CA3AF"/>
+  <rect x="120" y="180" width="230" height="46" rx="23" fill="#4F46E5"/>
+  <text x="235" y="200" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Model</text>
+  <text x="235" y="217" text-anchor="middle" font-size="11" fill="#E0E7FF">scores every possible next token</text>
+  <line x1="235" y1="226" x2="235" y2="246" stroke="#9CA3AF" stroke-width="2"/>
+  <polygon points="235,254 229,244 241,244" fill="#9CA3AF"/>
+  <!-- probabilities -->
+  <text x="30" y="274" font-size="11" font-weight="600" fill="#6B7280">PROBABILITY OF EACH NEXT TOKEN</text>
+  <text x="30" y="300" font-size="13" fill="#111827">Bengaluru</text>
+  <rect x="130" y="288" width="344" height="16" rx="3" fill="#4F46E5"/>
+  <text x="482" y="300" font-size="12" fill="#111827">86%</text>
+  <text x="30" y="326" font-size="13" fill="#111827">Bangalore</text>
+  <rect x="130" y="314" width="44" height="16" rx="3" fill="#A5B4FC"/>
+  <text x="182" y="326" font-size="12" fill="#111827">11%</text>
+  <text x="30" y="352" font-size="13" fill="#111827">Mysuru</text>
+  <rect x="130" y="340" width="8" height="16" rx="3" fill="#C7D2FE"/>
+  <text x="146" y="352" font-size="12" fill="#111827">2%</text>
+  <text x="30" y="378" font-size="13" fill="#111827">everything else</text>
+  <rect x="130" y="366" width="4" height="16" rx="2" fill="#E5E7EB"/>
+  <text x="142" y="378" font-size="12" fill="#111827">1%</text>
+  <!-- side note -->
+  <rect x="520" y="180" width="125" height="200" rx="10" fill="#EEF2FF" stroke="#4F46E5"/>
+  <text x="582" y="205" text-anchor="middle" font-size="12" font-weight="700" fill="#4F46E5">Then</text>
+  <text x="582" y="228" text-anchor="middle" font-size="11" fill="#111827">Pick one token</text>
+  <text x="582" y="244" text-anchor="middle" font-size="11" fill="#111827">(temperature</text>
+  <text x="582" y="260" text-anchor="middle" font-size="11" fill="#111827">decides how</text>
+  <text x="582" y="276" text-anchor="middle" font-size="11" fill="#111827">adventurous)</text>
+  <text x="582" y="304" text-anchor="middle" font-size="11" fill="#111827">Add it to the</text>
+  <text x="582" y="320" text-anchor="middle" font-size="11" fill="#111827">input and</text>
+  <text x="582" y="336" text-anchor="middle" font-size="11" fill="#111827">repeat, one</text>
+  <text x="582" y="352" text-anchor="middle" font-size="11" fill="#111827">token at a time</text>
+</svg>

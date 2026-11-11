@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 420" font-family="Inter, Arial, sans-serif">
+  <rect width="660" height="420" fill="#ffffff"/>
+  <text x="330" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Three kinds of product team</text>
+  <text x="330" y="52" text-anchor="middle" font-size="12" fill="#6B7280">What the team is handed decides how much it can think</text>
+  <!-- column 1 -->
+  <rect x="20" y="75" width="195" height="300" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="117" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#374151">Delivery team</text>
+  <text x="117" y="135" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">HANDED</text>
+  <text x="117" y="153" text-anchor="middle" font-size="12" fill="#111827">A ready backlog</text>
+  <text x="117" y="185" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">PEOPLE</text>
+  <text x="117" y="203" text-anchor="middle" font-size="12" fill="#111827">Engineers + a</text>
+  <text x="117" y="219" text-anchor="middle" font-size="12" fill="#111827">"product owner"</text>
+  <text x="117" y="251" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">JUDGED ON</text>
+  <text x="117" y="269" text-anchor="middle" font-size="12" fill="#111827">Output: tickets done</text>
+  <text x="117" y="301" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">PM ACTS AS</text>
+  <text x="117" y="319" text-anchor="middle" font-size="12" fill="#111827">Backlog administrator</text>
+  <!-- column 2 -->
+  <rect x="232" y="75" width="195" height="300" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="330" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#374151">Feature team</text>
+  <text x="330" y="135" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">HANDED</text>
+  <text x="330" y="153" text-anchor="middle" font-size="12" fill="#111827">A roadmap of features</text>
+  <text x="330" y="185" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">PEOPLE</text>
+  <text x="330" y="203" text-anchor="middle" font-size="12" fill="#111827">PM, designer,</text>
+  <text x="330" y="219" text-anchor="middle" font-size="12" fill="#111827">engineers</text>
+  <text x="330" y="251" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">JUDGED ON</text>
+  <text x="330" y="269" text-anchor="middle" font-size="12" fill="#111827">Output: shipped on time</text>
+  <text x="330" y="301" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">PM ACTS AS</text>
+  <text x="330" y="319" text-anchor="middle" font-size="12" fill="#111827">Project manager</text>
+  <!-- column 3 -->
+  <rect x="445" y="75" width="195" height="300" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="542" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">Empowered team</text>
+  <text x="542" y="135" text-anchor="middle" font-size="11" font-weight="600" fill="#4F46E5">HANDED</text>
+  <text x="542" y="153" text-anchor="middle" font-size="12" fill="#111827">A problem + an outcome</text>
+  <text x="542" y="185" text-anchor="middle" font-size="11" font-weight="600" fill="#4F46E5">PEOPLE</text>
+  <text x="542" y="203" text-anchor="middle" font-size="12" fill="#111827">PM, designer, engineers;</text>
+  <text x="542" y="219" text-anchor="middle" font-size="12" fill="#111827">trio leads discovery</text>
+  <text x="542" y="251" text-anchor="middle" font-size="11" font-weight="600" fill="#4F46E5">JUDGED ON</text>
+  <text x="542" y="269" text-anchor="middle" font-size="12" fill="#111827">Outcome: did the</text>
+  <text x="542" y="285" text-anchor="middle" font-size="12" fill="#111827">number move?</text>
+  <text x="542" y="317" text-anchor="middle" font-size="11" font-weight="600" fill="#4F46E5">PM ACTS AS</text>
+  <text x="542" y="335" text-anchor="middle" font-size="12" fill="#111827">Owner of value + viability</text>
+  <!-- arrow -->
+  <line x1="40" y1="398" x2="610" y2="398" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="620,398 608,392 608,404" fill="#4F46E5"/>
+  <text x="330" y="414" text-anchor="middle" font-size="11" fill="#4F46E5">more trust, more context, more accountability for results</text>
+</svg>
