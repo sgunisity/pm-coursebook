@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 440" font-family="Inter, Arial, sans-serif">
+  <rect width="660" height="440" fill="#ffffff"/>
+  <text x="330" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Product, project, program: three questions</text>
+  <text x="330" y="52" text-anchor="middle" font-size="12" fill="#6B7280">Same work, seen from different heights</text>
+  <!-- column 1: product (accent) -->
+  <rect x="20" y="75" width="195" height="330" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="117" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">Product</text>
+  <text x="117" y="135" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">ASKS</text>
+  <text x="117" y="153" text-anchor="middle" font-size="12" fill="#111827">Why build it? What?</text>
+  <text x="117" y="185" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">OWNS</text>
+  <text x="117" y="203" text-anchor="middle" font-size="12" fill="#111827">A problem and</text>
+  <text x="117" y="219" text-anchor="middle" font-size="12" fill="#111827">its outcome</text>
+  <text x="117" y="251" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">TIME HORIZON</text>
+  <text x="117" y="269" text-anchor="middle" font-size="12" fill="#111827">Ongoing, no end date</text>
+  <text x="117" y="301" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">SUCCESS</text>
+  <text x="117" y="319" text-anchor="middle" font-size="12" fill="#111827">Users get value;</text>
+  <text x="117" y="335" text-anchor="middle" font-size="12" fill="#111827">metrics move</text>
+  <text x="117" y="375" text-anchor="middle" font-size="11" fill="#6B7280">Risk: building the</text>
+  <text x="117" y="391" text-anchor="middle" font-size="11" fill="#6B7280">wrong thing</text>
+  <!-- column 2: project -->
+  <rect x="232" y="75" width="195" height="330" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="330" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#374151">Project</text>
+  <text x="330" y="135" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">ASKS</text>
+  <text x="330" y="153" text-anchor="middle" font-size="12" fill="#111827">How? By when?</text>
+  <text x="330" y="185" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">OWNS</text>
+  <text x="330" y="203" text-anchor="middle" font-size="12" fill="#111827">One defined piece</text>
+  <text x="330" y="219" text-anchor="middle" font-size="12" fill="#111827">of work</text>
+  <text x="330" y="251" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">TIME HORIZON</text>
+  <text x="330" y="269" text-anchor="middle" font-size="12" fill="#111827">Fixed start and end</text>
+  <text x="330" y="301" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">SUCCESS</text>
+  <text x="330" y="319" text-anchor="middle" font-size="12" fill="#111827">On time, on budget,</text>
+  <text x="330" y="335" text-anchor="middle" font-size="12" fill="#111827">to scope</text>
+  <text x="330" y="375" text-anchor="middle" font-size="11" fill="#6B7280">Risk: late or</text>
+  <text x="330" y="391" text-anchor="middle" font-size="11" fill="#6B7280">over budget</text>
+  <!-- column 3: program -->
+  <rect x="445" y="75" width="195" height="330" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="542" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#374151">Program</text>
+  <text x="542" y="135" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">ASKS</text>
+  <text x="542" y="153" text-anchor="middle" font-size="12" fill="#111827">How does it all fit?</text>
+  <text x="542" y="185" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">OWNS</text>
+  <text x="542" y="203" text-anchor="middle" font-size="12" fill="#111827">Many related projects</text>
+  <text x="542" y="219" text-anchor="middle" font-size="12" fill="#111827">and their joint benefit</text>
+  <text x="542" y="251" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">TIME HORIZON</text>
+  <text x="542" y="269" text-anchor="middle" font-size="12" fill="#111827">Until benefits land</text>
+  <text x="542" y="301" text-anchor="middle" font-size="11" font-weight="600" fill="#6B7280">SUCCESS</text>
+  <text x="542" y="319" text-anchor="middle" font-size="12" fill="#111827">The big goal is met;</text>
+  <text x="542" y="335" text-anchor="middle" font-size="12" fill="#111827">nothing falls between</text>
+  <text x="542" y="375" text-anchor="middle" font-size="11" fill="#6B7280">Risk: pieces don't fit</text>
+  <text x="542" y="391" text-anchor="middle" font-size="11" fill="#6B7280">or arrive out of order</text>
+</svg>

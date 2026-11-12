@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 470" font-family="Inter, Arial, sans-serif">
+  <rect width="660" height="470" fill="#ffffff"/>
+  <text x="340" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Which kind of model fits the job?</text>
+  <text x="340" y="52" text-anchor="middle" font-size="12" fill="#6B7280">Task difficulty and request volume point to a strategy</text>
+  <!-- axes labels -->
+  <text x="340" y="455" text-anchor="middle" font-size="13" font-weight="600" fill="#374151">Request volume  →  (low to high)</text>
+  <text x="28" y="255" text-anchor="middle" font-size="13" font-weight="600" fill="#374151" transform="rotate(-90 28 255)">Task difficulty  →  (low to high)</text>
+  <!-- top-left: hard, low volume -->
+  <rect x="60" y="70" width="270" height="175" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="195" y="98" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">Hard, rare</text>
+  <text x="195" y="124" text-anchor="middle" font-size="13" fill="#111827">Use a frontier model</text>
+  <text x="195" y="150" text-anchor="middle" font-size="11" fill="#6B7280">Quality matters most;</text>
+  <text x="195" y="166" text-anchor="middle" font-size="11" fill="#6B7280">total cost stays small</text>
+  <text x="195" y="198" text-anchor="middle" font-size="11" fill="#374151">e.g. drafting a legal summary,</text>
+  <text x="195" y="214" text-anchor="middle" font-size="11" fill="#374151">a weekly strategy report</text>
+  <!-- top-right: hard, high volume (accent) -->
+  <rect x="345" y="70" width="270" height="175" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="480" y="98" text-anchor="middle" font-size="14" font-weight="700" fill="#4F46E5">Hard, frequent</text>
+  <text x="480" y="124" text-anchor="middle" font-size="13" fill="#111827">Route across tiers</text>
+  <text x="480" y="150" text-anchor="middle" font-size="11" fill="#6B7280">Mid-size workhorse + caching;</text>
+  <text x="480" y="166" text-anchor="middle" font-size="11" fill="#6B7280">big model only when needed</text>
+  <text x="480" y="198" text-anchor="middle" font-size="11" fill="#374151">e.g. customer support,</text>
+  <text x="480" y="214" text-anchor="middle" font-size="11" fill="#374151">coding assistants</text>
+  <!-- bottom-left: easy, low volume -->
+  <rect x="60" y="260" width="270" height="170" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="195" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">Easy, rare</text>
+  <text x="195" y="314" text-anchor="middle" font-size="13" fill="#111827">Any model that passes</text>
+  <text x="195" y="340" text-anchor="middle" font-size="11" fill="#6B7280">Don't over-think it;</text>
+  <text x="195" y="356" text-anchor="middle" font-size="11" fill="#6B7280">reuse what you already have</text>
+  <text x="195" y="388" text-anchor="middle" font-size="11" fill="#374151">e.g. an internal tool used</text>
+  <text x="195" y="404" text-anchor="middle" font-size="11" fill="#374151">a few times a day</text>
+  <!-- bottom-right: easy, high volume -->
+  <rect x="345" y="260" width="270" height="170" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="480" y="288" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">Easy, frequent</text>
+  <text x="480" y="314" text-anchor="middle" font-size="13" fill="#111827">Use a small, fast model</text>
+  <text x="480" y="340" text-anchor="middle" font-size="11" fill="#6B7280">Cost and speed dominate;</text>
+  <text x="480" y="356" text-anchor="middle" font-size="11" fill="#6B7280">consider batch or self-hosting</text>
+  <text x="480" y="388" text-anchor="middle" font-size="11" fill="#374151">e.g. tagging tickets,</text>
+  <text x="480" y="404" text-anchor="middle" font-size="11" fill="#374151">extracting fields, autocomplete</text>
+</svg>

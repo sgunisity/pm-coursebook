@@ -59,3 +59,17 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Training language models to follow instructions with human feedback](https://huggingface.co/papers/2203.02155) (2022): the InstructGPT/RLHF paper.
 - [OpenAI: Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/) (2025).
 - [Anthropic: Tracing the thoughts of a large language model](https://www.anthropic.com/research/tracing-thoughts-language-model) (2025).
+
+## Added with B0.3 Choosing models
+
+- [OpenAI: Model selection](https://developers.openai.com/api/docs/guides/model-selection): set acceptance criteria, test on real tasks, keep the lightest setting that passes.
+- [Artificial Analysis: performance benchmarking methodology](https://artificialanalysis.ai/methodology/performance-benchmarking): plain definitions of time to first token, output speed and end-to-end time.
+- [LMSYS: RouteLLM](https://lmsys.org/blog/2024-07-01-routellm/) (2024): evidence on cost savings from routing between strong and weak models.
+- [Epoch AI: LLM inference price trends](https://epoch.ai/data-insights/ai-inference-price-trends) (2025): how fast the price of each capability level has fallen.
+
+## Added with A0.3 Product vs project vs program management
+
+- [SVPG: Product Management vs. Project Management](https://svpg.com/product-management-vs-project-management) (2007): Marty Cagan's case for separating the roles.
+- [The Scrum Guide](https://www.scrumguides.org/scrum-guide.html) (2020): the official definition of the Product Owner accountability.
+- [PMI: Program and project management: relations, commonalities, differences](https://www.pmi.org/learning/library/program-project-management-relations-commonalities-differences-10591) (2013).
+- [Mind the Product: Why you need to know about different product manager types](https://www.mindtheproduct.com/why-you-need-to-know-about-different-product-manager-types) (2021).

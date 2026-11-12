@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 12 Nov 2026 — Two new chapters: choosing AI models and the many kinds of "PM"
+
+- **[B0.3 Choosing models: capability, cost, latency, open vs closed](part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md):** the four trade-offs, how token pricing, caching and batch discounts work, latency that users feel, building an eval set, open-weight vs closed models, routing, and why to design for switching, with a support-bot cost model and the DeepSeek-R1 and Sarvam-30B/105B cases.
+- **[A0.3 Product vs project vs program management; types of PM](part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md):** the three questions (why/what, how/when, how it fits), product owner and TPM overlaps, PM types by product, goal and stage, with a pay-later launch worked example and the LinkedIn "product builder" and Indian PM-market cases.
+- 10 new glossary terms and new reading-list entries.
+
 ## 11 Nov 2026 — Two new chapters: product teams and how LLMs work
 
 - **[A0.2 Product teams: the trio, empowered vs feature teams](part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md):** delivery, feature and empowered teams, output vs outcome, the product trio, team charters and Conway's law, with a bill-payments worked example and the Airbnb and Zerodha cases.

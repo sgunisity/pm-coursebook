@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "B",
+  "next_track": "A",
   "chapters": [
     {
       "id": "A0.1",
@@ -28,9 +28,9 @@
       "section": "A0 The PM Role",
       "title": "Product vs project vs program management; types of PM",
       "path": "docs/part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-12",
+      "summary": "Product (why/what, outcomes) vs project (temporary, how/when, on time/budget) vs program (related projects, how it fits); product owner and TPM overlaps; PM types by product, goal and stage."
     },
     {
       "id": "A1.1",
@@ -558,9 +558,9 @@
       "section": "B0 Foundations",
       "title": "Choosing models: capability, cost, latency, open vs closed",
       "path": "docs/part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-12",
+      "summary": "Choosing models: capability, cost, latency, control trade-offs; API token pricing, caching, batch; TTFT; eval-set-first 'quality first, then step down'; open-weight vs closed; routing; falling prices."
     },
     {
       "id": "B1.1",
@@ -748,6 +748,11 @@
       "date": "2026-11-11",
       "mode": "DAILY",
       "did": "Added A0.2 and B0.2"
+    },
+    {
+      "date": "2026-11-12",
+      "mode": "DAILY",
+      "did": "Added B0.3 and A0.3"
     }
   ]
 }

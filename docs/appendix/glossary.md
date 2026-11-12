@@ -6,6 +6,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Activation**: the moment a new user first gets real value from your product (the "aha moment"). See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**Batch processing (AI APIs)**: sending AI work that can wait (like overnight jobs) in bulk, usually at a big discount. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
+
 **CAC (customer acquisition cost)**: what you spend to win one new customer. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
 **Cohort**: a group of users who share a start point, such as everyone who signed up in the same week. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
@@ -52,6 +54,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Lagging metric**: a number that shows results after the fact (e.g. revenue, churn). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
+**Latency**: how long a user waits for a response, often split into time to first token and total response time. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
+
 **Leading metric**: an early signal that predicts a future result. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **LLM (large language model)**: a model trained on huge amounts of text to predict the next token; the engine behind tools like ChatGPT, Claude and Gemini. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
@@ -62,11 +66,15 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Mix shift**: an average changing because the share of each user segment changed, not their behaviour. See [A8.6](../part-a/08-product-metrics/06-diagnosing-a-metric-drop.md).
 
+**Model routing**: sending each request to a different AI model depending on how hard or important it is, to save cost and time. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
+
 **North Star metric**: the one number that best captures the value customers get from your product. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
 
 **NRR (net revenue retention)**: this year's revenue from last year's customers ÷ their revenue last year; above 100% means existing customers grew. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
 **OMTM (One Metric That Matters)**: the single number a team focuses on for the current stage of the business (from *Lean Analytics*). See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
+
+**Open-weight model**: an AI model whose trained weights you can download and run yourself; a closed model is only available through its maker's API or app. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
 **Outcome vs output**: an outcome is a change in customer behaviour or business results; an output is something the team produced, like a feature. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
@@ -78,7 +86,15 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Product manager (PM)**: the person responsible for deciding what a team builds and why, and for whether it creates value. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
+**Product operations (product ops)**: a team that gives PMs shared tools, data and processes so they can spend more time on customers. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
+
+**Product owner**: in Scrum, the one person accountable for maximising the value of the team's work; often a hat the PM wears. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
+
 **Product trio**: the PM, designer and tech lead working together as one decision-making team. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
+
+**Program**: a group of related projects managed together to achieve a benefit none could achieve alone. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
+
+**Project**: a temporary piece of work with a start, an end and a defined result. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
 
 **Proxy metric**: a number tracked because the real thing (like happiness) is hard to measure directly. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
@@ -92,7 +108,11 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Temperature**: a setting that controls how varied an AI model's answers are; low is predictable, high is creative. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
+**Time to first token (TTFT)**: seconds from sending a request to an AI model until the first word of the reply arrives. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
+
 **Token**: a small chunk of text that AI models read and write; providers usually charge per token. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**TPM (technical program manager)**: a program manager with deep technical knowledge who coordinates complex engineering work across many teams. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
 
 **Transformer**: the model design behind almost all modern LLMs, built around "attention" to earlier tokens. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
