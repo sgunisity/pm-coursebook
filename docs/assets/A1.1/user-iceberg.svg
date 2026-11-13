@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="440" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">What dashboards show vs what drives behaviour</text>
+  <!-- tip -->
+  <polygon points="320,55 410,140 230,140" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <!-- waterline -->
+  <line x1="40" y1="140" x2="600" y2="140" stroke="#4F46E5" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="596" y="132" text-anchor="end" font-size="11" fill="#4F46E5">waterline</text>
+  <!-- body -->
+  <polygon points="230,140 410,140 545,300 450,410 190,410 95,300" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="320" y="102" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">Visible in data</text>
+  <text x="320" y="120" text-anchor="middle" font-size="11" fill="#374151">taps, orders, drop-offs</text>
+  <text x="70" y="78" font-size="12" fill="#374151">"46% of abandoned carts</text>
+  <text x="70" y="94" font-size="12" fill="#374151">happen after 9 pm"</text>
+  <text x="320" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">Only visible up close</text>
+  <text x="320" y="212" text-anchor="middle" font-size="13" fill="#374151">Context: ordering at 10 pm, after closing</text>
+  <text x="320" y="240" text-anchor="middle" font-size="13" fill="#374151">Who helps: a son types, the owner reads out</text>
+  <text x="320" y="268" text-anchor="middle" font-size="13" fill="#374151">Workarounds: the 7 am trip to the market</text>
+  <text x="320" y="296" text-anchor="middle" font-size="13" fill="#374151">Feelings: fear of running out of stock</text>
+  <text x="320" y="324" text-anchor="middle" font-size="13" fill="#374151">Motives: "must have oil on the shelf by morning"</text>
+  <text x="320" y="380" text-anchor="middle" font-size="12" font-style="italic" fill="#4F46E5">Interviews, observation, follow-me-home</text>
+</svg>

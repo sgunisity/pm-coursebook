@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 545" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="545" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Anatomy of a system prompt</text>
+  <rect x="40" y="45" width="330" height="460" rx="12" fill="#F9FAFB" stroke="#9CA3AF"/>
+  <text x="205" y="68" text-anchor="middle" font-size="12" font-weight="600" fill="#6B7280">THE PROMPT</text>
+  <g font-size="13" fill="#111827">
+    <rect x="55" y="80" width="300" height="42" rx="6" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="70" y="106" font-weight="600">1. Role and goal</text>
+    <rect x="55" y="130" width="300" height="42" rx="6" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="70" y="156" font-weight="600">2. Audience and context</text>
+    <rect x="55" y="180" width="300" height="42" rx="6" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="70" y="206" font-weight="600">3. Task and steps</text>
+    <rect x="55" y="230" width="300" height="42" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+    <text x="70" y="256" font-weight="600">4. Rules, each with a reason</text>
+    <rect x="55" y="280" width="300" height="42" rx="6" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="70" y="306" font-weight="600">5. 2-5 varied examples</text>
+    <rect x="55" y="330" width="300" height="42" rx="6" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="70" y="356" font-weight="600">6. Input data, in tags</text>
+    <rect x="55" y="380" width="300" height="42" rx="6" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="70" y="406" font-weight="600">7. Output format</text>
+    <rect x="55" y="430" width="300" height="42" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+    <text x="70" y="456" font-weight="600">8. What to do when unsure</text>
+  </g>
+  <g font-size="12" fill="#374151">
+    <text x="385" y="106">Sets the job</text>
+    <text x="385" y="156">Who is on the other side</text>
+    <text x="385" y="206">What to do, in order</text>
+    <text x="385" y="250">Lets the model handle</text>
+    <text x="385" y="266">cases you didn't foresee</text>
+    <text x="385" y="306">Shows target quality and tone</text>
+    <text x="385" y="350">Keeps instructions and</text>
+    <text x="385" y="366">data apart</text>
+    <text x="385" y="406">Lets code check the output</text>
+    <text x="385" y="450">Prevents confident,</text>
+    <text x="385" y="466">made-up answers</text>
+  </g>
+  <text x="320" y="530" text-anchor="middle" font-size="12" font-style="italic" fill="#4F46E5">Highlighted: the two blocks weak prompts most often miss</text>
+</svg>

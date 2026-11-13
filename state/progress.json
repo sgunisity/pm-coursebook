@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "A",
+  "next_track": "B",
   "chapters": [
     {
       "id": "A0.1",
@@ -38,9 +38,9 @@
       "section": "A1 Understanding Users (User Sense)",
       "title": "Building user sense and empathy",
       "path": "docs/part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-13",
+      "summary": "User sense as a mental model (facts, context, motives); empathy spectrum; you are not your user (curse of knowledge); say-do gap and Mom Test; four windows (firsthand/secondhand x say/do); weekly rhythm; insights; kirana late-night cart worked example; Zomato and Xbox cases."
     },
     {
       "id": "A1.2",
@@ -568,9 +568,9 @@
       "section": "B1 Building Blocks",
       "title": "Prompt engineering for PMs",
       "path": "docs/part-b/01-building-blocks/01-prompt-engineering-for-pms.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-13",
+      "summary": "Prompts as product specs: prompt assembly, system-prompt anatomy, rules with reasons, varied few-shot examples, chain of thought vs reasoning models, structured output, myths (personas, tips), context engineering, versioning and evals; prompt injection and leakage; support-drafter cost worked example; Swiggy Hermes and Chevy $1 Tahoe cases."
     },
     {
       "id": "B1.2",
@@ -753,6 +753,11 @@
       "date": "2026-11-12",
       "mode": "DAILY",
       "did": "Added B0.3 and A0.3"
+    },
+    {
+      "date": "2026-11-13",
+      "mode": "DAILY",
+      "did": "Added A1.1 and B1.1"
     }
   ]
 }

@@ -32,3 +32,38 @@ A checklist for when a key number suddenly falls. See [A8.6](../part-a/08-produc
 6. Best hypothesis + evidence for and against
 7. Next action + owner + when we'll check again
 ```
+
+## User session debrief note
+
+Fill this in within 24 hours of any interview or observation. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
+
+```text
+Who (segment, not name):           Date / place / format:
+Context (where, when, with whom, under what pressure):
+What they did (observed, step by step):
+Quotes (their exact words):
+Surprises (what didn't match our assumptions):
+Candidate insight (a non-obvious truth that points to a decision):
+How common might this be? How will we check?
+Open questions for next session:
+```
+
+## System prompt spec
+
+A one-page spec for any AI feature's system prompt. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
+
+```text
+Job (one sentence):
+Users and their context:
+Success criteria (3-5, measurable):
+Role and goal:
+Rules, each with a reason:
+Examples (2-5, varied in topic, length, language, mood):
+Input data and how it's tagged:
+Output format (and how code validates it):
+When unsure / out of scope, the model should:
+Hard limits enforced in code, not the prompt:
+Eval set (link, size, last score):
+Model + version, token count, est. cost per 1,000 calls:
+Owner, version, change log:
+```

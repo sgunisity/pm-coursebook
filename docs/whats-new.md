@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 13 Nov 2026 — Two new chapters: user sense and prompt engineering
+
+- **[A1.1 Building user sense and empathy](part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md):** user sense as a mental model, the empathy spectrum, the curse of knowledge and the say–do gap, four windows into users, a weekly rhythm and turning observations into insights, with a kirana-ordering worked example and the Zomato and Xbox Adaptive Joystick cases.
+- **[B1.1 Prompt engineering for PMs](part-b/01-building-blocks/01-prompt-engineering-for-pms.md):** the anatomy of a system prompt, rules with reasons, examples, reasoning, structured output, tested myths, context engineering, versioning, prompt injection and cost, with a support-drafter worked example and the Swiggy Hermes and Chevy $1 Tahoe cases.
+- New glossary terms, two new templates and new reading-list entries.
+
 ## 12 Nov 2026 — Two new chapters: choosing AI models and the many kinds of "PM"
 
 - **[B0.3 Choosing models: capability, cost, latency, open vs closed](part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md):** the four trade-offs, how token pricing, caching and batch discounts work, latency that users feel, building an eval set, open-weight vs closed models, routing, and why to design for switching, with a support-bot cost model and the DeepSeek-R1 and Sarvam-30B/105B cases.

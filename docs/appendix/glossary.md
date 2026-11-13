@@ -10,7 +10,11 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **CAC (customer acquisition cost)**: what you spend to win one new customer. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**Chain of thought**: getting an AI model to work through a problem step by step before answering. Helps some models; adds delay on reasoning models. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
+
 **Cohort**: a group of users who share a start point, such as everyone who signed up in the same week. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
+
+**Context engineering**: choosing everything that goes into an AI model's input on each step (instructions, documents, history, tool results), not just the written prompt. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
 **Context window**: the maximum amount of text (in tokens) an AI model can look at in one request, including instructions, conversation and documents. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
@@ -22,17 +26,25 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Cross-functional team**: a team that mixes skills (product, design, engineering, data) so it can build end to end. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
+**Curse of knowledge**: once you know something, it's hard to imagine not knowing it, which makes experts poor judges of what confuses beginners. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
+
 **DAU / MAU**: daily active users / monthly active users. DAU ÷ MAU shows how often people come back ("stickiness"). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Delivery**: the work of building and shipping a product well: planning, building, testing and launching. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
 **Discovery**: the work of figuring out what to build by understanding problems and testing ideas cheaply before full building. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
+**Empathy (in product work)**: understanding a user's situation, feelings and goals from their point of view, well enough to predict what they'll do. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
+
 **Empowered product team**: a team handed a problem and a target outcome, trusted to find the best solution, and judged on results. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
 **Eval (evaluation)**: a repeatable test that scores an AI's outputs across many real examples. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Feature team**: a team handed a roadmap of features to build and judged mainly on shipping them. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
+
+**Few-shot prompting**: including a few worked examples in a prompt to show the model what good output looks like. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
+
+**Follow-me-home**: watching a user do a real task in their own setting instead of asking them about it; a practice made well known by Intuit. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
 **Four risks**: value, usability, feasibility and viability, the four ways a product idea can fail (Marty Cagan). See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
@@ -49,6 +61,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Inference**: one run of an AI model to produce an answer; each run has a cost. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Input metric**: a number your team can move directly that drives a bigger result. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
+
+**Insight**: a non-obvious truth about users that explains what you observed and points to a decision. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
 **Jagged frontier**: AI being excellent at some tasks and surprisingly weak at others that look similar or easier. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
@@ -96,6 +110,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Project**: a temporary piece of work with a start, an end and a defined result. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
 
+**Prompt injection**: an attack where text from a user or a document tricks an AI model into ignoring its instructions. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
+
 **Proxy metric**: a number tracked because the real thing (like happiness) is hard to measure directly. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Reasoning model**: an AI model that produces hidden step-by-step "thinking" before answering; better on hard problems, slower and costlier. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
@@ -104,7 +120,13 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **RLHF (reinforcement learning from human feedback)**: training a model towards answers that people ranked as better. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
+**Say–do gap**: the difference between what people say they do and what they actually do. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
+
 **Simpson's paradox**: every segment moves one way while the total moves the other way, usually because of a mix shift. See [A8.6](../part-a/08-product-metrics/06-diagnosing-a-metric-drop.md).
+
+**Structured output**: AI output in a fixed, machine-readable shape (such as JSON with named fields) that code can check and use. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
+
+**System prompt**: standing instructions a product team writes for an AI model, applied to every conversation. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
 **Temperature**: a setting that controls how varied an AI model's answers are; low is predictable, high is creative. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
@@ -117,6 +139,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Transformer**: the model design behind almost all modern LLMs, built around "attention" to earlier tokens. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
 **Two-pizza team**: Amazon's idea that a team should be small enough for two pizzas to feed, ideally under ten people. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
+
+**User sense**: the trained ability to predict how real users will behave and feel, built from regular contact with them. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
 **Vanity metric**: a number that looks good but doesn't help you make a decision (e.g. total downloads ever). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 

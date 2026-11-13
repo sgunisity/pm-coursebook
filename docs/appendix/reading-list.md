@@ -73,3 +73,21 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [The Scrum Guide](https://www.scrumguides.org/scrum-guide.html) (2020): the official definition of the Product Owner accountability.
 - [PMI: Program and project management: relations, commonalities, differences](https://www.pmi.org/learning/library/program-project-management-relations-commonalities-differences-10591) (2013).
 - [Mind the Product: Why you need to know about different product manager types](https://www.mindtheproduct.com/why-you-need-to-know-about-different-product-manager-types) (2021).
+
+## Added with A1.1 Building user sense and empathy
+
+- [The Mom Test](https://momtestbook.com/) (2013), Rob Fitzpatrick: how to ask customers questions that produce evidence, not polite opinions.
+- [Teresa Torres: Continuous discovery](https://www.producttalk.org/glossary-discovery-continuous-discovery/): weekly touchpoints with customers, by the team building the product.
+- [Intuit: Design for Delight and Follow-Me-Home](https://www.intuit.com/blog/life-at-intuit/design-for-delight-building-deep-customer-empathy-to-solve-any-problem/): how Intuit observes customers in context.
+- [NN/g: Sympathy vs. empathy in UX](https://www.nngroup.com/articles/sympathy-vs-empathy-ux/) (2019): the empathy spectrum.
+- [Stanford d.school: Design Thinking Bootleg](https://dschool.stanford.edu/resources/design-thinking-bootleg): free method cards for observing and engaging users.
+- [NN/g: Synthetic users vs. human respondents](https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/) (2026): why AI "users" don't replace real ones.
+
+## Added with B1.1 Prompt engineering for PMs
+
+- [Anthropic: Prompt engineering overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview): official guidance with examples.
+- [OpenAI: Prompting guide](https://developers.openai.com/api/docs/guides/prompting): includes versioning and testing prompts on every release.
+- [Anthropic: Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) (2025).
+- [The Prompt Report](https://arxiv.org/abs/2406.06608) (2024): a systematic survey of prompting techniques.
+- [Lenny's Podcast: AI prompt engineering in 2025, with Sander Schulhoff](https://www.lennysnewsletter.com/p/ai-prompt-engineering-in-2025-sander-schulhoff) (June 2025).
+- [OWASP: LLM01 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/): the top-ranked LLM application risk and its mitigations.
