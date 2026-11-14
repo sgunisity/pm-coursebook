@@ -6,11 +6,15 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Activation**: the moment a new user first gets real value from your product (the "aha moment"). See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**Attitudinal vs behavioural research**: what people *say* (opinions, beliefs) vs what people *do* (actions you can observe or log). See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
+
 **Batch processing (AI APIs)**: sending AI work that can wait (like overnight jobs) in bulk, usually at a big discount. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
 **CAC (customer acquisition cost)**: what you spend to win one new customer. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
 **Chain of thought**: getting an AI model to work through a problem step by step before answering. Helps some models; adds delay on reasoning models. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
+
+**Chunk**: a small piece of a document (often a few hundred tokens) stored and retrieved on its own in a RAG system. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Cohort**: a group of users who share a start point, such as everyone who signed up in the same week. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
@@ -34,11 +38,17 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Discovery**: the work of figuring out what to build by understanding problems and testing ideas cheaply before full building. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
+**Discussion guide**: the plan for a user interview: goals, main questions and follow-up prompts. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
+
+**Embedding**: a list of numbers that captures the meaning of a piece of text, so similar meanings sit close together. Used for meaning-based search. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
+
 **Empathy (in product work)**: understanding a user's situation, feelings and goals from their point of view, well enough to predict what they'll do. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
 **Empowered product team**: a team handed a problem and a target outcome, trusted to find the best solution, and judged on results. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
 **Eval (evaluation)**: a repeatable test that scores an AI's outputs across many real examples. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Faithfulness (grounding)**: whether an AI answer sticks to what its retrieved sources actually say. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Feature team**: a team handed a roadmap of features to build and judged mainly on shipping them. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
@@ -50,6 +60,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Funnel**: the series of steps a user takes toward a goal, showing how many drop off at each step. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
+**Generative vs evaluative research**: research to discover problems and opportunities vs research to check whether a specific design works. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
+
 **Goodhart's law**: when a measure becomes a target, people game it and it stops being a good measure. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Hallucination**: when an AI states something false as if it were true. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
@@ -57,6 +69,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **HEART**: Google's user-experience metric framework: Happiness, Engagement, Adoption, Retention, Task success. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
 **Human-in-the-loop**: a design where a person checks, approves or corrects the AI's work before it matters. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Hybrid search**: running keyword search and meaning-based (embedding) search together and merging the results. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Inference**: one run of an AI model to produce an answer; each run has a cost. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
@@ -71,6 +85,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Latency**: how long a user waits for a response, often split into time to first token and total response time. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
 **Leading metric**: an early signal that predicts a future result. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
+
+**Leading question**: an interview question that hints at the answer you want ("Wouldn't it be easier if…?"). See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
 **LLM (large language model)**: a model trained on huge amounts of text to predict the next token; the engine behind tools like ChatGPT, Claude and Gemini. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
@@ -114,15 +130,27 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Proxy metric**: a number tracked because the real thing (like happiness) is hard to measure directly. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
+**RAG (retrieval-augmented generation)**: finding relevant text from your own documents and adding it to the prompt so the model can answer from it. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
+
 **Reasoning model**: an AI model that produces hidden step-by-step "thinking" before answering; better on hard problems, slower and costlier. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
+
+**Recall@k**: how often the right document or chunk appears in the top *k* search results across a test set. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
+
+**Reranker**: a second model that re-reads the top search results and orders them by real relevance. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Retention**: the share of users who keep coming back over time. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
 **RLHF (reinforcement learning from human feedback)**: training a model towards answers that people ranked as better. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
+**Saturation (research)**: the point where new interviews stop teaching you anything new. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
+
 **Say–do gap**: the difference between what people say they do and what they actually do. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
+**Screener**: a short questionnaire used to recruit the right research participants. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
+
 **Simpson's paradox**: every segment moves one way while the total moves the other way, usually because of a mix shift. See [A8.6](../part-a/08-product-metrics/06-diagnosing-a-metric-drop.md).
+
+**Story-based interviewing**: asking participants about a specific past event ("Tell me about the last time…") instead of general opinions. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
 **Structured output**: AI output in a fixed, machine-readable shape (such as JSON with named fields) that code can check and use. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
@@ -140,8 +168,12 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Two-pizza team**: Amazon's idea that a team should be small enough for two pizzas to feed, ideally under ten people. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
+**Usability test**: watching someone try real tasks with a product or prototype, usually while thinking aloud. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
+
 **User sense**: the trained ability to predict how real users will behave and feel, built from regular contact with them. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
 **Vanity metric**: a number that looks good but doesn't help you make a decision (e.g. total downloads ever). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
+
+**Vector database**: a store built to quickly find the chunks whose embeddings are closest to a question's embedding. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Viral coefficient (K)**: new users each existing user brings in = invites sent per user × invite conversion rate. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).

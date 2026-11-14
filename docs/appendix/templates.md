@@ -67,3 +67,49 @@ Eval set (link, size, last score):
 Model + version, token count, est. cost per 1,000 calls:
 Owner, version, change log:
 ```
+
+## Interview discussion guide
+
+A one-page plan for a 30–45 minute story-based interview. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
+
+```text
+Decision this research informs:
+Research question:
+Who (segment, defined by behaviour):        Interviewer / note-taker:
+Consent and recording script:
+
+1. Warm-up (3-5 min)
+   - Tell me a bit about yourself and your day-to-day ...
+2. The story (15-20 min)
+   - Tell me about the last time you ...  (walk through it step by step)
+3. Dig deeper (10-15 min)
+   - What happened next? / What was hardest about that?
+   - What did you try instead? / Can you show me?
+4. Wrap-up (3-5 min)
+   - Is there anything I should have asked but didn't?
+   - Who else should we talk to?
+
+Neutral probes: "Tell me more about that." "Why was that?" "What did you do then?"
+Assumptions we are testing (write before sessions):
+Stop rule (e.g. two sessions in a row with nothing new):
+```
+
+## RAG knowledge-base checklist
+
+Decisions to settle before building an AI assistant over your documents. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
+
+```text
+Job and top 30-50 real user questions (source):
+Size of knowledge (tokens) — under ~200k? consider no retrieval:
+Sources in / out, owner of each, review date:
+Which source wins when two disagree:
+Freshness needed (minutes / daily / weekly) and re-index trigger:
+Access rules: who may see which documents (filtered before retrieval):
+Live data that needs a tool call instead (orders, balances):
+Golden set: size, owner, last run date:
+Targets: recall@k, faithfulness, correct-answer rate, "I don't know" rate:
+Citations shown to users (link, quoted passage):
+Fallback when nothing is found (human handoff):
+Counter metrics (repeat contacts, thumbs-down, uncited answers):
+Cost per answer and latency budget:
+```

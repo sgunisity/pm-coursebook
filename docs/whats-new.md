@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 14 Nov 2026 — Two new chapters: RAG and user research
+
+- **[B1.2 RAG: giving AI your knowledge](part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md):** how retrieval-augmented generation works, embeddings, chunking, hybrid search and reranking, telling retrieval failures from generation failures, golden sets and faithfulness, long context vs RAG, permissions and citations, with a support-assistant cost-and-value worked example and the Jugalbandi and Stanford legal-RAG cases.
+- **[A1.2 User research methods and interviews](part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md):** starting from the decision, the say/do and why/how-many method map, story-based interviews, how many users is enough, recruiting, synthesis, bias and AI in research, with a SIP drop-off worked example and the Zomato veg-fleet and Figma UI3 cases.
+- 16 new glossary terms, two new templates (interview discussion guide, RAG knowledge-base checklist) and new reading-list entries.
+
 ## 13 Nov 2026 — Two new chapters: user sense and prompt engineering
 
 - **[A1.1 Building user sense and empathy](part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md):** user sense as a mental model, the empathy spectrum, the curse of knowledge and the say–do gap, four windows into users, a weekly rhythm and turning observations into insights, with a kirana-ordering worked example and the Zomato and Xbox Adaptive Joystick cases.

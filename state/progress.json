@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "B",
+  "next_track": "A",
   "chapters": [
     {
       "id": "A0.1",
@@ -48,9 +48,9 @@
       "section": "A1 Understanding Users (User Sense)",
       "title": "User research methods and interviews",
       "path": "docs/part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-14",
+      "summary": "Decision-first research; Rohrer's method map (say/do, why/how many, context); generative vs evaluative; story-based interviews vs opinion questions; interview structure; sample sizes (5 users, saturation); recruiting and screeners; synthesis; bias, formats, B2B, ethics, AI in research; SIP-mandate drop-off worked example; Zomato veg-fleet and Figma UI3 cases."
     },
     {
       "id": "A1.3",
@@ -578,9 +578,9 @@
       "section": "B1 Building Blocks",
       "title": "RAG: giving AI your knowledge",
       "path": "docs/part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-14",
+      "summary": "RAG: retrieve-augment-generate; indexing vs answering; embeddings, chunking, hybrid search, reranking, contextual retrieval; retrieval vs generation failures; golden set, recall@k, faithfulness; long context vs RAG, freshness, permissions, citations, Indic queries, agentic RAG and GraphRAG; support-assistant cost/value worked example; Jugalbandi and Stanford legal-RAG cases."
     },
     {
       "id": "B1.3",
@@ -758,6 +758,11 @@
       "date": "2026-11-13",
       "mode": "DAILY",
       "did": "Added A1.1 and B1.1"
+    },
+    {
+      "date": "2026-11-14",
+      "mode": "DAILY",
+      "did": "Added B1.2 and A1.2"
     }
   ]
 }

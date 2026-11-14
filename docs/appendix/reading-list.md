@@ -91,3 +91,23 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [The Prompt Report](https://arxiv.org/abs/2406.06608) (2024): a systematic survey of prompting techniques.
 - [Lenny's Podcast: AI prompt engineering in 2025, with Sander Schulhoff](https://www.lennysnewsletter.com/p/ai-prompt-engineering-in-2025-sander-schulhoff) (June 2025).
 - [OWASP: LLM01 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/): the top-ranked LLM application risk and its mitigations.
+
+## Added with A1.2 User research methods and interviews
+
+- [Interviewing Users, 2nd edition](https://rosenfeldmedia.com/books/interviewing-users-second-edition/) (2023), Steve Portigal: the practical guide to running interviews, from planning to synthesis.
+- [Just Enough Research](https://abookapart.com/products/just-enough-research), Erika Hall: useful research on a small budget.
+- [NN/g: When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/), Christian Rohrer: the say/do, why/how-many method map.
+- [NN/g: Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) (2000), Jakob Nielsen.
+- [NN/g: How Many Participants for a UX Interview?](https://www.nngroup.com/articles/interview-sample-size/), Maria Rosala: saturation and sample size.
+- [Product Talk: Story-based interviewing](https://www.producttalk.org/glossary-discovery-story-based-interviewing/), Teresa Torres.
+- [Maze: The Future of User Research 2026](https://maze.co/resources/user-research-report/): survey on AI use and who does research.
+
+## Added with B1.2 RAG: giving AI your knowledge
+
+- [Lewis et al.: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) (2020): the paper that named RAG.
+- [Anthropic: Introducing Contextual Retrieval](https://anthropic.com/research/contextual-retrieval) (2024): chunking, hybrid search and reranking, with numbers.
+- [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/), Chip Huyen (O'Reilly): building applications with foundation models, including RAG.
+- [Ragas: Automated Evaluation of RAG](https://arxiv.org/abs/2309.15217) (2023): faithfulness and relevance metrics.
+- [Microsoft Research: GraphRAG](https://microsoft.com/en-us/research/blog/graphrag-new-tool-for-complex-data-discovery-now-on-github) (2024).
+- [Stanford HAI: AI on Trial](https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries) (2024): legal RAG tools still hallucinate.
+- [OWASP: LLM08:2025 Vector and Embedding Weaknesses](https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/).
