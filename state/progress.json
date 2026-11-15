@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "A",
+  "next_track": "B",
   "chapters": [
     {
       "id": "A0.1",
@@ -58,9 +58,9 @@
       "section": "A1 Understanding Users (User Sense)",
       "title": "Personas and Jobs-to-be-Done",
       "path": "docs/part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-15",
+      "summary": "Personas (who) vs jobs-to-be-done (what progress, in which situation); proto/qualitative/statistical personas; job stories; four forces (push, pull, anxiety, habit); two JTBD schools; B2B and India persona nuances; synthetic personas; SIP onboarding worked example; Zomato Everyday and Airbnb Rooms cases."
     },
     {
       "id": "A1.4",
@@ -588,9 +588,9 @@
       "section": "B1 Building Blocks",
       "title": "Agents, tool use and MCP",
       "path": "docs/part-b/01-building-blocks/03-agents-tool-use-and-mcp.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-15",
+      "summary": "Tool use, the agent loop, workflows vs agents (Anthropic patterns), autonomy ladder per action, MCP (host/client/server; tools/resources/prompts; Agentic AI Foundation), tool design, compounding errors, lethal trifecta and Rule of Two; D2C support-agent worked example; Swiggy MCP and Replit database-deletion cases."
     },
     {
       "id": "B1.4",
@@ -763,6 +763,11 @@
       "date": "2026-11-14",
       "mode": "DAILY",
       "did": "Added B1.2 and A1.2"
+    },
+    {
+      "date": "2026-11-15",
+      "mode": "DAILY",
+      "did": "Added A1.3 and B1.3"
     }
   ]
 }

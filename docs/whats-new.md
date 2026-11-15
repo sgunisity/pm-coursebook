@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 15 Nov 2026 — Two new chapters: personas and JTBD, and AI agents
+
+- **[A1.3 Personas and Jobs-to-be-Done](part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md):** what good personas contain, proto vs qualitative vs statistical personas, jobs and their functional, emotional and social layers, job stories, the four forces of progress, the two schools of JTBD, B2B and India nuances and AI-generated personas, with a SIP-onboarding worked example and the Zomato Everyday and Airbnb Rooms cases.
+- **[B1.3 Agents, tool use and MCP](part-b/01-building-blocks/03-agents-tool-use-and-mcp.md):** how tool use works, the agent loop, workflows vs agents, setting autonomy per action, MCP hosts, clients and servers, tool design, compounding errors, the lethal trifecta and the Rule of Two, with a D2C support-agent cost-and-value worked example and the Swiggy MCP and Replit cases.
+- 15 new glossary terms, two new templates (persona and job story card, agent design canvas) and new reading-list entries.
+
 ## 14 Nov 2026 — Two new chapters: RAG and user research
 
 - **[B1.2 RAG: giving AI your knowledge](part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md):** how retrieval-augmented generation works, embeddings, chunking, hybrid search and reranking, telling retrieval failures from generation failures, golden sets and faithfulness, long context vs RAG, permissions and citations, with a support-assistant cost-and-value worked example and the Jugalbandi and Stanford legal-RAG cases.

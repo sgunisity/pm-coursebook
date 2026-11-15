@@ -111,3 +111,22 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Microsoft Research: GraphRAG](https://microsoft.com/en-us/research/blog/graphrag-new-tool-for-complex-data-discovery-now-on-github) (2024).
 - [Stanford HAI: AI on Trial](https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries) (2024): legal RAG tools still hallucinate.
 - [OWASP: LLM08:2025 Vector and Embedding Weaknesses](https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/).
+
+## Added with A1.3 Personas and Jobs-to-be-Done
+
+- *Competing Against Luck* (2016), Clayton Christensen, Taddy Hall, Karen Dillon and David Duncan ([catalogue record](https://search.worldcat.org/oclc/957652628)): jobs-to-be-done as the progress customers want.
+- ["Know Your Customers' Jobs to Be Done"](https://www.innosight.com/?p=19201) (HBR, 2016): the short version of the theory.
+- [NN/g: Personas vs. Jobs-to-Be-Done](https://nngroup.com/articles/personas-jobs-be-done) (2017), Page Laubheimer: using both together.
+- [NN/g: Personas study guide](https://www.nngroup.com/articles/personas-study-guide/): proto, qualitative and statistical personas.
+- [Intercom: How we accidentally invented Job Stories](https://www.intercom.com/blog/accidentally-invented-job-stories/): the job story format.
+- [jobstobedone.org: The Four Forces](https://jobstobedone.org/the-four-forces/), Bob Moesta and Chris Spiek: push, pull, anxiety and habit.
+- [Strategyn: Define customer needs as desired outcomes](https://strategyn.com/what-your-customer-really-needs-outcomes), Tony Ulwick: the Outcome-Driven Innovation view.
+
+## Added with B1.3 Agents, tool use and MCP
+
+- [Anthropic: Building effective agents](https://www.anthropic.com/research/building-effective-agents) (2024): workflows vs agents and when to use each.
+- [Model Context Protocol specification: architecture](https://modelcontextprotocol.io/specification/latest/architecture): hosts, clients and servers.
+- [Anthropic: Donating MCP and establishing the Agentic AI Foundation](https://anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation) (2025).
+- [Simon Willison: The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) (2025).
+- [Meta AI: Agents Rule of Two](https://ai.meta.com/blog/practical-ai-agent-security/) (2025).
+- [METR: Measuring AI ability to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) (2025).

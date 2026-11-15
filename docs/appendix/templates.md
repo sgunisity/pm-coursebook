@@ -113,3 +113,50 @@ Fallback when nothing is found (human handoff):
 Counter metrics (repeat contacts, thumbs-down, uncited answers):
 Cost per answer and latency budget:
 ```
+
+## Persona and job story card
+
+A one-page summary of a user type and their top jobs. Every line should trace back to research, or be marked "assumption". See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
+```text
+Persona name and one-line summary:
+Research behind it (interviews, data, date):
+Context (device, place, time, who else is involved):
+Goals:
+Current behaviours and workarounds:
+Frustrations (in their words):
+One real quote:
+
+Top jobs (2-3), each as:
+  When [situation], I want to [motivation], so I can [outcome].
+  Functional / emotional / social layers:
+  Push:            Pull:
+  Anxiety:         Habit:
+  Real alternatives they "fire" to hire us:
+  Desired outcomes (how they judge "done well"):
+
+Not this persona (anti-persona notes):
+Last reviewed:
+```
+
+## Agent design canvas
+
+Decisions to settle before building an AI agent. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
+
+```text
+Job and definition of done:
+Could a fixed workflow do it? (if yes, build that):
+Tools (name, purpose, read/write, what it returns):
+Autonomy per write action (suggest / draft / approve / act-and-report / autonomous):
+Approval thresholds (e.g. refunds over Rs 1,000):
+Rule of Two: untrusted input? private data? external actions? Mitigation if all three:
+Limits: max steps, max cost per task, time limit:
+Hand-off to human: when, and what summary they see:
+Reversibility: undo, backups, staging for destructive actions:
+Credentials and permissions (whose identity, what scope):
+Eval set: size, source, runs per case, last run date:
+Metrics: end-to-end success, wrong-action rate, cost and time per task:
+Guardrails: complaints, repeat contacts, reversals:
+Rollout plan (narrow start, criteria to widen):
+Audit log location and owner:
+```

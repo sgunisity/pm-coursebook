@@ -6,6 +6,12 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Activation**: the moment a new user first gets real value from your product (the "aha moment"). See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**Agent (AI)**: a system where a language model decides, step by step, which tools to call and when the task is done. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
+
+**Agent loop**: the cycle an AI agent repeats: think, call a tool, read the result, decide the next step. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
+
+**Anti-persona**: a description of a user you deliberately are not building for, so the team doesn't optimise for them. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
 **Attitudinal vs behavioural research**: what people *say* (opinions, beliefs) vs what people *do* (actions you can observe or log). See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
 **Batch processing (AI APIs)**: sending AI work that can wait (like overnight jobs) in bulk, usually at a big discount. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
@@ -56,6 +62,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Follow-me-home**: watching a user do a real task in their own setting instead of asking them about it; a practice made well known by Intuit. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
+**Four forces of progress**: push and pull that drive someone to switch products; anxiety and habit that hold them back (Moesta and Spiek). See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
 **Four risks**: value, usability, feasibility and viability, the four ways a product idea can fail (Marty Cagan). See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
 **Funnel**: the series of steps a user takes toward a goal, showing how many drop off at each step. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
@@ -80,6 +88,10 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Jagged frontier**: AI being excellent at some tasks and surprisingly weak at others that look similar or easier. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
+**Job story**: a need written as "When [situation], I want to [motivation], so I can [outcome]." See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
+**Jobs-to-be-done (JTBD)**: the progress a person is trying to make in a particular situation; they "hire" a product to get it. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
 **Lagging metric**: a number that shows results after the fact (e.g. revenue, churn). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Latency**: how long a user waits for a response, often split into time to first token and total response time. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
@@ -88,9 +100,15 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Leading question**: an interview question that hints at the answer you want ("Wouldn't it be easier if…?"). See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
+**Least privilege**: giving an agent or system only the permissions a task needs, and no more. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
+
+**Lethal trifecta**: an AI agent with private data, exposure to untrusted content and a way to communicate externally: the combination that enables data leaks (Simon Willison). See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
+
 **LLM (large language model)**: a model trained on huge amounts of text to predict the next token; the engine behind tools like ChatGPT, Claude and Gemini. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
 **LTV (lifetime value)**: the total profit you expect from one customer over their whole relationship with you. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
+
+**MCP (Model Context Protocol)**: an open standard for connecting AI apps to tools and data, so one integration works across many AI apps. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
 **Metric tree**: a diagram that breaks one big metric into the smaller metrics that add or multiply up to it. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
 
@@ -110,6 +128,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Payback period**: how long a customer's profit takes to repay the cost of acquiring them. See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
 
+**Persona**: a short, research-based description of one type of user: goals, behaviours, context and frustrations. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
 **Pretraining**: the first, most expensive stage of building an LLM, where it learns to predict the next token across vast amounts of text. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
 **Probabilistic**: producing a likely guess that can vary and can be wrong, as most AI does (the opposite of deterministic). See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
@@ -128,6 +148,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Prompt injection**: an attack where text from a user or a document tricks an AI model into ignoring its instructions. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
+**Proto-persona**: a persona drafted from the team's assumptions before research; a hypothesis to test. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
 **Proxy metric**: a number tracked because the real thing (like happiness) is hard to measure directly. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **RAG (retrieval-augmented generation)**: finding relevant text from your own documents and adding it to the prompt so the model can answer from it. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
@@ -142,6 +164,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **RLHF (reinforcement learning from human feedback)**: training a model towards answers that people ranked as better. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
+**Rule of Two (agents)**: Meta's guideline that an agent session should have at most two of: untrusted input, sensitive data access, and the ability to act externally. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
+
 **Saturation (research)**: the point where new interviews stop teaching you anything new. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
 **Say–do gap**: the difference between what people say they do and what they actually do. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
@@ -154,6 +178,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Structured output**: AI output in a fixed, machine-readable shape (such as JSON with named fields) that code can check and use. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
+**Switch interview**: a jobs-to-be-done interview about the moment someone recently switched to or from a product. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
 **System prompt**: standing instructions a product team writes for an AI model, applied to every conversation. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
 **Temperature**: a setting that controls how varied an AI model's answers are; low is predictable, high is creative. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
@@ -161,6 +187,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Time to first token (TTFT)**: seconds from sending a request to an AI model until the first word of the reply arrives. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
 **Token**: a small chunk of text that AI models read and write; providers usually charge per token. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Tool use (function calling)**: a model asking your software to run a named function and reading back the result. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
 **TPM (technical program manager)**: a program manager with deep technical knowledge who coordinates complex engineering work across many teams. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
 
@@ -177,3 +205,5 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Vector database**: a store built to quickly find the chunks whose embeddings are closest to a question's embedding. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Viral coefficient (K)**: new users each existing user brings in = invites sent per user × invite conversion rate. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
+
+**Workflow (AI)**: an AI system where your code fixes the steps in advance and the model fills in parts; the simpler alternative to an agent. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
