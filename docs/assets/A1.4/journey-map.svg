@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" font-family="Inter, Arial, sans-serif">
+  <rect width="760" height="520" fill="#ffffff"/>
+  <text x="380" y="26" text-anchor="middle" font-size="17" font-weight="700" fill="#111827">Journey map: a parent pays school fees online</text>
+  <text x="380" y="46" text-anchor="middle" font-size="12" fill="#6B7280">Actor: working parent, one child, on a phone · Goal: pay before the due date</text>
+  <!-- row labels -->
+  <g font-size="12" font-weight="600" fill="#4F46E5">
+    <text x="12" y="84">PHASE</text>
+    <text x="12" y="132">DOES</text>
+    <text x="12" y="200">THINKS</text>
+    <text x="12" y="290">FEELS</text>
+    <text x="12" y="440">OPPORTUNITY</text>
+  </g>
+  <!-- phase headers -->
+  <g font-size="12" font-weight="700" fill="#111827" text-anchor="middle">
+    <rect x="100" y="66" width="124" height="28" rx="6" fill="#F3F4F6" stroke="#9CA3AF"/><text x="162" y="85">Get notice</text>
+    <rect x="232" y="66" width="124" height="28" rx="6" fill="#F3F4F6" stroke="#9CA3AF"/><text x="294" y="85">Find school</text>
+    <rect x="364" y="66" width="124" height="28" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/><text x="426" y="85">Identify child</text>
+    <rect x="496" y="66" width="124" height="28" rx="6" fill="#F3F4F6" stroke="#9CA3AF"/><text x="558" y="85">Pay</text>
+    <rect x="628" y="66" width="124" height="28" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/><text x="690" y="85">Confirmation</text>
+  </g>
+  <!-- does -->
+  <g font-size="11" fill="#374151" text-anchor="middle">
+    <text x="162" y="122">Reads paper circular</text><text x="162" y="138">and WhatsApp group</text>
+    <text x="294" y="122">Searches school</text><text x="294" y="138">name in app</text>
+    <text x="426" y="122">Hunts for student ID;</text><text x="426" y="138">photos the circular</text>
+    <text x="558" y="122">Pays by UPI;</text><text x="558" y="138">sees extra fee at end</text>
+    <text x="690" y="122">Screenshots receipt;</text><text x="690" y="138">calls school office</text>
+  </g>
+  <!-- thinks -->
+  <g font-size="11" font-style="italic" fill="#374151" text-anchor="middle">
+    <text x="162" y="192">"Due Friday.</text><text x="162" y="208">Let's get it done."</text>
+    <text x="294" y="192">"Is this the</text><text x="294" y="208">right branch?"</text>
+    <text x="426" y="192">"Where is that</text><text x="426" y="208">ID number?"</text>
+    <text x="558" y="192">"Why is it more</text><text x="558" y="208">than the circular?"</text>
+    <text x="690" y="192">"Did the school</text><text x="690" y="208">actually get it?"</text>
+  </g>
+  <!-- emotion band -->
+  <line x1="100" y1="290" x2="752" y2="290" stroke="#D1D5DB" stroke-dasharray="4 4"/>
+  <text x="96" y="252" text-anchor="end" font-size="10" fill="#6B7280">calm</text>
+  <text x="96" y="340" text-anchor="end" font-size="10" fill="#6B7280">stressed</text>
+  <polyline points="162,262 294,270 426,328 558,305 690,345" fill="none" stroke="#4F46E5" stroke-width="3"/>
+  <g fill="#4F46E5">
+    <circle cx="162" cy="262" r="5"/><circle cx="294" cy="270" r="5"/><circle cx="426" cy="328" r="7"/><circle cx="558" cy="305" r="5"/><circle cx="690" cy="345" r="7"/>
+  </g>
+  <g font-size="11" font-weight="600" fill="#4F46E5" text-anchor="middle">
+    <text x="426" y="356">Low: 18.5% drop</text>
+    <text x="750" y="372" text-anchor="end">Lowest: 22% call support</text>
+  </g>
+  <!-- data row -->
+  <g font-size="10" fill="#6B7280" text-anchor="middle">
+    <text x="162" y="396">2,00,000 start</text>
+    <text x="294" y="396">8% drop</text>
+    <text x="426" y="396">18.5% drop</text>
+    <text x="558" y="396">13% drop</text>
+    <text x="690" y="396">1,30,000 paid</text>
+  </g>
+  <!-- opportunities -->
+  <g font-size="11" fill="#111827" text-anchor="middle">
+    <rect x="364" y="414" width="124" height="70" rx="8" fill="#EEF2FF" stroke="#4F46E5"/>
+    <text x="426" y="436">Find child by</text><text x="426" y="452">name, class and</text><text x="426" y="468">parent phone</text>
+    <rect x="496" y="414" width="124" height="70" rx="8" fill="#F3F4F6" stroke="#9CA3AF"/>
+    <text x="558" y="436">Show the full</text><text x="558" y="452">amount, fee</text><text x="558" y="468">included, upfront</text>
+    <rect x="628" y="414" width="124" height="70" rx="8" fill="#EEF2FF" stroke="#4F46E5"/>
+    <text x="690" y="436">Real-time "school</text><text x="690" y="452">received it" on</text><text x="690" y="468">dashboard + WhatsApp</text>
+  </g>
+  <text x="380" y="508" text-anchor="middle" font-size="11" fill="#6B7280">Illustrative data. The ending (confirmation) is backstage: the school's records update only once a night.</text>
+</svg>

@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 16 Nov 2026 — Two new chapters: choosing between prompting, RAG and fine-tuning, and journey maps
+
+- **[B1.4 Prompting vs RAG vs fine-tuning: how to decide](part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md):** knowledge problems vs behaviour problems, why RAG beats fine-tuning for facts, what fine-tuning is good at, the ladder of fixes, cost shapes, SFT, DPO, LoRA and distillation, and fine-tunes as forks you maintain, with a lending-app support worked example and the Swiggy small-model search and OpenAI fine-tuning wind-down cases.
+- **[A1.4 Journey maps and empathy maps](part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md):** the parts of a journey map, Dave Gray's updated empathy map, which map answers which question, current vs future state, moments that matter and the peak–end rule, service blueprints, assisted and offline journeys in India and dark patterns, with a school-fee payment worked example and the CCPA dark-patterns and Airbnb total-price cases.
+- 15 new glossary terms, two new templates (journey map canvas, fine-tuning decision checklist) and new reading-list entries.
+
 ## 15 Nov 2026 — Two new chapters: personas and JTBD, and AI agents
 
 - **[A1.3 Personas and Jobs-to-be-Done](part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md):** what good personas contain, proto vs qualitative vs statistical personas, jobs and their functional, emotional and social layers, job stories, the four forces of progress, the two schools of JTBD, B2B and India nuances and AI-generated personas, with a SIP-onboarding worked example and the Zomato Everyday and Airbnb Rooms cases.

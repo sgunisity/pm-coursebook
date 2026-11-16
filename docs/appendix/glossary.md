@@ -18,6 +18,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **CAC (customer acquisition cost)**: what you spend to win one new customer. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**Catastrophic forgetting**: a fine-tuned model getting worse at skills it wasn't trained on during fine-tuning. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
+
 **Chain of thought**: getting an AI model to work through a problem step by step before answering. Helps some models; adds delay on reasoning models. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
 **Chunk**: a small piece of a document (often a few hundred tokens) stored and retrieved on its own in a RAG system. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
@@ -38,6 +40,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Curse of knowledge**: once you know something, it's hard to imagine not knowing it, which makes experts poor judges of what confuses beginners. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
+**Dark pattern**: a design that tricks or pressures users into something they didn't intend, like hidden fees or hard-to-cancel subscriptions. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
+
 **DAU / MAU**: daily active users / monthly active users. DAU ÷ MAU shows how often people come back ("stickiness"). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Delivery**: the work of building and shipping a product well: planning, building, testing and launching. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
@@ -46,9 +50,17 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Discussion guide**: the plan for a user interview: goals, main questions and follow-up prompts. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
+**Distillation**: using a large model's good answers to train a smaller, cheaper model for one task. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
+
+**DPO (direct preference optimisation)**: fine-tuning with pairs of a better and a worse answer, so the model learns which you prefer. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
+
+**Drip pricing**: showing a low price first and adding fees step by step until checkout; named as a dark pattern in India's 2023 guidelines. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
+
 **Embedding**: a list of numbers that captures the meaning of a piece of text, so similar meanings sit close together. Used for meaning-based search. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Empathy (in product work)**: understanding a user's situation, feelings and goals from their point of view, well enough to predict what they'll do. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
+
+**Empathy map**: a one-page picture of what one type of user says, does, thinks and feels. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **Empowered product team**: a team handed a problem and a target outcome, trusted to find the best solution, and judged on results. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
@@ -59,6 +71,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Feature team**: a team handed a roadmap of features to build and judged mainly on shipping them. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
 **Few-shot prompting**: including a few worked examples in a prompt to show the model what good output looks like. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
+
+**Fine-tuning**: training an existing model further on your own examples so a behaviour is built into the model. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
 **Follow-me-home**: watching a user do a real task in their own setting instead of asking them about it; a practice made well known by Intuit. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
@@ -92,6 +106,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Jobs-to-be-done (JTBD)**: the progress a person is trying to make in a particular situation; they "hire" a product to get it. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
+**Journey map**: a picture of the steps one person takes to reach a goal, with what they do, think and feel at each. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
+
 **Lagging metric**: a number that shows results after the fact (e.g. revenue, churn). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Latency**: how long a user waits for a response, often split into time to first token and total response time. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
@@ -106,6 +122,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **LLM (large language model)**: a model trained on huge amounts of text to predict the next token; the engine behind tools like ChatGPT, Claude and Gemini. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
+**LoRA (low-rank adaptation)**: a cheap fine-tuning method that trains small add-on pieces instead of the whole model. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
+
 **LTV (lifetime value)**: the total profit you expect from one customer over their whole relationship with you. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
 **MCP (Model Context Protocol)**: an open standard for connecting AI apps to tools and data, so one integration works across many AI apps. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
@@ -115,6 +133,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Mix shift**: an average changing because the share of each user segment changed, not their behaviour. See [A8.6](../part-a/08-product-metrics/06-diagnosing-a-metric-drop.md).
 
 **Model routing**: sending each request to a different AI model depending on how hard or important it is, to save cost and time. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
+
+**Moment that matters**: a step in a journey that strongly shapes how users feel about the whole experience. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **North Star metric**: the one number that best captures the value customers get from your product. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
 
@@ -126,7 +146,11 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Outcome vs output**: an outcome is a change in customer behaviour or business results; an output is something the team produced, like a feature. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
+**Pain point**: a moment where a user is confused, slowed down, worried or annoyed. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
+
 **Payback period**: how long a customer's profit takes to repay the cost of acquiring them. See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
+
+**Peak–end rule**: people judge an experience mostly by its most intense moment and its ending. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **Persona**: a short, research-based description of one type of user: goals, behaviours, context and frustrations. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
@@ -172,6 +196,10 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Screener**: a short questionnaire used to recruit the right research participants. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
+**Service blueprint**: a journey map extended to show the staff, processes and systems behind each step. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
+
+**SFT (supervised fine-tuning)**: fine-tuning with input and ideal-output pairs. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
+
 **Simpson's paradox**: every segment moves one way while the total moves the other way, usually because of a mix shift. See [A8.6](../part-a/08-product-metrics/06-diagnosing-a-metric-drop.md).
 
 **Story-based interviewing**: asking participants about a specific past event ("Tell me about the last time…") instead of general opinions. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
@@ -189,6 +217,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Token**: a small chunk of text that AI models read and write; providers usually charge per token. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Tool use (function calling)**: a model asking your software to run a named function and reading back the result. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
+
+**Touchpoint**: any place a user meets your product or company: a screen, an SMS, a call, a delivery person. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **TPM (technical program manager)**: a program manager with deep technical knowledge who coordinates complex engineering work across many teams. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
 

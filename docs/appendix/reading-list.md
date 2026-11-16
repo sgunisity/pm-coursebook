@@ -130,3 +130,21 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Simon Willison: The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) (2025).
 - [Meta AI: Agents Rule of Two](https://ai.meta.com/blog/practical-ai-agent-security/) (2025).
 - [METR: Measuring AI ability to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) (2025).
+
+## Added with A1.4 Journey maps and empathy maps
+
+- [NN/g: Journey Mapping 101](https://www.nngroup.com/articles/journey-mapping-101/): the parts of a journey map and related maps.
+- [NN/g: Empathy mapping](https://www.nngroup.com/articles/empathy-mapping/): running an empathy-mapping session.
+- [Dave Gray: The updated empathy map canvas](https://medium.com/the-xplane-collection/46df22df3c8a): goals, sees, hears, pains and gains.
+- [NN/g: Service blueprints definition](https://www.nngroup.com/articles/service-blueprints-definition/): mapping the backstage.
+- [*Mapping Experiences*](https://www.oreilly.com/library/view/mapping-experiences-2nd/9781492076629/) by Jim Kalbach (O'Reilly, 2nd edition).
+- [Forrester: Emotion leads CX quality rebound in the US](https://www.forrester.com/blogs/emotion-leads-cx-quality-rebound-in-the-us/) (2026).
+
+## Added with B1.4 Prompting vs RAG vs fine-tuning
+
+- [OpenAI: Optimizing LLM accuracy](https://developers.openai.com/api/docs/guides/optimizing-llm-accuracy): context vs behaviour, and when to use each lever.
+- [Ovadia et al.: Fine-Tuning or Retrieval?](https://arxiv.org/abs/2312.05934) (2023): RAG vs fine-tuning for adding knowledge.
+- [Gekhman et al.: Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?](https://aclanthology.org/2024.emnlp-main.444) (EMNLP 2024).
+- [Hu et al.: LoRA](https://arxiv.org/abs/2106.09685) (2021): low-cost fine-tuning.
+- [Hamel Husain: Is fine-tuning still valuable?](https://hamel.dev/blog/posts/fine_tuning_valuable.html): practitioner views.
+- [Menlo Ventures: 2025 State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-AI-in-the-enterprise/) (2025).

@@ -160,3 +160,58 @@ Guardrails: complaints, repeat contacts, reversals:
 Rollout plan (narrow start, criteria to widen):
 Audit log location and owner:
 ```
+
+## Journey map canvas
+
+Use this for a current-state journey map of one actor in one scenario. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
+
+```text
+Actor (one user type):
+Scenario and goal (one sentence):
+Expectations (what they expect to happen):
+Evidence used (interviews, funnel data, tickets, reviews, dates):
+
+For each phase (5-7 phases, include offline and assisted steps):
+  Phase:
+  Touchpoints (screen, SMS, call, person, paper):
+  Does:
+  Thinks (real quotes where possible):
+  Feels (-2 to +2, with evidence):
+  Data (users reaching this step, drop-off %, tickets):
+  Evidence or assumption?:
+  Backstage (staff, processes, systems behind this step):
+
+Moments that matter (2-3 biggest lows, plus the ending):
+Opportunities (one per low):
+  Opportunity:
+  Owner:
+  Metric that shows it improved:
+  Estimated value and effort:
+Riskiest assumptions to check next:
+Next review date:
+```
+
+## Fine-tuning decision checklist
+
+Run this before approving a fine-tuning project. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
+
+```text
+Task (narrow, stable, one sentence):
+Eval set: size, source, who checked the answers:
+Prompt baseline score (best prompt, strong model):
+Break-even accuracy (value of right answer vs cost of wrong one):
+Failure labels (count of 50-100 failures):
+  Knowledge (missing, old or private facts) -> RAG or tools:
+  Behaviour (format, tone, category mix-ups) -> prompt fixes, then fine-tune:
+  Cost or speed -> caching, cheaper model, then fine-tune or distil:
+All four true? behaviour problem / prompt gains stalled / task stable / enough good examples:
+Volume per month:
+Cost per call now (with caching) vs expected after fine-tuning:
+Upfront cost (labelling, training, engineering):
+Upkeep (retraining per year, hosting):
+Payback period:
+Data: consent, personal data removed, deletion plan:
+Platform: can we export weights? base-model retirement date?:
+Fallback (prompt-only version) ready?:
+General-skills eval slice and A/B rollout plan:
+```

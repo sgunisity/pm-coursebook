@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "B",
+  "next_track": "A",
   "chapters": [
     {
       "id": "A0.1",
@@ -68,9 +68,9 @@
       "section": "A1 Understanding Users (User Sense)",
       "title": "Journey maps and empathy maps",
       "path": "docs/part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-16",
+      "summary": "Journey maps (one actor, one scenario; phases, does/thinks/feels, emotion line, opportunities with owners) and empathy maps (Gray's updated canvas); current vs future state, peak-end rule, service blueprints, dark patterns (CCPA 2023)."
     },
     {
       "id": "A2.1",
@@ -598,9 +598,9 @@
       "section": "B1 Building Blocks",
       "title": "Prompting vs RAG vs fine-tuning: how to decide",
       "path": "docs/part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-16",
+      "summary": "Choosing the lever: prompting for instructions, RAG for knowledge, fine-tuning for behaviour; OpenAI context-vs-behaviour framing, the ladder, cost shapes, SFT/DPO/LoRA/distillation, fine-tunes as forks (OpenAI wind-down 2026)."
     },
     {
       "id": "B2.1",
@@ -768,6 +768,11 @@
       "date": "2026-11-15",
       "mode": "DAILY",
       "did": "Added A1.3 and B1.3"
+    },
+    {
+      "date": "2026-11-16",
+      "mode": "DAILY",
+      "did": "Added B1.4 and A1.4"
     }
   ]
 }
