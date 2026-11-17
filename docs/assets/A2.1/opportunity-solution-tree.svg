@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" font-family="Inter, Arial, sans-serif">
+  <rect width="680" height="520" fill="#ffffff"/>
+  <text x="340" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Opportunity solution tree</text>
+  <!-- connectors -->
+  <g stroke="#9CA3AF" stroke-width="1.5" fill="none">
+    <line x1="340" y1="98" x2="120" y2="150"/>
+    <line x1="340" y1="98" x2="560" y2="150"/>
+    <line x1="340" y1="200" x2="120" y2="240"/>
+    <line x1="340" y1="200" x2="560" y2="240"/>
+    <line x1="340" y1="290" x2="120" y2="340"/>
+    <line x1="340" y1="290" x2="560" y2="340"/>
+    <line x1="560" y1="390" x2="560" y2="430"/>
+  </g>
+  <g stroke="#4F46E5" stroke-width="2.5" fill="none">
+    <line x1="340" y1="98" x2="340" y2="150"/>
+    <line x1="340" y1="200" x2="340" y2="240"/>
+    <line x1="340" y1="290" x2="340" y2="340"/>
+    <line x1="120" y1="390" x2="120" y2="430"/>
+    <line x1="340" y1="390" x2="340" y2="430"/>
+  </g>
+  <!-- level labels -->
+  <g font-size="11" font-weight="600" fill="#6B7280">
+    <text x="12" y="74">OUTCOME</text>
+    <text x="12" y="142">OPPORTUNITIES</text>
+    <text x="12" y="234">SUB-OPPORTUNITY</text>
+    <text x="12" y="334">SOLUTIONS</text>
+    <text x="12" y="424">ASSUMPTION TESTS</text>
+  </g>
+  <!-- outcome -->
+  <rect x="210" y="48" width="260" height="50" rx="10" fill="#4F46E5"/>
+  <text x="340" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Week-4 renewal: 42% → 48%</text>
+  <text x="340" y="88" text-anchor="middle" font-size="11" fill="#E0E7FF">one product outcome</text>
+  <!-- opportunities -->
+  <rect x="30" y="150" width="180" height="50" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="120" y="172" text-anchor="middle" font-size="12" fill="#374151">"The menu gets</text>
+  <text x="120" y="188" text-anchor="middle" font-size="12" fill="#374151">repetitive"</text>
+  <rect x="240" y="150" width="200" height="50" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="340" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">"I pay for meals</text>
+  <text x="340" y="188" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">I don't eat"</text>
+  <rect x="470" y="150" width="180" height="50" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="560" y="172" text-anchor="middle" font-size="12" fill="#374151">"Lunch may come</text>
+  <text x="560" y="188" text-anchor="middle" font-size="12" fill="#374151">after my meeting"</text>
+  <!-- sub-opportunities -->
+  <rect x="30" y="240" width="180" height="50" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="120" y="262" text-anchor="middle" font-size="12" fill="#374151">"I can't pause for</text>
+  <text x="120" y="278" text-anchor="middle" font-size="12" fill="#374151">a week of travel"</text>
+  <rect x="240" y="240" width="200" height="50" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="340" y="262" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">"I can't skip a day when</text>
+  <text x="340" y="278" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">plans change" (chosen)</text>
+  <rect x="470" y="240" width="180" height="50" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="560" y="262" text-anchor="middle" font-size="12" fill="#374151">"Unused days just</text>
+  <text x="560" y="278" text-anchor="middle" font-size="12" fill="#374151">disappear"</text>
+  <!-- solutions -->
+  <rect x="30" y="340" width="180" height="50" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="120" y="370" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">One-tap WhatsApp skip</text>
+  <rect x="250" y="340" width="180" height="50" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="340" y="370" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">Calendar auto-pause</text>
+  <rect x="470" y="340" width="180" height="50" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="560" y="370" text-anchor="middle" font-size="12" fill="#374151">Credit rollover</text>
+  <!-- tests -->
+  <rect x="30" y="430" width="180" height="56" rx="10" fill="#ffffff" stroke="#4F46E5" stroke-dasharray="5 3"/>
+  <text x="120" y="452" text-anchor="middle" font-size="11" fill="#111827">Concierge test, 60 users</text>
+  <text x="120" y="470" text-anchor="middle" font-size="11" font-weight="700" fill="#4F46E5">52% used it → build</text>
+  <rect x="250" y="430" width="180" height="56" rx="10" fill="#ffffff" stroke="#4F46E5" stroke-dasharray="5 3"/>
+  <text x="340" y="452" text-anchor="middle" font-size="11" fill="#111827">1-question survey, 200 users</text>
+  <text x="340" y="470" text-anchor="middle" font-size="11" font-weight="700" fill="#4F46E5">11% yes → park</text>
+  <rect x="470" y="430" width="180" height="56" rx="10" fill="#ffffff" stroke="#9CA3AF" stroke-dasharray="5 3"/>
+  <text x="560" y="452" text-anchor="middle" font-size="11" fill="#374151">Margin model first</text>
+  <text x="560" y="470" text-anchor="middle" font-size="11" fill="#6B7280">not tested yet</text>
+  <text x="340" y="510" text-anchor="middle" font-size="11" fill="#6B7280">Blue = the branch being worked on now. Grey = mapped, saved for later.</text>
+</svg>

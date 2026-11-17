@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="500" fill="#ffffff"/>
+  <text x="330" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Where does AI fit? Cost of error × ease of checking</text>
+  <line x1="50" y1="440" x2="50" y2="60" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="44,434 56,434 50,448" fill="#4F46E5"/>
+  <text x="26" y="250" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5" transform="rotate(-90 26 250)">Cost of a wrong answer (low at top, high below)</text>
+  <line x1="50" y1="440" x2="620" y2="440" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="614,434 614,446 628,440" fill="#4F46E5"/>
+  <text x="335" y="470" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5">Checking the output  (easy → hard)</text>
+  <rect x="65" y="65" width="265" height="175" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <rect x="345" y="65" width="265" height="175" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="65" y="252" width="265" height="175" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="345" y="252" width="265" height="175" rx="10" fill="#ffffff" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="197" y="97" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">Sweet spot: use AI</text>
+  <text x="197" y="127" text-anchor="middle" font-size="12" fill="#374151">Draft replies</text>
+  <text x="197" y="147" text-anchor="middle" font-size="12" fill="#374151">Meeting summaries</text>
+  <text x="197" y="167" text-anchor="middle" font-size="12" fill="#374151">Product descriptions</text>
+  <text x="197" y="187" text-anchor="middle" font-size="12" fill="#374151">Search suggestions</text>
+  <text x="197" y="220" text-anchor="middle" font-size="11" font-style="italic" fill="#6B7280">Good first projects</text>
+  <text x="477" y="97" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Use AI, monitor metrics</text>
+  <text x="477" y="127" text-anchor="middle" font-size="12" fill="#374151">Recommendations</text>
+  <text x="477" y="147" text-anchor="middle" font-size="12" fill="#374151">Ranking and tagging</text>
+  <text x="477" y="167" text-anchor="middle" font-size="12" fill="#374151">Ticket routing</text>
+  <text x="477" y="220" text-anchor="middle" font-size="11" font-style="italic" fill="#6B7280">Errors are hidden but small</text>
+  <text x="197" y="284" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Augment: human approves</text>
+  <text x="197" y="314" text-anchor="middle" font-size="12" fill="#374151">Prescription pre-fill</text>
+  <text x="197" y="334" text-anchor="middle" font-size="12" fill="#374151">Invoice extraction</text>
+  <text x="197" y="354" text-anchor="middle" font-size="12" fill="#374151">Code changes (with tests)</text>
+  <text x="197" y="407" text-anchor="middle" font-size="11" font-style="italic" fill="#6B7280">Watch for rubber-stamping</text>
+  <text x="477" y="284" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Danger zone</text>
+  <text x="477" y="314" text-anchor="middle" font-size="12" fill="#374151">Medical advice to patients</text>
+  <text x="477" y="334" text-anchor="middle" font-size="12" fill="#374151">Unreviewed credit decisions</text>
+  <text x="477" y="354" text-anchor="middle" font-size="12" fill="#374151">AI that moves money alone</text>
+  <text x="477" y="407" text-anchor="middle" font-size="11" font-style="italic" fill="#6B7280">Don't automate; often don't use AI</text>
+</svg>

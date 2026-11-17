@@ -215,3 +215,46 @@ Platform: can we export weights? base-model retirement date?:
 Fallback (prompt-only version) ready?:
 General-skills eval slice and A/B rollout plan:
 ```
+
+## Opportunity solution tree (text version)
+
+Keep this in a shared doc and update it weekly. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
+
+```text
+Desired outcome (metric, baseline -> target, by when):
+Opportunities (customer's words; children are smaller parts of parents):
+  - Opportunity A
+      - Sub-opportunity A1
+  - Opportunity B
+Target opportunity (and why: size, market, company, customer factors):
+Solutions (at least 3):
+  1.
+  2.
+  3.
+Riskiest assumptions per solution (desirability / viability / feasibility / usability / ethical):
+Tests (method, sample, success criterion written BEFORE running, result, decision):
+Last updated:
+```
+
+## AI opportunity fit check
+
+Run this on any proposed AI feature. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
+
+```text
+User and task:
+How it's done today, and what it costs (time, money, drop-off):
+Volume per day/month:
+Simpler answer (rules, better form, UI fix)? Would it cover most cases?:
+Why AI (messy input? too many cases for rules?):
+Cost of a wrong answer (low / medium / high) and who is harmed:
+How easy is it to check the output, and who checks?:
+Risk zone: sweet spot / monitor / augment / danger:
+Automate or augment, and why:
+Data and context the model needs at run time; permission to use it:
+Value per task:
+AI cost per task + checking cost + build and upkeep:
+Break-even accuracy:
+Prototype eval result (n = ___ real examples):
+Guardrails (human approval, audits, fallback):
+Go / no-go date and criteria:
+```

@@ -12,9 +12,19 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Anti-persona**: a description of a user you deliberately are not building for, so the team doesn't optimise for them. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
+**Assumption types (discovery)**: the five kinds of belief a solution depends on: desirability, viability, feasibility, usability and ethical. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
+
 **Attitudinal vs behavioural research**: what people *say* (opinions, beliefs) vs what people *do* (actions you can observe or log). See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
+**Augmentation (AI)**: AI helps a person do a task better or faster while the person stays in control and makes the final call. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
+
+**Automation (AI)**: AI does the task for the user, ideally with a way to preview, edit or undo. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
+
+**Automation bias**: people trusting an automated suggestion too much and approving it without really checking. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
+
 **Batch processing (AI APIs)**: sending AI work that can wait (like overnight jobs) in bulk, usually at a big discount. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
+
+**Break-even accuracy**: the AI accuracy below which checking and fixing its output costs more than doing the task by hand. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
 **CAC (customer acquisition cost)**: what you spend to win one new customer. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
@@ -29,6 +39,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Context engineering**: choosing everything that goes into an AI model's input on each step (instructions, documents, history, tool results), not just the written prompt. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
 **Context window**: the maximum amount of text (in tokens) an AI model can look at in one request, including instructions, conversation and documents. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
+
+**Continuous discovery**: small, weekly customer touchpoints (interviews, prototype tests, experiments) by the team building the product, aimed at a clear outcome. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
 
 **Contribution margin**: revenue from an order minus its direct variable costs (delivery, payment fees, discounts). See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
 
@@ -45,6 +57,10 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **DAU / MAU**: daily active users / monthly active users. DAU ÷ MAU shows how often people come back ("stickiness"). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Delivery**: the work of building and shipping a product well: planning, building, testing and launching. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
+
+**Desired outcome**: the one measurable change a product team is trying to cause, such as a higher renewal rate; the root of an opportunity solution tree. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
+
+**Deterministic software**: software that gives the same output for the same input every time, because people wrote the rules. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
 **Discovery**: the work of figuring out what to build by understanding problems and testing ideas cheaply before full building. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
@@ -100,6 +116,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Insight**: a non-obvious truth about users that explains what you observed and points to a decision. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
+**Interview snapshot**: a one-page summary of a single customer interview, made right after it: who, a key quote, the story and the opportunities heard. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
+
 **Jagged frontier**: AI being excellent at some tasks and surprisingly weak at others that look similar or easier. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Job story**: a need written as "When [situation], I want to [motivation], so I can [outcome]." See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
@@ -144,6 +162,10 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Open-weight model**: an AI model whose trained weights you can download and run yourself; a closed model is only available through its maker's API or app. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
+**Opportunity (discovery)**: an unmet customer need, pain point or desire, phrased in the customer's words; not a feature. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
+
+**Opportunity solution tree (OST)**: Teresa Torres's visual map linking one desired outcome to customer opportunities, the solutions for them, and the assumption tests for each solution. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
+
 **Outcome vs output**: an outcome is a change in customer behaviour or business results; an output is something the team produced, like a feature. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
 **Pain point**: a moment where a user is confused, slowed down, worried or annoyed. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
@@ -153,6 +175,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Peak–end rule**: people judge an experience mostly by its most intense moment and its ending. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **Persona**: a short, research-based description of one type of user: goals, behaviours, context and frustrations. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
+**Pilot purgatory**: when an AI project works in a demo or pilot but never reaches real use or measurable value. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
 **Pretraining**: the first, most expensive stage of building an LLM, where it learns to predict the next token across vast amounts of text. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
@@ -226,6 +250,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Two-pizza team**: Amazon's idea that a team should be small enough for two pizzas to feed, ideally under ten people. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
+**Two-way door decision**: a decision that is easy to reverse, so it should be made quickly; a one-way door is hard to undo and deserves more care. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
+
 **Usability test**: watching someone try real tasks with a product or prototype, usually while thinking aloud. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
 **User sense**: the trained ability to predict how real users will behave and feel, built from regular contact with them. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
@@ -233,6 +259,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Vanity metric**: a number that looks good but doesn't help you make a decision (e.g. total downloads ever). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Vector database**: a store built to quickly find the chunks whose embeddings are closest to a question's embedding. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
+
+**Verification cost**: the time and skill a person needs to check whether an AI output is right. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
 **Viral coefficient (K)**: new users each existing user brings in = invites sent per user × invite conversion rate. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 

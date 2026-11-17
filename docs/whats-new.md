@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 17 Nov 2026 — Two new chapters: continuous discovery, and finding AI opportunities
+
+- **[A2.1 Continuous discovery and opportunity solution trees](part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md):** weekly customer touchpoints by the product trio, product vs business outcomes, opportunities vs solutions, building and prioritising the tree, the five types of assumptions, the weekly rhythm and AI interviewers, with a tiffin-subscription renewal worked example and the Texthelp and Swiggy onboarding cases.
+- **[B2.1 Finding AI opportunities, and when not to use AI](part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md):** problem-first AI, when AI beats rules (and when it doesn't), the cost-of-error × ease-of-checking grid, automate vs augment, data and unit maths, break-even accuracy and rules-first hybrids, with an online-pharmacy worked example and the McDonald's drive-thru and Zomato Nugget cases.
+- 14 new glossary terms, two new templates (opportunity solution tree, AI opportunity fit check) and new reading-list entries.
+
 ## 16 Nov 2026 — Two new chapters: choosing between prompting, RAG and fine-tuning, and journey maps
 
 - **[B1.4 Prompting vs RAG vs fine-tuning: how to decide](part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md):** knowledge problems vs behaviour problems, why RAG beats fine-tuning for facts, what fine-tuning is good at, the ladder of fixes, cost shapes, SFT, DPO, LoRA and distillation, and fine-tunes as forks you maintain, with a lending-app support worked example and the Swiggy small-model search and OpenAI fine-tuning wind-down cases.

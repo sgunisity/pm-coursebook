@@ -148,3 +148,19 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Hu et al.: LoRA](https://arxiv.org/abs/2106.09685) (2021): low-cost fine-tuning.
 - [Hamel Husain: Is fine-tuning still valuable?](https://hamel.dev/blog/posts/fine_tuning_valuable.html): practitioner views.
 - [Menlo Ventures: 2025 State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-AI-in-the-enterprise/) (2025).
+
+## Added with A2.1 Continuous discovery and opportunity solution trees
+
+- [*Continuous Discovery Habits*](https://www.producttalk.org/continuous-discovery-habits/) by Teresa Torres (2021): outcomes, weekly interviewing, opportunity mapping and assumption testing.
+- [Product Talk: Opportunity solution trees](https://www.producttalk.org/opportunity-solution-trees.md): Torres's guide to the tree.
+- [Product Talk: The 5 types of assumptions](https://www.producttalk.org/five-types-of-assumptions/): desirability, viability, feasibility, usability and ethical.
+- [SVPG: Continuous Discovery](https://www.svpg.com/continuous-discovery/): Marty Cagan on running discovery alongside delivery.
+- [Lenny's Podcast: Teresa Torres on how to interview customers](https://www.lennysnewsletter.com/p/teresa-torres-on-how-to-interview).
+- [NN/g: AI-moderated interviews](https://www.nngroup.com/articles/ai-interviewers/) (2026): when AI interviewers help and when they don't.
+
+## Added with B2.1 Finding AI opportunities, and when not to use AI
+
+- [Google PAIR: User Needs + Defining Success](https://pair.withgoogle.com/chapter/user-needs/): when AI adds value, and automation vs augmentation.
+- [Anthropic: Building effective agents](https://www.anthropic.com/research/building-effective-agents): start with the simplest solution.
+- [McKinsey: The state of AI in 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025) (2025).
+- [METR: developer productivity uplift update](https://metr.org/blog/2026-02-24-uplift-update/) (2026).

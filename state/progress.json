@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "A",
+  "next_track": "B",
   "chapters": [
     {
       "id": "A0.1",
@@ -78,9 +78,9 @@
       "section": "A2 Problem Discovery",
       "title": "Continuous discovery and opportunity solution trees",
       "path": "docs/part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-17",
+      "summary": "Continuous discovery (weekly touchpoints by the trio, aimed at an outcome) and opportunity solution trees (outcome > opportunities > solutions > assumption tests); product vs business outcomes, opportunities vs solutions, sizing and two-way doors, five assumption types, weekly rhythm, AI interviewers; tiffin-renewal worked example; Texthelp and Swiggy onboarding cases."
     },
     {
       "id": "A2.2",
@@ -608,9 +608,9 @@
       "section": "B2 Discovery and Design",
       "title": "Finding AI opportunities, and when not to use AI",
       "path": "docs/part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-17",
+      "summary": "Finding AI opportunities problem-first: PAIR when AI is/isn't better, cost of error x ease of checking grid, automate vs augment, data/context, unit maths and break-even accuracy, rules-first hybrids, build vs buy; pharmacy prescription pre-fill worked example; McDonald's IBM drive-thru and Zomato Nugget cases."
     },
     {
       "id": "B2.2",
@@ -773,6 +773,11 @@
       "date": "2026-11-16",
       "mode": "DAILY",
       "did": "Added B1.4 and A1.4"
+    },
+    {
+      "date": "2026-11-17",
+      "mode": "DAILY",
+      "did": "Added A2.1 and B2.1"
     }
   ]
 }
