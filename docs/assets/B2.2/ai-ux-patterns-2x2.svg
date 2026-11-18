@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="500" fill="#ffffff"/>
+  <text x="330" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Four AI UX patterns: who starts × what AI gives</text>
+  <line x1="50" y1="440" x2="50" y2="60" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="44,66 56,66 50,52" fill="#4F46E5"/>
+  <text x="26" y="250" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5" transform="rotate(-90 26 250)">AI gives: suggestion (below) → action (above)</text>
+  <line x1="50" y1="440" x2="620" y2="440" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="614,434 614,446 628,440" fill="#4F46E5"/>
+  <text x="335" y="470" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5">Who starts: user asks → product starts it on an event</text>
+  <rect x="65" y="65" width="265" height="175" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="345" y="65" width="265" height="175" rx="10" fill="#ffffff" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="65" y="252" width="265" height="175" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="345" y="252" width="265" height="175" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="197" y="97" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Agent</text>
+  <text x="197" y="125" text-anchor="middle" font-size="12" fill="#374151">"Book the cheapest morning flight"</text>
+  <text x="197" y="147" text-anchor="middle" font-size="12" fill="#374151">Many steps, done for you</text>
+  <text x="197" y="169" text-anchor="middle" font-size="12" fill="#374151">Human: plan, risky steps, end</text>
+  <text x="197" y="220" text-anchor="middle" font-size="11" font-style="italic" fill="#6B7280">Needs checkpoints and a log</text>
+  <text x="477" y="97" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Ambient</text>
+  <text x="477" y="125" text-anchor="middle" font-size="12" fill="#374151">Invoice overdue → reminder drafted</text>
+  <text x="477" y="147" text-anchor="middle" font-size="12" fill="#374151">Runs in the background</text>
+  <text x="477" y="169" text-anchor="middle" font-size="12" fill="#374151">Human: notify, question, review</text>
+  <text x="477" y="220" text-anchor="middle" font-size="11" font-style="italic" fill="#6B7280">Needs consent and low noise</text>
+  <text x="197" y="284" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Chat</text>
+  <text x="197" y="312" text-anchor="middle" font-size="12" fill="#374151">"Explain this charge on my bill"</text>
+  <text x="197" y="334" text-anchor="middle" font-size="12" fill="#374151">Open-ended, one reply at a time</text>
+  <text x="197" y="356" text-anchor="middle" font-size="12" fill="#374151">Human: reads and acts</text>
+  <text x="197" y="407" text-anchor="middle" font-size="11" font-style="italic" fill="#6B7280">Blank box: users must know what to ask</text>
+  <text x="477" y="284" text-anchor="middle" font-size="16" font-weight="700" fill="#4F46E5">Copilot</text>
+  <text x="477" y="312" text-anchor="middle" font-size="12" fill="#374151">Next line of code, draft reply</text>
+  <text x="477" y="334" text-anchor="middle" font-size="12" fill="#374151">Inside the user's own work</text>
+  <text x="477" y="356" text-anchor="middle" font-size="12" fill="#374151">Human: accept, edit or ignore</text>
+  <text x="477" y="407" text-anchor="middle" font-size="11" font-style="italic" fill="#6B7280">Best when checking takes seconds</text>
+</svg>

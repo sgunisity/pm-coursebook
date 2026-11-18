@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "B",
+  "next_track": "A",
   "chapters": [
     {
       "id": "A0.1",
@@ -88,9 +88,9 @@
       "section": "A2 Problem Discovery",
       "title": "Framing the problem: problem statements",
       "path": "docs/part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-18",
+      "summary": "Problem statements: solutions in disguise, six parts (who, situation, struggle, cause, evidence/size, measure), why-how ladder, Five Whys and reframing (Wedell-Wedellsborg), How Might We; exam-prep worked example; SEBI F&O and Netflix paid-sharing cases."
     },
     {
       "id": "A2.3",
@@ -618,9 +618,9 @@
       "section": "B2 Discovery and Design",
       "title": "AI UX patterns: chat, copilot, agent, ambient",
       "path": "docs/part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-18",
+      "summary": "AI UX patterns: chat (blank box, articulation barrier), copilot (in-context suggestions), agent (goal, checkpoints), ambient (events; notify/question/review, agent inbox); Pattern Picker; autonomy per action; approval fatigue; Razorpay agentic UPI and Microsoft Recall cases."
     },
     {
       "id": "B2.3",
@@ -778,6 +778,11 @@
       "date": "2026-11-17",
       "mode": "DAILY",
       "did": "Added A2.1 and B2.1"
+    },
+    {
+      "date": "2026-11-18",
+      "mode": "DAILY",
+      "did": "Added B2.2 and A2.2"
     }
   ]
 }

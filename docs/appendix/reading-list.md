@@ -164,3 +164,20 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Anthropic: Building effective agents](https://www.anthropic.com/research/building-effective-agents): start with the simplest solution.
 - [McKinsey: The state of AI in 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025) (2025).
 - [METR: developer productivity uplift update](https://metr.org/blog/2026-02-24-uplift-update/) (2026).
+
+## Added with B2.2 AI UX patterns: chat, copilot, agent, ambient
+
+- [Microsoft: Guidelines for Human-AI Interaction](https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/): 18 research-backed rules for any AI feature.
+- [Jakob Nielsen: AI is the first new UI paradigm in 60 years](https://jakobnielsenphd.substack.com/p/ai-is-first-new-ui-paradigm-in-60?open=false) (2023): intent-based outcome specification and the articulation barrier.
+- [Amelia Wattenberger: Why Chatbots Are Not the Future](https://wattenberger.com/thoughts/boo-chatbots) (2023): the case for AI built into the work.
+- [LangChain: Introducing ambient agents](https://www.langchain.com/blog/introducing-ambient-agents) (2025): notify, question, review and the agent inbox.
+- [The Shape of AI](https://shapeof.ai/about) by Emily Campbell: a library of AI UX patterns.
+- [OpenAI: Introducing ChatGPT agent](https://openai.com/index/introducing-chatgpt-agent/) (2025): a public example of agent controls.
+
+## Added with A2.2 Framing the problem: problem statements
+
+- [Thomas Wedell-Wedellsborg: Are You Solving the Right Problems?](https://hbr.org/2017/01/are-you-solving-the-right-problems) (*HBR*, 2017): reframing, with the slow-elevator story.
+- [*What's Your Problem?*](https://store.hbr.org/product/what-s-your-problem-to-solve-your-toughest-problems-change-the-problems-you-solve/10257) by Thomas Wedell-Wedellsborg (2020): the full reframing method.
+- [Stanford d.school Design Thinking Bootleg](https://dschool.stanford.edu/resources/design-thinking-bootleg): POV statements and "How might we" method cards.
+- [Gothelf & Seiden: Framing the work to encourage experimentation](https://medium.com/@leanstartup/framing-the-work-to-encourage-experimentation-2b9c38cf23ec) (2017): the business problem statement template.
+- [Basadur: The origin of "How might we"](https://www.basadur.com/?p=7453): history of the phrase.

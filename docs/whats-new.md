@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 18 Nov 2026 — Two new chapters: AI UX patterns, and framing the problem
+
+- **[B2.2 AI UX patterns: chat, copilot, agent, ambient](part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md):** why the blank chat box is hard, copilots inside the work, agents with checkpoints, ambient AI with notify/question/review and the agent inbox, the five-question Pattern Picker, autonomy set per action and approval fatigue, with an invoice-reminder worked example and the Razorpay–NPCI–OpenAI agentic payments and Microsoft Recall cases.
+- **[A2.2 Framing the problem: problem statements](part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md):** spotting solutions in disguise, the six parts of a strong problem statement, the why–how ladder, Five Whys and reframing, How Might We questions and sizing evidence, with an exam-prep worked example and the SEBI F&O and Netflix paid-sharing cases.
+- 15 new glossary terms, two new templates (problem statement card, AI pattern and autonomy plan) and new reading-list entries.
+
 ## 17 Nov 2026 — Two new chapters: continuous discovery, and finding AI opportunities
 
 - **[A2.1 Continuous discovery and opportunity solution trees](part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md):** weekly customer touchpoints by the product trio, product vs business outcomes, opportunities vs solutions, building and prioritising the tree, the five types of assumptions, the weekly rhythm and AI interviewers, with a tiffin-subscription renewal worked example and the Texthelp and Swiggy onboarding cases.

@@ -8,9 +8,17 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Agent (AI)**: a system where a language model decides, step by step, which tools to call and when the task is done. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
+**Agent inbox**: one screen listing everything AI agents need from you (approvals, questions, alerts), modelled on an email inbox. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
+
 **Agent loop**: the cycle an AI agent repeats: think, call a tool, read the result, decide the next step. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
+**Ambient AI**: AI that runs in the background and starts work when an event happens (a new ticket, an overdue invoice), rather than when a user asks. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
+
 **Anti-persona**: a description of a user you deliberately are not building for, so the team doesn't optimise for them. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
+
+**Approval fatigue**: when users are asked to approve AI actions so often that they click "yes" without really checking. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
+
+**Articulation barrier**: the difficulty many people have in describing what they want in words, which makes typed prompts hard to use. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
 **Assumption types (discovery)**: the five kinds of belief a solution depends on: desirability, viability, feasibility, usability and ethical. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
 
@@ -21,6 +29,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Automation (AI)**: AI does the task for the user, ideally with a way to preview, edit or undo. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
 **Automation bias**: people trusting an automated suggestion too much and approving it without really checking. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
+
+**Autonomy ladder (AI)**: the steps from AI that only suggests, to AI that drafts for review, acts then reports, or acts silently. Set per action. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
 **Batch processing (AI APIs)**: sending AI work that can wait (like overnight jobs) in bulk, usually at a big discount. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
@@ -45,6 +55,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Contribution margin**: revenue from an order minus its direct variable costs (delivery, payment fees, discounts). See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
 
 **Conway's law**: organisations tend to build products that mirror their own team structure and communication lines. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
+
+**Copilot (pattern)**: AI that sits inside the user's own work and offers suggestions in context while the user stays in charge. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
 **Counter metric (guardrail metric)**: a metric you watch to make sure improving one number isn't quietly hurting something else. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
 
@@ -90,6 +102,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Fine-tuning**: training an existing model further on your own examples so a behaviour is built into the model. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
+**Five Whys**: asking "why?" about five times to dig from a symptom towards a root cause; credited to Toyota. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
 **Follow-me-home**: watching a user do a real task in their own setting instead of asking them about it; a practice made well known by Intuit. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
 **Four forces of progress**: push and pull that drive someone to switch products; anxiety and habit that hold them back (Moesta and Spiek). See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
@@ -106,6 +120,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **HEART**: Google's user-experience metric framework: Happiness, Engagement, Adoption, Retention, Task success. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**How Might We (HMW)**: a question that turns a problem into an open invitation for ideas, e.g. "How might we help first-time sellers finish their listing?" See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
 **Human-in-the-loop**: a design where a person checks, approves or corrects the AI's work before it matters. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Hybrid search**: running keyword search and meaning-based (embedding) search together and merging the results. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
@@ -115,6 +131,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Input metric**: a number your team can move directly that drives a bigger result. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Insight**: a non-obvious truth about users that explains what you observed and points to a decision. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
+
+**Intent-based outcome specification**: Jakob Nielsen's name for the AI interface style where you say what result you want and the computer works out the steps. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
 **Interview snapshot**: a one-page summary of a single customer interview, made right after it: who, a key quote, the story and the opportunities heard. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
 
@@ -178,9 +196,13 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Pilot purgatory**: when an AI project works in a demo or pilot but never reaches real use or measurable value. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
+**Point-of-view (POV) statement**: a design-thinking format for a problem: user + need + insight. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
 **Pretraining**: the first, most expensive stage of building an LLM, where it learns to predict the next token across vast amounts of text. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
 **Probabilistic**: producing a likely guess that can vary and can be wrong, as most AI does (the opposite of deterministic). See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Problem statement**: a short, evidence-backed description of who is struggling, in what situation, why, and how you'll know it's fixed, without naming a solution. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
 **Product manager (PM)**: the person responsible for deciding what a team builds and why, and for whether it creates value. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
@@ -206,11 +228,15 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Recall@k**: how often the right document or chunk appears in the top *k* search results across a test set. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
+**Reframing**: looking at a problem from a different angle (for example "the wait is annoying" instead of "the elevator is slow") so new solutions appear. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
 **Reranker**: a second model that re-reads the top search results and orders them by real relevance. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Retention**: the share of users who keep coming back over time. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
 **RLHF (reinforcement learning from human feedback)**: training a model towards answers that people ranked as better. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
+
+**Root cause**: the underlying reason a problem happens, as opposed to its visible symptom. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
 **Rule of Two (agents)**: Meta's guideline that an agent session should have at most two of: untrusted input, sensitive data access, and the ability to act externally. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
@@ -225,6 +251,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **SFT (supervised fine-tuning)**: fine-tuning with input and ideal-output pairs. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
 **Simpson's paradox**: every segment moves one way while the total moves the other way, usually because of a mix shift. See [A8.6](../part-a/08-product-metrics/06-diagnosing-a-metric-drop.md).
+
+**Solution in disguise**: a request that names a feature ("add a leaderboard") instead of the problem behind it. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
 **Story-based interviewing**: asking participants about a specific past event ("Tell me about the last time…") instead of general opinions. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
@@ -263,5 +291,7 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Verification cost**: the time and skill a person needs to check whether an AI output is right. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
 **Viral coefficient (K)**: new users each existing user brings in = invites sent per user × invite conversion rate. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
+
+**Why–how ladder**: asking "why?" to broaden a problem towards the user's goal, or "how?" to narrow it towards solutions. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
 **Workflow (AI)**: an AI system where your code fixes the steps in advance and the model fills in parts; the simpler alternative to an agent. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).

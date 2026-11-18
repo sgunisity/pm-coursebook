@@ -258,3 +258,45 @@ Prototype eval result (n = ___ real examples):
 Guardrails (human approval, audits, fallback):
 Go / no-go date and criteria:
 ```
+
+## Problem statement card
+
+Fill this in before any significant piece of work, and put it at the top of the PRD. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
+```text
+Request as received (if any):
+Stakeholders' written definitions (one line each):
+Who (specific segment):
+Situation (when / where it happens):
+Struggle (what goes wrong for them):
+Cause (we believe... because...; what would prove it wrong):
+Evidence and size (data + quotes; reach x frequency x severity):
+Impact and measure (outcome metric: baseline -> target, by when):
+Reframes tried (what's left out? when doesn't it happen? is the objective right?):
+How might we... (3-5 questions; circle 1-2):
+Out of scope (other causes or segments we're not tackling):
+Agreed by (trio + stakeholders), date:
+```
+
+## AI pattern and autonomy plan
+
+Use this when choosing how users will meet an AI feature. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
+
+```text
+User and task:
+Who knows the work is needed (user / product can see it):
+One step or many:
+Cost of a mistake; reversible?:
+How easy is checking, and who checks:
+How often it happens:
+Chosen pattern (chat / copilot / agent / ambient, or a mix) and why:
+Autonomy per action (act silently / act then show / draft for review / ask every time):
+  - Action 1:
+  - Action 2:
+  - Action 3:
+Trust signals (sources, reasons, plan, log, undo):
+Consent and data access (what is watched; default on/off; how to switch off):
+Latency target:
+Steering metric, outcome metric, guardrails (edit rate, opt-outs, wrong actions):
+How users move up or down the autonomy ladder:
+```
