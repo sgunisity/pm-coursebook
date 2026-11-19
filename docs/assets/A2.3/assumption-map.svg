@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="520" fill="#ffffff"/>
+  <text x="330" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Assumption map: SabziBox weekly vegetable box</text>
+  <line x1="50" y1="460" x2="50" y2="60" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="44,66 56,66 50,52" fill="#4F46E5"/>
+  <text x="26" y="260" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5" transform="rotate(-90 26 260)">Importance: less important (below) → idea dies if wrong (above)</text>
+  <line x1="50" y1="460" x2="620" y2="460" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="614,454 614,466 628,460" fill="#4F46E5"/>
+  <text x="335" y="492" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5">Evidence: we have proof (left) → we're guessing (right)</text>
+
+  <rect x="65" y="65" width="265" height="185" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="345" y="65" width="265" height="185" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2.5"/>
+  <rect x="65" y="262" width="265" height="185" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="345" y="262" width="265" height="185" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+
+  <text x="197" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">Important, some proof</text>
+  <text x="197" y="110" text-anchor="middle" font-size="12" fill="#374151">Plan around it; keep watching</text>
+  <rect x="85" y="128" width="225" height="30" rx="6" fill="#ffffff" stroke="#9CA3AF"/>
+  <text x="197" y="148" text-anchor="middle" font-size="12" fill="#111827">A5 Committees allow gate delivery</text>
+  <rect x="85" y="168" width="225" height="30" rx="6" fill="#ffffff" stroke="#9CA3AF"/>
+  <text x="197" y="188" text-anchor="middle" font-size="12" fill="#111827">A8 Spoilage stays under 5%</text>
+
+  <text x="477" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#4F46E5">Important, no proof: TEST FIRST</text>
+  <text x="477" y="110" text-anchor="middle" font-size="12" fill="#374151">This is where ideas die</text>
+  <rect x="365" y="124" width="225" height="30" rx="6" fill="#ffffff" stroke="#4F46E5"/>
+  <text x="477" y="144" text-anchor="middle" font-size="12" fill="#111827">A1 Families commit a week ahead</text>
+  <rect x="365" y="162" width="225" height="30" rx="6" fill="#ffffff" stroke="#4F46E5"/>
+  <text x="477" y="182" text-anchor="middle" font-size="12" fill="#111827">A3 They keep ordering after week 2</text>
+  <rect x="365" y="200" width="225" height="30" rx="6" fill="#ffffff" stroke="#4F46E5"/>
+  <text x="477" y="220" text-anchor="middle" font-size="12" fill="#111827">A4 18%+ margin while 15% cheaper</text>
+
+  <text x="197" y="289" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">Less important, some proof</text>
+  <text x="197" y="307" text-anchor="middle" font-size="12" fill="#374151">Ignore for now</text>
+  <rect x="85" y="325" width="225" height="30" rx="6" fill="#ffffff" stroke="#9CA3AF"/>
+  <text x="197" y="345" text-anchor="middle" font-size="12" fill="#111827">Residents use UPI for payment</text>
+
+  <text x="477" y="289" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">Less important, no proof</text>
+  <text x="477" y="307" text-anchor="middle" font-size="12" fill="#374151">Park it; test later if it matters</text>
+  <rect x="365" y="325" width="225" height="30" rx="6" fill="#ffffff" stroke="#9CA3AF"/>
+  <text x="477" y="345" text-anchor="middle" font-size="12" fill="#111827">A7 Edit box in under a minute</text>
+  <rect x="365" y="365" width="225" height="30" rx="6" fill="#ffffff" stroke="#9CA3AF"/>
+  <text x="477" y="385" text-anchor="middle" font-size="12" fill="#111827">A6 Pack 500 boxes by 8am (later)</text>
+  <text x="477" y="425" text-anchor="middle" font-size="11" fill="#6B7280">Moves up once demand is proven</text>
+</svg>

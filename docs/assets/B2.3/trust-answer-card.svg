@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="520" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">An AI answer designed for calibrated trust</text>
+
+  <!-- phone frame -->
+  <rect x="40" y="50" width="300" height="450" rx="22" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="40" y="50" width="300" height="44" rx="22" fill="#E5E7EB"/>
+  <text x="190" y="78" text-anchor="middle" font-size="13" font-weight="600" fill="#374151">Help · Card dispute</text>
+
+  <!-- user bubble -->
+  <rect x="140" y="108" width="185" height="40" rx="10" fill="#E5E7EB"/>
+  <text x="152" y="133" font-size="12" fill="#111827">I was charged twice for ₹1,499</text>
+
+  <!-- AI card -->
+  <rect x="55" y="162" width="270" height="250" rx="12" fill="#ffffff" stroke="#4F46E5" stroke-width="2"/>
+  <rect x="67" y="174" width="96" height="22" rx="11" fill="#EEF2FF"/>
+  <text x="115" y="189" text-anchor="middle" font-size="11" font-weight="600" fill="#4F46E5">Drafted by AI</text>
+  <text x="67" y="220" font-size="12" fill="#111827">I found two charges of ₹1,499 from the</text>
+  <text x="67" y="237" font-size="12" fill="#111827">same shop, 2 minutes apart. One looks</text>
+  <text x="67" y="254" font-size="12" fill="#111827">like a duplicate. I can refund it.</text>
+  <rect x="67" y="266" width="246" height="24" rx="6" fill="#F3F4F6"/>
+  <text x="77" y="282" font-size="11" fill="#4F46E5">Source: your statement, 12 Nov, lines 4–5</text>
+  <text x="67" y="308" font-size="11" font-style="italic" fill="#374151">I'm not sure if the shop has already refunded it.</text>
+  <rect x="67" y="320" width="118" height="30" rx="8" fill="#4F46E5"/>
+  <text x="126" y="340" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">Refund ₹1,499</text>
+  <rect x="195" y="320" width="118" height="30" rx="8" fill="#ffffff" stroke="#9CA3AF"/>
+  <text x="254" y="340" text-anchor="middle" font-size="12" fill="#111827">Edit details</text>
+  <text x="67" y="376" font-size="11" fill="#374151">Was this right?</text>
+  <rect x="160" y="363" width="28" height="20" rx="5" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="174" y="377" text-anchor="middle" font-size="11" fill="#111827">Yes</text>
+  <rect x="194" y="363" width="28" height="20" rx="5" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="208" y="377" text-anchor="middle" font-size="11" fill="#111827">No</text>
+  <text x="67" y="400" font-size="10" fill="#6B7280">You can undo a refund for 30 seconds.</text>
+
+  <!-- human button -->
+  <rect x="55" y="428" width="270" height="36" rx="10" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+  <text x="190" y="451" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">Talk to a person (reply within 2 hours)</text>
+
+  <!-- annotations -->
+  <g font-size="12" fill="#111827">
+    <line x1="163" y1="185" x2="380" y2="110" stroke="#4F46E5" stroke-dasharray="4 3"/>
+    <circle cx="390" cy="106" r="11" fill="#4F46E5"/><text x="390" y="110" text-anchor="middle" fill="#ffffff" font-weight="700">1</text>
+    <text x="408" y="104" font-weight="600">Label</text><text x="408" y="120" fill="#374151">Says it's AI, not a person</text>
+
+    <line x1="313" y1="278" x2="380" y2="170" stroke="#4F46E5" stroke-dasharray="4 3"/>
+    <circle cx="390" cy="166" r="11" fill="#4F46E5"/><text x="390" y="170" text-anchor="middle" fill="#ffffff" font-weight="700">2</text>
+    <text x="408" y="164" font-weight="600">Source</text><text x="408" y="180" fill="#374151">Lets the user check the claim</text>
+
+    <line x1="325" y1="305" x2="380" y2="230" stroke="#4F46E5" stroke-dasharray="4 3"/>
+    <circle cx="390" cy="226" r="11" fill="#4F46E5"/><text x="390" y="230" text-anchor="middle" fill="#ffffff" font-weight="700">3</text>
+    <text x="408" y="224" font-weight="600">Honest uncertainty</text><text x="408" y="240" fill="#374151">Points to what to double-check</text>
+
+    <line x1="313" y1="335" x2="380" y2="290" stroke="#4F46E5" stroke-dasharray="4 3"/>
+    <circle cx="390" cy="286" r="11" fill="#4F46E5"/><text x="390" y="290" text-anchor="middle" fill="#ffffff" font-weight="700">4</text>
+    <text x="408" y="284" font-weight="600">Act, edit or undo</text><text x="408" y="300" fill="#374151">Mistakes are cheap to fix</text>
+
+    <line x1="222" y1="373" x2="380" y2="350" stroke="#4F46E5" stroke-dasharray="4 3"/>
+    <circle cx="390" cy="346" r="11" fill="#4F46E5"/><text x="390" y="350" text-anchor="middle" fill="#ffffff" font-weight="700">5</text>
+    <text x="408" y="344" font-weight="600">Feedback</text><text x="408" y="360" fill="#374151">Corrections feed the eval set</text>
+
+    <line x1="325" y1="446" x2="380" y2="410" stroke="#4F46E5" stroke-dasharray="4 3"/>
+    <circle cx="390" cy="406" r="11" fill="#4F46E5"/><text x="390" y="410" text-anchor="middle" fill="#ffffff" font-weight="700">6</text>
+    <text x="408" y="404" font-weight="600">Visible human option</text><text x="408" y="420" fill="#374151">With a promised reply time</text>
+  </g>
+</svg>

@@ -20,6 +20,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Articulation barrier**: the difficulty many people have in describing what they want in words, which makes typed prompts hard to use. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
+**Assumption mapping**: plotting assumptions on importance × evidence to find the riskiest ones to test first (David Bland). See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+
 **Assumption types (discovery)**: the five kinds of belief a solution depends on: desirability, viability, feasibility, usability and ethical. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
 
 **Attitudinal vs behavioural research**: what people *say* (opinions, beliefs) vs what people *do* (actions you can observe or log). See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
@@ -32,11 +34,17 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Autonomy ladder (AI)**: the steps from AI that only suggests, to AI that drafts for review, acts then reports, or acts silently. Set per action. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
+**Background error (AI)**: an AI mistake that nobody notices, so it only shows up in evals, audits or sampling. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
 **Batch processing (AI APIs)**: sending AI work that can wait (like overnight jobs) in bulk, usually at a big discount. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
 **Break-even accuracy**: the AI accuracy below which checking and fixing its output costs more than doing the task by hand. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
 **CAC (customer acquisition cost)**: what you spend to win one new customer. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
+
+**Calibrated trust**: users trust an AI as much as its real accuracy deserves: more where it's good, less where it's weak. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
+**Canary case**: a known-wrong AI output slipped into a review queue to check that human reviewers still catch errors. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
 **Catastrophic forgetting**: a fine-tuned model getting worse at skills it wasn't trained on during fine-tuning. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
@@ -45,6 +53,10 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Chunk**: a small piece of a document (often a few hundred tokens) stored and retrieved on its own in a RAG system. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Cohort**: a group of users who share a start point, such as everyone who signed up in the same week. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
+
+**Concierge test**: delivering a service by hand to a few customers who know it's manual, before building software. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+
+**Confidence threshold**: a cut-off score above which the AI acts on its own and below which a human decides. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
 **Context engineering**: choosing everything that goes into an AI model's input on each step (instructions, documents, history, tool results), not just the written prompt. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
@@ -92,9 +104,13 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Empowered product team**: a team handed a problem and a target outcome, trusted to find the best solution, and judged on results. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
+**Escalation (AI handoff)**: passing a case from an AI to a human, with the context the human needs. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
 **Eval (evaluation)**: a repeatable test that scores an AI's outputs across many real examples. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Faithfulness (grounding)**: whether an AI answer sticks to what its retrieved sources actually say. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
+
+**Fake door test**: showing a button or offer for something not yet built, to measure how many people try it, then explaining honestly. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
 **Feature team**: a team handed a roadmap of features to build and judged mainly on shipping them. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
@@ -116,6 +132,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Goodhart's law**: when a measure becomes a target, people game it and it stops being a good measure. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
+**Graceful failure**: when an AI can't help, it fails safely and clearly and offers the user a next step. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
 **Hallucination**: when an AI states something false as if it were true. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **HEART**: Google's user-experience metric framework: Happiness, Engagement, Adoption, Retention, Task success. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
@@ -123,6 +141,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **How Might We (HMW)**: a question that turns a problem into an open invitation for ideas, e.g. "How might we help first-time sellers finish their listing?" See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
 **Human-in-the-loop**: a design where a person checks, approves or corrects the AI's work before it matters. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Human-on-the-loop**: the AI acts on its own while a person monitors and can step in or stop it. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
 **Hybrid search**: running keyword search and meaning-based (embedding) search together and merging the results. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
@@ -172,6 +192,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Moment that matters**: a step in a journey that strongly shapes how users feel about the whole experience. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
+**MVP (minimum viable product)**: the smallest thing you can put in front of real users to learn whether they'll use or pay for it (Eric Ries). See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+
 **North Star metric**: the one number that best captures the value customers get from your product. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
 
 **NRR (net revenue retention)**: this year's revenue from last year's customers ÷ their revenue last year; above 100% means existing customers grew. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
@@ -198,6 +220,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Point-of-view (POV) statement**: a design-thinking format for a problem: user + need + insight. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
+**Pretotyping**: Alberto Savoia's term for faking a product cheaply to test whether people will really use it, before building a prototype. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+
 **Pretraining**: the first, most expensive stage of building an LLM, where it learns to predict the next token across vast amounts of text. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
 **Probabilistic**: producing a likely guess that can vary and can be wrong, as most AI does (the opposite of deterministic). See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
@@ -220,6 +244,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Proto-persona**: a persona drafted from the team's assumptions before research; a hypothesis to test. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
+**Prototype fidelity**: how close a prototype looks and behaves to the real product, from paper sketch to near-real. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+
 **Proxy metric**: a number tracked because the real thing (like happiness) is hard to measure directly. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **RAG (retrieval-augmented generation)**: finding relevant text from your own documents and adding it to the prompt so the model can answer from it. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
@@ -233,6 +259,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Reranker**: a second model that re-reads the top search results and orders them by real relevance. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Retention**: the share of users who keep coming back over time. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
+
+**Riskiest assumption**: the belief behind an idea that is most important and has the least evidence; test it first. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
 **RLHF (reinforcement learning from human feedback)**: training a model towards answers that people ranked as better. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
@@ -258,6 +286,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Structured output**: AI output in a fixed, machine-readable shape (such as JSON with named fields) that code can check and use. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
+**Success threshold**: the number, set before a test, that decides whether the assumption passed. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+
 **Switch interview**: a jobs-to-be-done interview about the moment someone recently switched to or from a product. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
 **System prompt**: standing instructions a product team writes for an AI model, applied to every conversation. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
@@ -280,6 +310,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Two-way door decision**: a decision that is easy to reverse, so it should be made quickly; a one-way door is hard to undo and deserves more care. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
 
+**Undertrust**: users ignore or redo an AI's work even when it's right, so it adds no value. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
 **Usability test**: watching someone try real tasks with a product or prototype, usually while thinking aloud. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
 **User sense**: the trained ability to predict how real users will behave and feel, built from regular contact with them. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
@@ -294,4 +326,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Why–how ladder**: asking "why?" to broaden a problem towards the user's goal, or "how?" to narrow it towards solutions. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
+**Wizard of Oz test**: a real-looking product where humans secretly do the work behind the screen. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+
 **Workflow (AI)**: an AI system where your code fixes the steps in advance and the model fills in parts; the simpler alternative to an agent. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
+
+**XYZ hypothesis**: Savoia's format for a testable belief: at least X% of Y will do Z. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).

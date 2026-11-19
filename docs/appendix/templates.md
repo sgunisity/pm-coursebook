@@ -300,3 +300,43 @@ Latency target:
 Steering metric, outcome metric, guardrails (edit rate, opt-outs, wrong actions):
 How users move up or down the autonomy ladder:
 ```
+
+## Assumption test card
+
+Use one card per risky assumption, filled in before the test runs. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+
+```text
+Idea (one sentence):
+Assumption (We believe that...):
+Type (desirability / viability / feasibility / usability / ethical):
+Why it's risky (importance; evidence so far):
+Test (cheapest test that could prove it wrong):
+Who (which users, how many, which channel):
+Metric (behaviour or commitment, not opinion):
+Success threshold (set now; go / iterate / stop zones):
+Cost and time:
+Ethics check (honest to users? no money taken for nothing?):
+Result:
+Learning (We observed... so we learned... so we will...):
+Decision (persevere / pivot / stop) and next riskiest assumption:
+```
+
+## Trust and failure plan
+
+Use this for any AI feature that can affect money, health, legal rights or customer trust. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
+```text
+Feature and users (experts or novices? languages?):
+Failure inventory (top 5-10):
+  - Failure | how often (evals) | harm | would the user notice?
+Actions and oversight level (automate / preview / undo + audit / human approves):
+  - Action 1:
+  - Action 2:
+Routing rule (stakes first, then confidence threshold):
+Trust signals (AI label, sources, uncertainty wording, stated limits):
+Recovery (undo, edit, preview; graceful-failure messages and next steps):
+Human handoff (triggers incl. emotion; context passed; promised reply time):
+Feedback capture and where it goes (eval set, weekly review):
+Oversight health metrics (reviewer agreement, override rate, canary catch rate, audit error rate):
+Regulatory checks (disclosure, right to challenge, incident reporting):
+```

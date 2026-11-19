@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "A",
+  "next_track": "B",
   "chapters": [
     {
       "id": "A0.1",
@@ -98,9 +98,9 @@
       "section": "A2 Problem Discovery",
       "title": "Assumption testing, prototypes and MVPs",
       "path": "docs/part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-19",
+      "summary": "Assumption testing: ideas as stacks of beliefs; desirability/viability/feasibility/usability/ethical risk; Bland's importance x evidence map; XYZ hypotheses with pre-set thresholds; say vs do vs commit; test ladder (fake door, concierge, Wizard of Oz, pilot); prototype fidelity and AI prototyping; Ries's MVP; Blinkit ambulance and Humane cases."
     },
     {
       "id": "A2.4",
@@ -628,9 +628,9 @@
       "section": "B2 Discovery and Design",
       "title": "Designing for trust, failure and human-in-the-loop",
       "path": "docs/part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-19",
+      "summary": "Trust and failure: calibrated trust vs over/undertrust; PAIR error types and background errors; sources and uncertainty wording; cheap undo; graceful failure; oversight levels per action; stakes-then-confidence routing; human handoff; approval fatigue and canaries; dispute-triage worked example; RBI FREE-AI and Air Canada cases."
     },
     {
       "id": "B3.1",
@@ -736,11 +736,6 @@
   "runs": [
     {
       "date": "2026-11-10",
-      "mode": "SETUP",
-      "did": "Scaffold, workflows, nav for 73 chapters, wrote A8.1-A8.6"
-    },
-    {
-      "date": "2026-11-10",
       "mode": "DAILY",
       "did": "Added B0.1 and A0.1"
     },
@@ -783,6 +778,11 @@
       "date": "2026-11-18",
       "mode": "DAILY",
       "did": "Added B2.2 and A2.2"
+    },
+    {
+      "date": "2026-11-19",
+      "mode": "DAILY",
+      "did": "Added A2.3 and B2.3"
     }
   ]
 }

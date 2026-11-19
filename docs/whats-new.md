@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 19 Nov 2026 — Two new chapters: assumption testing and MVPs, and designing AI for trust and failure
+
+- **[A2.3 Assumption testing, prototypes and MVPs](part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md):** ideas as stacks of beliefs, the five risk types, David Bland's assumptions map, XYZ hypotheses with thresholds set in advance, say vs do vs commit, the test ladder from fake doors to concierge and Wizard of Oz tests, prototype fidelity and AI prototyping, and what an MVP really is, with a vegetable-box worked example and the Blinkit ambulance pilot and Humane AI Pin cases.
+- **[B2.3 Designing for trust, failure and human-in-the-loop](part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md):** calibrated trust, PAIR's error types and background errors, sources and uncertainty wording, cheap undo and graceful failure, oversight levels per action, stakes-then-confidence routing, human handoffs, approval fatigue and canary cases, with a card-dispute triage worked example and the RBI FREE-AI and Air Canada chatbot cases.
+- 18 new glossary terms, two new templates (assumption test card, trust and failure plan) and new reading-list entries.
+
 ## 18 Nov 2026 — Two new chapters: AI UX patterns, and framing the problem
 
 - **[B2.2 AI UX patterns: chat, copilot, agent, ambient](part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md):** why the blank chat box is hard, copilots inside the work, agents with checkpoints, ambient AI with notify/question/review and the agent inbox, the five-question Pattern Picker, autonomy set per action and approval fatigue, with an invoice-reminder worked example and the Razorpay–NPCI–OpenAI agentic payments and Microsoft Recall cases.

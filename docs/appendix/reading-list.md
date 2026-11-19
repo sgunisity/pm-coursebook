@@ -181,3 +181,19 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Stanford d.school Design Thinking Bootleg](https://dschool.stanford.edu/resources/design-thinking-bootleg): POV statements and "How might we" method cards.
 - [Gothelf & Seiden: Framing the work to encourage experimentation](https://medium.com/@leanstartup/framing-the-work-to-encourage-experimentation-2b9c38cf23ec) (2017): the business problem statement template.
 - [Basadur: The origin of "How might we"](https://www.basadur.com/?p=7453): history of the phrase.
+
+## Added with A2.3 Assumption testing, prototypes and MVPs
+
+- [David J. Bland: How assumptions mapping can focus your teams](https://strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter) (Strategyzer, 2020): the importance × evidence map, from *Testing Business Ideas* (with Alexander Osterwalder).
+- [Eric Ries: What is an MVP?](https://leanstartup.co/what-is-an-mvp/): the original definition, from *The Lean Startup* author.
+- [Alberto Savoia: Build the Right It](https://stvp.stanford.edu/av/build-right-it-entire-talk) (Stanford talk): pretotyping and the law of market failure, from the author of *The Right It*.
+- [Amanda White: Wizard of Oz vs concierge testing](https://mindtheproduct.com/wizard-of-oz-vs-concierge-testing-behind-the-curtain-or-behind-the-desk/) (Mind the Product, 2026): which MVP tests what.
+- [Colin Matthews: A guide to AI prototyping for product managers](https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product) (Lenny's Newsletter, 2025): choosing between v0, Bolt, Lovable and Replit.
+
+## Added with B2.3 Designing for trust, failure and human-in-the-loop
+
+- [Google PAIR: People + AI Guidebook](https://pair.withgoogle.com/guidebook-v2/chapters): free chapters on errors, graceful failure, explainability and trust.
+- [Kim et al.: "I'm Not Sure, But…"](https://www.microsoft.com/en-us/research/?p=1030965) (FAccT 2024): how uncertainty wording changes reliance on AI.
+- [Anthropic: Measuring AI agent autonomy in practice](https://www.anthropic.com/research/measuring-agent-autonomy) (2026): how people actually oversee agents.
+- [EU AI Act, Article 14: Human oversight](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14): what effective oversight must allow, including automation bias.
+- [Bar & Bench: RBI's FREE-AI framework](https://www.barandbench.com/view-point/rbis-free-ai-framework-navigating-the-legal-and-regulatory-landscape) (2025): disclosure, recourse and governance for Indian financial AI.
