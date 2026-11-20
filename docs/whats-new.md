@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 21 Nov 2026 — Two new chapters: evals, and outcomes over outputs
+
+- **[B3.1 Evals: the AI PM's most important skill](part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md):** why vibe checks fail, error analysis with open and axial coding, pass/fail checks over 1–5 scores, code vs AI-judge vs human graders, testing an AI judge against your own labels, criteria drift, capability vs regression evals, pass@k vs pass^k, synthetic data and agent evals, with a quick-commerce refund assistant worked example and the Google AI Overviews and Swiggy Hermes cases.
+- **[A2.4 Outcomes over outputs: escaping the build trap](part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md):** output vs outcome vs impact, signs of the build trap, writing outcome statements, Melissa Perri's product kata, leading indicators, keep-the-lights-on work, outcome theatre, B2B commitments, removing features and why AI makes output cheap, with a shop billing-app churn worked example and the Zomato Legends and Amazon Just Walk Out cases.
+- 14 new glossary terms, two new templates (eval plan, outcome statement card) and new reading-list entries.
+
 ## 19 Nov 2026 — Two new chapters: assumption testing and MVPs, and designing AI for trust and failure
 
 - **[A2.3 Assumption testing, prototypes and MVPs](part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md):** ideas as stacks of beliefs, the five risk types, David Bland's assumptions map, XYZ hypotheses with thresholds set in advance, say vs do vs commit, the test ladder from fake doors to concierge and Wizard of Oz tests, prototype fidelity and AI prototyping, and what an MVP really is, with a vegetable-box worked example and the Blinkit ambulance pilot and Humane AI Pin cases.

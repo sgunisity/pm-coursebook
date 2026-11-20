@@ -197,3 +197,20 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Anthropic: Measuring AI agent autonomy in practice](https://www.anthropic.com/research/measuring-agent-autonomy) (2026): how people actually oversee agents.
 - [EU AI Act, Article 14: Human oversight](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14): what effective oversight must allow, including automation bias.
 - [Bar & Bench: RBI's FREE-AI framework](https://www.barandbench.com/view-point/rbis-free-ai-framework-navigating-the-legal-and-regulatory-landscape) (2025): disclosure, recourse and governance for Indian financial AI.
+
+## Added with B3.1 Evals: the AI PM's most important skill
+
+- [Hamel Husain: Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/) (2024): the three levels of evals and the Rechat case study.
+- [Hamel Husain & Shreya Shankar: AI Evals FAQ](https://hamel.dev/blog/posts/evals-faq/): error analysis, AI judges and dataset size.
+- [Anthropic: Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) (2026): tasks, trials, graders, pass@k vs pass^k.
+- [Aman Khan: Beyond vibe checks](https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete) (Lenny's Newsletter): a PM's guide to evals.
+- [Shankar et al.: Who Validates the Validators?](https://arxiv.org/abs/2404.12272) (UIST 2024): criteria drift and aligning AI judges with people.
+- [Lenny's Podcast: Why AI evals are the hottest new skill](https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill) (2025): Husain and Shankar on error analysis and AI judges.
+
+## Added with A2.4 Outcomes over outputs: escaping the build trap
+
+- [Melissa Perri: *Escaping the Build Trap*](https://www.oreilly.com/library/view/escaping-the-build/9781491973783/) (O'Reilly, 2018): the build trap and the product kata.
+- [Josh Seiden on outcomes over output](https://www.intercom.com/blog/podcasts/josh-seiden-on-why-product-teams-should-focus-on-outcome-vs-output) (Intercom podcast): outcomes as changes in customer behaviour, from the author of *Outcomes Over Output*.
+- [Jeff Gothelf & Josh Seiden: *Sense & Respond*](https://www.oreilly.com/library/view/sense-and-respond/9781633691896/) (2017): managing teams by outcomes.
+- [SVPG: Outcomes Are Hard](https://www.svpg.com/outcomes-are-hard) (Marty Cagan with Felipe Castro, 2025): common mistakes when moving to outcomes.
+- [Martin Fowler: Outcome Over Output](https://martinfowler.com/bliki/OutcomeOverOutput.html): a short engineering view of why output is a misleading measure.

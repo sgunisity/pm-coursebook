@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "B",
+  "next_track": "A",
   "chapters": [
     {
       "id": "A0.1",
@@ -108,9 +108,9 @@
       "section": "A2 Problem Discovery",
       "title": "Outcomes over outputs: escaping the build trap",
       "path": "docs/part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-21",
+      "summary": "Outputs vs outcomes vs impact; Perri's build trap and its signs; Seiden's outcome as behaviour change; writing outcome statements (who, does what, from-to, by when); product kata; leading indicators, KTLO work, outcome theatre, B2B commitments, feature removal, AI making output cheap; kirana billing-app churn worked example."
     },
     {
       "id": "A3.1",
@@ -638,9 +638,9 @@
       "section": "B3 Quality",
       "title": "Evals: the AI PM's most important skill",
       "path": "docs/part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-21",
+      "summary": "Evals: test cases + grader + threshold; error analysis first (open/axial coding, ~100 traces, saturation); pass/fail over 1-5 scores; code vs AI-judge vs human graders; checking judges (recall, not agreement); criteria drift; capability vs regression evals; pass@k vs pass^k; synthetic data, agent outcome checks, eval set size, Goodhart on evals; quick-commerce refund bot worked example."
     },
     {
       "id": "B3.2",
@@ -735,11 +735,6 @@
   ],
   "runs": [
     {
-      "date": "2026-11-10",
-      "mode": "DAILY",
-      "did": "Added B0.1 and A0.1"
-    },
-    {
       "date": "2026-11-11",
       "mode": "DAILY",
       "did": "Added A0.2 and B0.2"
@@ -783,6 +778,11 @@
       "date": "2026-11-19",
       "mode": "DAILY",
       "did": "Added A2.3 and B2.3"
+    },
+    {
+      "date": "2026-11-21",
+      "mode": "DAILY",
+      "did": "Added B3.1 and A2.4"
     }
   ]
 }

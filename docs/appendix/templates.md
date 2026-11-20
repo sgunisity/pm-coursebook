@@ -340,3 +340,39 @@ Feedback capture and where it goes (eval set, weekly review):
 Oversight health metrics (reviewer agreement, override rate, canary catch rate, audit error rate):
 Regulatory checks (disclosure, right to challenge, incident reporting):
 ```
+
+## Eval plan
+
+Use this before launching or changing any AI feature. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
+
+```text
+Feature and quality owner:
+Quality bar (3-5 sentences: what great looks like, what must never happen):
+Traces reviewed (how many, from where, which languages/user types):
+Failure modes (from error analysis):
+  - Failure | count in sample | harm (high/med/low) | grader (code / AI judge / human)
+AI judge check (labelled cases | failures caught % | passes correct %):
+Eval set (real failures | typical | edge/adversarial) and trials per case:
+Launch thresholds (set before running):
+  - Check | bar
+Run on: every prompt/model change | weekly trace review owner:
+Online signals to watch after launch:
+```
+
+## Outcome statement card
+
+Use this to turn a feature request into an outcome. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
+
+```text
+Request as received (the output):
+Direction it serves (company strategy):
+Who (which customers or users):
+Does what (observable behaviour):
+From ___ to ___ (current value and target):
+By when:
+Leading indicator we can check within 4 weeks:
+Evidence the behaviour drives business results:
+Cheapest ways to move it (at least one that isn't a feature):
+Guardrail metric:
+When we'll check results after launch:
+```

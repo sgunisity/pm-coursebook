@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="520" fill="#ffffff"/>
+  <text x="330" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Output vs outcome: four possible results</text>
+
+  <line x1="50" y1="460" x2="50" y2="60" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="44,66 56,66 50,52" fill="#4F46E5"/>
+  <text x="26" y="260" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5" transform="rotate(-90 26 260)">Did customer behaviour change? No (below) → Yes (above)</text>
+  <line x1="50" y1="460" x2="620" y2="460" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="614,454 614,466 628,460" fill="#4F46E5"/>
+  <text x="335" y="492" text-anchor="middle" font-size="13" font-weight="600" fill="#4F46E5">Did we ship a feature? No (left) → Yes (right)</text>
+
+  <!-- Top-left: smart shortcut -->
+  <rect x="65" y="65" width="265" height="185" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="197" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Smart shortcut</text>
+  <text x="197" y="128" text-anchor="middle" font-size="12" fill="#374151">Outcome moved without</text>
+  <text x="197" y="146" text-anchor="middle" font-size="12" fill="#374151">building: a call, an email,</text>
+  <text x="197" y="164" text-anchor="middle" font-size="12" fill="#374151">a removed step</text>
+  <text x="197" y="200" text-anchor="middle" font-size="12" font-style="italic" fill="#4B5563">"Onboarding calls lifted</text>
+  <text x="197" y="218" text-anchor="middle" font-size="12" font-style="italic" fill="#4B5563">activation 9 points"</text>
+
+  <!-- Top-right: real progress (accent) -->
+  <rect x="345" y="65" width="265" height="185" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2.5"/>
+  <text x="477" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">Real progress</text>
+  <text x="477" y="128" text-anchor="middle" font-size="12" fill="#374151">Shipped, and customers</text>
+  <text x="477" y="146" text-anchor="middle" font-size="12" fill="#374151">now behave differently</text>
+  <text x="477" y="200" text-anchor="middle" font-size="12" font-style="italic" fill="#4B5563">"Pre-filled product lists:</text>
+  <text x="477" y="218" text-anchor="middle" font-size="12" font-style="italic" fill="#4B5563">more shops bill in week 1"</text>
+
+  <!-- Bottom-left: stalled -->
+  <rect x="65" y="262" width="265" height="185" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="197" y="297" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Stalled</text>
+  <text x="197" y="325" text-anchor="middle" font-size="12" fill="#374151">Nothing shipped,</text>
+  <text x="197" y="343" text-anchor="middle" font-size="12" fill="#374151">nothing changed</text>
+  <text x="197" y="397" text-anchor="middle" font-size="12" font-style="italic" fill="#4B5563">"Still in meetings</text>
+  <text x="197" y="415" text-anchor="middle" font-size="12" font-style="italic" fill="#4B5563">about the plan"</text>
+
+  <!-- Bottom-right: build trap -->
+  <rect x="345" y="262" width="265" height="185" rx="10" fill="#F3F4F6" stroke="#4F46E5" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="477" y="297" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Build trap</text>
+  <text x="477" y="325" text-anchor="middle" font-size="12" fill="#374151">Busy and shipping,</text>
+  <text x="477" y="343" text-anchor="middle" font-size="12" fill="#374151">but customers do the same</text>
+  <text x="477" y="361" text-anchor="middle" font-size="12" fill="#374151">things as before</text>
+  <text x="477" y="397" text-anchor="middle" font-size="12" font-style="italic" fill="#4B5563">"Dark mode shipped on time.</text>
+  <text x="477" y="415" text-anchor="middle" font-size="12" font-style="italic" fill="#4B5563">Churn unchanged."</text>
+</svg>

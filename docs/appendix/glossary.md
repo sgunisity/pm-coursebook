@@ -40,11 +40,15 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Break-even accuracy**: the AI accuracy below which checking and fixing its output costs more than doing the task by hand. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
+**Build trap**: when a company measures success by how much it ships rather than by the value it creates (Melissa Perri). See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
+
 **CAC (customer acquisition cost)**: what you spend to win one new customer. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
 **Calibrated trust**: users trust an AI as much as its real accuracy deserves: more where it's good, less where it's weak. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
 **Canary case**: a known-wrong AI output slipped into a review queue to check that human reviewers still catch errors. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
+**Capability eval vs regression eval**: a capability eval checks whether the AI can do something hard yet (starts with a low pass rate); a regression eval checks it still does what it used to (should stay near 100%). See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
 **Catastrophic forgetting**: a fine-tuned model getting worse at skills it wasn't trained on during fine-tuning. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
@@ -71,6 +75,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Copilot (pattern)**: AI that sits inside the user's own work and offers suggestions in context while the user stays in charge. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
 **Counter metric (guardrail metric)**: a metric you watch to make sure improving one number isn't quietly hurting something else. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
+
+**Criteria drift**: the way people's grading standards change as they read more AI outputs, so the first rubric is rarely the final one. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
 **Cross-functional team**: a team that mixes skills (product, design, engineering, data) so it can build end to end. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
@@ -104,13 +110,19 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Empowered product team**: a team handed a problem and a target outcome, trusted to find the best solution, and judged on results. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
+**Error analysis**: reading real AI traces, noting what went wrong, and grouping the notes into failure modes you can count. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
+
 **Escalation (AI handoff)**: passing a case from an AI to a human, with the context the human needs. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
 **Eval (evaluation)**: a repeatable test that scores an AI's outputs across many real examples. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
+**Failure mode**: one specific, named way an AI feature goes wrong, such as promising a refund time the policy doesn't allow. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
+
 **Faithfulness (grounding)**: whether an AI answer sticks to what its retrieved sources actually say. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Fake door test**: showing a button or offer for something not yet built, to measure how many people try it, then explaining honestly. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+
+**Feature factory**: a team that turns out features on demand without checking whether they work. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
 
 **Feature team**: a team handed a roadmap of features to build and judged mainly on shipping them. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
@@ -130,9 +142,13 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Generative vs evaluative research**: research to discover problems and opportunities vs research to check whether a specific design works. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
+**Golden dataset**: a set of real or realistic test cases with agreed correct answers or pass/fail labels. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
+
 **Goodhart's law**: when a measure becomes a target, people game it and it stops being a good measure. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Graceful failure**: when an AI can't help, it fails safely and clearly and offers the user a next step. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
+**Grader (eval)**: whatever scores an AI's answer in an eval: code, another AI model, or a person. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
 **Hallucination**: when an AI states something false as if it were true. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
@@ -145,6 +161,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Human-on-the-loop**: the AI acts on its own while a person monitors and can step in or stop it. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
 **Hybrid search**: running keyword search and meaning-based (embedding) search together and merging the results. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
+
+**Impact (business)**: the big business result that outcomes add up to, such as revenue, profit or market share. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
 
 **Inference**: one run of an AI model to produce an answer; each run has a cost. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
@@ -164,6 +182,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Journey map**: a picture of the steps one person takes to reach a goal, with what they do, think and feel at each. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
+**Keep-the-lights-on (KTLO) work**: necessary work that keeps a product running (fixes, upgrades, compliance) but isn't aimed at a new outcome. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
+
 **Lagging metric**: a number that shows results after the fact (e.g. revenue, churn). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Latency**: how long a user waits for a response, often split into time to first token and total response time. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
@@ -177,6 +197,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Lethal trifecta**: an AI agent with private data, exposure to untrusted content and a way to communicate externally: the combination that enables data leaks (Simon Willison). See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
 **LLM (large language model)**: a model trained on huge amounts of text to predict the next token; the engine behind tools like ChatGPT, Claude and Gemini. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
+
+**LLM-as-judge**: using a language model to grade another AI's output against specific criteria; it must be checked against human labels. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
 **LoRA (low-rank adaptation)**: a cheap fine-tuning method that trains small add-on pieces instead of the whole model. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
@@ -210,6 +232,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Pain point**: a moment where a user is confused, slowed down, worried or annoyed. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
+**pass@k and pass^k**: pass@k: the AI succeeds at least once in k tries; pass^k: it succeeds every time in k tries. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
+
 **Payback period**: how long a customer's profit takes to repay the cost of acquiring them. See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
 
 **Peak–end rule**: people judge an experience mostly by its most intense moment and its ending. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
@@ -227,6 +251,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Probabilistic**: producing a likely guess that can vary and can be wrong, as most AI does (the opposite of deterministic). See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Problem statement**: a short, evidence-backed description of who is struggling, in what situation, why, and how you'll know it's fixed, without naming a solution. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
+**Product kata**: Melissa Perri's routine for working towards an outcome: direction, current state, target condition, obstacles, experiments, repeat. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
 
 **Product manager (PM)**: the person responsible for deciding what a team builds and why, and for whether it creates value. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
@@ -303,6 +329,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Touchpoint**: any place a user meets your product or company: a screen, an SMS, a call, a delivery person. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **TPM (technical program manager)**: a program manager with deep technical knowledge who coordinates complex engineering work across many teams. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
+
+**Trace (AI)**: the full record of one AI interaction: the input, every step and tool call, and the final answer. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
 **Transformer**: the model design behind almost all modern LLMs, built around "attention" to earlier tokens. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 

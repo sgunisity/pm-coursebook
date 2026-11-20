@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="460" fill="#ffffff"/>
+  <text x="320" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Three levels of evals</text>
+
+  <!-- Level 3 (top) -->
+  <polygon points="250,60 390,60 440,160 200,160" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="320" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">Level 3</text>
+  <text x="320" y="120" text-anchor="middle" font-size="13" fill="#111827">A/B test with</text>
+  <text x="320" y="138" text-anchor="middle" font-size="13" fill="#111827">real users</text>
+
+  <!-- Level 2 -->
+  <polygon points="195,170 445,170 500,280 140,280" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="320" y="208" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">Level 2</text>
+  <text x="320" y="228" text-anchor="middle" font-size="13" fill="#111827">Read traces + AI judge</text>
+  <text x="320" y="246" text-anchor="middle" font-size="13" fill="#111827">(checked against human labels)</text>
+
+  <!-- Level 1 (base, accent) -->
+  <polygon points="135,290 505,290 560,400 80,400" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2.5"/>
+  <text x="320" y="330" text-anchor="middle" font-size="14" font-weight="700" fill="#4F46E5">Level 1</text>
+  <text x="320" y="350" text-anchor="middle" font-size="13" fill="#111827">Code checks: amounts, format,</text>
+  <text x="320" y="368" text-anchor="middle" font-size="13" fill="#111827">language, banned phrases</text>
+
+  <!-- Right-side labels -->
+  <text x="455" y="105" font-size="12" fill="#4B5563">Major releases</text>
+  <text x="455" y="122" font-size="12" fill="#4B5563">Slow, costly</text>
+  <text x="510" y="220" font-size="12" fill="#4B5563">Weekly</text>
+  <text x="510" y="237" font-size="12" fill="#4B5563">Medium cost</text>
+
+  <!-- Bottom label -->
+  <text x="320" y="428" text-anchor="middle" font-size="12" fill="#4B5563">Runs on every prompt or model change · fast and cheap</text>
+
+  <!-- Left arrow: cost -->
+  <line x1="40" y1="390" x2="40" y2="75" stroke="#4F46E5" stroke-width="2"/>
+  <polygon points="34,81 46,81 40,66" fill="#4F46E5"/>
+  <text x="26" y="235" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5" transform="rotate(-90 26 235)">More realistic, more costly, run less often</text>
+</svg>
