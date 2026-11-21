@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "A",
+  "next_track": "B",
   "chapters": [
     {
       "id": "A0.1",
@@ -118,9 +118,9 @@
       "section": "A3 Market Research",
       "title": "Market sizing: TAM, SAM, SOM",
       "path": "docs/part-a/03-market-research/01-market-sizing-tam-sam-som.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-22",
+      "summary": "Market sizing: TAM/SAM/SOM as nested layers; top-down vs bottom-up vs value-based; counting the right unit (spend vs revenue); SOM from sales capacity, conversion and churn; sensitivity checks; market expansion (Gurley vs Damodaran on Uber); Blume India1 and quick-commerce non-metro cases."
     },
     {
       "id": "A3.2",
@@ -648,9 +648,9 @@
       "section": "B3 Quality",
       "title": "AI product metrics and production monitoring",
       "path": "docs/part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-22",
+      "summary": "AI production monitoring: five-layer metric stack (business, user value, quality, ops, safety); implicit vs explicit feedback; cost per successful task incl. human fallback; TTFT and p95; traces/spans and OpenTelemetry GenAI; online evals layered by cost; eval flywheel; version pinning and drift; containment vs true resolution; OpenAI sycophancy and Meesho voice bot cases."
     },
     {
       "id": "B4.1",
@@ -735,11 +735,6 @@
   ],
   "runs": [
     {
-      "date": "2026-11-11",
-      "mode": "DAILY",
-      "did": "Added A0.2 and B0.2"
-    },
-    {
       "date": "2026-11-12",
       "mode": "DAILY",
       "did": "Added B0.3 and A0.3"
@@ -783,6 +778,11 @@
       "date": "2026-11-21",
       "mode": "DAILY",
       "did": "Added B3.1 and A2.4"
+    },
+    {
+      "date": "2026-11-22",
+      "mode": "DAILY",
+      "did": "Added A3.1 and B3.2"
     }
   ]
 }

@@ -38,6 +38,10 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Batch processing (AI APIs)**: sending AI work that can wait (like overnight jobs) in bulk, usually at a big discount. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
+**Beachhead market**: the first small, specific group of customers a product aims to win completely. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
+
+**Bottom-up sizing**: estimating a market by counting real buyers and multiplying by what each would pay. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
+
 **Break-even accuracy**: the AI accuracy below which checking and fixing its output costs more than doing the task by hand. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
 **Build trap**: when a company measures success by how much it ships rather than by the value it creates (Melissa Perri). See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
@@ -62,6 +66,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Confidence threshold**: a cut-off score above which the AI acts on its own and below which a human decides. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
+**Containment rate**: share of conversations an AI handled without a human; not the same as solving the problem. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
+
 **Context engineering**: choosing everything that goes into an AI model's input on each step (instructions, documents, history, tool results), not just the written prompt. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
 **Context window**: the maximum amount of text (in tokens) an AI model can look at in one request, including instructions, conversation and documents. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
@@ -73,6 +79,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Conway's law**: organisations tend to build products that mirror their own team structure and communication lines. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
 **Copilot (pattern)**: AI that sits inside the user's own work and offers suggestions in context while the user stays in charge. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
+
+**Cost per successful task**: total AI cost divided by tasks that actually succeeded, ideally including human fallback. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
 
 **Counter metric (guardrail metric)**: a metric you watch to make sure improving one number isn't quietly hurting something else. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
 
@@ -99,6 +107,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Distillation**: using a large model's good answers to train a smaller, cheaper model for one task. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
 **DPO (direct preference optimisation)**: fine-tuning with pairs of a better and a worse answer, so the model learns which you prefer. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
+
+**Drift**: quality slowly changing over time because users, data or the model changed. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
 
 **Drip pricing**: showing a low price first and adding fees step by step until checkout; named as a dark pattern in India's 2023 guidelines. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
@@ -164,6 +174,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Impact (business)**: the big business result that outcomes add up to, such as revenue, profit or market share. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
 
+**Implicit feedback**: what users' actions reveal about an AI answer: copying, editing, retrying, giving up or asking for a human. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
+
 **Inference**: one run of an AI model to produce an answer; each run has a cost. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Input metric**: a number your team can move directly that drives a bigger result. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
@@ -222,6 +234,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **OMTM (One Metric That Matters)**: the single number a team focuses on for the current stage of the business (from *Lean Analytics*). See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
 
+**Online eval**: an automatic quality check run on a sample of real production traffic. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
+
 **Open-weight model**: an AI model whose trained weights you can download and run yourself; a closed model is only available through its maker's API or app. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
 **Opportunity (discovery)**: an unmet customer need, pain point or desire, phrased in the customer's words; not a feature. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
@@ -237,6 +251,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Payback period**: how long a customer's profit takes to repay the cost of acquiring them. See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
 
 **Peak–end rule**: people judge an experience mostly by its most intense moment and its ending. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
+
+**Penetration**: the share of possible customers who actually use a kind of product. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
 
 **Persona**: a short, research-based description of one type of user: goals, behaviours, context and frustrations. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
@@ -294,6 +310,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Rule of Two (agents)**: Meta's guideline that an agent session should have at most two of: untrusted input, sensitive data access, and the ability to act externally. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
+**SAM (serviceable available market)**: the part of the TAM your product, price, language and reach can serve today. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
+
 **Saturation (research)**: the point where new interviews stop teaching you anything new. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
 **Say–do gap**: the difference between what people say they do and what they actually do. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
@@ -308,6 +326,10 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Solution in disguise**: a request that names a feature ("add a leaderboard") instead of the problem behind it. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
+**SOM (serviceable obtainable market)**: the part of the SAM you can realistically win in the next few years. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
+
+**Span**: one step inside a trace, such as a single model call or tool call. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
+
 **Story-based interviewing**: asking participants about a specific past event ("Tell me about the last time…") instead of general opinions. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
 **Structured output**: AI output in a fixed, machine-readable shape (such as JSON with named fields) that code can check and use. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
@@ -318,6 +340,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **System prompt**: standing instructions a product team writes for an AI model, applied to every conversation. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
+**TAM (total addressable market)**: everyone who could ever pay for this kind of product, if you had no limits. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
+
 **Temperature**: a setting that controls how varied an AI model's answers are; low is predictable, high is creative. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
 **Time to first token (TTFT)**: seconds from sending a request to an AI model until the first word of the reply arrives. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
@@ -326,6 +350,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Tool use (function calling)**: a model asking your software to run a named function and reading back the result. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
+**Top-down sizing**: estimating a market by starting from a big published number and cutting it down with percentages. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
+
 **Touchpoint**: any place a user meets your product or company: a screen, an SMS, a call, a delivery person. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **TPM (technical program manager)**: a program manager with deep technical knowledge who coordinates complex engineering work across many teams. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
@@ -333,6 +359,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Trace (AI)**: the full record of one AI interaction: the input, every step and tool call, and the final answer. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
 **Transformer**: the model design behind almost all modern LLMs, built around "attention" to earlier tokens. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
+
+**TTFT (time to first token)**: how long before the first word of an AI answer appears. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
 
 **Two-pizza team**: Amazon's idea that a team should be small enough for two pizzas to feed, ideally under ten people. See [A0.2](../part-a/00-the-pm-role/02-product-teams-the-trio-empowered-vs-feature-team.md).
 
@@ -359,3 +387,4 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Workflow (AI)**: an AI system where your code fixes the steps in advance and the model fills in parts; the simpler alternative to an agent. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
 **XYZ hypothesis**: Savoia's format for a testable belief: at least X% of Y will do Z. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+

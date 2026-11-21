@@ -214,3 +214,19 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Jeff Gothelf & Josh Seiden: *Sense & Respond*](https://www.oreilly.com/library/view/sense-and-respond/9781633691896/) (2017): managing teams by outcomes.
 - [SVPG: Outcomes Are Hard](https://www.svpg.com/outcomes-are-hard) (Marty Cagan with Felipe Castro, 2025): common mistakes when moving to outcomes.
 - [Martin Fowler: Outcome Over Output](https://martinfowler.com/bliki/OutcomeOverOutput.html): a short engineering view of why output is a misleading measure.
+
+## Added with A3.1 Market sizing: TAM, SAM, SOM
+
+- [Bill Gurley: How to Miss By a Mile](https://abovethecrowd.com/2014/07/11/how-to-miss-by-a-mile-an-alternative-look-at-ubers-potential-market-size/) (2014): why a better product can expand its market, using Uber.
+- [Aswath Damodaran: Possible, Plausible and Probable](https://aswathdamodaran.substack.com/p/possible-plausible-and-probable-big-14-07-16) (2014): the valuation side of the Uber market-size debate.
+- [Bill Aulet: *Disciplined Entrepreneurship*, 2nd ed.](https://www.oreilly.com/library/view/disciplined-entrepreneurship-2nd/9781394222513/c04.xhtml) (Wiley, 2024): beachhead markets and bottom-up TAM ([Step 4 overview](https://www.d-eship.com/step4/)).
+- [Sequoia: Writing a Business Plan](https://sequoiacap.com/article/writing-a-business-plan): what investors expect on market size.
+- [Stripe: TAM, SAM and SOM](https://stripe.com/resources/more/tam-sam-and-som): a plain guide to the three layers and both methods.
+
+## Added with B3.2 AI product metrics and production monitoring
+
+- [OpenAI: Expanding on what we missed with sycophancy](https://openai.com/index/expanding-on-sycophancy/) (May 2025): how good metrics missed a behaviour problem.
+- [Google SRE book: Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/) (2016): the four golden signals and alerting basics.
+- [OpenTelemetry: GenAI semantic conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-spans/): shared names for AI traces, tokens, agents and tools.
+- [LangChain: State of Agent Engineering](https://www.langchain.com/state-of-agent-engineering) (2026): survey data on tracing, online evals and monitoring.
+- [Anthropic: Clio](https://www.anthropic.com/research/clio) (2024): privacy-preserving insight into real-world AI use.

@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 22 Nov 2026 — Two new chapters: market sizing, and monitoring AI in production
+
+- **[A3.1 Market sizing: TAM, SAM, SOM](part-a/03-market-research/01-market-sizing-tam-sam-som.md):** TAM, SAM and SOM as nested layers, top-down vs bottom-up vs value-based sizing, counting the right unit and spend vs revenue, building SOM from sales capacity and churn, sensitivity checks, beachhead markets and market expansion, with a pharmacy billing-app worked example and the Blume "India1" and quick-commerce-beyond-metros cases.
+- **[B3.2 AI product metrics and production monitoring](part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md):** the five-layer AI metric stack, implicit vs explicit feedback, cost per successful task, latency percentiles, traces and OpenTelemetry GenAI conventions, online evals layered by cost, the eval flywheel, version pinning and drift, and containment vs true resolution, with a bilingual support-bot worked example and the OpenAI sycophancy and Meesho voice-bot cases.
+- 14 new glossary terms, two new templates (market sizing worksheet, AI production scorecard) and new reading-list entries.
+
 ## 21 Nov 2026 — Two new chapters: evals, and outcomes over outputs
 
 - **[B3.1 Evals: the AI PM's most important skill](part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md):** why vibe checks fail, error analysis with open and axial coding, pass/fail checks over 1–5 scores, code vs AI-judge vs human graders, testing an AI judge against your own labels, criteria drift, capability vs regression evals, pass@k vs pass^k, synthetic data and agent evals, with a quick-commerce refund assistant worked example and the Google AI Overviews and Swiggy Hermes cases.

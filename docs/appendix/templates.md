@@ -376,3 +376,42 @@ Cheapest ways to move it (at least one that isn't a feature):
 Guardrail metric:
 When we'll check results after launch:
 ```
+
+## Market sizing worksheet
+
+Use this to size a product, segment or feature bottom-up. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
+
+```text
+Decision this sizing informs:
+Customer and unit (who pays, for what, how often):
+Spend or revenue? (state which):
+TAM = units ___ × price per year ___ = ___   (source for each number)
+SAM cuts (each with reason and % kept):
+  - Cut | reason | remaining
+SAM = ___
+SOM from ability to win:
+  New customers per month (channel capacity × conversion):
+  Monthly churn:
+  Customers after 3 years:
+SOM = ___ (low / base / high)
+Top-down cross-check:
+Riskiest assumption (from ±30% sensitivity) and how we'll test it:
+```
+
+## AI production scorecard
+
+Use this to set up monitoring for a live AI feature. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
+
+```text
+Task success, in one sentence (user's view):
+Steering metric (and did-it-stick check):
+Slices to watch (language, platform, user type, model version):
+Quality checks: code checks on 100% | AI judge on __% | human review __ traces/week
+Operations: TTFT p50/p95 | error rate | cost per successful task (incl. human fallback)
+Safety: guardrail triggers | harmful outputs found | complaints | privacy incidents
+Alert thresholds and owners:
+  - Metric | normal range | alert if | who is paged
+Model and prompt versions pinned? Rollback owner and time:
+Trace logging: what's masked | retention period | who can read
+Weekly trace review owner and time:
+```
