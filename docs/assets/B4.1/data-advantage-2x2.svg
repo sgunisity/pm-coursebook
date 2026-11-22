@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="470" fill="#ffffff"/>
+  <text x="330" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Is your data really an advantage?</text>
+  <text x="190" y="60" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5">EASY for rivals to get similar data</text>
+  <text x="470" y="60" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5">HARD for rivals to get similar data</text>
+  <text x="22" y="160" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5" transform="rotate(-90 22 160)">STILL IMPROVES</text>
+  <text x="38" y="160" text-anchor="middle" font-size="10" fill="#6B7280" transform="rotate(-90 38 160)">more data = better product</text>
+  <text x="22" y="340" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5" transform="rotate(-90 22 340)">PLATEAUED</text>
+  <text x="38" y="340" text-anchor="middle" font-size="10" fill="#6B7280" transform="rotate(-90 38 340)">more data adds little</text>
+  <rect x="50" y="72" width="280" height="175" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="330" y="72" width="280" height="175" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <rect x="50" y="257" width="280" height="175" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="330" y="257" width="280" height="175" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="190" y="102" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">A race, not a moat</text>
+  <text x="190" y="128" text-anchor="middle" font-size="12" fill="#374151">Helps now, but rivals can</text>
+  <text x="190" y="146" text-anchor="middle" font-size="12" fill="#374151">collect or buy the same</text>
+  <text x="190" y="178" text-anchor="middle" font-size="11" fill="#6B7280">e.g. licensed content,</text>
+  <text x="190" y="194" text-anchor="middle" font-size="11" fill="#6B7280">common support questions</text>
+  <text x="190" y="226" text-anchor="middle" font-size="11" font-style="italic" fill="#374151">Win on speed of learning</text>
+  <text x="470" y="102" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">Real data advantage</text>
+  <text x="470" y="128" text-anchor="middle" font-size="12" fill="#374151">Created by your product's use;</text>
+  <text x="470" y="146" text-anchor="middle" font-size="12" fill="#374151">still lifting quality</text>
+  <text x="470" y="178" text-anchor="middle" font-size="11" fill="#6B7280">e.g. expert-verified outcomes,</text>
+  <text x="470" y="194" text-anchor="middle" font-size="11" fill="#6B7280">rare edge cases, user corrections</text>
+  <text x="470" y="226" text-anchor="middle" font-size="11" font-style="italic" fill="#374151">Invest and protect (with consent)</text>
+  <text x="190" y="287" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Commodity</text>
+  <text x="190" y="313" text-anchor="middle" font-size="12" fill="#374151">Everyone has it, and it</text>
+  <text x="190" y="331" text-anchor="middle" font-size="12" fill="#374151">no longer moves quality</text>
+  <text x="190" y="363" text-anchor="middle" font-size="11" fill="#6B7280">e.g. open public datasets,</text>
+  <text x="190" y="379" text-anchor="middle" font-size="11" fill="#6B7280">general web text</text>
+  <text x="190" y="411" text-anchor="middle" font-size="11" font-style="italic" fill="#374151">Use it; don't brag about it</text>
+  <text x="470" y="287" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Useful, not growing</text>
+  <text x="470" y="313" text-anchor="middle" font-size="12" fill="#374151">Unique, but the gains</text>
+  <text x="470" y="331" text-anchor="middle" font-size="12" fill="#374151">have already been banked</text>
+  <text x="470" y="363" text-anchor="middle" font-size="11" fill="#6B7280">e.g. a one-off historical archive,</text>
+  <text x="470" y="379" text-anchor="middle" font-size="11" fill="#6B7280">an old labelled dataset</text>
+  <text x="470" y="411" text-anchor="middle" font-size="11" font-style="italic" fill="#374151">Keep fresh or move on</text>
+  <text x="330" y="458" text-anchor="middle" font-size="11" fill="#6B7280">Only the top-right box is a lasting moat. Most data sits elsewhere.</text>
+</svg>

@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "B",
+  "next_track": "A",
   "chapters": [
     {
       "id": "A0.1",
@@ -128,9 +128,9 @@
       "section": "A3 Market Research",
       "title": "Competitive analysis",
       "path": "docs/part-a/03-market-research/02-competitive-analysis.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-23",
+      "summary": "Competitive analysis: five rings (direct, indirect, substitutes, status quo, future entrants); competing for the job; comparing beyond features (business model, distribution, switching cost); ethical sources; facts to compete/differentiate/ignore; win-loss analysis; responding to rival moves; giants entering; AI competition; pharmacy billing-app worked example; Indian zero-commission ride-hailing and OpenAI code red cases."
     },
     {
       "id": "A3.3",
@@ -658,9 +658,9 @@
       "section": "B4 Data, Safety and Law",
       "title": "Data strategy and feedback loops",
       "path": "docs/part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-23",
+      "summary": "Data strategy: data's three jobs (teach, inform, judge); sources and their risks; explicit, implicit, expert and outcome feedback; why flywheels stall; a16z data moat critique and diminishing returns; data-centric AI and data cascades; consent and purpose; degenerate feedback loops and holdouts; B2B training rules; licensing and ethical sourcing; synthetic data and model collapse; crop-diagnosis worked example; Slack and AIKosh cases."
     },
     {
       "id": "B4.2",
@@ -735,11 +735,6 @@
   ],
   "runs": [
     {
-      "date": "2026-11-12",
-      "mode": "DAILY",
-      "did": "Added B0.3 and A0.3"
-    },
-    {
       "date": "2026-11-13",
       "mode": "DAILY",
       "did": "Added A1.1 and B1.1"
@@ -783,6 +778,11 @@
       "date": "2026-11-22",
       "mode": "DAILY",
       "did": "Added A3.1 and B3.2"
+    },
+    {
+      "date": "2026-11-23",
+      "mode": "DAILY",
+      "did": "Added B4.1 and A3.2"
     }
   ]
 }

@@ -415,3 +415,39 @@ Model and prompt versions pinned? Rollback owner and time:
 Trace logging: what's masked | retention period | who can read
 Weekly trace review owner and time:
 ```
+
+## Data loop plan
+
+Use this when starting an AI feature or when its quality plateaus. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
+
+```text
+Decision the AI makes, and cost of a wrong answer:
+Data jobs:
+  Teach (training / examples):   have ___ | need ___
+  Inform (RAG / live knowledge): have ___ | need ___
+  Judge (evals / reviewed traces): have ___ | need ___
+Sources for each gap (product use / records / experts / licensed / public / synthetic) + risk:
+Signals captured:
+  - Signal | explicit / implicit / outcome | how it could mislead
+Labelling: who | cases per week | which cases first | rubric link | agreement check
+Loop rhythm and owner (finding -> eval case / prompt / docs / retrain):
+Guards: consent wording | retention | holdout the model never shapes | bias checks by segment
+Advantage test: does more data still help? could a rival get similar data?
+```
+
+## Competitive landscape sheet
+
+Use this before roadmap, positioning or pricing work. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
+
+```text
+Decision this informs:
+Customer segment and job (one sentence):
+Alternatives by ring:
+  Direct: | Indirect: | Substitutes: | Status quo: | Future entrants:
+Comparison (5-8 dimensions customers choose on; Strong / OK / Weak):
+  Dimension | Us | Alt 1 | Alt 2 | Alt 3
+Win-loss: deals lost to each alternative (count, %) and top buyer reasons:
+Switching costs customers face (data, learning, risk, contract, social):
+For each alternative: compete / differentiate / ignore, and why:
+Refresh owner and cadence:
+```

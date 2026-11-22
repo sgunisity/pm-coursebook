@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 23 Nov 2026 — Two new chapters: data strategy and feedback loops, and competitive analysis
+
+- **[B4.1 Data strategy and feedback loops](part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md):** the three jobs data does (teach, inform, judge), where data comes from, explicit vs implicit vs expert feedback, why data flywheels stall, why most data moats are weaker than claimed, data-centric AI and data cascades, consent and purpose, degenerate feedback loops, licensing and ethical sourcing, and synthetic data and model collapse, with a crop-diagnosis worked example and the Slack and AIKosh cases.
+- **[A3.2 Competitive analysis](part-a/03-market-research/02-competitive-analysis.md):** the five rings of competition, competing for the job, comparing on more than features, ethical sources, win-loss analysis, responding to a rival's move, business-model competition, giants entering, switching costs and AI-era competition, with a pharmacy billing-app worked example and the Indian zero-commission ride-hailing and OpenAI "code red" cases.
+- 16 new glossary terms, two new templates (data loop plan, competitive landscape sheet) and new reading-list entries.
+
 ## 22 Nov 2026 — Two new chapters: market sizing, and monitoring AI in production
 
 - **[A3.1 Market sizing: TAM, SAM, SOM](part-a/03-market-research/01-market-sizing-tam-sam-som.md):** TAM, SAM and SOM as nested layers, top-down vs bottom-up vs value-based sizing, counting the right unit and spend vs revenue, building SOM from sales capacity and churn, sensitivity checks, beachhead markets and market expansion, with a pharmacy billing-app worked example and the Blume "India1" and quick-commerce-beyond-metros cases.

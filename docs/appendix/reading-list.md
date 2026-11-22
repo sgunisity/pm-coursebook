@@ -230,3 +230,19 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [OpenTelemetry: GenAI semantic conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-spans/): shared names for AI traces, tokens, agents and tools.
 - [LangChain: State of Agent Engineering](https://www.langchain.com/state-of-agent-engineering) (2026): survey data on tracing, online evals and monitoring.
 - [Anthropic: Clio](https://www.anthropic.com/research/clio) (2024): privacy-preserving insight into real-world AI use.
+
+## Added with B4.1 Data strategy and feedback loops
+
+- [a16z: The Empty Promise of Data Moats](https://a16z.com/2019/05/09/data-network-effects-moats/) (2019): why most data advantages fade.
+- [Sculley et al.: Hidden Technical Debt in Machine Learning Systems](https://research.google/pubs/hidden-technical-debt-in-machine-learning-systems/) (NeurIPS 2015): feedback loops and data dependencies.
+- [Google Research: Data Cascades in Machine Learning](https://research.google/blog/data-cascades-in-machine-learning/) (2021): how small data problems compound.
+- [Andrew Ng on data-centric AI (IEEE Spectrum)](https://spectrum.ieee.org/andrew-ng-data-centric-ai): better data over bigger models.
+- [Chip Huyen: *Designing Machine Learning Systems*](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) (O'Reilly): training data, labelling and feedback loops.
+
+## Added with A3.2 Competitive analysis
+
+- [April Dunford: *Obviously Awesome*](https://pagetwo.com/book/obviously-awesome/) (2019): competitive alternatives and positioning.
+- [April Dunford: Positioning and competition](https://aprildunford.substack.com/p/positioning-and-competition): the status quo and "phantom competitors".
+- [HBS Working Knowledge: Clay Christensen's milkshake marketing](https://www.library.hbs.edu/working-knowledge/clay-christensens-milkshake-marketing) (2011): competing for the job.
+- [Clozd: State of Win-Loss Analysis](https://www.clozd.com/guides/2025-state-of-win-loss-report): win-loss benchmarks (vendor report).
+- [Rest of World: Uber and Ola copy India's zero-commission app](https://restofworld.org/2025/uber-ola-copy-india-zero-commission-ride-hailing-app/) (2025): business-model competition.

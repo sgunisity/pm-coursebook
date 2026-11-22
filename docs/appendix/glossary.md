@@ -38,6 +38,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Batch processing (AI APIs)**: sending AI work that can wait (like overnight jobs) in bulk, usually at a big discount. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
+**Battlecard**: a one-page guide for sales on how to compete against a specific rival: what buyers believe, questions to ask, proof to show. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
+
 **Beachhead market**: the first small, specific group of customers a product aims to win completely. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
 
 **Bottom-up sizing**: estimating a market by counting real buyers and multiplying by what each would pay. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
@@ -61,6 +63,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Chunk**: a small piece of a document (often a few hundred tokens) stored and retrieved on its own in a RAG system. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
 **Cohort**: a group of users who share a start point, such as everyone who signed up in the same week. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
+
+**Competitive alternatives**: everything a customer would use if your product didn't exist, including doing nothing (April Dunford). See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
 
 **Concierge test**: delivering a service by hand to a few customers who know it's manual, before building software. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
@@ -92,13 +96,23 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Dark pattern**: a design that tricks or pressures users into something they didn't intend, like hidden fees or hard-to-cancel subscriptions. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
+**Data flywheel**: a loop where product use creates data, data improves the product, and a better product brings more use. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
+
+**Data moat**: a lasting advantage from data rivals can't easily get and that keeps improving your product. Rarer than claimed. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
+
+**Data provenance**: where a piece of data came from, under what permission, and what has been done to it. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
+
 **DAU / MAU**: daily active users / monthly active users. DAU ÷ MAU shows how often people come back ("stickiness"). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
+
+**Degenerate feedback loop**: when a model's own outputs shape the data it later learns from, so its mistakes or biases grow. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
 
 **Delivery**: the work of building and shipping a product well: planning, building, testing and launching. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
 **Desired outcome**: the one measurable change a product team is trying to cause, such as a higher renewal rate; the root of an opportunity solution tree. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
 
 **Deterministic software**: software that gives the same output for the same input every time, because people wrote the rules. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
+
+**Direct vs indirect competitor**: direct: same job, same customer, similar product. Indirect: a different kind of product solving the same job. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
 
 **Discovery**: the work of figuring out what to build by understanding problems and testing ideas cheaply before full building. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
@@ -125,6 +139,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Escalation (AI handoff)**: passing a case from an AI to a human, with the context the human needs. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
 **Eval (evaluation)**: a repeatable test that scores an AI's outputs across many real examples. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Explicit feedback**: feedback users give on purpose, such as thumbs up/down, ratings or 'report a problem'. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
 
 **Failure mode**: one specific, named way an AI feature goes wrong, such as promising a refund time the policy doesn't allow. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
@@ -159,6 +175,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Graceful failure**: when an AI can't help, it fails safely and clearly and offers the user a next step. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
 **Grader (eval)**: whatever scores an AI's answer in an eval: code, another AI model, or a person. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
+
+**Ground truth**: the verified correct answer for a case, confirmed by an expert or a real-world outcome. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
 
 **Hallucination**: when an AI states something false as if it were true. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
@@ -195,6 +213,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Journey map**: a picture of the steps one person takes to reach a goal, with what they do, think and feel at each. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **Keep-the-lights-on (KTLO) work**: necessary work that keeps a product running (fixes, upgrades, compliance) but isn't aimed at a new outcome. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
+
+**Labelling (annotation)**: people marking data with the right answer or category so it can be used to train or test AI. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
 
 **Lagging metric**: a number that shows results after the fact (e.g. revenue, churn). See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
@@ -259,6 +279,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Pilot purgatory**: when an AI project works in a demo or pilot but never reaches real use or measurable value. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
 **Point-of-view (POV) statement**: a design-thinking format for a problem: user + need + insight. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
+**Positioning map (perceptual map)**: a chart placing options on two dimensions customers care about, to reveal gaps. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
 
 **Pretotyping**: Alberto Savoia's term for faking a product cheaply to test whether people will really use it, before building a prototype. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
@@ -330,6 +352,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Span**: one step inside a trace, such as a single model call or tool call. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
 
+**Status quo (competitor)**: the customer carrying on with what they do today; often the alternative that wins most deals. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
+
 **Story-based interviewing**: asking participants about a specific past event ("Tell me about the last time…") instead of general opinions. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
 **Structured output**: AI output in a fixed, machine-readable shape (such as JSON with named fields) that code can check and use. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
@@ -338,7 +362,13 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Switch interview**: a jobs-to-be-done interview about the moment someone recently switched to or from a product. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
+**Switching cost**: what a customer loses or must redo to change products: money, data, learning, risk. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
+
+**Synthetic data**: data generated by a model or program rather than collected from real people or events. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
+
 **System prompt**: standing instructions a product team writes for an AI model, applied to every conversation. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
+
+**Table stakes**: features every option must have just to be considered; missing them loses deals, having them doesn't win them. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
 
 **TAM (total addressable market)**: everyone who could ever pay for this kind of product, if you had no limits. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
 
@@ -381,6 +411,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Viral coefficient (K)**: new users each existing user brings in = invites sent per user × invite conversion rate. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
 **Why–how ladder**: asking "why?" to broaden a problem towards the user's goal, or "how?" to narrow it towards solutions. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
+**Win-loss analysis**: interviewing buyers after a decision to learn why they chose you or a rival. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
 
 **Wizard of Oz test**: a real-looking product where humans secretly do the work behind the screen. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
