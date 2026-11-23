@@ -42,6 +42,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Beachhead market**: the first small, specific group of customers a product aims to win completely. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
 
+**Best-fit customer**: the group of customers who care most about your product's value and buy fastest. See [A3.3](../part-a/03-market-research/03-positioning.md).
+
 **Bottom-up sizing**: estimating a market by counting real buyers and multiplying by what each would pay. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
 
 **Break-even accuracy**: the AI accuracy below which checking and fixing its output costs more than doing the task by hand. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
@@ -178,6 +180,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Ground truth**: the verified correct answer for a case, confirmed by an expert or a real-world outcome. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
 
+**Guardrail**: any control that stops an AI product from causing harm, such as a filter, a system prompt rule, a tool permission limit or a human check. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
+
 **Hallucination**: when an AI states something false as if it were true. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **HEART**: Google's user-experience metric framework: Happiness, Engagement, Adoption, Retention, Task success. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
@@ -206,6 +210,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Jagged frontier**: AI being excellent at some tasks and surprisingly weak at others that look similar or easier. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
+**Jailbreak**: a prompt written to talk an AI model out of its own safety rules, for example through role-play or slow escalation. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
+
 **Job story**: a need written as "When [situation], I want to [motivation], so I can [outcome]." See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
 **Jobs-to-be-done (JTBD)**: the progress a person is trying to make in a particular situation; they "hire" a product to get it. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
@@ -213,6 +219,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Journey map**: a picture of the steps one person takes to reach a goal, with what they do, think and feel at each. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **Keep-the-lights-on (KTLO) work**: necessary work that keeps a product running (fixes, upgrades, compliance) but isn't aimed at a new outcome. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
+
+**Kill switch**: a pre-built way, usually a feature flag, to turn off an AI feature or one of its tools within minutes, without a new release. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
 
 **Labelling (annotation)**: people marking data with the right answer or category so it can be used to train or test AI. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
 
@@ -236,7 +244,11 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **LTV (lifetime value)**: the total profit you expect from one customer over their whole relationship with you. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**Market category**: the label that tells buyers what kind of thing your product is, and so what to compare it with. See [A3.3](../part-a/03-market-research/03-positioning.md).
+
 **MCP (Model Context Protocol)**: an open standard for connecting AI apps to tools and data, so one integration works across many AI apps. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
+
+**Messaging**: the exact words used to express a positioning on a page, in an ad or in a pitch. See [A3.3](../part-a/03-market-research/03-positioning.md).
 
 **Metric tree**: a diagram that breaks one big metric into the smaller metrics that add or multiply up to it. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
 
@@ -264,6 +276,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Outcome vs output**: an outcome is a change in customer behaviour or business results; an output is something the team produced, like a feature. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
+**Over-refusal**: when an AI refuses or waters down a reasonable request; a real cost to users, not a safe default. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
+
 **Pain point**: a moment where a user is confused, slowed down, worried or annoyed. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
 **pass@k and pass^k**: pass@k: the AI succeeds at least once in k tries; pass^k: it succeeds every time in k tries. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
@@ -280,7 +294,11 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Point-of-view (POV) statement**: a design-thinking format for a problem: user + need + insight. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
+**Positioning**: the context you put a product in so the right customers see why it is the best choice for them. See [A3.3](../part-a/03-market-research/03-positioning.md).
+
 **Positioning map (perceptual map)**: a chart placing options on two dimensions customers care about, to reveal gaps. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
+
+**Positioning statement**: a short internal sentence naming the target customer, need, category, key value, main alternative and key difference. See [A3.3](../part-a/03-market-research/03-positioning.md).
 
 **Pretotyping**: Alberto Savoia's term for faking a product cheaply to test whether people will really use it, before building a prototype. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
@@ -318,7 +336,11 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Recall@k**: how often the right document or chunk appears in the top *k* search results across a test set. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
+**Red teaming**: deliberately attacking your own AI product, by people or automated tools, to find failures before real users or attackers do. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
+
 **Reframing**: looking at a problem from a different angle (for example "the wait is annoying" instead of "the elevator is slow") so new solutions appear. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
+**Repositioning**: deliberately changing a product's frame because the market, the alternatives or the product has changed. See [A3.3](../part-a/03-market-research/03-positioning.md).
 
 **Reranker**: a second model that re-reads the top search results and orders them by real relevance. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
@@ -358,6 +380,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Structured output**: AI output in a fixed, machine-readable shape (such as JSON with named fields) that code can check and use. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
+**Subcategory**: a narrower slice of an existing market category, such as "CRM for investment banks". See [A3.3](../part-a/03-market-research/03-positioning.md).
+
 **Success threshold**: the number, set before a test, that decides whether the assumption passed. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
 **Switch interview**: a jobs-to-be-done interview about the moment someone recently switched to or from a product. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
@@ -365,6 +389,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Switching cost**: what a customer loses or must redo to change products: money, data, learning, risk. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
 
 **Synthetic data**: data generated by a model or program rather than collected from real people or events. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
+
+**System card**: a public document describing what an AI system can do, how it was tested, its guardrails and its known limits. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
 
 **System prompt**: standing instructions a product team writes for an AI model, applied to every conversation. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
@@ -419,4 +445,3 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Workflow (AI)**: an AI system where your code fixes the steps in advance and the model fills in parts; the simpler alternative to an agent. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
 **XYZ hypothesis**: Savoia's format for a testable belief: at least X% of Y will do Z. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
-

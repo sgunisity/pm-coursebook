@@ -451,3 +451,37 @@ Switching costs customers face (data, learning, risk, contract, social):
 For each alternative: compete / differentiate / ignore, and why:
 Refresh owner and cadence:
 ```
+
+## AI safety and guardrail plan
+
+Use this when you're preparing an AI feature for launch and need to agree its harms, guardrails, thresholds and incident response with engineering, legal and trust and safety. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
+
+```text
+Feature and users:          [what the AI does, for whom, what it can access or do]
+Risk owner:                 [named person]          Approver for launch: [name/role]
+Harms (taxonomy):           [harmful content / bias / privacy / misinformation / over-reliance / misuse / security]
+Risk score per harm:        [severity 1-5] x [likelihood 1-5], reach: [users exposed]
+Guardrail layers per harm:  [structural control] + [input / prompt / output / human review]
+Thresholds:                 [classifier cut-offs; harms caught vs good replies blocked on sample of N]
+Metrics:                    harm rate [target]   refusal rate on "should answer" set [target]   by language
+Red teaming:                internal [date]   external [who, date]   automated [every release]
+Kill switches:              [feature / tool / strict mode / human fallback] - who can pull, tested on [date]
+Incident and grievance:     on-call [name], user report channel [link], review cadence [weekly]
+```
+
+## Positioning canvas
+
+Use this when you launch a product, enter a new segment, or keep losing deals to the wrong comparison. See [A3.3](../part-a/03-market-research/03-positioning.md).
+
+```text
+Product / segment:
+1. Competitive alternatives (what they'd do without us, incl. "nothing"):
+2. Differentiated capabilities (true today, missing in alternatives):
+3. Value (after "so what?" x2, with a number):
+4. Value themes (2-3):
+5. Best-fit customers (traits we can find and target):
+6. Market category (head-to-head / subcategory / new) and why:
+7. Relevant trend (optional, only if real for these buyers):
+8. Positioning statement: For ___ who ___, [product] is a ___ that ___. Unlike ___, we ___.
+9. Test plan (sales repeat-back, landing page, win/loss) and success threshold:
+```

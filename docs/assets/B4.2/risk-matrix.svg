@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" font-family="Inter, Arial, sans-serif">
+  <rect width="760" height="520" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">AI harm risk matrix: severity x likelihood</text>
+  <text x="360" y="52" text-anchor="middle" font-size="11" fill="#6B7280">Score each harm, then adjust for reach (how many users before you notice)</text>
+  <rect x="150" y="70" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <rect x="234" y="70" width="84" height="62" fill="#4F46E5" stroke="#ffffff" stroke-width="2"/>
+  <rect x="318" y="70" width="84" height="62" fill="#4F46E5" stroke="#ffffff" stroke-width="2"/>
+  <rect x="402" y="70" width="84" height="62" fill="#4F46E5" stroke="#ffffff" stroke-width="2"/>
+  <rect x="486" y="70" width="84" height="62" fill="#4F46E5" stroke="#ffffff" stroke-width="2"/>
+  <rect x="150" y="132" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <rect x="234" y="132" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <rect x="318" y="132" width="84" height="62" fill="#4F46E5" stroke="#ffffff" stroke-width="2"/>
+  <rect x="402" y="132" width="84" height="62" fill="#4F46E5" stroke="#ffffff" stroke-width="2"/>
+  <rect x="486" y="132" width="84" height="62" fill="#4F46E5" stroke="#ffffff" stroke-width="2"/>
+  <rect x="150" y="194" width="84" height="62" fill="#F3F4F6" stroke="#ffffff" stroke-width="2"/>
+  <rect x="234" y="194" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <rect x="318" y="194" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <rect x="402" y="194" width="84" height="62" fill="#4F46E5" stroke="#ffffff" stroke-width="2"/>
+  <rect x="486" y="194" width="84" height="62" fill="#4F46E5" stroke="#ffffff" stroke-width="2"/>
+  <rect x="150" y="256" width="84" height="62" fill="#F3F4F6" stroke="#ffffff" stroke-width="2"/>
+  <rect x="234" y="256" width="84" height="62" fill="#F3F4F6" stroke="#ffffff" stroke-width="2"/>
+  <rect x="318" y="256" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <rect x="402" y="256" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <rect x="486" y="256" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <rect x="150" y="318" width="84" height="62" fill="#F3F4F6" stroke="#ffffff" stroke-width="2"/>
+  <rect x="234" y="318" width="84" height="62" fill="#F3F4F6" stroke="#ffffff" stroke-width="2"/>
+  <rect x="318" y="318" width="84" height="62" fill="#F3F4F6" stroke="#ffffff" stroke-width="2"/>
+  <rect x="402" y="318" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <rect x="486" y="318" width="84" height="62" fill="#EEF2FF" stroke="#ffffff" stroke-width="2"/>
+  <text x="142" y="105.0" text-anchor="end" font-size="11" fill="#374151">5 Severe</text>
+  <text x="142" y="167.0" text-anchor="end" font-size="11" fill="#374151">4 Major</text>
+  <text x="142" y="229.0" text-anchor="end" font-size="11" fill="#374151">3 Moderate</text>
+  <text x="142" y="291.0" text-anchor="end" font-size="11" fill="#374151">2 Minor</text>
+  <text x="142" y="353.0" text-anchor="end" font-size="11" fill="#374151">1 Trivial</text>
+  <text x="192.0" y="398" text-anchor="middle" font-size="11" fill="#374151">1 Rare</text>
+  <text x="276.0" y="398" text-anchor="middle" font-size="11" fill="#374151">2 Unlikely</text>
+  <text x="360.0" y="398" text-anchor="middle" font-size="11" fill="#374151">3 Possible</text>
+  <text x="444.0" y="398" text-anchor="middle" font-size="11" fill="#374151">4 Likely</text>
+  <text x="528.0" y="398" text-anchor="middle" font-size="11" fill="#374151">5 Frequent</text>
+  <text x="360.0" y="420" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5">LIKELIHOOD (how often it would happen)</text>
+  <text x="30" y="225.0" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5" transform="rotate(-90 30 225.0)">SEVERITY (how bad for one user)</text>
+  <circle cx="276.0" cy="101.0" r="13" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+  <text x="276.0" y="105.0" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">1</text>
+  <circle cx="444.0" cy="225.0" r="13" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+  <text x="444.0" y="229.0" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">2</text>
+  <circle cx="528.0" cy="287.0" r="13" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+  <text x="528.0" y="291.0" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">3</text>
+  <circle cx="360.0" cy="349.0" r="13" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+  <text x="360.0" y="353.0" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">4</text>
+  <circle cx="276.0" cy="163.0" r="13" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+  <text x="276.0" y="167.0" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">5</text>
+  <text x="590" y="84" font-size="12" font-weight="700" fill="#111827">Example harms</text>
+  <circle cx="599" cy="108" r="9" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+  <text x="599" y="112" text-anchor="middle" font-size="10" font-weight="700" fill="#111827">1</text>
+  <text x="614" y="108" font-size="11" fill="#374151">Leaks another user's</text>
+  <text x="614" y="122" font-size="11" fill="#374151">account details</text>
+  <circle cx="599" cy="156" r="9" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+  <text x="599" y="160" text-anchor="middle" font-size="10" font-weight="700" fill="#111827">2</text>
+  <text x="614" y="156" font-size="11" fill="#374151">States a wrong fee</text>
+  <text x="614" y="170" font-size="11" fill="#374151">or rate as fact</text>
+  <circle cx="599" cy="204" r="9" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+  <text x="599" y="208" text-anchor="middle" font-size="10" font-weight="700" fill="#111827">3</text>
+  <text x="614" y="204" font-size="11" fill="#374151">Refuses a normal</text>
+  <text x="614" y="218" font-size="11" fill="#374151">question (over-refusal)</text>
+  <circle cx="599" cy="252" r="9" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+  <text x="599" y="256" text-anchor="middle" font-size="10" font-weight="700" fill="#111827">4</text>
+  <text x="614" y="252" font-size="11" fill="#374151">Off-brand or</text>
+  <text x="614" y="266" font-size="11" fill="#374151">clumsy tone</text>
+  <circle cx="599" cy="300" r="9" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+  <text x="599" y="304" text-anchor="middle" font-size="10" font-weight="700" fill="#111827">5</text>
+  <text x="614" y="300" font-size="11" fill="#374151">Agent takes a costly</text>
+  <text x="614" y="314" font-size="11" fill="#374151">action unasked</text>
+  <rect x="590" y="349" width="16" height="14" fill="#4F46E5" stroke="#4338CA"/>
+  <text x="614" y="360" font-size="10" fill="#374151">High: fix before launch</text>
+  <rect x="590" y="373" width="16" height="14" fill="#EEF2FF" stroke="#A5B4FC"/>
+  <text x="614" y="384" font-size="10" fill="#374151">Medium: mitigate, monitor</text>
+  <rect x="590" y="397" width="16" height="14" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="614" y="408" font-size="10" fill="#374151">Low: accept, log</text>
+  <text x="380" y="505" text-anchor="middle" font-size="11" fill="#6B7280">Severity 5 harms are high even when rare: a single case can end user trust or invite a regulator.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="480" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Three ways to choose your market category</text>
+  <text x="320" y="48" text-anchor="middle" font-size="11" fill="#6B7280">Illustrative and generic. Bars show relative effort, not measured data.</text>
+
+  <!-- column 1: head-to-head -->
+  <rect x="24" y="66" width="184" height="300" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="116" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">1. Head-to-head</text>
+  <text x="116" y="110" text-anchor="middle" font-size="11" fill="#374151">Join an existing category</text>
+  <text x="116" y="138" text-anchor="middle" font-size="11" font-style="italic" fill="#4B5563">"Accounting software"</text>
+  <text x="40" y="170" font-size="11" font-weight="600" fill="#111827">Buyers already get it</text>
+  <text x="40" y="186" font-size="11" fill="#374151">No need to explain</text>
+  <text x="40" y="202" font-size="11" fill="#374151">what the product is</text>
+  <text x="40" y="230" font-size="11" font-weight="600" fill="#111827">But you are judged</text>
+  <text x="40" y="246" font-size="11" fill="#374151">on the leader's rules</text>
+  <text x="40" y="274" font-size="11" font-weight="600" fill="#111827">Pick when:</text>
+  <text x="40" y="290" font-size="11" fill="#374151">you can beat the leader</text>
+  <text x="40" y="306" font-size="11" fill="#374151">on what buyers already</text>
+  <text x="40" y="322" font-size="11" fill="#374151">care about</text>
+
+  <!-- column 2: subcategory (highlighted) -->
+  <rect x="228" y="66" width="184" height="300" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="320" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#4F46E5">2. Subcategory</text>
+  <text x="320" y="110" text-anchor="middle" font-size="11" fill="#374151">Narrow a known category</text>
+  <text x="320" y="138" text-anchor="middle" font-size="11" font-style="italic" fill="#4B5563">"GST reconciliation for CAs"</text>
+  <text x="244" y="170" font-size="11" font-weight="600" fill="#111827">Borrows what buyers</text>
+  <text x="244" y="186" font-size="11" fill="#374151">know, then adds "for X"</text>
+  <text x="244" y="202" font-size="11" fill="#374151">or "but Y"</text>
+  <text x="244" y="230" font-size="11" font-weight="600" fill="#111827">But the market looks</text>
+  <text x="244" y="246" font-size="11" fill="#374151">smaller on paper</text>
+  <text x="244" y="274" font-size="11" font-weight="600" fill="#111827">Pick when:</text>
+  <text x="244" y="290" font-size="11" fill="#374151">one segment loves you</text>
+  <text x="244" y="306" font-size="11" fill="#374151">for reasons the leader</text>
+  <text x="244" y="322" font-size="11" fill="#374151">can't easily copy</text>
+
+  <!-- column 3: new category -->
+  <rect x="432" y="66" width="184" height="300" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="524" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">3. New category</text>
+  <text x="524" y="110" text-anchor="middle" font-size="11" fill="#374151">Invent a new label</text>
+  <text x="524" y="138" text-anchor="middle" font-size="11" font-style="italic" fill="#4B5563">"Compliance intelligence"</text>
+  <text x="448" y="170" font-size="11" font-weight="600" fill="#111827">No direct comparison;</text>
+  <text x="448" y="186" font-size="11" fill="#374151">you set the rules</text>
+  <text x="448" y="214" font-size="11" font-weight="600" fill="#111827">But you must teach the</text>
+  <text x="448" y="230" font-size="11" fill="#374151">market what it is, and</text>
+  <text x="448" y="246" font-size="11" fill="#374151">followers can benefit</text>
+  <text x="448" y="274" font-size="11" font-weight="600" fill="#111827">Pick when:</text>
+  <text x="448" y="290" font-size="11" fill="#374151">no existing frame fits</text>
+  <text x="448" y="306" font-size="11" fill="#374151">and you have money and</text>
+  <text x="448" y="322" font-size="11" fill="#374151">time to educate buyers</text>
+
+  <!-- effort bars -->
+  <text x="320" y="396" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">Effort to teach buyers what you are</text>
+  <rect x="40" y="410" width="152" height="16" rx="4" fill="#E5E7EB"/>
+  <rect x="40" y="410" width="30" height="16" rx="4" fill="#4F46E5"/>
+  <text x="116" y="444" text-anchor="middle" font-size="11" fill="#374151">Low</text>
+  <rect x="244" y="410" width="152" height="16" rx="4" fill="#E5E7EB"/>
+  <rect x="244" y="410" width="70" height="16" rx="4" fill="#4F46E5"/>
+  <text x="320" y="444" text-anchor="middle" font-size="11" fill="#374151">Medium</text>
+  <rect x="448" y="410" width="152" height="16" rx="4" fill="#E5E7EB"/>
+  <rect x="448" y="410" width="148" height="16" rx="4" fill="#4F46E5"/>
+  <text x="524" y="444" text-anchor="middle" font-size="11" fill="#374151">High</text>
+  <text x="320" y="468" text-anchor="middle" font-size="10" fill="#6B7280">Most early-stage products do best in the middle column.</text>
+</svg>

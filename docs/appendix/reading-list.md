@@ -246,3 +246,19 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [HBS Working Knowledge: Clay Christensen's milkshake marketing](https://www.library.hbs.edu/working-knowledge/clay-christensens-milkshake-marketing) (2011): competing for the job.
 - [Clozd: State of Win-Loss Analysis](https://www.clozd.com/guides/2025-state-of-win-loss-report): win-loss benchmarks (vendor report).
 - [Rest of World: Uber and Ola copy India's zero-commission app](https://restofworld.org/2025/uber-ola-copy-india-zero-commission-ride-hailing-app/) (2025): business-model competition.
+
+## Added with B4.2 Responsible AI, safety and guardrails
+
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/AI-risk-management-framework) (2023): the Govern, Map, Measure, Manage structure for AI risk.
+- [NIST AI 600-1 Generative AI Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) (2024): generative-AI-specific risks with suggested actions; a ready-made harm checklist.
+- [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/) (2024): the standard checklist of LLM security risks, led by prompt injection.
+- [International AI Safety Report 2026](https://arxiv.org/abs/2602.21012) (2026): the broadest expert summary of what AI safeguards can and can't do.
+- [The Attacker Moves Second](https://arxiv.org/abs/2510.09023v1) (2025): why prompt-injection defences look stronger in papers than against adaptive attackers.
+
+## Added with A3.3 Positioning
+
+- [Obviously Awesome](https://pagetwo.com/book/obviously-awesome/) (2019): April Dunford's step-by-step guide to the five components of positioning.
+- [Sales Pitch](https://pagetwo.com/book/sales-pitch/) (2023): Dunford on turning positioning into a sales story.
+- [Crossing the Chasm](https://bookshop.org/book/9780062292988) (3rd edition): Geoffrey Moore on selling new technology to mainstream customers; source of the positioning statement.
+- [Positioning: The Battle for Your Mind](https://www.mheducation.com/highered/mhp/product/positioning-battle-your-mind.html) (1981): Ries and Trout's classic that introduced positioning.
+- [A quickstart guide to positioning](https://www.lennysnewsletter.com/p/positioning) (2021): Dunford's five components in one article on Lenny's Newsletter.

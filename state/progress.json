@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "A",
+  "next_track": "B",
   "chapters": [
     {
       "id": "A0.1",
@@ -138,9 +138,9 @@
       "section": "A3 Market Research",
       "title": "Positioning",
       "path": "docs/part-a/03-market-research/03-positioning.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-24",
+      "summary": "Positioning as the context that makes value obvious: Dunford's five components, Moore's statement, category choice, AI positioning and how to test it with real buyers."
     },
     {
       "id": "A3.4",
@@ -668,9 +668,9 @@
       "section": "B4 Data, Safety and Law",
       "title": "Responsible AI, safety and guardrails",
       "path": "docs/part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-24",
+      "summary": "Turns responsible AI into product decisions: harm taxonomy, severity × likelihood × reach, layered guardrails, prompt injection, red teaming, over-refusal and kill switches."
     },
     {
       "id": "B4.3",
@@ -735,11 +735,6 @@
   ],
   "runs": [
     {
-      "date": "2026-11-13",
-      "mode": "DAILY",
-      "did": "Added A1.1 and B1.1"
-    },
-    {
       "date": "2026-11-14",
       "mode": "DAILY",
       "did": "Added B1.2 and A1.2"
@@ -783,6 +778,11 @@
       "date": "2026-11-23",
       "mode": "DAILY",
       "did": "Added B4.1 and A3.2"
+    },
+    {
+      "date": "2026-11-24",
+      "mode": "DAILY",
+      "did": "Added A3.3 and B4.2"
     }
   ]
 }

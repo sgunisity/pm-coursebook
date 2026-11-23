@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 24 Nov 2026 — Two new chapters: positioning, and responsible AI and guardrails
+
+- **[A3.3 Positioning](part-a/03-market-research/03-positioning.md):** covers April Dunford's five components, Moore's positioning statement, choosing a market category, positioning AI products and testing positions with real buyers, with a GST-reconciliation landing-page and sales-call worked example and the Rapido zero-commission and Jasper repositioning cases.
+- **[B4.2 Responsible AI, safety and guardrails](part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md):** covers harm taxonomies, severity × likelihood × reach risk scoring, layered guardrails, prompt injection and the OWASP LLM Top 10, red teaming, bias testing in Indian languages, NIST AI RMF and India's AI Governance Guidelines, and incident response, with a worked example tuning an output-classifier threshold for a lending app's assistant and the Replit database-deletion and India IT Rules synthetic-content labelling cases.
+- 13 new glossary terms, two new templates (positioning canvas, AI safety and guardrail plan) and new reading-list entries.
+
 ## 23 Nov 2026 — Two new chapters: data strategy and feedback loops, and competitive analysis
 
 - **[B4.1 Data strategy and feedback loops](part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md):** the three jobs data does (teach, inform, judge), where data comes from, explicit vs implicit vs expert feedback, why data flywheels stall, why most data moats are weaker than claimed, data-centric AI and data cascades, consent and purpose, degenerate feedback loops, licensing and ethical sourcing, and synthetic data and model collapse, with a crop-diagnosis worked example and the Slack and AIKosh cases.
