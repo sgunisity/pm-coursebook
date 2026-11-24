@@ -485,3 +485,39 @@ Product / segment:
 8. Positioning statement: For ___ who ___, [product] is a ___ that ___. Unlike ___, we ___.
 9. Test plan (sales repeat-back, landing page, win/loss) and success threshold:
 ```
+
+## AI regulation check
+
+Use this in the PRD for any AI feature, and again before entering a new country. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md). Not legal advice: share the filled-in sheet with your legal or privacy team.
+
+```text
+Feature and intended use:    [what the AI does, for whom, what decision its output feeds]
+Markets and users:           [countries; children? regulated sector?]
+Our role per law:            EU AI Act [provider / deployer]   DPDP [fiduciary / processor]   other [ ]
+EU AI Act level:             [prohibited / high-risk / transparency / minimal] - reasoning: [ ]
+Personal data map:           in [ ]  out [ ]  stored [where, how long]  used for training? [yes/no, basis]
+Notices and consent:         [what users see, when, in which languages; how to withdraw]
+Controls to build:           [AI disclosure / content labels / human review / logging / erasure / age checks]
+Evidence:                    [evals, bias tests, system card, decision log - links]
+Owner and response:          [named owner; incident runbook; breach and takedown deadlines]
+Regulatory watch:            [laws or drafts to re-check]   next review: [date]
+```
+
+## Five Forces and TOWS sheet
+
+Use this when entering a new market, planning a new product line, or explaining weak margins. See [A3.4](../part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md).
+
+```text
+Industry (product, customer, geography):
+Force                 Rating 1-5   Evidence                  Direction (2-3 yrs)
+Rivalry               [ ]          [ ]                       [up / flat / down]
+New entrants          [ ]          [ ]                       [ ]
+Supplier power        [ ]          [ ]                       [ ]
+Buyer power           [ ]          [ ]                       [ ]
+Substitutes           [ ]          [ ]                       [ ]
+Other factors (regulation, complements, technology):
+Strengths (relative, evidenced):      Weaknesses:
+Opportunities:                        Threats:
+SO option:            ST option:            WO option:            WT option:
+Chosen option, outcome and metric:
+```

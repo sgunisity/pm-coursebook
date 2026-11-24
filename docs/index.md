@@ -8,9 +8,9 @@ hide:
 A free, plain-language course book on **Product Management** and **AI Product Management**. It is written to be read on your phone, between meetings, by anyone who wants to get better at building products people love.
 
 <!-- progress:start -->
-**Progress: 34 of 73 chapters ready** · new chapters added daily
+**Progress: 36 of 73 chapters ready** · new chapters added daily
 
-<div class="progress-bar"><span style="width: 47%"></span></div>
+<div class="progress-bar"><span style="width: 49%"></span></div>
 <!-- progress:end -->
 
 ## How this book is organised

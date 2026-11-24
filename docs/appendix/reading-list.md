@@ -262,3 +262,18 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [Crossing the Chasm](https://bookshop.org/book/9780062292988) (3rd edition): Geoffrey Moore on selling new technology to mainstream customers; source of the positioning statement.
 - [Positioning: The Battle for Your Mind](https://www.mheducation.com/highered/mhp/product/positioning-battle-your-mind.html) (1981): Ries and Trout's classic that introduced positioning.
 - [A quickstart guide to positioning](https://www.lennysnewsletter.com/p/positioning) (2021): Dunford's five components in one article on Lenny's Newsletter.
+
+## Added with B4.3 AI regulation
+
+- [EU AI Act Service Desk: Annex III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3): the European Commission's list of high-risk AI use areas.
+- [AI Act Explorer: Digital Omnibus](https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/) (2026): readable text and summaries of the 2026 changes to the AI Act.
+- [EU General-Purpose AI Code of Practice](https://digital-strategy.ec.europa.eu/en/news/general-purpose-ai-code-practice-now-available) (2025): what model providers commit to on transparency, copyright and safety.
+- [India Briefing: DPDP Rules 2025](https://www.india-briefing.com/news/dpdp-rules-2025-india-data-protection-law-compliance-40769.html) (2025): the phased timeline and duties under India's data protection rules.
+- [NIST AI RMF to ISO/IEC 42001 crosswalk](https://airc.nist.gov/docs/NIST_AI_RMF_to_ISO_IEC_42001_Crosswalk.pdf): how the main voluntary AI governance framework maps to the international standard.
+
+## Added with A3.4 Industry analysis
+
+- [The Five Competitive Forces That Shape Strategy](https://store.hbr.org/product/the-five-competitive-forces-that-shape-strategy/R0801E) (HBR, 2008): Michael Porter's own restatement of the framework.
+- [From SOFT approach to SWOT analysis, a historical reconstruction](https://emerald.com/insight/content/doi/10.1108/JMH-05-2023-0047) (2024): where SWOT really came from.
+- [OECD: Artificial Intelligence markets](https://www.oecd.org/en/publications/artificial-intelligence-markets_d531d73f-en/full-report.html) (2026): competition and market structure in the AI value chain.
+- [NBER: Competition in Generative AI: Evidence from Consumer Demand](https://www.nber.org/papers/w35953) (2026): switching, retention and price sensitivity among AI users.

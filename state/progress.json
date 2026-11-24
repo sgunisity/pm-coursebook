@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "B",
+  "next_track": "A",
   "chapters": [
     {
       "id": "A0.1",
@@ -148,9 +148,9 @@
       "section": "A3 Market Research",
       "title": "Industry analysis: Porter's Five Forces and SWOT",
       "path": "docs/part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-25",
+      "summary": "Porter's Five Forces (rivalry, entrants, suppliers, buyers, substitutes) as who captures value; barriers and switching costs as product choices; forces changing over time; complements and platforms; SWOT done well and TOWS to options; pharmacy billing-app worked example; quick-commerce distributors (CCI) and DeepSeek/Nvidia cases."
     },
     {
       "id": "A4.1",
@@ -678,9 +678,9 @@
       "section": "B4 Data, Safety and Law",
       "title": "AI regulation: EU AI Act, India's DPDP Act and AI governance",
       "path": "docs/part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-25",
+      "summary": "AI regulation as product requirements: three layers (AI law, data protection, sector/platform rules) plus NIST/ISO governance; EU AI Act risk tiers, roles and Omnibus dates (high-risk Dec 2027); DPDP duties and phased rollout (core May 2027); India's guidelines and SGI rules; regulation-ready checklist; HR-tech screener worked example; Grok/MeitY and Garante-OpenAI cases."
     },
     {
       "id": "B5.1",
@@ -735,11 +735,6 @@
   ],
   "runs": [
     {
-      "date": "2026-11-14",
-      "mode": "DAILY",
-      "did": "Added B1.2 and A1.2"
-    },
-    {
       "date": "2026-11-15",
       "mode": "DAILY",
       "did": "Added A1.3 and B1.3"
@@ -783,6 +778,11 @@
       "date": "2026-11-24",
       "mode": "DAILY",
       "did": "Added A3.3 and B4.2"
+    },
+    {
+      "date": "2026-11-25",
+      "mode": "DAILY",
+      "did": "Added B4.3 and A3.4"
     }
   ]
 }

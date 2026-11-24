@@ -12,6 +12,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Agent loop**: the cycle an AI agent repeats: think, call a tool, read the result, decide the next step. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
+**AI governance**: the internal roles, policies and checks a company uses to keep its AI safe, fair and legal as features change. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
+
 **Ambient AI**: AI that runs in the background and starts work when an event happens (a new ticket, an overdue invoice), rather than when a user asks. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
 **Anti-persona**: a description of a user you deliberately are not building for, so the team doesn't optimise for them. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
@@ -35,6 +37,10 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Autonomy ladder (AI)**: the steps from AI that only suggests, to AI that drafts for review, acts then reports, or acts silently. Set per action. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
 **Background error (AI)**: an AI mistake that nobody notices, so it only shows up in evals, audits or sampling. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
+**Bargaining power**: how much one side (a supplier or a buyer) can push prices or terms in its favour. See [A3.4](../part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md).
+
+**Barriers to entry**: things that make it hard for new companies to start competing, such as scale, network effects, licences or switching costs. See [A3.4](../part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md).
 
 **Batch processing (AI APIs)**: sending AI work that can wait (like overnight jobs) in bulk, usually at a big discount. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
 
@@ -72,6 +78,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Confidence threshold**: a cut-off score above which the AI acts on its own and below which a human decides. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
+**Consent manager**: a registered company in India that lets people give, manage and withdraw data consent across many apps from one place (DPDP). See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
+
 **Containment rate**: share of conversations an AI handled without a human; not the same as solving the problem. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
 
 **Context engineering**: choosing everything that goes into an AI model's input on each step (instructions, documents, history, tool results), not just the written prompt. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
@@ -98,6 +106,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Dark pattern**: a design that tricks or pressures users into something they didn't intend, like hidden fees or hard-to-cancel subscriptions. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
 
+**Data fiduciary / data principal**: under India's DPDP Act, the organisation that decides why and how personal data is used, and the person the data is about. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
+
 **Data flywheel**: a loop where product use creates data, data improves the product, and a better product brings more use. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
 
 **Data moat**: a lasting advantage from data rivals can't easily get and that keeps improving your product. Rarer than claimed. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
@@ -122,6 +132,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Distillation**: using a large model's good answers to train a smaller, cheaper model for one task. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
+**DPDP Act**: India's Digital Personal Data Protection Act, 2023, which sets rules for notice, consent, purpose, children's data, breaches and erasure. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
+
 **DPO (direct preference optimisation)**: fine-tuning with pairs of a better and a worse answer, so the model learns which you prefer. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
 **Drift**: quality slowly changing over time because users, data or the model changed. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
@@ -139,6 +151,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Error analysis**: reading real AI traces, noting what went wrong, and grouping the notes into failure modes you can count. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
 **Escalation (AI handoff)**: passing a case from an AI to a human, with the context the human needs. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
+**EU AI Act**: the European Union's risk-based AI law: prohibited, high-risk, transparency and minimal-risk uses, plus duties for general-purpose model providers. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
 
 **Eval (evaluation)**: a repeatable test that scores an AI's outputs across many real examples. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
@@ -158,6 +172,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Fine-tuning**: training an existing model further on your own examples so a behaviour is built into the model. See [B1.4](../part-b/01-building-blocks/04-prompting-vs-rag-vs-fine-tuning-how-to-decide.md).
 
+**Five Forces (Porter's)**: Michael Porter's model of industry profitability: rivalry, new entrants, supplier power, buyer power and substitutes. See [A3.4](../part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md).
+
 **Five Whys**: asking "why?" about five times to dig from a symptom towards a root cause; credited to Toyota. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
 **Follow-me-home**: watching a user do a real task in their own setting instead of asking them about it; a practice made well known by Intuit. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
@@ -174,6 +190,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Goodhart's law**: when a measure becomes a target, people game it and it stops being a good measure. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
+**GPAI model**: general-purpose AI model: a model that can do many tasks, such as a large language model; its makers have separate duties under the EU AI Act. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
+
 **Graceful failure**: when an AI can't help, it fails safely and clearly and offers the user a next step. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
 **Grader (eval)**: whatever scores an AI's answer in an eval: code, another AI model, or a person. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
@@ -186,6 +204,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **HEART**: Google's user-experience metric framework: Happiness, Engagement, Adoption, Retention, Task success. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**High-risk AI system**: under the EU AI Act, an AI use that can seriously affect safety or rights, such as hiring, credit or education. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
+
 **How Might We (HMW)**: a question that turns a problem into an open invitation for ideas, e.g. "How might we help first-time sellers finish their listing?" See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
 
 **Human-in-the-loop**: a design where a person checks, approves or corrects the AI's work before it matters. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
@@ -197,6 +217,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Impact (business)**: the big business result that outcomes add up to, such as revenue, profit or market share. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
 
 **Implicit feedback**: what users' actions reveal about an AI answer: copying, editing, retrying, giving up or asking for a human. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
+
+**Industry structure**: the basic economics of a market: who has power, how easy entry is, and what customers could use instead. See [A3.4](../part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md).
 
 **Inference**: one run of an AI model to produce an answer; each run has a cost. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
@@ -328,6 +350,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Prototype fidelity**: how close a prototype looks and behaves to the real product, from paper sketch to near-real. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
+**Provider vs deployer (AI)**: the provider builds an AI system and puts it on the market; the deployer uses it in its own work. Each has different legal duties. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
+
 **Proxy metric**: a number tracked because the real thing (like happiness) is hard to measure directly. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **RAG (retrieval-augmented generation)**: finding relevant text from your own documents and adding it to the prompt so the model can answer from it. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
@@ -382,13 +406,19 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Subcategory**: a narrower slice of an existing market category, such as "CRM for investment banks". See [A3.3](../part-a/03-market-research/03-positioning.md).
 
+**Substitute**: a different way of meeting the same need, from outside your category (a paper ledger instead of billing software). See [A3.4](../part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md).
+
 **Success threshold**: the number, set before a test, that decides whether the assumption passed. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
 **Switch interview**: a jobs-to-be-done interview about the moment someone recently switched to or from a product. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
 **Switching cost**: what a customer loses or must redo to change products: money, data, learning, risk. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
 
+**SWOT**: Strengths, Weaknesses (internal), Opportunities and Threats (external): a snapshot of one company's position. See [A3.4](../part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md).
+
 **Synthetic data**: data generated by a model or program rather than collected from real people or events. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
+
+**Synthetically generated information (SGI)**: India's legal term for AI-made or AI-altered audio, images or video that look real; platforms must label it. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
 
 **System card**: a public document describing what an AI system can do, how it was tested, its guardrails and its known limits. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
 
@@ -409,6 +439,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Top-down sizing**: estimating a market by starting from a big published number and cutting it down with percentages. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
 
 **Touchpoint**: any place a user meets your product or company: a screen, an SMS, a call, a delivery person. See [A1.4](../part-a/01-understanding-users-user-sense/04-journey-maps-and-empathy-maps.md).
+
+**TOWS matrix**: a follow-up to SWOT that pairs its boxes (SO, ST, WO, WT) to generate strategic options. See [A3.4](../part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md).
 
 **TPM (technical program manager)**: a program manager with deep technical knowledge who coordinates complex engineering work across many teams. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
 

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Inter, Arial, sans-serif" role="img" aria-label="EU AI Act risk pyramid">
+  <rect width="640" height="420" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#111827">EU AI Act: the riskier the use, the stricter the rules</text>
+  <!-- Prohibited -->
+  <polygon points="200,50 120,130 280,130" fill="#4F46E5"/>
+  <text x="200" y="105" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Prohibited</text>
+  <!-- High-risk -->
+  <polygon points="120,130 280,130 330,210 70,210" fill="#9CA3AF"/>
+  <text x="200" y="176" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">High-risk</text>
+  <!-- Transparency -->
+  <polygon points="70,210 330,210 380,290 20,290" fill="#D1D5DB"/>
+  <text x="200" y="256" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">Transparency</text>
+  <!-- Minimal -->
+  <polygon points="20,290 380,290 380,370 20,370" fill="#F3F4F6" stroke="#D1D5DB"/>
+  <text x="200" y="336" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">Minimal risk</text>
+  <!-- Labels on right -->
+  <g font-size="12" fill="#374151">
+    <text x="400" y="84" font-weight="700" fill="#4F46E5">Don't build it for the EU</text>
+    <text x="400" y="102">Social scoring, emotion recognition</text>
+    <text x="400" y="118">at work or school, nudifier apps</text>
+    <text x="400" y="164" font-weight="700" fill="#111827">Full controls + documentation</text>
+    <text x="400" y="182">Hiring, credit, education,</text>
+    <text x="400" y="198">access to essential services</text>
+    <text x="400" y="244" font-weight="700" fill="#111827">Tell people it's AI</text>
+    <text x="400" y="262">Chatbots, AI images, audio,</text>
+    <text x="400" y="278">video and deepfakes</text>
+    <text x="400" y="324" font-weight="700" fill="#111827">Normal good practice</text>
+    <text x="400" y="342">Spam filters, recipe suggestions,</text>
+    <text x="400" y="358">AI in games</text>
+  </g>
+  <text x="320" y="402" text-anchor="middle" font-size="11" fill="#6B7280">Simplified. Model makers (GPAI providers) have separate duties. Check the law's text for your case.</text>
+</svg>

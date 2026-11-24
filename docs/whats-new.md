@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 25 Nov 2026 — Two new chapters: AI regulation, and industry analysis
+
+- **[B4.3 AI regulation: EU AI Act, India's DPDP Act and AI governance](part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md):** the layers of rules that hit AI products, the EU AI Act's risk levels and roles, the 2026 Digital Omnibus delays (high-risk duties now from December 2027), the DPDP Act's duties and phased rollout, India's AI Governance Guidelines and synthetic-content rules, and proportionate AI governance, with an HR-tech candidate-screening worked example and the MeitY–Grok and Italy–OpenAI cases.
+- **[A3.4 Industry analysis: Porter's Five Forces and SWOT](part-a/03-market-research/04-industry-analysis-porter-s-five-forces-and-swot.md):** the five forces as "who captures the value", barriers to entry and switching costs as product choices, forces that shift over time, platforms and complements, SWOT done well and the TOWS matrix, with a pharmacy billing-app worked example and the quick-commerce distributors and DeepSeek–Nvidia cases.
+- 16 new glossary terms, two new templates (AI regulation check, Five Forces and TOWS sheet) and new reading-list entries.
+
 ## 24 Nov 2026 — Two new chapters: positioning, and responsible AI and guardrails
 
 - **[A3.3 Positioning](part-a/03-market-research/03-positioning.md):** covers April Dunford's five components, Moore's positioning statement, choosing a market category, positioning AI products and testing positions with real buyers, with a GST-reconciliation landing-page and sales-call worked example and the Rapido zero-commission and Jasper repositioning cases.
