@@ -521,3 +521,42 @@ Opportunities:                        Threats:
 SO option:            ST option:            WO option:            WT option:
 Chosen option, outcome and metric:
 ```
+
+## Product vision one-pager
+
+Use this when writing or refreshing a product vision for your area. See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
+
+```text
+Mission (why we exist, one sentence):
+Target user (who, where, device, language):
+Vision statement (2-3 sentences, 2-5 years out, the user's life when it's true):
+Vision narrative (link to a one-page story or visiontype):
+Product principles (3-5 real trade-offs):
+  1. [X] beats [Y]
+  2.
+  3.
+Ideas this vision says NO to (at least 2):
+How we'll know we're getting closer (North Star + guardrail):
+Owner:                     Last reviewed:
+"Same answer" test (3 people asked separately): [pass / fail]
+```
+
+## AI pricing worksheet
+
+Use this when pricing a new AI feature or checking an existing one's margin. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
+
+```text
+Unit of value (what does "done well" mean?):
+Cost per attempt:  input tokens [ ] + output/reasoning [ ] + tools/retrieval [ ]
+                   + guardrails [ ] + retries/logging [ ] = [ ]
+Success rate: [ ]%     Cost per successful task = cost per attempt / success rate = [ ]
+Human fallback cost per failed task: [ ]
+Top-10% users: cost per user [ ]   vs average [ ]
+Floor (cost per success + target margin):
+Reference (competitor / human / doing nothing):
+Ceiling (value per task to the customer):
+Pricing unit chosen (seat / usage / credits / task / outcome / hybrid) and why:
+Limits, tiers, caps and usage alerts:
+Margin at low / expected / high success rate:
+Outcome definition (if outcome-based) and its guardrail metric:
+```

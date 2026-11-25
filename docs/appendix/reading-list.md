@@ -277,3 +277,20 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [From SOFT approach to SWOT analysis, a historical reconstruction](https://emerald.com/insight/content/doi/10.1108/JMH-05-2023-0047) (2024): where SWOT really came from.
 - [OECD: Artificial Intelligence markets](https://www.oecd.org/en/publications/artificial-intelligence-markets_d531d73f-en/full-report.html) (2026): competition and market structure in the AI value chain.
 - [NBER: Competition in Generative AI: Evidence from Consumer Demand](https://www.nber.org/papers/w35953) (2026): switching, retention and price sensitivity among AI users.
+
+## Added with A4.1 Vision and mission
+
+- [SVPG: Product Vision FAQ](https://www.svpg.com/product-vision-faq/): Marty Cagan on horizon, ownership and how often a product vision should change.
+- [SVPG: The Power of Visiontypes](https://www.svpg.com/the-power-of-visiontypes/) (2024): why a prototype of the vision persuades better than a document.
+- ["Building Your Company's Vision"](https://www.oreilly.com/library/view/hbrs-10-must/9781422172056/Text/06_Building.html) (HBR, 1996): Collins and Porras on core ideology and envisioned future.
+- [Jim Collins on BHAGs](https://jimcollins.com/article_topics/articles/BHAG.html): what makes a big goal a unifying focal point.
+- [The Product Vision Board](https://www.romanpichler.com/blog/the-product-vision-board/): Roman Pichler's free one-page vision canvas.
+- [How to write an Amazon PR/FAQ](https://coda.io/@colin-bryar/working-backwards-how-write-an-amazon-pr-faq): Colin Bryar's guide to writing the launch announcement before you build.
+
+## Added with B5.1 AI pricing and unit economics
+
+- [Monetizing Innovation](https://oreilly.com/library/view/monetizing-innovation/9781119240860) (2016): Madhavan Ramanujam and Georg Tacke on designing products around willingness to pay.
+- [Bessemer: The AI pricing and monetization playbook](https://www.bvp.com/atlas/the-ai-pricing-and-monetization-playbook) (2026): consumption, workflow, outcome and hybrid pricing, with margin benchmarks.
+- [ICONIQ: State of AI 2026](https://www.iconiq.com/growth/insights/state-of-ai-2026): survey data on AI gross margins and pricing models.
+- [Kyle Poyar: Why everyone's switching to AI credits](https://kylepoyar.substack.com/p/ai-credit-pricing) (2025): how credit pricing works (partly paywalled).
+- [Epoch AI: LLM inference price trends](https://epoch.ai/data-insights/llm-inference-price-trends) (2025): how fast the price of a fixed AI capability is falling.

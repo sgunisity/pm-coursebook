@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="Inter, Arial, sans-serif" role="img" aria-label="AI pricing corridor: cost floor, reference price, value ceiling and the target price zone">
+  <rect width="680" height="330" fill="#ffffff"/>
+  <text x="340" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#111827">The AI pricing corridor (price per task)</text>
+  <!-- axis -->
+  <line x1="40" y1="200" x2="640" y2="200" stroke="#6B7280" stroke-width="2"/>
+  <text x="40" y="222" font-size="11" fill="#6B7280">₹0</text>
+  <text x="640" y="222" font-size="11" fill="#6B7280" text-anchor="end">higher price →</text>
+  <!-- loss zone -->
+  <rect x="40" y="110" width="110" height="90" fill="#F3F4F6" stroke="#D1D5DB"/>
+  <text x="95" y="150" text-anchor="middle" font-size="12" font-weight="700" fill="#6B7280">Loss zone</text>
+  <text x="95" y="167" text-anchor="middle" font-size="10" fill="#6B7280">price below cost</text>
+  <!-- margin-thin zone -->
+  <rect x="150" y="110" width="200" height="90" fill="#E5E7EB" stroke="#D1D5DB"/>
+  <text x="250" y="150" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">Possible, but leaves</text>
+  <text x="250" y="166" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">value on the table</text>
+  <!-- target zone -->
+  <rect x="350" y="110" width="160" height="90" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="455" y="135" text-anchor="middle" font-size="12" font-weight="700" fill="#4F46E5">Target zone</text>
+  <text x="455" y="186" text-anchor="middle" font-size="10" fill="#4F46E5">customer still wins</text>
+  <!-- no-buy zone -->
+  <rect x="510" y="110" width="130" height="90" fill="#F3F4F6" stroke="#D1D5DB"/>
+  <text x="575" y="150" text-anchor="middle" font-size="12" font-weight="700" fill="#6B7280">No sale</text>
+  <text x="575" y="167" text-anchor="middle" font-size="10" fill="#6B7280">price above value</text>
+  <!-- markers -->
+  <g font-size="11" fill="#111827" text-anchor="middle">
+    <line x1="150" y1="90" x2="150" y2="210" stroke="#111827" stroke-width="2"/>
+    <text x="150" y="70" font-weight="700">Floor</text>
+    <text x="150" y="84">cost per successful task + margin</text>
+    <line x1="400" y1="100" x2="400" y2="240" stroke="#111827" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="400" y="256" font-weight="700">Reference price</text>
+    <text x="400" y="270">competitor, human, or doing nothing</text>
+    <line x1="510" y1="90" x2="510" y2="210" stroke="#111827" stroke-width="2"/>
+    <text x="510" y="70" font-weight="700">Ceiling</text>
+    <text x="510" y="84">value to the customer</text>
+  </g>
+  <text x="340" y="306" text-anchor="middle" font-size="11" fill="#374151">If the floor sits above the reference, fix the product (cost, success rate), not the price.</text>
+</svg>

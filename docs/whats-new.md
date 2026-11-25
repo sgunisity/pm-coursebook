@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 26 Nov 2026 — Two new chapters: vision and mission, and AI pricing and unit economics
+
+- **[A4.1 Vision and mission](part-a/04-strategy-and-vision/01-vision-and-mission.md):** the mission–vision–strategy–roadmap stack, what makes a product vision good, formats from one-line statements to visiontypes and PR/FAQs, product principles, Cagan's product vision, Collins and Porras's core ideology and BHAGs, and Pichler's Product Vision Board, with a tuition-teacher app worked example that scores a backlog against the vision, and the Zomato-to-Eternal and Meta "personal superintelligence" cases.
+- **[B5.1 AI pricing and unit economics](part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md):** why AI margins are lower than SaaS, building cost per successful task, the heavy tail of power users, seat vs usage vs credits vs workflow vs outcome vs hybrid pricing, the value-based price corridor, and why cost per task may not fall as fast as model prices, with a helpdesk AI-agent worked example and the Cursor pricing and ChatGPT Go India cases.
+- 18 new glossary terms, two new templates (product vision one-pager, AI pricing worksheet) and new reading-list entries.
+
 ## 25 Nov 2026 — Two new chapters: AI regulation, and industry analysis
 
 - **[B4.3 AI regulation: EU AI Act, India's DPDP Act and AI governance](part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md):** the layers of rules that hit AI products, the EU AI Act's risk levels and roles, the 2026 Digital Omnibus delays (high-risk duties now from December 2027), the DPDP Act's duties and phased rollout, India's AI Governance Guidelines and synthetic-content rules, and proportionate AI governance, with an HR-tech candidate-screening worked example and the MeitY–Grok and Italy–OpenAI cases.

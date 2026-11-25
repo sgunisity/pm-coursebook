@@ -50,6 +50,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Best-fit customer**: the group of customers who care most about your product's value and buy fastest. See [A3.3](../part-a/03-market-research/03-positioning.md).
 
+**BHAG (Big Hairy Audacious Goal)**: a bold, clear, long-range goal with a finish line that unites a company's effort (Collins and Porras). See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
+
 **Bottom-up sizing**: estimating a market by counting real buyers and multiplying by what each would pay. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
 
 **Break-even accuracy**: the AI accuracy below which checking and fixing its output costs more than doing the task by hand. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
@@ -69,6 +71,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Chain of thought**: getting an AI model to work through a problem step by step before answering. Helps some models; adds delay on reasoning models. See [B1.1](../part-b/01-building-blocks/01-prompt-engineering-for-pms.md).
 
 **Chunk**: a small piece of a document (often a few hundred tokens) stored and retrieved on its own in a RAG system. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
+
+**COGS (cost of goods sold)**: the direct cost of delivering a product; for AI it includes model calls, hosting and human review. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
 
 **Cohort**: a group of users who share a start point, such as everyone who signed up in the same week. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
@@ -94,9 +98,13 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Copilot (pattern)**: AI that sits inside the user's own work and offers suggestions in context while the user stays in charge. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
+**Core ideology**: the part of a company meant never to change: its core purpose plus its core values (Collins and Porras). See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
+
 **Cost per successful task**: total AI cost divided by tasks that actually succeeded, ideally including human fallback. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
 
 **Counter metric (guardrail metric)**: a metric you watch to make sure improving one number isn't quietly hurting something else. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
+
+**Credits (AI pricing)**: prepaid units customers spend on AI actions, with costlier actions using more credits. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
 
 **Criteria drift**: the way people's grading standards change as they read more AI outputs, so the first rubric is rarely the final one. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
@@ -196,6 +204,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Grader (eval)**: whatever scores an AI's answer in an eval: code, another AI model, or a person. See [B3.1](../part-b/03-quality/01-evals-the-ai-pm-s-most-important-skill.md).
 
+**Gross margin**: (revenue − direct costs) ÷ revenue; what you keep from each rupee before salaries and marketing. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
+
 **Ground truth**: the verified correct answer for a case, confirmed by an expert or a real-world outcome. See [B4.1](../part-b/04-data-safety-and-law/01-data-strategy-and-feedback-loops.md).
 
 **Guardrail**: any control that stops an AI product from causing harm, such as a filter, a system prompt rule, a tool permission limit or a human check. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
@@ -204,6 +214,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **HEART**: Google's user-experience metric framework: Happiness, Engagement, Adoption, Retention, Task success. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**Heavy tail (power users)**: the small share of users who consume a large share of usage, and of AI cost. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
+
 **High-risk AI system**: under the EU AI Act, an AI use that can seriously affect safety or rights, such as hiring, credit or education. See [B4.3](../part-b/04-data-safety-and-law/03-ai-regulation-eu-ai-act-india-s-dpdp-act-and-ai.md).
 
 **How Might We (HMW)**: a question that turns a problem into an open invitation for ideas, e.g. "How might we help first-time sellers finish their listing?" See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
@@ -211,6 +223,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Human-in-the-loop**: a design where a person checks, approves or corrects the AI's work before it matters. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Human-on-the-loop**: the AI acts on its own while a person monitors and can step in or stop it. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
+
+**Hybrid pricing**: a base subscription or platform fee combined with usage- or outcome-based charges. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
 
 **Hybrid search**: running keyword search and meaning-based (embedding) search together and merging the results. See [B1.2](../part-b/01-building-blocks/02-rag-giving-ai-your-knowledge.md).
 
@@ -274,6 +288,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Metric tree**: a diagram that breaks one big metric into the smaller metrics that add or multiply up to it. See [A8.2](../part-a/08-product-metrics/02-north-star-metric-and-metric-trees.md).
 
+**Mission**: why a company exists: the lasting purpose it serves, which rarely changes. See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
+
 **Mix shift**: an average changing because the share of each user segment changed, not their behaviour. See [A8.6](../part-a/08-product-metrics/06-diagnosing-a-metric-drop.md).
 
 **Model routing**: sending each request to a different AI model depending on how hard or important it is, to save cost and time. See [B0.3](../part-b/00-foundations/03-choosing-models-capability-cost-latency-open-vs.md).
@@ -297,6 +313,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Opportunity solution tree (OST)**: Teresa Torres's visual map linking one desired outcome to customer opportunities, the solutions for them, and the assumption tests for each solution. See [A2.1](../part-a/02-problem-discovery/01-continuous-discovery-and-opportunity-solution-tr.md).
 
 **Outcome vs output**: an outcome is a change in customer behaviour or business results; an output is something the team produced, like a feature. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
+
+**Outcome-based pricing**: charging only when the product achieves a defined result, such as a support ticket resolved. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
 
 **Over-refusal**: when an AI refuses or waters down a reasonable request; a real cost to users, not a safe default. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
 
@@ -326,6 +344,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Pretraining**: the first, most expensive stage of building an LLM, where it learns to predict the next token across vast amounts of text. See [B0.2](../part-b/00-foundations/02-how-llms-work-for-pms.md).
 
+**Pricing unit (value metric)**: the thing a customer is charged for: seats, usage, credits, tasks or outcomes. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
+
 **Probabilistic**: producing a likely guess that can vary and can be wrong, as most AI does (the opposite of deterministic). See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
 **Problem statement**: a short, evidence-backed description of who is struggling, in what situation, why, and how you'll know it's fixed, without naming a solution. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
@@ -338,7 +358,13 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Product owner**: in Scrum, the one person accountable for maximising the value of the team's work; often a hat the PM wears. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
 
+**Product principles**: beliefs that settle trade-offs inside a product, written as real choices (e.g. "trust beats conversion"). See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
+
 **Product trio**: the PM, designer and tech lead working together as one decision-making team. See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
+
+**Product vision**: the future a product will create for its users, usually 2–5 years out for software; a persuasion tool, not a spec. See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
+
+**Product Vision Board**: Roman Pichler's one-page canvas: vision, target group, needs, product and business goals. See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
 
 **Program**: a group of related projects managed together to achieve a benefit none could achieve alone. See [A0.3](../part-a/00-the-pm-role/03-product-vs-project-vs-program-management-types-o.md).
 
@@ -456,7 +482,11 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Undertrust**: users ignore or redo an AI's work even when it's right, so it adds no value. See [B2.3](../part-b/02-discovery-and-design/03-designing-for-trust-failure-and-human-in-the-loo.md).
 
+**Unit economics**: the money made or lost on one unit of the business, such as one customer or one task. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
+
 **Usability test**: watching someone try real tasks with a product or prototype, usually while thinking aloud. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
+
+**Usage-based pricing**: charging for what a customer actually uses: tokens, calls, minutes or messages. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
 
 **User sense**: the trained ability to predict how real users will behave and feel, built from regular contact with them. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
 
@@ -468,7 +498,13 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Viral coefficient (K)**: new users each existing user brings in = invites sent per user × invite conversion rate. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
+**Vision narrative**: a short written story of a customer's day once the product vision has come true. See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
+
+**Visiontype**: a prototype or video showing what a product vision could look and feel like. See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
+
 **Why–how ladder**: asking "why?" to broaden a problem towards the user's goal, or "how?" to narrow it towards solutions. See [A2.2](../part-a/02-problem-discovery/02-framing-the-problem-problem-statements.md).
+
+**Willingness to pay (WTP)**: the most a customer would pay for the value they get. See [B5.1](../part-b/05-strategy-and-business/01-ai-pricing-and-unit-economics.md).
 
 **Win-loss analysis**: interviewing buyers after a decision to learn why they chose you or a rival. See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
 
