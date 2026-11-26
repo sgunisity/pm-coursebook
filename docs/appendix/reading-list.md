@@ -294,3 +294,17 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [ICONIQ: State of AI 2026](https://www.iconiq.com/growth/insights/state-of-ai-2026): survey data on AI gross margins and pricing models.
 - [Kyle Poyar: Why everyone's switching to AI credits](https://kylepoyar.substack.com/p/ai-credit-pricing) (2025): how credit pricing works (partly paywalled).
 - [Epoch AI: LLM inference price trends](https://epoch.ai/data-insights/llm-inference-price-trends) (2025): how fast the price of a fixed AI capability is falling.
+
+## Added with B5.2 AI-native strategy and moats
+
+- [7 Powers](https://bookshop.org/p/books/7-powers-the-foundations-of-business-strategy-hamilton-helmer/342a60a767bd1b85) (2016): Hamilton Helmer's framework for the seven sources of durable advantage.
+- [a16z: The Empty Promise of Data Moats](https://a16z.com/the-empty-promise-of-data-moats/) (2019): why most data advantages are weaker than they look.
+- [SemiAnalysis: "We Have No Moat, And Neither Does OpenAI"](https://newsletter.semianalysis.com/p/google-we-have-no-moat-and-neither) (2023): the leaked Google memo that started the AI moat debate.
+- [Menlo Ventures: 2025 State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-AI-in-the-enterprise/) (2025): where enterprise AI spending goes, layer by layer.
+- [The Price of Progress](https://arxiv.org/abs/2511.23455) (preprint, 2025–2026): how fast the price of a fixed level of AI performance falls.
+
+## Added with A4.2 Good strategy vs bad strategy
+
+- [The Crux](https://www.hachettebookgroup.com/titles/richard-p-rumelt/the-crux/9781541701243/) (2022): Richard Rumelt on finding the challenge that matters most and can be solved.
+- ["The perils of bad strategy"](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-perils-of-bad-strategy) (McKinsey Quarterly, 2011): Rumelt's short summary of the kernel and the four hallmarks of bad strategy.
+- [Deloitte: 2026 Chief Strategy Officer Survey](https://www.deloitte.com/us/en/about/press-room/deloitte-2026-chief-strategy-officer-survey.html) (2026): too many priorities, too little bandwidth.

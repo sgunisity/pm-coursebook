@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="480" fill="#ffffff"/>
+  <text x="330" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">The AI moat map</text>
+  <text x="190" y="60" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5">BETTER MODEL REPLACES YOU</text>
+  <text x="470" y="60" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5">BETTER MODEL HELPS YOU</text>
+  <text x="22" y="160" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5" transform="rotate(-90 22 160)">DEEP</text>
+  <text x="38" y="160" text-anchor="middle" font-size="10" fill="#6B7280" transform="rotate(-90 38 160)">workflow, data, integrations</text>
+  <text x="22" y="345" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5" transform="rotate(-90 22 345)">THIN</text>
+  <text x="38" y="345" text-anchor="middle" font-size="10" fill="#6B7280" transform="rotate(-90 38 345)">UI on a rented model</text>
+  <rect x="50" y="72" width="280" height="180" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="330" y="72" width="280" height="180" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <rect x="50" y="262" width="280" height="180" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <rect x="330" y="262" width="280" height="180" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="190" y="102" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Squeezed specialist</text>
+  <text x="190" y="128" text-anchor="middle" font-size="12" fill="#374151">Deep workflow, but its edge was</text>
+  <text x="190" y="146" text-anchor="middle" font-size="12" fill="#374151">patching a model weakness</text>
+  <text x="190" y="178" text-anchor="middle" font-size="11" fill="#6B7280">e.g. custom maths engine for a</text>
+  <text x="190" y="194" text-anchor="middle" font-size="11" fill="#6B7280">task new models now do well</text>
+  <text x="190" y="228" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">Move: shift value to the workflow</text>
+  <text x="470" y="102" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">AI-native moat</text>
+  <text x="470" y="128" text-anchor="middle" font-size="12" fill="#374151">Owns the workflow and data loop;</text>
+  <text x="470" y="146" text-anchor="middle" font-size="12" fill="#374151">each model release adds value</text>
+  <text x="470" y="178" text-anchor="middle" font-size="11" fill="#6B7280">e.g. tool connected to customers'</text>
+  <text x="470" y="194" text-anchor="middle" font-size="11" fill="#6B7280">systems, holding their history</text>
+  <text x="470" y="228" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5">Move: deepen switching costs</text>
+  <text x="190" y="292" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Thin wrapper</text>
+  <text x="190" y="318" text-anchor="middle" font-size="12" fill="#374151">Little of its own; next model</text>
+  <text x="190" y="336" text-anchor="middle" font-size="12" fill="#374151">release may make it pointless</text>
+  <text x="190" y="368" text-anchor="middle" font-size="11" fill="#6B7280">e.g. "chat with your PDF" app</text>
+  <text x="190" y="384" text-anchor="middle" font-size="11" fill="#6B7280">once assistants do it natively</text>
+  <text x="190" y="418" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">Move: rethink the product</text>
+  <text x="470" y="292" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Tailwind rider</text>
+  <text x="470" y="318" text-anchor="middle" font-size="12" fill="#374151">Gets better with each model,</text>
+  <text x="470" y="336" text-anchor="middle" font-size="12" fill="#374151">but rivals get better too</text>
+  <text x="470" y="368" text-anchor="middle" font-size="11" fill="#6B7280">e.g. generic writing assistant</text>
+  <text x="470" y="384" text-anchor="middle" font-size="11" fill="#6B7280">with no integrations or memory</text>
+  <text x="470" y="418" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">Move: use the lead to build barriers</text>
+  <text x="330" y="468" text-anchor="middle" font-size="11" fill="#6B7280">Arrow of strategy: from bottom-left toward top-right</text>
+</svg>

@@ -560,3 +560,43 @@ Limits, tiers, caps and usage alerts:
 Margin at low / expected / high success rate:
 Outcome definition (if outcome-based) and its guardrail metric:
 ```
+
+## Strategy kernel one-pager
+
+Use this when writing a product or team strategy. See [A4.2](../part-a/04-strategy-and-vision/02-good-strategy-vs-bad-strategy-the-kernel.md).
+
+```text
+Challenges (list 5-10):
+Crux (most important AND solvable in 6-12 months):
+Diagnosis (2-4 sentences, with the 2-3 key facts):
+Guiding policy (1-2 sentences):
+We will NOT (at least 2 attractive options ruled out):
+Coherent actions (3-5):
+  1. Action / owner / resources / proximate objective
+  2.
+  3.
+  Stop doing:
+Key belief the diagnosis depends on:
+We'll revisit if (signal + check date):
+Bad-strategy check: fluff? faces the problem? more than goals? <= 5 actions?
+```
+
+## AI moat memo
+
+Use this when someone asks "what stops a rival copying us?" See [B5.2](../part-b/05-strategy-and-business/02-ai-native-strategy-and-moats.md).
+
+```text
+Value we create (one sentence, with how we measure it):
+Model upgrade test (2x better, half-price model): helps us / hurts us / replaces us. Why:
+Copycat test (funded rival, same model, 8 weeks): what they could NOT copy:
+Seven powers score (benefit 0-3 / barrier 0-3):
+  Scale economies:      Network economies:    Counter-positioning:
+  Switching costs:      Branding:             Cornered resource:
+  Process power:
+Primary power (next 12 months):            Secondary power:
+Evidence (e.g. churn by integration count, eval gains from our own data):
+Roadmap items that strengthen it:          Metric that tracks it:
+Platform risks (supplier / what if 3x price, cut-off, or they launch this):
+Tested backup model? yes / no
+What would break this moat:
+```

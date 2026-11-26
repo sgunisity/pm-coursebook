@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "B",
+  "next_track": "A",
   "chapters": [
     {
       "id": "A0.1",
@@ -168,9 +168,9 @@
       "section": "A4 Strategy and Vision",
       "title": "Good strategy vs bad strategy: the kernel",
       "path": "docs/part-a/04-strategy-and-vision/02-good-strategy-vs-bad-strategy-the-kernel.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-27",
+      "summary": "Rumelt's kernel: diagnosis, guiding policy, coherent actions; four hallmarks of bad strategy (fluff, not facing the problem, goals as strategy, bad objectives); why choosing is hard; proximate objectives; the crux; Tier-2 grocery worked example; Meta and Paytm cases."
     },
     {
       "id": "A4.3",
@@ -698,9 +698,9 @@
       "section": "B5 Strategy and Business",
       "title": "AI-native strategy and moats",
       "path": "docs/part-b/05-strategy-and-business/02-ai-native-strategy-and-moats.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-27",
+      "summary": "AI moats: benefit + barrier (Helmer's 7 Powers adapted to rented models); model-upgrade and copycat tests; counter-positioning vs seats; switching costs as the main app-layer moat; data moat tests (exclusive, improving, used); platform risk; moat memo; Windsurf and Sarvam cases."
     },
     {
       "id": "B6.1",
@@ -734,11 +734,6 @@
     }
   ],
   "runs": [
-    {
-      "date": "2026-11-16",
-      "mode": "DAILY",
-      "did": "Added B1.4 and A1.4"
-    },
     {
       "date": "2026-11-17",
       "mode": "DAILY",
@@ -783,6 +778,11 @@
       "date": "2026-11-26",
       "mode": "DAILY",
       "did": "Added A4.1 and B5.1"
+    },
+    {
+      "date": "2026-11-27",
+      "mode": "DAILY",
+      "did": "Added B5.2 and A4.2"
     }
   ]
 }

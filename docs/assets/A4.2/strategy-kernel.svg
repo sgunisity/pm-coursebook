@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="440" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">The kernel of good strategy, and its traps</text>
+  <text x="170" y="60" text-anchor="middle" font-size="12" font-weight="600" fill="#4F46E5">GOOD STRATEGY HAS…</text>
+  <text x="480" y="60" text-anchor="middle" font-size="12" font-weight="600" fill="#6B7280">BAD STRATEGY SHOWS…</text>
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker></defs>
+  <rect x="40" y="75" width="260" height="90" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="170" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">1. Diagnosis</text>
+  <text x="170" y="127" text-anchor="middle" font-size="12" fill="#374151">What's going on? What's the</text>
+  <text x="170" y="145" text-anchor="middle" font-size="12" fill="#374151">obstacle, and why is it hard?</text>
+  <line x1="170" y1="165" x2="170" y2="195" stroke="#4F46E5" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="40" y="200" width="260" height="90" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="170" y="228" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">2. Guiding policy</text>
+  <text x="170" y="252" text-anchor="middle" font-size="12" fill="#374151">The approach we choose; it</text>
+  <text x="170" y="270" text-anchor="middle" font-size="12" fill="#374151">points one way, rules others out</text>
+  <line x1="170" y1="290" x2="170" y2="320" stroke="#4F46E5" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="40" y="325" width="260" height="90" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="170" y="353" text-anchor="middle" font-size="15" font-weight="700" fill="#4F46E5">3. Coherent actions</text>
+  <text x="170" y="377" text-anchor="middle" font-size="12" fill="#374151">3-5 funded steps that support</text>
+  <text x="170" y="395" text-anchor="middle" font-size="12" fill="#374151">each other (including stopping)</text>
+  <rect x="350" y="75" width="260" height="90" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="480" y="103" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">Failure to face the problem</text>
+  <text x="480" y="127" text-anchor="middle" font-size="12" fill="#374151">The real obstacle is never named</text>
+  <text x="480" y="147" text-anchor="middle" font-size="11" fill="#6B7280">+ Fluff hides the gap</text>
+  <rect x="350" y="200" width="260" height="90" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="480" y="228" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">Goals mistaken for strategy</text>
+  <text x="480" y="252" text-anchor="middle" font-size="12" fill="#374151">"Grow 3x" with no approach</text>
+  <text x="480" y="272" text-anchor="middle" font-size="11" fill="#6B7280">Nothing is ruled out</text>
+  <rect x="350" y="325" width="260" height="90" rx="10" fill="#F3F4F6" stroke="#9CA3AF"/>
+  <text x="480" y="353" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">Bad strategic objectives</text>
+  <text x="480" y="377" text-anchor="middle" font-size="12" fill="#374151">9 pillars, a wish list, or goals</text>
+  <text x="480" y="395" text-anchor="middle" font-size="12" fill="#374151">as hard as the original problem</text>
+  <line x1="300" y1="120" x2="350" y2="120" stroke="#9CA3AF" stroke-dasharray="4 4"/>
+  <line x1="300" y1="245" x2="350" y2="245" stroke="#9CA3AF" stroke-dasharray="4 4"/>
+  <line x1="300" y1="370" x2="350" y2="370" stroke="#9CA3AF" stroke-dasharray="4 4"/>
+  <text x="320" y="432" text-anchor="middle" font-size="11" fill="#6B7280">Each step on the left has a matching trap on the right</text>
+</svg>

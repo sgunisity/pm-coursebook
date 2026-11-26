@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 27 Nov 2026 — Two new chapters: AI-native strategy and moats, and good vs bad strategy
+
+- **[B5.2 AI-native strategy and moats](part-b/05-strategy-and-business/02-ai-native-strategy-and-moats.md):** why rented models make the moat question urgent, Helmer's 7 Powers translated for AI products, counter-positioning against seat-based incumbents, switching costs as the main application-layer moat, when data moats are real, riding the model curve, platform risk and the moat memo, with a CA-firm reconciliation worked example and the Windsurf and Sarvam AI cases.
+- **[A4.2 Good strategy vs bad strategy: the kernel](part-a/04-strategy-and-vision/02-good-strategy-vs-bad-strategy-the-kernel.md):** Rumelt's diagnosis, guiding policy and coherent actions, the four hallmarks of bad strategy, why choosing is hard, proximate objectives and the crux, with a Tier-2 grocery-app worked example and the Meta "Year of Efficiency" and Paytm ticketing-sale cases.
+- 13 new glossary terms, two new templates (strategy kernel one-pager, AI moat memo) and new reading-list entries.
+
 ## 26 Nov 2026 — Two new chapters: vision and mission, and AI pricing and unit economics
 
 - **[A4.1 Vision and mission](part-a/04-strategy-and-vision/01-vision-and-mission.md):** the mission–vision–strategy–roadmap stack, what makes a product vision good, formats from one-line statements to visiontypes and PR/FAQs, product principles, Cagan's product vision, Collins and Porras's core ideology and BHAGs, and Pichler's Product Vision Board, with a tuition-teacher app worked example that scores a backlog against the vision, and the Zomato-to-Eternal and Meta "personal superintelligence" cases.
