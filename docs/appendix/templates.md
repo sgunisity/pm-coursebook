@@ -600,3 +600,34 @@ Platform risks (supplier / what if 3x price, cut-off, or they launch this):
 Tested backup model? yes / no
 What would break this moat:
 ```
+
+## OKR one-pager
+
+Use this to draft a team's OKRs for a quarter. See [A4.3](../part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md).
+
+```text
+Strategy this traces back to (one line):
+Objective (qualitative change for a customer or the business):
+Key results (metric · baseline → target · date · committed/aspirational):
+  KR1:
+  KR2:
+  KR3 / backstop:
+Health metrics that must stay in range:
+Initiatives (bets, below the line; can change):
+Dependencies on other teams:
+Weekly check-in: day/time, owner, confidence % per KR
+End-of-quarter grade (0.0–1.0 per KR) and what we learned:
+```
+
+## Personal AI workflow audit
+
+Use this to decide where AI should help in your own PM work. See [B6.1](../part-b/06-the-ai-pm-role/01-ai-pm-careers-teams-and-using-ai-in-your-own-pm.md).
+
+```text
+Task | hours/week | cost of a mistake (L/M/H) | easy to check? (Y/N) | box
+Boxes: let AI do it / AI drafts, you verify / explore with AI / keep it yourself
+Top 3 tasks to trial (by hours):
+Trial (2 weeks): time before | time with AI incl. checking | errors caught
+Approved tool used? Personal data removed? yes / no
+Keep / drop, and what I'll do with the saved time:
+```

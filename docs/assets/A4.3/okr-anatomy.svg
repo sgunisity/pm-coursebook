@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="470" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Anatomy of an OKR</text>
+  <rect x="60" y="45" width="520" height="62" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="80" y="68" font-size="11" font-weight="700" fill="#4F46E5">OBJECTIVE (qualitative, the "what")</text>
+  <text x="80" y="92" font-size="14" font-weight="600" fill="#111827">Make paying recurring bills effortless, so no one misses a due date</text>
+  <g font-size="12" fill="#374151">
+    <rect x="60" y="125" width="520" height="44" rx="8" fill="#F3F4F6" stroke="#9CA3AF"/>
+    <text x="78" y="145" font-weight="700" fill="#4F46E5">KR1</text>
+    <text x="115" y="145">Bill payers on AutoPay: 18% → 30% by 31 Mar</text>
+    <text x="115" y="161" font-size="11" fill="#6B7280">metric · baseline · target · date   |   aspirational</text>
+    <rect x="60" y="177" width="520" height="44" rx="8" fill="#F3F4F6" stroke="#9CA3AF"/>
+    <text x="78" y="197" font-weight="700" fill="#4F46E5">KR2</text>
+    <text x="115" y="197">Late payments among AutoPay users: 4.0% → 1.5%</text>
+    <text x="115" y="213" font-size="11" fill="#6B7280">outcome, not activity   |   aspirational</text>
+    <rect x="60" y="229" width="520" height="44" rx="8" fill="#ffffff" stroke="#4F46E5" stroke-dasharray="5 3"/>
+    <text x="78" y="249" font-weight="700" fill="#4F46E5">KR3</text>
+    <text x="115" y="249">Backstop: 30-day mandate cancellations stay ≤ 8%</text>
+    <text x="115" y="265" font-size="11" fill="#6B7280">protects quality   |   committed (expect 1.0)</text>
+  </g>
+  <line x1="40" y1="296" x2="600" y2="296" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <text x="600" y="289" text-anchor="end" font-size="11" fill="#6B7280">above: promises about outcomes</text>
+  <text x="600" y="313" text-anchor="end" font-size="11" fill="#6B7280">below: bets you can change</text>
+  <text x="60" y="335" font-size="11" font-weight="700" fill="#6B7280">INITIATIVES (not key results)</text>
+  <g font-size="12" fill="#374151">
+    <rect x="60" y="348" width="160" height="52" rx="8" fill="#F9FAFB" stroke="#D1D5DB"/>
+    <text x="140" y="370" text-anchor="middle">One-tap "pay</text>
+    <text x="140" y="387" text-anchor="middle">automatically" prompt</text>
+    <rect x="240" y="348" width="160" height="52" rx="8" fill="#F9FAFB" stroke="#D1D5DB"/>
+    <text x="320" y="370" text-anchor="middle">Reminder 3 days</text>
+    <text x="320" y="387" text-anchor="middle">before payment</text>
+    <rect x="420" y="348" width="160" height="52" rx="8" fill="#F9FAFB" stroke="#D1D5DB"/>
+    <text x="500" y="370" text-anchor="middle">Auto-retry on</text>
+    <text x="500" y="387" text-anchor="middle">low balance</text>
+  </g>
+  <text x="320" y="440" text-anchor="middle" font-size="12" fill="#374151">Grade aspirational KRs 0.0–1.0 (≈0.7 is success). Committed KRs should hit 1.0.</text>
+</svg>

@@ -1,6 +1,6 @@
 {
   "status": "building",
-  "next_track": "A",
+  "next_track": "B",
   "chapters": [
     {
       "id": "A0.1",
@@ -178,9 +178,9 @@
       "section": "A4 Strategy and Vision",
       "title": "OKRs and goal setting",
       "path": "docs/part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-28",
+      "summary": "OKRs: qualitative objective + 2-4 outcome key results (baseline, target, date); initiatives as separate bets; committed (1.0) vs aspirational (~0.7); health metrics and backstops; two-way goal setting; weekly check-ins and 0-1 grading; not tied to bonuses; AutoPay worked example; Blinkit store-target and Viva Goals cases."
     },
     {
       "id": "A4.4",
@@ -708,9 +708,9 @@
       "section": "B6 The AI PM Role",
       "title": "AI PM careers, teams and using AI in your own PM work",
       "path": "docs/part-b/06-the-ai-pm-role/01-ai-pm-careers-teams-and-using-ai-in-your-own-pm.md",
-      "status": "todo",
-      "done_on": null,
-      "summary": ""
+      "status": "done",
+      "done_on": "2026-11-28",
+      "summary": "Three meanings of AI PM (platform, applied, AI-enabled); AI twist on classic PM skills; AI team roles (AI engineers, domain experts, legal) and what to ask them; full-stack builder shift (LinkedIn APB, Razorpay); using AI in your own work via a cost-of-mistake x ease-of-checking 2x2; METR perceived vs real speed; safe-use rules; workflow-audit worked example."
     },
     {
       "id": "B6.2",
@@ -734,11 +734,6 @@
     }
   ],
   "runs": [
-    {
-      "date": "2026-11-17",
-      "mode": "DAILY",
-      "did": "Added A2.1 and B2.1"
-    },
     {
       "date": "2026-11-18",
       "mode": "DAILY",
@@ -783,6 +778,11 @@
       "date": "2026-11-27",
       "mode": "DAILY",
       "did": "Added B5.2 and A4.2"
+    },
+    {
+      "date": "2026-11-28",
+      "mode": "DAILY",
+      "did": "Added A4.3 and B6.1"
     }
   ]
 }

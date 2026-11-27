@@ -20,9 +20,13 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Anti-persona**: a description of a user you deliberately are not building for, so the team doesn't optimise for them. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
+**Applied AI PM**: a PM who uses AI models to solve a user problem inside a product, such as a support assistant or AI search. See [B6.1](../part-b/06-the-ai-pm-role/01-ai-pm-careers-teams-and-using-ai-in-your-own-pm.md).
+
 **Approval fatigue**: when users are asked to approve AI actions so often that they click "yes" without really checking. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
 
 **Articulation barrier**: the difficulty many people have in describing what they want in words, which makes typed prompts hard to use. See [B2.2](../part-b/02-discovery-and-design/02-ai-ux-patterns-chat-copilot-agent-ambient.md).
+
+**Aspirational OKR (stretch OKR)**: an ambitious goal where reaching about 70% (a score of 0.7) counts as success. See [A4.3](../part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md).
 
 **Assumption mapping**: plotting assumptions on importance × evidence to find the riskiest ones to test first (David Bland). See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
 
@@ -79,6 +83,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Coherent actions**: steps, money and people committed in ways that support each other and a strategy's guiding policy. See [A4.2](../part-a/04-strategy-and-vision/02-good-strategy-vs-bad-strategy-the-kernel.md).
 
 **Cohort**: a group of users who share a start point, such as everyone who signed up in the same week. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
+
+**Committed OKR**: a goal the team agrees will be fully achieved; any score below 1.0 needs an explanation. See [A4.3](../part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md).
 
 **Competitive alternatives**: everything a customer would use if your product didn't exist, including doing nothing (April Dunford). See [A3.2](../part-a/03-market-research/02-competitive-analysis.md).
 
@@ -202,6 +208,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Four risks**: value, usability, feasibility and viability, the four ways a product idea can fail (Marty Cagan). See [A0.1](../part-a/00-the-pm-role/01-what-a-pm-actually-does.md).
 
+**Full-stack builder**: a person who can take a product from idea to launch across PM, design and code, with help from AI tools. See [B6.1](../part-b/06-the-ai-pm-role/01-ai-pm-careers-teams-and-using-ai-in-your-own-pm.md).
+
 **Funnel**: the series of steps a user takes toward a goal, showing how many drop off at each step. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
 **Generative vs evaluative research**: research to discover problems and opportunities vs research to check whether a specific design works. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
@@ -225,6 +233,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Guiding policy**: the overall approach a strategy chooses to deal with a challenge; it rules some options out. See [A4.2](../part-a/04-strategy-and-vision/02-good-strategy-vs-bad-strategy-the-kernel.md).
 
 **Hallucination**: when an AI states something false as if it were true. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
+
+**Health metric**: a number you keep in a safe range (uptime, payment success) instead of putting it in OKRs; you act only when it leaves the range. See [A4.3](../part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md).
 
 **HEART**: Google's user-experience metric framework: Happiness, Engagement, Adoption, Retention, Task success. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
@@ -250,6 +260,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Inference**: one run of an AI model to produce an answer; each run has a cost. See [B0.1](../part-b/00-foundations/01-what-makes-ai-products-different.md).
 
+**Initiative (OKRs)**: a piece of work you bet will move a key result, such as a feature or campaign; kept separate from the key results. See [A4.3](../part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md).
+
 **Input metric**: a number your team can move directly that drives a bigger result. See [A8.1](../part-a/08-product-metrics/01-metric-basics-leading-lagging-input-output-vanit.md).
 
 **Insight**: a non-obvious truth about users that explains what you observed and points to a decision. See [A1.1](../part-a/01-understanding-users-user-sense/01-building-user-sense-and-empathy.md).
@@ -271,6 +283,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Keep-the-lights-on (KTLO) work**: necessary work that keeps a product running (fixes, upgrades, compliance) but isn't aimed at a new outcome. See [A2.4](../part-a/02-problem-discovery/04-outcomes-over-outputs-escaping-the-build-trap.md).
 
 **Kernel (of strategy)**: Rumelt's three parts of every good strategy: diagnosis, guiding policy and coherent actions. See [A4.2](../part-a/04-strategy-and-vision/02-good-strategy-vs-bad-strategy-the-kernel.md).
+
+**Key result**: a measurable outcome with a baseline, target and date that shows whether an objective is being achieved. See [A4.3](../part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md).
 
 **Kill switch**: a pre-built way, usually a feature flag, to turn off an AI feature or one of its tools within minutes, without a new release. See [B4.2](../part-b/04-data-safety-and-law/02-responsible-ai-safety-and-guardrails.md).
 
@@ -320,6 +334,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **NRR (net revenue retention)**: this year's revenue from last year's customers ÷ their revenue last year; above 100% means existing customers grew. See [A8.5](../part-a/08-product-metrics/05-funnels-cohorts-and-retention-curves.md).
 
+**OKR (Objectives and Key Results)**: a goal-setting method pairing a qualitative objective with 2–4 measurable key results, usually set quarterly. See [A4.3](../part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md).
+
 **OMTM (One Metric That Matters)**: the single number a team focuses on for the current stage of the business (from *Lean Analytics*). See [A8.4](../part-a/08-product-metrics/04-lean-analytics-one-metric-that-matters-and-stage.md).
 
 **Online eval**: an automatic quality check run on a sample of real production traffic. See [B3.2](../part-b/03-quality/02-ai-product-metrics-and-production-monitoring.md).
@@ -349,6 +365,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Persona**: a short, research-based description of one type of user: goals, behaviours, context and frustrations. See [A1.3](../part-a/01-understanding-users-user-sense/03-personas-and-jobs-to-be-done.md).
 
 **Pilot purgatory**: when an AI project works in a demo or pilot but never reaches real use or measurable value. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
+
+**Platform (model) PM**: a PM for the AI itself (a model, an API or developer tools), whose users are mostly developers. See [B6.1](../part-b/06-the-ai-pm-role/01-ai-pm-careers-teams-and-using-ai-in-your-own-pm.md).
 
 **Platform risk**: the danger that a company you depend on (a model provider, an app store) changes terms, prices, or competes with you. See [B5.2](../part-b/05-strategy-and-business/02-ai-native-strategy-and-moats.md).
 
@@ -429,6 +447,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Rule of Two (agents)**: Meta's guideline that an agent session should have at most two of: untrusted input, sensitive data access, and the ability to act externally. See [B1.3](../part-b/01-building-blocks/03-agents-tool-use-and-mcp.md).
 
 **SAM (serviceable available market)**: the part of the TAM your product, price, language and reach can serve today. See [A3.1](../part-a/03-market-research/01-market-sizing-tam-sam-som.md).
+
+**Sandbagging**: setting targets low on purpose so you're sure to hit them. See [A4.3](../part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md).
 
 **Saturation (research)**: the point where new interviews stop teaching you anything new. See [A1.2](../part-a/01-understanding-users-user-sense/02-user-research-methods-and-interviews.md).
 
@@ -520,6 +540,8 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 
 **Verification cost**: the time and skill a person needs to check whether an AI output is right. See [B2.1](../part-b/02-discovery-and-design/01-finding-ai-opportunities-and-when-not-to-use-ai.md).
 
+**Vibe coding**: building software by describing what you want to an AI tool in plain language, rather than writing code by hand. See [B6.1](../part-b/06-the-ai-pm-role/01-ai-pm-careers-teams-and-using-ai-in-your-own-pm.md).
+
 **Viral coefficient (K)**: new users each existing user brings in = invites sent per user × invite conversion rate. See [A8.3](../part-a/08-product-metrics/03-aarrr-and-google-s-heart-framework.md).
 
 **Vision narrative**: a short written story of a customer's day once the product vision has come true. See [A4.1](../part-a/04-strategy-and-vision/01-vision-and-mission.md).
@@ -539,3 +561,4 @@ Plain-English meanings of the terms used in this book, A to Z. Each entry links 
 **Wrapper (AI)**: a product that is mostly an interface on top of someone else's AI model, with little of its own underneath. See [B5.2](../part-b/05-strategy-and-business/02-ai-native-strategy-and-moats.md).
 
 **XYZ hypothesis**: Savoia's format for a testable belief: at least X% of Y will do Z. See [A2.3](../part-a/02-problem-discovery/03-assumption-testing-prototypes-and-mvps.md).
+

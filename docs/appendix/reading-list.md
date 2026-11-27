@@ -308,3 +308,19 @@ More books, newsletters, podcasts and talks are added here as each chapter is wr
 - [The Crux](https://www.hachettebookgroup.com/titles/richard-p-rumelt/the-crux/9781541701243/) (2022): Richard Rumelt on finding the challenge that matters most and can be solved.
 - ["The perils of bad strategy"](https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-perils-of-bad-strategy) (McKinsey Quarterly, 2011): Rumelt's short summary of the kernel and the four hallmarks of bad strategy.
 - [Deloitte: 2026 Chief Strategy Officer Survey](https://www.deloitte.com/us/en/about/press-room/deloitte-2026-chief-strategy-officer-survey.html) (2026): too many priorities, too little bandwidth.
+
+## Added with A4.3 OKRs and goal setting
+
+- [Measure What Matters](https://www.penguinrandomhouse.com/books/546304/measure-what-matters-by-john-doerr/) (2018): John Doerr's book that popularised OKRs.
+- [High Output Management](https://www.penguinrandomhouse.com/books/72467/high-output-management-by-andrew-s-grove-former-chairman-and-ceo-of-intel/9780679762881/) (1983): Andrew Grove's management classic, where OKR thinking began.
+- [Radical Focus](https://cwodtke.com/writing-2/) (second edition): Christina Wodtke's story-based guide to running OKRs in a small team.
+- [Google re:Work: Set goals with OKRs](https://rework.withgoogle.com/intl/en/guides/set-goals-with-okrs) (2016): grading, stretch goals and common mistakes.
+- [Google's OKR playbook](https://www.whatmatters.com/resources/google-okr-playbook): committed vs aspirational OKRs and the classic traps.
+- [SVPG: Team Objectives – Empowerment](https://www.svpg.com/team-objectives-empowerment/) (2020): Marty Cagan on OKRs for empowered product teams.
+
+## Added with B6.1 AI PM careers, teams and using AI in your own PM work
+
+- [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) (2025): Chip Huyen's guide to building applications on foundation models.
+- [Lenny's Podcast: Tomer Cohen on LinkedIn's "full stack builders"](https://www.lennysnewsletter.com/p/why-linkedin-is-replacing-pms) (December 2025): why LinkedIn replaced its APM programme.
+- [Elevation Capital: Scaling AI across product teams, lessons from Razorpay](https://elevationcapital.com/scaling-ai-across-product-teams-lessons-from-razorpay) (2025): an Indian case study of an AI rollout.
+- [METR: AI and experienced developers](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) (2025) and its [2026 update](https://metr.org/blog/2026-02-24-uplift-update/): perceived vs measured productivity.

@@ -4,6 +4,12 @@ Every change to the book, newest first. New chapters arrive daily while the book
 
 <!-- entries -->
 
+## 28 Nov 2026 — Two new chapters: OKRs and goal setting, and AI PM careers and teams
+
+- **[A4.3 OKRs and goal setting](part-a/04-strategy-and-vision/03-okrs-and-goal-setting.md):** objectives vs outcome key results vs initiatives, committed vs aspirational OKRs, health metrics and backstops, two-way goal setting, the weekly check-in and grading cycle, why OKRs shouldn't drive bonuses, and OKRs for AI features, with a bill-payments AutoPay worked example and the Blinkit dark-store target and Microsoft Viva Goals cases.
+- **[B6.1 AI PM careers, teams and using AI in your own PM work](part-b/06-the-ai-pm-role/01-ai-pm-careers-teams-and-using-ai-in-your-own-pm.md):** platform vs applied vs AI-enabled PMs, the AI twist on classic PM skills, who's on an AI team and what to ask them, the full-stack builder shift, where AI helps in your own work (and where it doesn't), measuring real vs perceived speed-ups, and safe-use rules, with a workflow-audit worked example and the Razorpay and LinkedIn cases.
+- 11 new glossary terms, two new templates (OKR one-pager, personal AI workflow audit) and new reading-list entries.
+
 ## 27 Nov 2026 — Two new chapters: AI-native strategy and moats, and good vs bad strategy
 
 - **[B5.2 AI-native strategy and moats](part-b/05-strategy-and-business/02-ai-native-strategy-and-moats.md):** why rented models make the moat question urgent, Helmer's 7 Powers translated for AI products, counter-positioning against seat-based incumbents, switching costs as the main application-layer moat, when data moats are real, riding the model curve, platform risk and the moat memo, with a CA-firm reconciliation worked example and the Windsurf and Sarvam AI cases.
